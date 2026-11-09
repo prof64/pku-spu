@@ -1,0 +1,6085 @@
+{
+ "format": "spu-library",
+ "version": 1,
+ "collections": [
+  {
+   "id": "uranium",
+   "name": "Pokémon Uranium",
+   "count": 334
+  },
+  {
+   "id": "insurgence",
+   "name": "Pokémon Insurgence",
+   "count": 47
+  }
+ ],
+ "sprites": [
+  {
+   "id": "uranium/001-orchynx",
+   "collection": "uranium",
+   "number": 1,
+   "name": "Orchynx",
+   "file": "uranium/001-orchynx.spu",
+   "thumbnail": "thumbs/uranium/001-orchynx.png",
+   "bytes": 67352,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/002-metalynx",
+   "collection": "uranium",
+   "number": 2,
+   "name": "Metalynx",
+   "file": "uranium/002-metalynx.spu",
+   "thumbnail": "thumbs/uranium/002-metalynx.png",
+   "bytes": 72084,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/002-metalynx-mega",
+   "collection": "uranium",
+   "number": 2,
+   "name": "Metalynx Mega",
+   "file": "uranium/002-metalynx-mega.spu",
+   "thumbnail": "thumbs/uranium/002-metalynx-mega.png",
+   "bytes": 42274,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/003-raptorch",
+   "collection": "uranium",
+   "number": 3,
+   "name": "Raptorch",
+   "file": "uranium/003-raptorch.spu",
+   "thumbnail": "thumbs/uranium/003-raptorch.png",
+   "bytes": 91119,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/004-archilles",
+   "collection": "uranium",
+   "number": 4,
+   "name": "Archilles",
+   "file": "uranium/004-archilles.spu",
+   "thumbnail": "thumbs/uranium/004-archilles.png",
+   "bytes": 88528,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/004-archilles-mega",
+   "collection": "uranium",
+   "number": 4,
+   "name": "Mega Archilles",
+   "file": "uranium/004-archilles-mega.spu",
+   "thumbnail": "thumbs/uranium/004-archilles-mega.png",
+   "bytes": 49290,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/005-eletux",
+   "collection": "uranium",
+   "number": 5,
+   "name": "Eletux",
+   "file": "uranium/005-eletux.spu",
+   "thumbnail": "thumbs/uranium/005-eletux.png",
+   "bytes": 48195,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/006-electruxo",
+   "collection": "uranium",
+   "number": 6,
+   "name": "Electruxo",
+   "file": "uranium/006-electruxo.spu",
+   "thumbnail": "thumbs/uranium/006-electruxo.png",
+   "bytes": 61185,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/006-electruxo-mega",
+   "collection": "uranium",
+   "number": 6,
+   "name": "Mega Electruxo",
+   "file": "uranium/006-electruxo-mega.spu",
+   "thumbnail": "thumbs/uranium/006-electruxo-mega.png",
+   "bytes": 47116,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/007-chyinmunk",
+   "collection": "uranium",
+   "number": 7,
+   "name": "Chyinmunk",
+   "file": "uranium/007-chyinmunk.spu",
+   "thumbnail": "thumbs/uranium/007-chyinmunk.png",
+   "bytes": 28022,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/007-chyinmunk-nuclear",
+   "collection": "uranium",
+   "number": 7,
+   "name": "Nuclear Chyinmunk",
+   "file": "uranium/007-chyinmunk-nuclear.spu",
+   "thumbnail": "thumbs/uranium/007-chyinmunk-nuclear.png",
+   "bytes": 38909,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/008-kinetmunk",
+   "collection": "uranium",
+   "number": 8,
+   "name": "Kinetmunk",
+   "file": "uranium/008-kinetmunk.spu",
+   "thumbnail": "thumbs/uranium/008-kinetmunk.png",
+   "bytes": 37722,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/008-kinetmunk-nuclear",
+   "collection": "uranium",
+   "number": 8,
+   "name": "Nuclear Kinetmunk",
+   "file": "uranium/008-kinetmunk-nuclear.spu",
+   "thumbnail": "thumbs/uranium/008-kinetmunk-nuclear.png",
+   "bytes": 66744,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/009-birbie",
+   "collection": "uranium",
+   "number": 9,
+   "name": "Birbie",
+   "file": "uranium/009-birbie.spu",
+   "thumbnail": "thumbs/uranium/009-birbie.png",
+   "bytes": 34352,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/010-aveden",
+   "collection": "uranium",
+   "number": 10,
+   "name": "Aveden",
+   "file": "uranium/010-aveden.spu",
+   "thumbnail": "thumbs/uranium/010-aveden.png",
+   "bytes": 48751,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/011-splendifowl",
+   "collection": "uranium",
+   "number": 11,
+   "name": "Splendifowl",
+   "file": "uranium/011-splendifowl.spu",
+   "thumbnail": "thumbs/uranium/011-splendifowl.png",
+   "bytes": 108841,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/012-cubbug",
+   "collection": "uranium",
+   "number": 12,
+   "name": "Cubbug",
+   "file": "uranium/012-cubbug.spu",
+   "thumbnail": "thumbs/uranium/012-cubbug.png",
+   "bytes": 109443,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/013-cubblfly",
+   "collection": "uranium",
+   "number": 13,
+   "name": "Cubblfly",
+   "file": "uranium/013-cubblfly.spu",
+   "thumbnail": "thumbs/uranium/013-cubblfly.png",
+   "bytes": 32870,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/014-nimflora",
+   "collection": "uranium",
+   "number": 14,
+   "name": "Nimflora",
+   "file": "uranium/014-nimflora.spu",
+   "thumbnail": "thumbs/uranium/014-nimflora.png",
+   "bytes": 41421,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/015-barewl",
+   "collection": "uranium",
+   "number": 15,
+   "name": "Barewl",
+   "file": "uranium/015-barewl.spu",
+   "thumbnail": "thumbs/uranium/015-barewl.png",
+   "bytes": 54185,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/016-dearewl",
+   "collection": "uranium",
+   "number": 16,
+   "name": "Dearewl",
+   "file": "uranium/016-dearewl.spu",
+   "thumbnail": "thumbs/uranium/016-dearewl.png",
+   "bytes": 25401,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/017-gararewl",
+   "collection": "uranium",
+   "number": 17,
+   "name": "Gararewl",
+   "file": "uranium/017-gararewl.spu",
+   "thumbnail": "thumbs/uranium/017-gararewl.png",
+   "bytes": 40604,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/018-grozard",
+   "collection": "uranium",
+   "number": 18,
+   "name": "Grozard",
+   "file": "uranium/018-grozard.spu",
+   "thumbnail": "thumbs/uranium/018-grozard.png",
+   "bytes": 24271,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/018-grozard-form03",
+   "collection": "uranium",
+   "number": 18,
+   "name": "Grozard form03",
+   "file": "uranium/018-grozard-form03.spu",
+   "thumbnail": "thumbs/uranium/018-grozard-form03.png",
+   "bytes": 119775,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/019-terlard",
+   "collection": "uranium",
+   "number": 19,
+   "name": "Terlard",
+   "file": "uranium/019-terlard.spu",
+   "thumbnail": "thumbs/uranium/019-terlard.png",
+   "bytes": 36196,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/019-terlard-form03-back",
+   "collection": "uranium",
+   "number": 19,
+   "name": "Terlard costume Back",
+   "file": "uranium/019-terlard-form03-back.spu",
+   "thumbnail": "thumbs/uranium/019-terlard-form03-back.png",
+   "bytes": 1283753,
+   "views": [
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/019-terlard-form03-front",
+   "collection": "uranium",
+   "number": 19,
+   "name": "Terlard costume Front",
+   "file": "uranium/019-terlard-form03-front.spu",
+   "thumbnail": "thumbs/uranium/019-terlard-form03-front.png",
+   "bytes": 1251198,
+   "views": [
+    "Front"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/020-tonemy",
+   "collection": "uranium",
+   "number": 20,
+   "name": "Tonemy",
+   "file": "uranium/020-tonemy.spu",
+   "thumbnail": "thumbs/uranium/020-tonemy.png",
+   "bytes": 110570,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/020-tonemy-nuclear",
+   "collection": "uranium",
+   "number": 20,
+   "name": "Tonemy Nuclear",
+   "file": "uranium/020-tonemy-nuclear.spu",
+   "thumbnail": "thumbs/uranium/020-tonemy-nuclear.png",
+   "bytes": 99034,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/021-tofurang",
+   "collection": "uranium",
+   "number": 21,
+   "name": "Tofurang",
+   "file": "uranium/021-tofurang.spu",
+   "thumbnail": "thumbs/uranium/021-tofurang.png",
+   "bytes": 51006,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/021-tofurang-nuclear",
+   "collection": "uranium",
+   "number": 21,
+   "name": "Nuclear Tofurang",
+   "file": "uranium/021-tofurang-nuclear.spu",
+   "thumbnail": "thumbs/uranium/021-tofurang-nuclear.png",
+   "bytes": 80971,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/023-dunseraph-combined",
+   "collection": "uranium",
+   "number": 23,
+   "name": "Dunseraph",
+   "file": "uranium/023-dunseraph-combined.spu",
+   "thumbnail": "thumbs/uranium/023-dunseraph-combined.png",
+   "bytes": 235333,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/024-fortog",
+   "collection": "uranium",
+   "number": 24,
+   "name": "Fortog",
+   "file": "uranium/024-fortog.spu",
+   "thumbnail": "thumbs/uranium/024-fortog.png",
+   "bytes": 68908,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/025-folerog",
+   "collection": "uranium",
+   "number": 25,
+   "name": "Folerog",
+   "file": "uranium/025-folerog.spu",
+   "thumbnail": "thumbs/uranium/025-folerog.png",
+   "bytes": 28891,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/026-blubelrog",
+   "collection": "uranium",
+   "number": 26,
+   "name": "Blubelrog",
+   "file": "uranium/026-blubelrog.spu",
+   "thumbnail": "thumbs/uranium/026-blubelrog.png",
+   "bytes": 35402,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/027-magikarp-form01",
+   "collection": "uranium",
+   "number": 27,
+   "name": "Magikarp form01",
+   "file": "uranium/027-magikarp-form01.spu",
+   "thumbnail": "thumbs/uranium/027-magikarp-form01.png",
+   "bytes": 136779,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/027-magikarp-nuclear-combined",
+   "collection": "uranium",
+   "number": 27,
+   "name": "027-Magikarp-Nuclear",
+   "file": "uranium/027-magikarp-nuclear-combined.spu",
+   "thumbnail": "thumbs/uranium/027-magikarp-nuclear-combined.png",
+   "bytes": 324779,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/028-gyarados-mega-nuclear-combined",
+   "collection": "uranium",
+   "number": 28,
+   "name": "Mega Nuclear Gyarados",
+   "file": "uranium/028-gyarados-mega-nuclear-combined.spu",
+   "thumbnail": "thumbs/uranium/028-gyarados-mega-nuclear-combined.png",
+   "bytes": 107458,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/028-gyarados-nuclear-combined",
+   "collection": "uranium",
+   "number": 28,
+   "name": "Nuclear Gyarados",
+   "file": "uranium/028-gyarados-nuclear-combined.spu",
+   "thumbnail": "thumbs/uranium/028-gyarados-nuclear-combined.png",
+   "bytes": 236072,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/029-feleng",
+   "collection": "uranium",
+   "number": 29,
+   "name": "Feleng",
+   "file": "uranium/029-feleng.spu",
+   "thumbnail": "thumbs/uranium/029-feleng.png",
+   "bytes": 40359,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/029-feleng-christmas",
+   "collection": "uranium",
+   "number": 29,
+   "name": "Christmas Feleng",
+   "file": "uranium/029-feleng-christmas.spu",
+   "thumbnail": "thumbs/uranium/029-feleng-christmas.png",
+   "bytes": 47551,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/030-felunge-christmas-combined",
+   "collection": "uranium",
+   "number": 30,
+   "name": "Christmas Felunge",
+   "file": "uranium/030-felunge-christmas-combined.spu",
+   "thumbnail": "thumbs/uranium/030-felunge-christmas-combined.png",
+   "bytes": 173594,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/030-felunge-combined",
+   "collection": "uranium",
+   "number": 30,
+   "name": "Felunge",
+   "file": "uranium/030-felunge-combined.spu",
+   "thumbnail": "thumbs/uranium/030-felunge-combined.png",
+   "bytes": 157637,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/031-feliger-christmas-combined",
+   "collection": "uranium",
+   "number": 31,
+   "name": "Christmas Feliger",
+   "file": "uranium/031-feliger-christmas-combined.spu",
+   "thumbnail": "thumbs/uranium/031-feliger-christmas-combined.png",
+   "bytes": 190583,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/031-feliger-combined",
+   "collection": "uranium",
+   "number": 31,
+   "name": "Feliger",
+   "file": "uranium/031-feliger-combined.spu",
+   "thumbnail": "thumbs/uranium/031-feliger-combined.png",
+   "bytes": 185219,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/034-empirilla-combined",
+   "collection": "uranium",
+   "number": 34,
+   "name": "034-Empirilla",
+   "file": "uranium/034-empirilla-combined.spu",
+   "thumbnail": "thumbs/uranium/034-empirilla-combined.png",
+   "bytes": 724229,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/035-owten",
+   "collection": "uranium",
+   "number": 35,
+   "name": "Owten",
+   "file": "uranium/035-owten.spu",
+   "thumbnail": "thumbs/uranium/035-owten.png",
+   "bytes": 24111,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/035-owten-anniversary",
+   "collection": "uranium",
+   "number": 35,
+   "name": "Owten Anniversary",
+   "file": "uranium/035-owten-anniversary.spu",
+   "thumbnail": "thumbs/uranium/035-owten-anniversary.png",
+   "bytes": 41881,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/035-owten-nuclear",
+   "collection": "uranium",
+   "number": 35,
+   "name": "Owten Nuclear",
+   "file": "uranium/035-owten-nuclear.spu",
+   "thumbnail": "thumbs/uranium/035-owten-nuclear.png",
+   "bytes": 27135,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/036-eshouten",
+   "collection": "uranium",
+   "number": 36,
+   "name": "Eshouten",
+   "file": "uranium/036-eshouten.spu",
+   "thumbnail": "thumbs/uranium/036-eshouten.png",
+   "bytes": 34699,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/036-eshouten-anniversary",
+   "collection": "uranium",
+   "number": 36,
+   "name": "Eshouten Anniversary",
+   "file": "uranium/036-eshouten-anniversary.spu",
+   "thumbnail": "thumbs/uranium/036-eshouten-anniversary.png",
+   "bytes": 52582,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/036-eshouten-nuclear",
+   "collection": "uranium",
+   "number": 36,
+   "name": "Eshouten Nuclear",
+   "file": "uranium/036-eshouten-nuclear.spu",
+   "thumbnail": "thumbs/uranium/036-eshouten-nuclear.png",
+   "bytes": 41523,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/037-lotad-form-03",
+   "collection": "uranium",
+   "number": 37,
+   "name": "Lotad Form03",
+   "file": "uranium/037-lotad-form-03.spu",
+   "thumbnail": "thumbs/uranium/037-lotad-form-03.png",
+   "bytes": 55661,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/038-lombre-form-03",
+   "collection": "uranium",
+   "number": 38,
+   "name": "Lombre Form03",
+   "file": "uranium/038-lombre-form-03.spu",
+   "thumbnail": "thumbs/uranium/038-lombre-form-03.png",
+   "bytes": 55465,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/039-ludicolo-easter",
+   "collection": "uranium",
+   "number": 39,
+   "name": "Ludicolo Easter",
+   "file": "uranium/039-ludicolo-easter.spu",
+   "thumbnail": "thumbs/uranium/039-ludicolo-easter.png",
+   "bytes": 82251,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/040-smore",
+   "collection": "uranium",
+   "number": 40,
+   "name": "Smore",
+   "file": "uranium/040-smore.spu",
+   "thumbnail": "thumbs/uranium/040-smore.png",
+   "bytes": 61111,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/041-firoke",
+   "collection": "uranium",
+   "number": 41,
+   "name": "Firoke",
+   "file": "uranium/041-firoke.spu",
+   "thumbnail": "thumbs/uranium/041-firoke.png",
+   "bytes": 89404,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/042-brailip",
+   "collection": "uranium",
+   "number": 42,
+   "name": "Brailip",
+   "file": "uranium/042-brailip.spu",
+   "thumbnail": "thumbs/uranium/042-brailip.png",
+   "bytes": 50884,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/043-brainoar",
+   "collection": "uranium",
+   "number": 43,
+   "name": "Brainoar",
+   "file": "uranium/043-brainoar.spu",
+   "thumbnail": "thumbs/uranium/043-brainoar.png",
+   "bytes": 58886,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/044-ekans-nuclear",
+   "collection": "uranium",
+   "number": 44,
+   "name": "Nuclear Ekans",
+   "file": "uranium/044-ekans-nuclear.spu",
+   "thumbnail": "thumbs/uranium/044-ekans-nuclear.png",
+   "bytes": 51130,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/045-arbok-mega",
+   "collection": "uranium",
+   "number": 45,
+   "name": "Mega Arbok",
+   "file": "uranium/045-arbok-mega.spu",
+   "thumbnail": "thumbs/uranium/045-arbok-mega.png",
+   "bytes": 51963,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/045-arbok-mega-nuclear",
+   "collection": "uranium",
+   "number": 45,
+   "name": "Nuclear Mega Arbok",
+   "file": "uranium/045-arbok-mega-nuclear.spu",
+   "thumbnail": "thumbs/uranium/045-arbok-mega-nuclear.png",
+   "bytes": 52907,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/045-arbok-nuclear",
+   "collection": "uranium",
+   "number": 45,
+   "name": "Nuclear Arbok",
+   "file": "uranium/045-arbok-nuclear.spu",
+   "thumbnail": "thumbs/uranium/045-arbok-nuclear.png",
+   "bytes": 76543,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/046-tancoon",
+   "collection": "uranium",
+   "number": 46,
+   "name": "Tancoon",
+   "file": "uranium/046-tancoon.spu",
+   "thumbnail": "thumbs/uranium/046-tancoon.png",
+   "bytes": 59962,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/046-tancoon-christmas",
+   "collection": "uranium",
+   "number": 46,
+   "name": "Christmas Tancoon",
+   "file": "uranium/046-tancoon-christmas.spu",
+   "thumbnail": "thumbs/uranium/046-tancoon-christmas.png",
+   "bytes": 69121,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/046-tancoon-form-06",
+   "collection": "uranium",
+   "number": 46,
+   "name": "Tancoon Form06",
+   "file": "uranium/046-tancoon-form-06.spu",
+   "thumbnail": "thumbs/uranium/046-tancoon-form-06.png",
+   "bytes": 60495,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/046-tancoon-nuclear",
+   "collection": "uranium",
+   "number": 46,
+   "name": "Nuclear Tancoon",
+   "file": "uranium/046-tancoon-nuclear.spu",
+   "thumbnail": "thumbs/uranium/046-tancoon-nuclear.png",
+   "bytes": 55133,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/047-tanscure",
+   "collection": "uranium",
+   "number": 47,
+   "name": "Tanscure",
+   "file": "uranium/047-tanscure.spu",
+   "thumbnail": "thumbs/uranium/047-tanscure.png",
+   "bytes": 70879,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/047-tanscure-form-03-christmas",
+   "collection": "uranium",
+   "number": 47,
+   "name": "Christmas Tanscure",
+   "file": "uranium/047-tanscure-form-03-christmas.spu",
+   "thumbnail": "thumbs/uranium/047-tanscure-form-03-christmas.png",
+   "bytes": 200064,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/047-tanscure-form-06",
+   "collection": "uranium",
+   "number": 47,
+   "name": "Tanscure form 06",
+   "file": "uranium/047-tanscure-form-06.spu",
+   "thumbnail": "thumbs/uranium/047-tanscure-form-06.png",
+   "bytes": 223319,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/047-tanscure-nuclear",
+   "collection": "uranium",
+   "number": 47,
+   "name": "Nuclear Tanscure",
+   "file": "uranium/047-tanscure-nuclear.spu",
+   "thumbnail": "thumbs/uranium/047-tanscure-nuclear.png",
+   "bytes": 73658,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/048-sponee",
+   "collection": "uranium",
+   "number": 48,
+   "name": "Sponee",
+   "file": "uranium/048-sponee.spu",
+   "thumbnail": "thumbs/uranium/048-sponee.png",
+   "bytes": 39223,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/049-sponaree",
+   "collection": "uranium",
+   "number": 49,
+   "name": "Sponaree",
+   "file": "uranium/049-sponaree.spu",
+   "thumbnail": "thumbs/uranium/049-sponaree.png",
+   "bytes": 55799,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/050-pahar",
+   "collection": "uranium",
+   "number": 50,
+   "name": "Pahar",
+   "file": "uranium/050-pahar.spu",
+   "thumbnail": "thumbs/uranium/050-pahar.png",
+   "bytes": 30556,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/050-pahar-nuclear",
+   "collection": "uranium",
+   "number": 50,
+   "name": "Pahar Nuclear",
+   "file": "uranium/050-pahar-nuclear.spu",
+   "thumbnail": "thumbs/uranium/050-pahar-nuclear.png",
+   "bytes": 82919,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/051-palij",
+   "collection": "uranium",
+   "number": 51,
+   "name": "Palij",
+   "file": "uranium/051-palij.spu",
+   "thumbnail": "thumbs/uranium/051-palij.png",
+   "bytes": 40054,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/051-palij-nuclear",
+   "collection": "uranium",
+   "number": 51,
+   "name": "Nuclear Palij",
+   "file": "uranium/051-palij-nuclear.spu",
+   "thumbnail": "thumbs/uranium/051-palij-nuclear.png",
+   "bytes": 43462,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/052-pajay",
+   "collection": "uranium",
+   "number": 52,
+   "name": "Pajay",
+   "file": "uranium/052-pajay.spu",
+   "thumbnail": "thumbs/uranium/052-pajay.png",
+   "bytes": 45203,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/052-pajay-nuclear",
+   "collection": "uranium",
+   "number": 52,
+   "name": "Nuclear Pajay",
+   "file": "uranium/052-pajay-nuclear.spu",
+   "thumbnail": "thumbs/uranium/052-pajay-nuclear.png",
+   "bytes": 46474,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/053-jerbolta",
+   "collection": "uranium",
+   "number": 53,
+   "name": "Jerbolta",
+   "file": "uranium/053-jerbolta.spu",
+   "thumbnail": "thumbs/uranium/053-jerbolta.png",
+   "bytes": 54526,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/053-jerbolta-nuclear",
+   "collection": "uranium",
+   "number": 53,
+   "name": "Nuclear Jerbolta",
+   "file": "uranium/053-jerbolta-nuclear.spu",
+   "thumbnail": "thumbs/uranium/053-jerbolta-nuclear.png",
+   "bytes": 57587,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/054-comite",
+   "collection": "uranium",
+   "number": 54,
+   "name": "Comite",
+   "file": "uranium/054-comite.spu",
+   "thumbnail": "thumbs/uranium/054-comite.png",
+   "bytes": 52829,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/054-comite-form-03",
+   "collection": "uranium",
+   "number": 54,
+   "name": "Comite costumed form",
+   "file": "uranium/054-comite-form-03.spu",
+   "thumbnail": "thumbs/uranium/054-comite-form-03.png",
+   "bytes": 95573,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/055-cometeor",
+   "collection": "uranium",
+   "number": 55,
+   "name": "Cometeor",
+   "file": "uranium/055-cometeor.spu",
+   "thumbnail": "thumbs/uranium/055-cometeor.png",
+   "bytes": 76002,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/055-cometeor-form-03",
+   "collection": "uranium",
+   "number": 55,
+   "name": "Cometeor form03",
+   "file": "uranium/055-cometeor-form-03.spu",
+   "thumbnail": "thumbs/uranium/055-cometeor-form-03.png",
+   "bytes": 116213,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/056-astronite",
+   "collection": "uranium",
+   "number": 56,
+   "name": "Astronite",
+   "file": "uranium/056-astronite.spu",
+   "thumbnail": "thumbs/uranium/056-astronite.png",
+   "bytes": 150574,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/056-astronite-form-03",
+   "collection": "uranium",
+   "number": 56,
+   "name": "Astronite form03",
+   "file": "uranium/056-astronite-form-03.spu",
+   "thumbnail": "thumbs/uranium/056-astronite-form-03.png",
+   "bytes": 55985,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/060-baashaun",
+   "collection": "uranium",
+   "number": 60,
+   "name": "Baashaun",
+   "file": "uranium/060-baashaun.spu",
+   "thumbnail": "thumbs/uranium/060-baashaun.png",
+   "bytes": 97646,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/060-baashaun-form-02-nuclear",
+   "collection": "uranium",
+   "number": 60,
+   "name": "Nuclear Baashaun",
+   "file": "uranium/060-baashaun-form-02-nuclear.spu",
+   "thumbnail": "thumbs/uranium/060-baashaun-form-02-nuclear.png",
+   "bytes": 92338,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/060-baashaun-form-04-halloween",
+   "collection": "uranium",
+   "number": 60,
+   "name": "Halloween Baashaun",
+   "file": "uranium/060-baashaun-form-04-halloween.spu",
+   "thumbnail": "thumbs/uranium/060-baashaun-form-04-halloween.png",
+   "bytes": 111123,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/061-baaschaf",
+   "collection": "uranium",
+   "number": 61,
+   "name": "Baaschaf",
+   "file": "uranium/061-baaschaf.spu",
+   "thumbnail": "thumbs/uranium/061-baaschaf.png",
+   "bytes": 64894,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/061-baaschaf-form-02-nuclear",
+   "collection": "uranium",
+   "number": 61,
+   "name": "Nuclear Baaschaf",
+   "file": "uranium/061-baaschaf-form-02-nuclear.spu",
+   "thumbnail": "thumbs/uranium/061-baaschaf-form-02-nuclear.png",
+   "bytes": 65020,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/061-baaschaf-form-04-halloween",
+   "collection": "uranium",
+   "number": 61,
+   "name": "Halloween Baaschaf",
+   "file": "uranium/061-baaschaf-form-04-halloween.spu",
+   "thumbnail": "thumbs/uranium/061-baaschaf-form-04-halloween.png",
+   "bytes": 79097,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/062-baariette",
+   "collection": "uranium",
+   "number": 62,
+   "name": "Baariette",
+   "file": "uranium/062-baariette.spu",
+   "thumbnail": "thumbs/uranium/062-baariette.png",
+   "bytes": 80697,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/062-baariette-form-01-mega",
+   "collection": "uranium",
+   "number": 62,
+   "name": "Mega Baariette",
+   "file": "uranium/062-baariette-form-01-mega.spu",
+   "thumbnail": "thumbs/uranium/062-baariette-form-01-mega.png",
+   "bytes": 131362,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/062-baariette-form-02-nuclear",
+   "collection": "uranium",
+   "number": 62,
+   "name": "Nuclear Baariette",
+   "file": "uranium/062-baariette-form-02-nuclear.spu",
+   "thumbnail": "thumbs/uranium/062-baariette-form-02-nuclear.png",
+   "bytes": 77774,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/062-baariette-form-03-nuclear-mega",
+   "collection": "uranium",
+   "number": 62,
+   "name": "Nuclear Mega Baariette",
+   "file": "uranium/062-baariette-form-03-nuclear-mega.spu",
+   "thumbnail": "thumbs/uranium/062-baariette-form-03-nuclear-mega.png",
+   "bytes": 161442,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/062-baariette-form-04-halloween",
+   "collection": "uranium",
+   "number": 62,
+   "name": "Halloween Baariette",
+   "file": "uranium/062-baariette-form-04-halloween.spu",
+   "thumbnail": "thumbs/uranium/062-baariette-form-04-halloween.png",
+   "bytes": 102049,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/062-baariette-form-05-halloween-mega",
+   "collection": "uranium",
+   "number": 62,
+   "name": "Halloween Mega Baariette",
+   "file": "uranium/062-baariette-form-05-halloween-mega.spu",
+   "thumbnail": "thumbs/uranium/062-baariette-form-05-halloween-mega.png",
+   "bytes": 105125,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/063-tricwe",
+   "collection": "uranium",
+   "number": 63,
+   "name": "Tricwe",
+   "file": "uranium/063-tricwe.spu",
+   "thumbnail": "thumbs/uranium/063-tricwe.png",
+   "bytes": 45304,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/064-harylect",
+   "collection": "uranium",
+   "number": 64,
+   "name": "Harylect",
+   "file": "uranium/064-harylect.spu",
+   "thumbnail": "thumbs/uranium/064-harylect.png",
+   "bytes": 68687,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/065-costraw",
+   "collection": "uranium",
+   "number": 65,
+   "name": "Costraw",
+   "file": "uranium/065-costraw.spu",
+   "thumbnail": "thumbs/uranium/065-costraw.png",
+   "bytes": 89753,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/065-costraw-form-01-nuclear",
+   "collection": "uranium",
+   "number": 65,
+   "name": "Nuclear Costraw",
+   "file": "uranium/065-costraw-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/065-costraw-form-01-nuclear.png",
+   "bytes": 70885,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/066-trawpint",
+   "collection": "uranium",
+   "number": 66,
+   "name": "Trawpint",
+   "file": "uranium/066-trawpint.spu",
+   "thumbnail": "thumbs/uranium/066-trawpint.png",
+   "bytes": 105165,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/066-trawpint-form-01-nuclear",
+   "collection": "uranium",
+   "number": 66,
+   "name": "Nuclear Trawpint",
+   "file": "uranium/066-trawpint-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/066-trawpint-form-01-nuclear.png",
+   "bytes": 106590,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/067-lunapup",
+   "collection": "uranium",
+   "number": 67,
+   "name": "Lunapup",
+   "file": "uranium/067-lunapup.spu",
+   "thumbnail": "thumbs/uranium/067-lunapup.png",
+   "bytes": 75306,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/067-lunapup-form-03",
+   "collection": "uranium",
+   "number": 67,
+   "name": "Lunapup form03",
+   "file": "uranium/067-lunapup-form-03.spu",
+   "thumbnail": "thumbs/uranium/067-lunapup-form-03.png",
+   "bytes": 82756,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/068-herolune-combined",
+   "collection": "uranium",
+   "number": 68,
+   "name": "Herolune",
+   "file": "uranium/068-herolune-combined.spu",
+   "thumbnail": "thumbs/uranium/068-herolune-combined.png",
+   "bytes": 487486,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/068-herolune-form-03",
+   "collection": "uranium",
+   "number": 68,
+   "name": "Herolune costume",
+   "file": "uranium/068-herolune-form-03.spu",
+   "thumbnail": "thumbs/uranium/068-herolune-form-03.png",
+   "bytes": 107975,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/069-minyan",
+   "collection": "uranium",
+   "number": 69,
+   "name": "Minyan",
+   "file": "uranium/069-minyan.spu",
+   "thumbnail": "thumbs/uranium/069-minyan.png",
+   "bytes": 87007,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/069-minyan-form-03-halloween",
+   "collection": "uranium",
+   "number": 69,
+   "name": "Halloween Minyan",
+   "file": "uranium/069-minyan-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/069-minyan-form-03-halloween.png",
+   "bytes": 78735,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/070-vilucard",
+   "collection": "uranium",
+   "number": 70,
+   "name": "Vilucard",
+   "file": "uranium/070-vilucard.spu",
+   "thumbnail": "thumbs/uranium/070-vilucard.png",
+   "bytes": 141766,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/070-vilucard-form-03-halloween",
+   "collection": "uranium",
+   "number": 70,
+   "name": "Halloween Vilucard",
+   "file": "uranium/070-vilucard-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/070-vilucard-form-03-halloween.png",
+   "bytes": 252182,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/073-modrille",
+   "collection": "uranium",
+   "number": 73,
+   "name": "Modrille",
+   "file": "uranium/073-modrille.spu",
+   "thumbnail": "thumbs/uranium/073-modrille.png",
+   "bytes": 66407,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/074-drilgann",
+   "collection": "uranium",
+   "number": 74,
+   "name": "Drilgann",
+   "file": "uranium/074-drilgann.spu",
+   "thumbnail": "thumbs/uranium/074-drilgann.png",
+   "bytes": 84391,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/074-drilgann-form-01-mega",
+   "collection": "uranium",
+   "number": 74,
+   "name": "Mega Drilgann",
+   "file": "uranium/074-drilgann-form-01-mega.spu",
+   "thumbnail": "thumbs/uranium/074-drilgann-form-01-mega.png",
+   "bytes": 105279,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/075-gligar-nuclear-coverage",
+   "collection": "uranium",
+   "number": 75,
+   "name": "Gligar Nuclear",
+   "file": "uranium/075-gligar-nuclear-coverage.spu",
+   "thumbnail": "thumbs/uranium/075-gligar-nuclear-coverage.png",
+   "bytes": 349868,
+   "views": [
+    "Male Front",
+    "Male Back",
+    "Female Front"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/076-gliscor-form-01-nuclear",
+   "collection": "uranium",
+   "number": 76,
+   "name": "Nuclear Gliscor",
+   "file": "uranium/076-gliscor-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/076-gliscor-form-01-nuclear.png",
+   "bytes": 199458,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/077-sableye-form-04-christmas",
+   "collection": "uranium",
+   "number": 77,
+   "name": "077 Sableye form 04 Christmas",
+   "file": "uranium/077-sableye-form-04-christmas.spu",
+   "thumbnail": "thumbs/uranium/077-sableye-form-04-christmas.png",
+   "bytes": 212576,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/077-sableye-form-05-christmas-mega",
+   "collection": "uranium",
+   "number": 77,
+   "name": "Christmas Mega Sableye",
+   "file": "uranium/077-sableye-form-05-christmas-mega.spu",
+   "thumbnail": "thumbs/uranium/077-sableye-form-05-christmas-mega.png",
+   "bytes": 88586,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/078-cocaran",
+   "collection": "uranium",
+   "number": 78,
+   "name": "Cocaran",
+   "file": "uranium/078-cocaran.spu",
+   "thumbnail": "thumbs/uranium/078-cocaran.png",
+   "bytes": 74401,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/078-cocaran-form-03-halloween",
+   "collection": "uranium",
+   "number": 78,
+   "name": "Cocaran Halloween",
+   "file": "uranium/078-cocaran-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/078-cocaran-form-03-halloween.png",
+   "bytes": 99044,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/079-cararalm",
+   "collection": "uranium",
+   "number": 79,
+   "name": "Cararalm",
+   "file": "uranium/079-cararalm.spu",
+   "thumbnail": "thumbs/uranium/079-cararalm.png",
+   "bytes": 141099,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/079-cararalm-form-03-halloween",
+   "collection": "uranium",
+   "number": 79,
+   "name": "Cararalm",
+   "file": "uranium/079-cararalm-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/079-cararalm-form-03-halloween.png",
+   "bytes": 294208,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/080-cocancer",
+   "collection": "uranium",
+   "number": 80,
+   "name": "Cocancer",
+   "file": "uranium/080-cocancer.spu",
+   "thumbnail": "thumbs/uranium/080-cocancer.png",
+   "bytes": 74329,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/080-cocancer-form-03-halloween",
+   "collection": "uranium",
+   "number": 80,
+   "name": "Cocancer Halloween",
+   "file": "uranium/080-cocancer-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/080-cocancer-form-03-halloween.png",
+   "bytes": 151549,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/081-corsola-form-01-nuclear",
+   "collection": "uranium",
+   "number": 81,
+   "name": "Nuclear Corsola",
+   "file": "uranium/081-corsola-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/081-corsola-form-01-nuclear.png",
+   "bytes": 110723,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/081-corsola-form-02",
+   "collection": "uranium",
+   "number": 81,
+   "name": "Corsola form02",
+   "file": "uranium/081-corsola-form-02.spu",
+   "thumbnail": "thumbs/uranium/081-corsola-form-02.png",
+   "bytes": 71479,
+   "views": [
+    "Front"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/081-corsola-form-03",
+   "collection": "uranium",
+   "number": 81,
+   "name": "Corsola form 03",
+   "file": "uranium/081-corsola-form-03.spu",
+   "thumbnail": "thumbs/uranium/081-corsola-form-03.png",
+   "bytes": 111372,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/082-corsoreef",
+   "collection": "uranium",
+   "number": 82,
+   "name": "Corsoreef",
+   "file": "uranium/082-corsoreef.spu",
+   "thumbnail": "thumbs/uranium/082-corsoreef.png",
+   "bytes": 104187,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/082-corsoreef-form-01-nuclear",
+   "collection": "uranium",
+   "number": 82,
+   "name": "Nuclear Corsoreef",
+   "file": "uranium/082-corsoreef-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/082-corsoreef-form-01-nuclear.png",
+   "bytes": 112821,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/082-corsoreef-form-03-christmas",
+   "collection": "uranium",
+   "number": 82,
+   "name": "Christmas Corsoreef",
+   "file": "uranium/082-corsoreef-form-03-christmas.spu",
+   "thumbnail": "thumbs/uranium/082-corsoreef-form-03-christmas.png",
+   "bytes": 593282,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/083-tubjaw",
+   "collection": "uranium",
+   "number": 83,
+   "name": "Tubjaw",
+   "file": "uranium/083-tubjaw.spu",
+   "thumbnail": "thumbs/uranium/083-tubjaw.png",
+   "bytes": 68393,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/083-tubjaw-form-01-nuclear",
+   "collection": "uranium",
+   "number": 83,
+   "name": "Nuclear Tubjaw",
+   "file": "uranium/083-tubjaw-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/083-tubjaw-form-01-nuclear.png",
+   "bytes": 113085,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/083-tubjaw-form-03",
+   "collection": "uranium",
+   "number": 83,
+   "name": "Tubjaw form 03",
+   "file": "uranium/083-tubjaw-form-03.spu",
+   "thumbnail": "thumbs/uranium/083-tubjaw-form-03.png",
+   "bytes": 195122,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/084-tubareel",
+   "collection": "uranium",
+   "number": 84,
+   "name": "Tubareel",
+   "file": "uranium/084-tubareel.spu",
+   "thumbnail": "thumbs/uranium/084-tubareel.png",
+   "bytes": 64237,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/084-tubareel-form-01-nuclear",
+   "collection": "uranium",
+   "number": 84,
+   "name": "Nuclear Tubareel",
+   "file": "uranium/084-tubareel-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/084-tubareel-form-01-nuclear.png",
+   "bytes": 67641,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/084-tubareel-form-03",
+   "collection": "uranium",
+   "number": 84,
+   "name": "Tubareel form 03",
+   "file": "uranium/084-tubareel-form-03.spu",
+   "thumbnail": "thumbs/uranium/084-tubareel-form-03.png",
+   "bytes": 266519,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/085-cassnail",
+   "collection": "uranium",
+   "number": 85,
+   "name": "Cassnail",
+   "file": "uranium/085-cassnail.spu",
+   "thumbnail": "thumbs/uranium/085-cassnail.png",
+   "bytes": 134133,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/085-cassnail-form-03",
+   "collection": "uranium",
+   "number": 85,
+   "name": "Cassnail Form 03",
+   "file": "uranium/085-cassnail-form-03.spu",
+   "thumbnail": "thumbs/uranium/085-cassnail-form-03.png",
+   "bytes": 78542,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/086-sableau",
+   "collection": "uranium",
+   "number": 86,
+   "name": "Sableau",
+   "file": "uranium/086-sableau.spu",
+   "thumbnail": "thumbs/uranium/086-sableau.png",
+   "bytes": 232537,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/086-sableau-form-03",
+   "collection": "uranium",
+   "number": 86,
+   "name": "Sableau form 03",
+   "file": "uranium/086-sableau-form-03.spu",
+   "thumbnail": "thumbs/uranium/086-sableau-form-03.png",
+   "bytes": 66520,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/087-escartress",
+   "collection": "uranium",
+   "number": 87,
+   "name": "Escartress",
+   "file": "uranium/087-escartress.spu",
+   "thumbnail": "thumbs/uranium/087-escartress.png",
+   "bytes": 221071,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/087-escartress-form-03",
+   "collection": "uranium",
+   "number": 87,
+   "name": "Escartress Form 03",
+   "file": "uranium/087-escartress-form-03.spu",
+   "thumbnail": "thumbs/uranium/087-escartress-form-03.png",
+   "bytes": 89794,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/088-nupin",
+   "collection": "uranium",
+   "number": 88,
+   "name": "Nupin",
+   "file": "uranium/088-nupin.spu",
+   "thumbnail": "thumbs/uranium/088-nupin.png",
+   "bytes": 39644,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/088-nupin-form-01-nuclear",
+   "collection": "uranium",
+   "number": 88,
+   "name": "Nuclear Nupin",
+   "file": "uranium/088-nupin-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/088-nupin-form-01-nuclear.png",
+   "bytes": 40110,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/088-nupin-form-03-back",
+   "collection": "uranium",
+   "number": 88,
+   "name": "Nupin costume back",
+   "file": "uranium/088-nupin-form-03-back.spu",
+   "thumbnail": "thumbs/uranium/088-nupin-form-03-back.png",
+   "bytes": 45651,
+   "views": [
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/088-nupin-form-03-front",
+   "collection": "uranium",
+   "number": 88,
+   "name": "Nupin costume front",
+   "file": "uranium/088-nupin-form-03-front.spu",
+   "thumbnail": "thumbs/uranium/088-nupin-form-03-front.png",
+   "bytes": 491212,
+   "views": [
+    "Front"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/089-gellin",
+   "collection": "uranium",
+   "number": 89,
+   "name": "Gellin",
+   "file": "uranium/089-gellin.spu",
+   "thumbnail": "thumbs/uranium/089-gellin.png",
+   "bytes": 113581,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/089-gellin-form-01-nuclear",
+   "collection": "uranium",
+   "number": 89,
+   "name": "Nuclear Gellin",
+   "file": "uranium/089-gellin-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/089-gellin-form-01-nuclear.png",
+   "bytes": 268921,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/089-gellin-form-03-back",
+   "collection": "uranium",
+   "number": 89,
+   "name": "Festive Gellin Back",
+   "file": "uranium/089-gellin-form-03-back.spu",
+   "thumbnail": "thumbs/uranium/089-gellin-form-03-back.png",
+   "bytes": 115248,
+   "views": [
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/089-gellin-form-03-front",
+   "collection": "uranium",
+   "number": 89,
+   "name": "Festive Gellin Front",
+   "file": "uranium/089-gellin-form-03-front.spu",
+   "thumbnail": "thumbs/uranium/089-gellin-form-03-front.png",
+   "bytes": 242778,
+   "views": [
+    "Front"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/091-whimsicott-form-01-mega",
+   "collection": "uranium",
+   "number": 91,
+   "name": "Mega Whimsicott",
+   "file": "uranium/091-whimsicott-form-01-mega.spu",
+   "thumbnail": "thumbs/uranium/091-whimsicott-form-01-mega.png",
+   "bytes": 82048,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/094-barand",
+   "collection": "uranium",
+   "number": 94,
+   "name": "Barand",
+   "file": "uranium/094-barand.spu",
+   "thumbnail": "thumbs/uranium/094-barand.png",
+   "bytes": 50120,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/094-barand-form-01-nuclear",
+   "collection": "uranium",
+   "number": 94,
+   "name": "Nuclear Barand",
+   "file": "uranium/094-barand-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/094-barand-form-01-nuclear.png",
+   "bytes": 54684,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/095-glaslug",
+   "collection": "uranium",
+   "number": 95,
+   "name": "Glaslug",
+   "file": "uranium/095-glaslug.spu",
+   "thumbnail": "thumbs/uranium/095-glaslug.png",
+   "bytes": 102155,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/095-glaslug-form-03-easter",
+   "collection": "uranium",
+   "number": 95,
+   "name": "Easter Glaslug",
+   "file": "uranium/095-glaslug-form-03-easter.spu",
+   "thumbnail": "thumbs/uranium/095-glaslug-form-03-easter.png",
+   "bytes": 214141,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/096-glavinug-family",
+   "collection": "uranium",
+   "number": 96,
+   "name": "Glavinug",
+   "file": "uranium/096-glavinug-family.spu",
+   "thumbnail": "thumbs/uranium/096-glavinug-family.png",
+   "bytes": 386143,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female",
+    "Female Shiny"
+   ]
+  },
+  {
+   "id": "uranium/096-glavinug-form-03-easter",
+   "collection": "uranium",
+   "number": 96,
+   "name": "Glavinug",
+   "file": "uranium/096-glavinug-form-03-easter.spu",
+   "thumbnail": "thumbs/uranium/096-glavinug-form-03-easter.png",
+   "bytes": 36021,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/097-s51",
+   "collection": "uranium",
+   "number": 97,
+   "name": "S51",
+   "file": "uranium/097-s51.spu",
+   "thumbnail": "thumbs/uranium/097-s51.png",
+   "bytes": 32065,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/097-s51-form-04-easter",
+   "collection": "uranium",
+   "number": 97,
+   "name": "Easter S51",
+   "file": "uranium/097-s51-form-04-easter.spu",
+   "thumbnail": "thumbs/uranium/097-s51-form-04-easter.png",
+   "bytes": 113725,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/098-s51-a",
+   "collection": "uranium",
+   "number": 98,
+   "name": "S51-A",
+   "file": "uranium/098-s51-a.spu",
+   "thumbnail": "thumbs/uranium/098-s51-a.png",
+   "bytes": 41124,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/098-s51-a-form-01-mega",
+   "collection": "uranium",
+   "number": 98,
+   "name": "Mega S51-A",
+   "file": "uranium/098-s51-a-form-01-mega.spu",
+   "thumbnail": "thumbs/uranium/098-s51-a-form-01-mega.png",
+   "bytes": 53712,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/098-s51-a-form-04-easter",
+   "collection": "uranium",
+   "number": 98,
+   "name": "Easter S51-A",
+   "file": "uranium/098-s51-a-form-04-easter.spu",
+   "thumbnail": "thumbs/uranium/098-s51-a-form-04-easter.png",
+   "bytes": 250453,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/098-s51-a-form-05-easter-mega",
+   "collection": "uranium",
+   "number": 98,
+   "name": "Easter Mega S51-A",
+   "file": "uranium/098-s51-a-form-05-easter-mega.spu",
+   "thumbnail": "thumbs/uranium/098-s51-a-form-05-easter-mega.png",
+   "bytes": 294738,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/099-paraudio",
+   "collection": "uranium",
+   "number": 99,
+   "name": "Paraudio",
+   "file": "uranium/099-paraudio.spu",
+   "thumbnail": "thumbs/uranium/099-paraudio.png",
+   "bytes": 64203,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/099-paraudio-form-01-nuclear",
+   "collection": "uranium",
+   "number": 99,
+   "name": "Nuclear Paraudio",
+   "file": "uranium/099-paraudio-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/099-paraudio-form-01-nuclear.png",
+   "bytes": 64499,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/099-paraudio-form-03-halloween",
+   "collection": "uranium",
+   "number": 99,
+   "name": "Halloween Paraudio",
+   "file": "uranium/099-paraudio-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/099-paraudio-form-03-halloween.png",
+   "bytes": 668991,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/100-paraboom",
+   "collection": "uranium",
+   "number": 100,
+   "name": "Paraboom",
+   "file": "uranium/100-paraboom.spu",
+   "thumbnail": "thumbs/uranium/100-paraboom.png",
+   "bytes": 87216,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/100-paraboom-form-01-nuclear",
+   "collection": "uranium",
+   "number": 100,
+   "name": "Nuclear Paraboom",
+   "file": "uranium/100-paraboom-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/100-paraboom-form-01-nuclear.png",
+   "bytes": 63419,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/100-paraboom-form-03-halloween",
+   "collection": "uranium",
+   "number": 100,
+   "name": "Halloween Paraboom",
+   "file": "uranium/100-paraboom-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/100-paraboom-form-03-halloween.png",
+   "bytes": 197086,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/101-flager",
+   "collection": "uranium",
+   "number": 101,
+   "name": "Flager",
+   "file": "uranium/101-flager.spu",
+   "thumbnail": "thumbs/uranium/101-flager.png",
+   "bytes": 99096,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/101-flager-form-04",
+   "collection": "uranium",
+   "number": 101,
+   "name": "Flager Form 04",
+   "file": "uranium/101-flager-form-04.spu",
+   "thumbnail": "thumbs/uranium/101-flager-form-04.png",
+   "bytes": 127638,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/102-inflagetah",
+   "collection": "uranium",
+   "number": 102,
+   "name": "Inflagetah",
+   "file": "uranium/102-inflagetah.spu",
+   "thumbnail": "thumbs/uranium/102-inflagetah.png",
+   "bytes": 105206,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/102-inflagetah-form-04",
+   "collection": "uranium",
+   "number": 102,
+   "name": "Inflagetah Form 04",
+   "file": "uranium/102-inflagetah-form-04.spu",
+   "thumbnail": "thumbs/uranium/102-inflagetah-form-04.png",
+   "bytes": 192450,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/102-inflagetah-form-05",
+   "collection": "uranium",
+   "number": 102,
+   "name": "Inflagetah Form 05",
+   "file": "uranium/102-inflagetah-form-05.spu",
+   "thumbnail": "thumbs/uranium/102-inflagetah-form-05.png",
+   "bytes": 168622,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/102-inflagetah-mega",
+   "collection": "uranium",
+   "number": 102,
+   "name": "Mega Inflagetah",
+   "file": "uranium/102-inflagetah-mega.spu",
+   "thumbnail": "thumbs/uranium/102-inflagetah-mega.png",
+   "bytes": 154757,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/103-chimical",
+   "collection": "uranium",
+   "number": 103,
+   "name": "Chimical",
+   "file": "uranium/103-chimical.spu",
+   "thumbnail": "thumbs/uranium/103-chimical.png",
+   "bytes": 110641,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/103-chimical-form-03-halloween",
+   "collection": "uranium",
+   "number": 103,
+   "name": "Chimical Halloween",
+   "file": "uranium/103-chimical-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/103-chimical-form-03-halloween.png",
+   "bytes": 160323,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/104-chimaconda",
+   "collection": "uranium",
+   "number": 104,
+   "name": "Chimaconda Male / Female",
+   "file": "uranium/104-chimaconda.spu",
+   "thumbnail": "thumbs/uranium/104-chimaconda.png",
+   "bytes": 293912,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/104-chimaconda-form-03-halloween",
+   "collection": "uranium",
+   "number": 104,
+   "name": "Chimaconda Halloween Male / Female",
+   "file": "uranium/104-chimaconda-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/104-chimaconda-form-03-halloween.png",
+   "bytes": 265730,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/105-tikiki",
+   "collection": "uranium",
+   "number": 105,
+   "name": "Tikiki",
+   "file": "uranium/105-tikiki.spu",
+   "thumbnail": "thumbs/uranium/105-tikiki.png",
+   "bytes": 146175,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/105-tikiki-form-03",
+   "collection": "uranium",
+   "number": 105,
+   "name": "Tikiki Form 03",
+   "file": "uranium/105-tikiki-form-03.spu",
+   "thumbnail": "thumbs/uranium/105-tikiki-form-03.png",
+   "bytes": 124235,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/106-frikitiki",
+   "collection": "uranium",
+   "number": 106,
+   "name": "Frikitiki",
+   "file": "uranium/106-frikitiki.spu",
+   "thumbnail": "thumbs/uranium/106-frikitiki.png",
+   "bytes": 89038,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/106-frikitiki-form-03",
+   "collection": "uranium",
+   "number": 106,
+   "name": "Frikitiki costume",
+   "file": "uranium/106-frikitiki-form-03.spu",
+   "thumbnail": "thumbs/uranium/106-frikitiki-form-03.png",
+   "bytes": 131584,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/107-unymph",
+   "collection": "uranium",
+   "number": 107,
+   "name": "Unymph",
+   "file": "uranium/107-unymph.spu",
+   "thumbnail": "thumbs/uranium/107-unymph.png",
+   "bytes": 84960,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/108-harptera-combined",
+   "collection": "uranium",
+   "number": 108,
+   "name": "Harptera",
+   "file": "uranium/108-harptera-combined.spu",
+   "thumbnail": "thumbs/uranium/108-harptera-combined.png",
+   "bytes": 199083,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/109-chicoatl",
+   "collection": "uranium",
+   "number": 109,
+   "name": "Chicoatl",
+   "file": "uranium/109-chicoatl.spu",
+   "thumbnail": "thumbs/uranium/109-chicoatl.png",
+   "bytes": 131474,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/109-chicoatl-form-03",
+   "collection": "uranium",
+   "number": 109,
+   "name": "Chicoatl form 03",
+   "file": "uranium/109-chicoatl-form-03.spu",
+   "thumbnail": "thumbs/uranium/109-chicoatl-form-03.png",
+   "bytes": 145216,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/110-quetzoral",
+   "collection": "uranium",
+   "number": 110,
+   "name": "Quetzoral",
+   "file": "uranium/110-quetzoral.spu",
+   "thumbnail": "thumbs/uranium/110-quetzoral.png",
+   "bytes": 92552,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/110-quetzoral-form-03",
+   "collection": "uranium",
+   "number": 110,
+   "name": "Quetzoral Form 03",
+   "file": "uranium/110-quetzoral-form-03.spu",
+   "thumbnail": "thumbs/uranium/110-quetzoral-form-03.png",
+   "bytes": 157555,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/111-coatlith",
+   "collection": "uranium",
+   "number": 111,
+   "name": "Coatlith",
+   "file": "uranium/111-coatlith.spu",
+   "thumbnail": "thumbs/uranium/111-coatlith.png",
+   "bytes": 82391,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/111-coatlith-form-03",
+   "collection": "uranium",
+   "number": 111,
+   "name": "Coatlith Form03",
+   "file": "uranium/111-coatlith-form-03.spu",
+   "thumbnail": "thumbs/uranium/111-coatlith-form-03.png",
+   "bytes": 411407,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/112-tracton",
+   "collection": "uranium",
+   "number": 112,
+   "name": "Tracton",
+   "file": "uranium/112-tracton.spu",
+   "thumbnail": "thumbs/uranium/112-tracton.png",
+   "bytes": 296905,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/112-tracton-form-03-christmas",
+   "collection": "uranium",
+   "number": 112,
+   "name": "Tracton Christmas",
+   "file": "uranium/112-tracton-form-03-christmas.spu",
+   "thumbnail": "thumbs/uranium/112-tracton-form-03-christmas.png",
+   "bytes": 71877,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/113-snopach",
+   "collection": "uranium",
+   "number": 113,
+   "name": "Snopach",
+   "file": "uranium/113-snopach.spu",
+   "thumbnail": "thumbs/uranium/113-snopach.png",
+   "bytes": 121356,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/114-dermafrost",
+   "collection": "uranium",
+   "number": 114,
+   "name": "Dermafrost",
+   "file": "uranium/114-dermafrost.spu",
+   "thumbnail": "thumbs/uranium/114-dermafrost.png",
+   "bytes": 178373,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/115-slothohm",
+   "collection": "uranium",
+   "number": 115,
+   "name": "Slothohm",
+   "file": "uranium/115-slothohm.spu",
+   "thumbnail": "thumbs/uranium/115-slothohm.png",
+   "bytes": 58154,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/116-theriamp",
+   "collection": "uranium",
+   "number": 116,
+   "name": "Theriamp",
+   "file": "uranium/116-theriamp.spu",
+   "thumbnail": "thumbs/uranium/116-theriamp.png",
+   "bytes": 106199,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/117-titanice",
+   "collection": "uranium",
+   "number": 117,
+   "name": "Titanice",
+   "file": "uranium/117-titanice.spu",
+   "thumbnail": "thumbs/uranium/117-titanice.png",
+   "bytes": 48889,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/117-titanice-form-03-halloween",
+   "collection": "uranium",
+   "number": 117,
+   "name": "Titanice Halloween",
+   "file": "uranium/117-titanice-form-03-halloween.spu",
+   "thumbnail": "thumbs/uranium/117-titanice-form-03-halloween.png",
+   "bytes": 197775,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/118-frynai",
+   "collection": "uranium",
+   "number": 118,
+   "name": "Frynai",
+   "file": "uranium/118-frynai.spu",
+   "thumbnail": "thumbs/uranium/118-frynai.png",
+   "bytes": 40749,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/119-saidine",
+   "collection": "uranium",
+   "number": 119,
+   "name": "Saidine",
+   "file": "uranium/119-saidine.spu",
+   "thumbnail": "thumbs/uranium/119-saidine.png",
+   "bytes": 46706,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/120-daikatuna",
+   "collection": "uranium",
+   "number": 120,
+   "name": "Daikatuna",
+   "file": "uranium/120-daikatuna.spu",
+   "thumbnail": "thumbs/uranium/120-daikatuna.png",
+   "bytes": 115064,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/121-selkid",
+   "collection": "uranium",
+   "number": 121,
+   "name": "Selkid",
+   "file": "uranium/121-selkid.spu",
+   "thumbnail": "thumbs/uranium/121-selkid.png",
+   "bytes": 86945,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/121-selkid-form-04",
+   "collection": "uranium",
+   "number": 121,
+   "name": "Selkid Form04",
+   "file": "uranium/121-selkid-form-04.spu",
+   "thumbnail": "thumbs/uranium/121-selkid-form-04.png",
+   "bytes": 336694,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/122-syrentide",
+   "collection": "uranium",
+   "number": 122,
+   "name": "Syrentide",
+   "file": "uranium/122-syrentide.spu",
+   "thumbnail": "thumbs/uranium/122-syrentide.png",
+   "bytes": 303730,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/122-syrentide-form-04-halloween",
+   "collection": "uranium",
+   "number": 122,
+   "name": "Halloween Syrentide",
+   "file": "uranium/122-syrentide-form-04-halloween.spu",
+   "thumbnail": "thumbs/uranium/122-syrentide-form-04-halloween.png",
+   "bytes": 882921,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/122-syrentide-form-05-halloween-mega",
+   "collection": "uranium",
+   "number": 122,
+   "name": "Halloween Mega Syrentide",
+   "file": "uranium/122-syrentide-form-05-halloween-mega.spu",
+   "thumbnail": "thumbs/uranium/122-syrentide-form-05-halloween-mega.png",
+   "bytes": 682048,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/122-syrentide-mega",
+   "collection": "uranium",
+   "number": 122,
+   "name": "Mega Syrentide",
+   "file": "uranium/122-syrentide-mega.spu",
+   "thumbnail": "thumbs/uranium/122-syrentide-mega.png",
+   "bytes": 148320,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/123-spritzee-form03",
+   "collection": "uranium",
+   "number": 123,
+   "name": "Spritzee form03",
+   "file": "uranium/123-spritzee-form03.spu",
+   "thumbnail": "thumbs/uranium/123-spritzee-form03.png",
+   "bytes": 71263,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/124-aromatisse-form-03",
+   "collection": "uranium",
+   "number": 124,
+   "name": "Aromatisse form03",
+   "file": "uranium/124-aromatisse-form-03.spu",
+   "thumbnail": "thumbs/uranium/124-aromatisse-form-03.png",
+   "bytes": 87728,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/125-miasmedic",
+   "collection": "uranium",
+   "number": 125,
+   "name": "Miasmedic",
+   "file": "uranium/125-miasmedic.spu",
+   "thumbnail": "thumbs/uranium/125-miasmedic.png",
+   "bytes": 65150,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/125-miasmedic-form-03",
+   "collection": "uranium",
+   "number": 125,
+   "name": "Miasmedic costume",
+   "file": "uranium/125-miasmedic-form-03.spu",
+   "thumbnail": "thumbs/uranium/125-miasmedic-form-03.png",
+   "bytes": 104550,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/126-jackdeary",
+   "collection": "uranium",
+   "number": 126,
+   "name": "Jackdeary",
+   "file": "uranium/126-jackdeary.spu",
+   "thumbnail": "thumbs/uranium/126-jackdeary.png",
+   "bytes": 133866,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/126-jackdeary-form-03-easter",
+   "collection": "uranium",
+   "number": 126,
+   "name": "Jackdeary Easter",
+   "file": "uranium/126-jackdeary-form-03-easter.spu",
+   "thumbnail": "thumbs/uranium/126-jackdeary-form-03-easter.png",
+   "bytes": 109253,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/127-winotinger",
+   "collection": "uranium",
+   "number": 127,
+   "name": "Winotinger",
+   "file": "uranium/127-winotinger.spu",
+   "thumbnail": "thumbs/uranium/127-winotinger.png",
+   "bytes": 124013,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/127-winotinger-form-03-easter",
+   "collection": "uranium",
+   "number": 127,
+   "name": "Winotinger Easter",
+   "file": "uranium/127-winotinger-form-03-easter.spu",
+   "thumbnail": "thumbs/uranium/127-winotinger-form-03-easter.png",
+   "bytes": 166641,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/128-duplicat",
+   "collection": "uranium",
+   "number": 128,
+   "name": "Duplicat",
+   "file": "uranium/128-duplicat.spu",
+   "thumbnail": "thumbs/uranium/128-duplicat.png",
+   "bytes": 74716,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/138-nucleon",
+   "collection": "uranium",
+   "number": 138,
+   "name": "Nucleon",
+   "file": "uranium/138-nucleon.spu",
+   "thumbnail": "thumbs/uranium/138-nucleon.png",
+   "bytes": 160855,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/139-ratsy",
+   "collection": "uranium",
+   "number": 139,
+   "name": "Ratsy",
+   "file": "uranium/139-ratsy.spu",
+   "thumbnail": "thumbs/uranium/139-ratsy.png",
+   "bytes": 64068,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/139-ratsy-form-03",
+   "collection": "uranium",
+   "number": 139,
+   "name": "Ratsy Chef",
+   "file": "uranium/139-ratsy-form-03.spu",
+   "thumbnail": "thumbs/uranium/139-ratsy-form-03.png",
+   "bytes": 309689,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/140-raffiti",
+   "collection": "uranium",
+   "number": 140,
+   "name": "Raffiti",
+   "file": "uranium/140-raffiti.spu",
+   "thumbnail": "thumbs/uranium/140-raffiti.png",
+   "bytes": 79926,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/140-raffiti-form-03",
+   "collection": "uranium",
+   "number": 140,
+   "name": "Raffiti Chef",
+   "file": "uranium/140-raffiti-form-03.spu",
+   "thumbnail": "thumbs/uranium/140-raffiti-form-03.png",
+   "bytes": 387513,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/141-gargryph",
+   "collection": "uranium",
+   "number": 141,
+   "name": "Gargryph",
+   "file": "uranium/141-gargryph.spu",
+   "thumbnail": "thumbs/uranium/141-gargryph.png",
+   "bytes": 93806,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/141-gargryph-form-03-anniversary",
+   "collection": "uranium",
+   "number": 141,
+   "name": "Gargryph Anniversary",
+   "file": "uranium/141-gargryph-form-03-anniversary.spu",
+   "thumbnail": "thumbs/uranium/141-gargryph-form-03-anniversary.png",
+   "bytes": 299703,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/142-masking",
+   "collection": "uranium",
+   "number": 142,
+   "name": "Masking",
+   "file": "uranium/142-masking.spu",
+   "thumbnail": "thumbs/uranium/142-masking.png",
+   "bytes": 143508,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/142-masking-form-02-nuclear",
+   "collection": "uranium",
+   "number": 142,
+   "name": "Nuclear Masking",
+   "file": "uranium/142-masking-form-02-nuclear.spu",
+   "thumbnail": "thumbs/uranium/142-masking-form-02-nuclear.png",
+   "bytes": 127552,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/142-masking-halloween",
+   "collection": "uranium",
+   "number": 142,
+   "name": "Masking Halloween",
+   "file": "uranium/142-masking-halloween.spu",
+   "thumbnail": "thumbs/uranium/142-masking-halloween.png",
+   "bytes": 126274,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/143-dramsama",
+   "collection": "uranium",
+   "number": 143,
+   "name": "Dramsama",
+   "file": "uranium/143-dramsama.spu",
+   "thumbnail": "thumbs/uranium/143-dramsama.png",
+   "bytes": 567968,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/143-dramsama-form-02-nuclear",
+   "collection": "uranium",
+   "number": 143,
+   "name": "Nuclear Dramsama",
+   "file": "uranium/143-dramsama-form-02-nuclear.spu",
+   "thumbnail": "thumbs/uranium/143-dramsama-form-02-nuclear.png",
+   "bytes": 456670,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/143-dramsama-form-03-nuclear-mega",
+   "collection": "uranium",
+   "number": 143,
+   "name": "Nuclear Mega Dramsama",
+   "file": "uranium/143-dramsama-form-03-nuclear-mega.spu",
+   "thumbnail": "thumbs/uranium/143-dramsama-form-03-nuclear-mega.png",
+   "bytes": 114384,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/143-dramsama-form-04-halloween",
+   "collection": "uranium",
+   "number": 143,
+   "name": "Dramsama Halloween",
+   "file": "uranium/143-dramsama-form-04-halloween.spu",
+   "thumbnail": "thumbs/uranium/143-dramsama-form-04-halloween.png",
+   "bytes": 152182,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/143-dramsama-form-06",
+   "collection": "uranium",
+   "number": 143,
+   "name": "Dark Mega Dramsama",
+   "file": "uranium/143-dramsama-form-06.spu",
+   "thumbnail": "thumbs/uranium/143-dramsama-form-06.png",
+   "bytes": 202774,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/143-dramsama-form-07",
+   "collection": "uranium",
+   "number": 143,
+   "name": "Nuclear Dark Mega Dramsama",
+   "file": "uranium/143-dramsama-form-07.spu",
+   "thumbnail": "thumbs/uranium/143-dramsama-form-07.png",
+   "bytes": 234978,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/143-dramsama-halloween-mega",
+   "collection": "uranium",
+   "number": 143,
+   "name": "Dramsama Halloween Mega",
+   "file": "uranium/143-dramsama-halloween-mega.spu",
+   "thumbnail": "thumbs/uranium/143-dramsama-halloween-mega.png",
+   "bytes": 203959,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/143-dramsama-mega",
+   "collection": "uranium",
+   "number": 143,
+   "name": "Mega Dramsama",
+   "file": "uranium/143-dramsama-mega.spu",
+   "thumbnail": "thumbs/uranium/143-dramsama-mega.png",
+   "bytes": 145933,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/144-antarki",
+   "collection": "uranium",
+   "number": 144,
+   "name": "Antarki",
+   "file": "uranium/144-antarki.spu",
+   "thumbnail": "thumbs/uranium/144-antarki.png",
+   "bytes": 391087,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/144-antarki-form-03",
+   "collection": "uranium",
+   "number": 144,
+   "name": "Antarki Form 03",
+   "file": "uranium/144-antarki-form-03.spu",
+   "thumbnail": "thumbs/uranium/144-antarki-form-03.png",
+   "bytes": 215118,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/145-chupacho",
+   "collection": "uranium",
+   "number": 145,
+   "name": "Chupacho",
+   "file": "uranium/145-chupacho.spu",
+   "thumbnail": "thumbs/uranium/145-chupacho.png",
+   "bytes": 97791,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/145-chupacho-form-01-nuclear",
+   "collection": "uranium",
+   "number": 145,
+   "name": "Nuclear Chupacho",
+   "file": "uranium/145-chupacho-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/145-chupacho-form-01-nuclear.png",
+   "bytes": 85147,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/145-chupacho-form-03",
+   "collection": "uranium",
+   "number": 145,
+   "name": "Chupacho Form 03",
+   "file": "uranium/145-chupacho-form-03.spu",
+   "thumbnail": "thumbs/uranium/145-chupacho-form-03.png",
+   "bytes": 152038,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/146-luchabra",
+   "collection": "uranium",
+   "number": 146,
+   "name": "Luchabra",
+   "file": "uranium/146-luchabra.spu",
+   "thumbnail": "thumbs/uranium/146-luchabra.png",
+   "bytes": 180666,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/146-luchabra-form-01-nuclear",
+   "collection": "uranium",
+   "number": 146,
+   "name": "Nuclear Luchabra",
+   "file": "uranium/146-luchabra-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/146-luchabra-form-01-nuclear.png",
+   "bytes": 113510,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/146-luchabra-form-03",
+   "collection": "uranium",
+   "number": 146,
+   "name": "Luchabra form 03",
+   "file": "uranium/146-luchabra-form-03.spu",
+   "thumbnail": "thumbs/uranium/146-luchabra-form-03.png",
+   "bytes": 111111,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/147-linkite",
+   "collection": "uranium",
+   "number": 147,
+   "name": "Linkite",
+   "file": "uranium/147-linkite.spu",
+   "thumbnail": "thumbs/uranium/147-linkite.png",
+   "bytes": 282078,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/147-linkite-form-03-christmas",
+   "collection": "uranium",
+   "number": 147,
+   "name": "Christmas Linkite",
+   "file": "uranium/147-linkite-form-03-christmas.spu",
+   "thumbnail": "thumbs/uranium/147-linkite-form-03-christmas.png",
+   "bytes": 128805,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/148-chainite",
+   "collection": "uranium",
+   "number": 148,
+   "name": "Chainite",
+   "file": "uranium/148-chainite.spu",
+   "thumbnail": "thumbs/uranium/148-chainite.png",
+   "bytes": 179761,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/148-chainite-form-03-christmas",
+   "collection": "uranium",
+   "number": 148,
+   "name": "Chainite - Christmas",
+   "file": "uranium/148-chainite-form-03-christmas.spu",
+   "thumbnail": "thumbs/uranium/148-chainite-form-03-christmas.png",
+   "bytes": 193776,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/149-pufluff",
+   "collection": "uranium",
+   "number": 149,
+   "name": "Pufluff",
+   "file": "uranium/149-pufluff.spu",
+   "thumbnail": "thumbs/uranium/149-pufluff.png",
+   "bytes": 95821,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/149-pufluff-form03",
+   "collection": "uranium",
+   "number": 149,
+   "name": "Pufluff Christmas",
+   "file": "uranium/149-pufluff-form03.spu",
+   "thumbnail": "thumbs/uranium/149-pufluff-form03.png",
+   "bytes": 174967,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/150-alpico",
+   "collection": "uranium",
+   "number": 150,
+   "name": "Alpico",
+   "file": "uranium/150-alpico.spu",
+   "thumbnail": "thumbs/uranium/150-alpico.png",
+   "bytes": 81893,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/150-alpico-form03",
+   "collection": "uranium",
+   "number": 150,
+   "name": "Alpico Christmas",
+   "file": "uranium/150-alpico-form03.spu",
+   "thumbnail": "thumbs/uranium/150-alpico-form03.png",
+   "bytes": 70730,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/151-anderind",
+   "collection": "uranium",
+   "number": 151,
+   "name": "Anderind",
+   "file": "uranium/151-anderind.spu",
+   "thumbnail": "thumbs/uranium/151-anderind.png",
+   "bytes": 170219,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/151-anderind-christmas",
+   "collection": "uranium",
+   "number": 151,
+   "name": "Anderind Christmas",
+   "file": "uranium/151-anderind-christmas.spu",
+   "thumbnail": "thumbs/uranium/151-anderind-christmas.png",
+   "bytes": 89336,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/152-colarva",
+   "collection": "uranium",
+   "number": 152,
+   "name": "Colarva",
+   "file": "uranium/152-colarva.spu",
+   "thumbnail": "thumbs/uranium/152-colarva.png",
+   "bytes": 119377,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/152-colarva-back-extra",
+   "collection": "uranium",
+   "number": 152,
+   "name": "Colarva",
+   "file": "uranium/152-colarva-back-extra.spu",
+   "thumbnail": "thumbs/uranium/152-colarva-back-extra.png",
+   "bytes": 12362,
+   "views": [
+    "Sprite"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/153-frosulo",
+   "collection": "uranium",
+   "number": 153,
+   "name": "Frosulo",
+   "file": "uranium/153-frosulo.spu",
+   "thumbnail": "thumbs/uranium/153-frosulo.png",
+   "bytes": 70368,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/153-frosulo-back-extra",
+   "collection": "uranium",
+   "number": 153,
+   "name": "Frosulo Back Extra",
+   "file": "uranium/153-frosulo-back-extra.spu",
+   "thumbnail": "thumbs/uranium/153-frosulo-back-extra.png",
+   "bytes": 17008,
+   "views": [
+    "Sprite"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/154-frosthra",
+   "collection": "uranium",
+   "number": 154,
+   "name": "Frosthra",
+   "file": "uranium/154-frosthra.spu",
+   "thumbnail": "thumbs/uranium/154-frosthra.png",
+   "bytes": 253682,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/154-frosthra-back-extra",
+   "collection": "uranium",
+   "number": 154,
+   "name": "Frosthra",
+   "file": "uranium/154-frosthra-back-extra.spu",
+   "thumbnail": "thumbs/uranium/154-frosthra-back-extra.png",
+   "bytes": 39720,
+   "views": [
+    "Sprite"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/155-fafurr",
+   "collection": "uranium",
+   "number": 155,
+   "name": "Fafurr",
+   "file": "uranium/155-fafurr.spu",
+   "thumbnail": "thumbs/uranium/155-fafurr.png",
+   "bytes": 78026,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/155-fafurr-form03",
+   "collection": "uranium",
+   "number": 155,
+   "name": "Fafurr costume",
+   "file": "uranium/155-fafurr-form03.spu",
+   "thumbnail": "thumbs/uranium/155-fafurr-form03.png",
+   "bytes": 132173,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/156-fafninter",
+   "collection": "uranium",
+   "number": 156,
+   "name": "Fafninter Male / Female",
+   "file": "uranium/156-fafninter.spu",
+   "thumbnail": "thumbs/uranium/156-fafninter.png",
+   "bytes": 177422,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/156-fafninter-form-03",
+   "collection": "uranium",
+   "number": 156,
+   "name": "Fafninter Form 03",
+   "file": "uranium/156-fafninter-form-03.spu",
+   "thumbnail": "thumbs/uranium/156-fafninter-form-03.png",
+   "bytes": 314694,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Male Shiny",
+    "Female",
+    "Female Shiny"
+   ]
+  },
+  {
+   "id": "uranium/157-shrimputy",
+   "collection": "uranium",
+   "number": 157,
+   "name": "Shrimputy",
+   "file": "uranium/157-shrimputy.spu",
+   "thumbnail": "thumbs/uranium/157-shrimputy.png",
+   "bytes": 694264,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/158-krilvolver",
+   "collection": "uranium",
+   "number": 158,
+   "name": "Krilvolver",
+   "file": "uranium/158-krilvolver.spu",
+   "thumbnail": "thumbs/uranium/158-krilvolver.png",
+   "bytes": 171719,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/159-lavent",
+   "collection": "uranium",
+   "number": 159,
+   "name": "Lavent",
+   "file": "uranium/159-lavent.spu",
+   "thumbnail": "thumbs/uranium/159-lavent.png",
+   "bytes": 164374,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/159-lavent-form-03",
+   "collection": "uranium",
+   "number": 159,
+   "name": "Lavent Form 03",
+   "file": "uranium/159-lavent-form-03.spu",
+   "thumbnail": "thumbs/uranium/159-lavent-form-03.png",
+   "bytes": 784194,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/160-swabone",
+   "collection": "uranium",
+   "number": 160,
+   "name": "Swabone",
+   "file": "uranium/160-swabone.spu",
+   "thumbnail": "thumbs/uranium/160-swabone.png",
+   "bytes": 215295,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/161-skelerogue",
+   "collection": "uranium",
+   "number": 161,
+   "name": "Skelerogue",
+   "file": "uranium/161-skelerogue.spu",
+   "thumbnail": "thumbs/uranium/161-skelerogue.png",
+   "bytes": 111607,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/162-navighast",
+   "collection": "uranium",
+   "number": 162,
+   "name": "Navighast",
+   "file": "uranium/162-navighast.spu",
+   "thumbnail": "thumbs/uranium/162-navighast.png",
+   "bytes": 186583,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/163-stenowatt",
+   "collection": "uranium",
+   "number": 163,
+   "name": "Stenowatt",
+   "file": "uranium/163-stenowatt.spu",
+   "thumbnail": "thumbs/uranium/163-stenowatt.png",
+   "bytes": 148721,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/164-jungore",
+   "collection": "uranium",
+   "number": 164,
+   "name": "Jungore",
+   "file": "uranium/164-jungore.spu",
+   "thumbnail": "thumbs/uranium/164-jungore.png",
+   "bytes": 141332,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/164-jungore-form-03-anniversary",
+   "collection": "uranium",
+   "number": 164,
+   "name": "Anniversary Jungore",
+   "file": "uranium/164-jungore-form-03-anniversary.spu",
+   "thumbnail": "thumbs/uranium/164-jungore-form-03-anniversary.png",
+   "bytes": 134023,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/165-majungold",
+   "collection": "uranium",
+   "number": 165,
+   "name": "Majungold",
+   "file": "uranium/165-majungold.spu",
+   "thumbnail": "thumbs/uranium/165-majungold.png",
+   "bytes": 96707,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/165-majungold-form-03-anniversary",
+   "collection": "uranium",
+   "number": 165,
+   "name": "Majungold Anniversary",
+   "file": "uranium/165-majungold-form-03-anniversary.spu",
+   "thumbnail": "thumbs/uranium/165-majungold-form-03-anniversary.png",
+   "bytes": 344928,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/166-hagoop",
+   "collection": "uranium",
+   "number": 166,
+   "name": "Hagoop",
+   "file": "uranium/166-hagoop.spu",
+   "thumbnail": "thumbs/uranium/166-hagoop.png",
+   "bytes": 223408,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/166-hagoop-form-01-nuclear",
+   "collection": "uranium",
+   "number": 166,
+   "name": "Hagoop Nuclear — feeler glance and crest call",
+   "file": "uranium/166-hagoop-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/166-hagoop-form-01-nuclear.png",
+   "bytes": 254678,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/166-hagoop-form-03-easter",
+   "collection": "uranium",
+   "number": 166,
+   "name": "Hagoop Easter — ear flick and egg embrace",
+   "file": "uranium/166-hagoop-form-03-easter.spu",
+   "thumbnail": "thumbs/uranium/166-hagoop-form-03-easter.png",
+   "bytes": 117553,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/167-haagross",
+   "collection": "uranium",
+   "number": 167,
+   "name": "Haagross",
+   "file": "uranium/167-haagross.spu",
+   "thumbnail": "thumbs/uranium/167-haagross.png",
+   "bytes": 130964,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/167-haagross-form-01-nuclear",
+   "collection": "uranium",
+   "number": 167,
+   "name": "Nuclear Haagross",
+   "file": "uranium/167-haagross-form-01-nuclear.spu",
+   "thumbnail": "thumbs/uranium/167-haagross-form-01-nuclear.png",
+   "bytes": 195734,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/167-haagross-form-03-easter",
+   "collection": "uranium",
+   "number": 167,
+   "name": "Easter Haagross",
+   "file": "uranium/167-haagross-form-03-easter.spu",
+   "thumbnail": "thumbs/uranium/167-haagross-form-03-easter.png",
+   "bytes": 288828,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/168-xenomite",
+   "collection": "uranium",
+   "number": 168,
+   "name": "Xenomite",
+   "file": "uranium/168-xenomite.spu",
+   "thumbnail": "thumbs/uranium/168-xenomite.png",
+   "bytes": 98488,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/169-xenogen",
+   "collection": "uranium",
+   "number": 169,
+   "name": "Xenogen",
+   "file": "uranium/169-xenogen.spu",
+   "thumbnail": "thumbs/uranium/169-xenogen.png",
+   "bytes": 146279,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/170-xenoqueen",
+   "collection": "uranium",
+   "number": 170,
+   "name": "Xenoqueen",
+   "file": "uranium/170-xenoqueen.spu",
+   "thumbnail": "thumbs/uranium/170-xenoqueen.png",
+   "bytes": 121220,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/171-hazma",
+   "collection": "uranium",
+   "number": 171,
+   "name": "Hazma",
+   "file": "uranium/171-hazma.spu",
+   "thumbnail": "thumbs/uranium/171-hazma.png",
+   "bytes": 220309,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/171-hazma-anniversary",
+   "collection": "uranium",
+   "number": 171,
+   "name": "Hazma Anniversary",
+   "file": "uranium/171-hazma-anniversary.spu",
+   "thumbnail": "thumbs/uranium/171-hazma-anniversary.png",
+   "bytes": 198048,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/172-geigeroach",
+   "collection": "uranium",
+   "number": 172,
+   "name": "Geigeroach",
+   "file": "uranium/172-geigeroach.spu",
+   "thumbnail": "thumbs/uranium/172-geigeroach.png",
+   "bytes": 109817,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/173-minicorn",
+   "collection": "uranium",
+   "number": 173,
+   "name": "Minicorn",
+   "file": "uranium/173-minicorn.spu",
+   "thumbnail": "thumbs/uranium/173-minicorn.png",
+   "bytes": 625526,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/174-kiricorn",
+   "collection": "uranium",
+   "number": 174,
+   "name": "Kiricorn",
+   "file": "uranium/174-kiricorn.spu",
+   "thumbnail": "thumbs/uranium/174-kiricorn.png",
+   "bytes": 225449,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/174-mega-kiricorn",
+   "collection": "uranium",
+   "number": 174,
+   "name": "Kiricorn Mega",
+   "file": "uranium/174-mega-kiricorn.spu",
+   "thumbnail": "thumbs/uranium/174-mega-kiricorn.png",
+   "bytes": 149147,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/175-mega-oblivicorn",
+   "collection": "uranium",
+   "number": 175,
+   "name": "Mega Oblivicorn",
+   "file": "uranium/175-mega-oblivicorn.spu",
+   "thumbnail": "thumbs/uranium/175-mega-oblivicorn.png",
+   "bytes": 198808,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/175-oblivicorn",
+   "collection": "uranium",
+   "number": 175,
+   "name": "Oblivicorn",
+   "file": "uranium/175-oblivicorn.spu",
+   "thumbnail": "thumbs/uranium/175-oblivicorn.png",
+   "bytes": 127173,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/176-luxi",
+   "collection": "uranium",
+   "number": 176,
+   "name": "Luxi",
+   "file": "uranium/176-luxi.spu",
+   "thumbnail": "thumbs/uranium/176-luxi.png",
+   "bytes": 112137,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/176-luxi-form-03",
+   "collection": "uranium",
+   "number": 176,
+   "name": "Luxi Form03",
+   "file": "uranium/176-luxi-form-03.spu",
+   "thumbnail": "thumbs/uranium/176-luxi-form-03.png",
+   "bytes": 94626,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/177-luxor",
+   "collection": "uranium",
+   "number": 177,
+   "name": "177 Luxor",
+   "file": "uranium/177-luxor.spu",
+   "thumbnail": "thumbs/uranium/177-luxor.png",
+   "bytes": 139240,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/177-luxor-form-03",
+   "collection": "uranium",
+   "number": 177,
+   "name": "Luxor Form03",
+   "file": "uranium/177-luxor-form-03.spu",
+   "thumbnail": "thumbs/uranium/177-luxor-form-03.png",
+   "bytes": 154747,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/178-luxelong",
+   "collection": "uranium",
+   "number": 178,
+   "name": "Luxelong",
+   "file": "uranium/178-luxelong.spu",
+   "thumbnail": "thumbs/uranium/178-luxelong.png",
+   "bytes": 198810,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/178-luxelong-form-03",
+   "collection": "uranium",
+   "number": 178,
+   "name": "Luxelong Form03",
+   "file": "uranium/178-luxelong-form-03.spu",
+   "thumbnail": "thumbs/uranium/178-luxelong-form-03.png",
+   "bytes": 182010,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/179-praseopunk",
+   "collection": "uranium",
+   "number": 179,
+   "name": "Praseopunk",
+   "file": "uranium/179-praseopunk.spu",
+   "thumbnail": "thumbs/uranium/179-praseopunk.png",
+   "bytes": 157326,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/179-praseopunk-form-03",
+   "collection": "uranium",
+   "number": 179,
+   "name": "Praseopunk Form03",
+   "file": "uranium/179-praseopunk-form-03.spu",
+   "thumbnail": "thumbs/uranium/179-praseopunk-form-03.png",
+   "bytes": 311495,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/180-neopunk",
+   "collection": "uranium",
+   "number": 180,
+   "name": "180 Neopunk",
+   "file": "uranium/180-neopunk.spu",
+   "thumbnail": "thumbs/uranium/180-neopunk.png",
+   "bytes": 144837,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/180-neopunk-form-03",
+   "collection": "uranium",
+   "number": 180,
+   "name": "Neopunk Form03",
+   "file": "uranium/180-neopunk-form-03.spu",
+   "thumbnail": "thumbs/uranium/180-neopunk-form-03.png",
+   "bytes": 128626,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/181-sheebit",
+   "collection": "uranium",
+   "number": 181,
+   "name": "181 Sheebit",
+   "file": "uranium/181-sheebit.spu",
+   "thumbnail": "thumbs/uranium/181-sheebit.png",
+   "bytes": 117517,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/181-sheebit-form-03",
+   "collection": "uranium",
+   "number": 181,
+   "name": "Sheebit Form03",
+   "file": "uranium/181-sheebit-form-03.spu",
+   "thumbnail": "thumbs/uranium/181-sheebit-form-03.png",
+   "bytes": 181388,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/182-terrabbit",
+   "collection": "uranium",
+   "number": 182,
+   "name": "Terrabbit",
+   "file": "uranium/182-terrabbit.spu",
+   "thumbnail": "thumbs/uranium/182-terrabbit.png",
+   "bytes": 283635,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/182-terrabbit-form-03",
+   "collection": "uranium",
+   "number": 182,
+   "name": "Terrabbit Form03",
+   "file": "uranium/182-terrabbit-form-03.spu",
+   "thumbnail": "thumbs/uranium/182-terrabbit-form-03.png",
+   "bytes": 145761,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/183-laissure",
+   "collection": "uranium",
+   "number": 183,
+   "name": "Laissure",
+   "file": "uranium/183-laissure.spu",
+   "thumbnail": "thumbs/uranium/183-laissure.png",
+   "bytes": 163781,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/183-laissure-form-03",
+   "collection": "uranium",
+   "number": 183,
+   "name": "Laissure Form03",
+   "file": "uranium/183-laissure-form-03.spu",
+   "thumbnail": "thumbs/uranium/183-laissure-form-03.png",
+   "bytes": 117112,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/184-volchik",
+   "collection": "uranium",
+   "number": 184,
+   "name": "Volchik",
+   "file": "uranium/184-volchik.spu",
+   "thumbnail": "thumbs/uranium/184-volchik.png",
+   "bytes": 147263,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/184-volchik-form-03-easter",
+   "collection": "uranium",
+   "number": 184,
+   "name": "Easter Volchik",
+   "file": "uranium/184-volchik-form-03-easter.spu",
+   "thumbnail": "thumbs/uranium/184-volchik-form-03-easter.png",
+   "bytes": 480973,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/185-voltasu",
+   "collection": "uranium",
+   "number": 185,
+   "name": "Voltasu",
+   "file": "uranium/185-voltasu.spu",
+   "thumbnail": "thumbs/uranium/185-voltasu.png",
+   "bytes": 227023,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/185-voltasu-form-03-easter",
+   "collection": "uranium",
+   "number": 185,
+   "name": "Voltasu Easter",
+   "file": "uranium/185-voltasu-form-03-easter.spu",
+   "thumbnail": "thumbs/uranium/185-voltasu-form-03-easter.png",
+   "bytes": 134638,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/186-yatagaryu",
+   "collection": "uranium",
+   "number": 186,
+   "name": "Yatagaryu",
+   "file": "uranium/186-yatagaryu.spu",
+   "thumbnail": "thumbs/uranium/186-yatagaryu.png",
+   "bytes": 273141,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/186-yatagaryu-form-03-easter",
+   "collection": "uranium",
+   "number": 186,
+   "name": "Yatagaryu Easter",
+   "file": "uranium/186-yatagaryu-form-03-easter.spu",
+   "thumbnail": "thumbs/uranium/186-yatagaryu-form-03-easter.png",
+   "bytes": 280916,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female"
+   ]
+  },
+  {
+   "id": "uranium/187-devimp-form-03-christmas",
+   "collection": "uranium",
+   "number": 187,
+   "name": "Christmas Devimp — beckon, idle and alert",
+   "file": "uranium/187-devimp-form-03-christmas.spu",
+   "thumbnail": "thumbs/uranium/187-devimp-form-03-christmas.png",
+   "bytes": 101216,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/187-devimp-full",
+   "collection": "uranium",
+   "number": 187,
+   "name": "187 Devimp - articulated Idle and Alert",
+   "file": "uranium/187-devimp-full.spu",
+   "thumbnail": "thumbs/uranium/187-devimp-full.png",
+   "bytes": 40974,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/188-fallengel",
+   "collection": "uranium",
+   "number": 188,
+   "name": "188 Fallengel",
+   "file": "uranium/188-fallengel.spu",
+   "thumbnail": "thumbs/uranium/188-fallengel.png",
+   "bytes": 182115,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/188-fallengel-form-03-christmas",
+   "collection": "uranium",
+   "number": 188,
+   "name": "188 Fallengel Christmas",
+   "file": "uranium/188-fallengel-form-03-christmas.spu",
+   "thumbnail": "thumbs/uranium/188-fallengel-form-03-christmas.png",
+   "bytes": 70622,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/189-beliaddon-form-03-christmas",
+   "collection": "uranium",
+   "number": 189,
+   "name": "189 Beliaddon Christmas - basket weight and tongue lash",
+   "file": "uranium/189-beliaddon-form-03-christmas.spu",
+   "thumbnail": "thumbs/uranium/189-beliaddon-form-03-christmas.png",
+   "bytes": 78831,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/189-beliaddon-full",
+   "collection": "uranium",
+   "number": 189,
+   "name": "189 Beliaddon - guarded Idle and ember Alert",
+   "file": "uranium/189-beliaddon-full.spu",
+   "thumbnail": "thumbs/uranium/189-beliaddon-full.png",
+   "bytes": 114066,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/190-seikamater-full",
+   "collection": "uranium",
+   "number": 190,
+   "name": "190 Seikamater",
+   "file": "uranium/190-seikamater-full.spu",
+   "thumbnail": "thumbs/uranium/190-seikamater-full.png",
+   "bytes": 272450,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/191-garlikid-full",
+   "collection": "uranium",
+   "number": 191,
+   "name": "Garlikid - grounded guard and rising-fist spring",
+   "file": "uranium/191-garlikid-full.spu",
+   "thumbnail": "thumbs/uranium/191-garlikid-full.png",
+   "bytes": 310899,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/192-baitatao",
+   "collection": "uranium",
+   "number": 192,
+   "name": "Baitatao",
+   "file": "uranium/192-baitatao.spu",
+   "thumbnail": "thumbs/uranium/192-baitatao.png",
+   "bytes": 44242,
+   "views": [
+    "Front"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/193-leviathao-full",
+   "collection": "uranium",
+   "number": 193,
+   "name": "193 Leviathao - hovering Idle and spear Alert",
+   "file": "uranium/193-leviathao-full.spu",
+   "thumbnail": "thumbs/uranium/193-leviathao-full.png",
+   "bytes": 17410,
+   "views": [
+    "Front"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/194-krakanao",
+   "collection": "uranium",
+   "number": 194,
+   "name": "Krakanao",
+   "file": "uranium/194-krakanao.spu",
+   "thumbnail": "thumbs/uranium/194-krakanao.png",
+   "bytes": 42914,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": []
+  },
+  {
+   "id": "uranium/195-lanthan-full",
+   "collection": "uranium",
+   "number": 195,
+   "name": "195 Lanthan",
+   "file": "uranium/195-lanthan-full.spu",
+   "thumbnail": "thumbs/uranium/195-lanthan-full.png",
+   "bytes": 126648,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/196-actan-form-01-nuclear-full",
+   "collection": "uranium",
+   "number": 196,
+   "name": "196-Actan-form-01-Nuclear",
+   "file": "uranium/196-actan-form-01-nuclear-full.spu",
+   "thumbnail": "thumbs/uranium/196-actan-form-01-nuclear-full.png",
+   "bytes": 70190,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/196-actan-full",
+   "collection": "uranium",
+   "number": 196,
+   "name": "196-Actan",
+   "file": "uranium/196-actan-full.spu",
+   "thumbnail": "thumbs/uranium/196-actan-full.png",
+   "bytes": 44473,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/197-urayne",
+   "collection": "uranium",
+   "number": 197,
+   "name": "Urayne",
+   "file": "uranium/197-urayne.spu",
+   "thumbnail": "thumbs/uranium/197-urayne.png",
+   "bytes": 30206,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/197-urayne-form-01-beta",
+   "collection": "uranium",
+   "number": 197,
+   "name": "Urayne Beta",
+   "file": "uranium/197-urayne-form-01-beta.spu",
+   "thumbnail": "thumbs/uranium/197-urayne-form-01-beta.png",
+   "bytes": 73325,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/197-urayne-gamma",
+   "collection": "uranium",
+   "number": 197,
+   "name": "Urayne Gamma",
+   "file": "uranium/197-urayne-gamma.spu",
+   "thumbnail": "thumbs/uranium/197-urayne-gamma.png",
+   "bytes": 74459,
+   "views": [
+    "Front"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "uranium/200-zephy",
+   "collection": "uranium",
+   "number": 200,
+   "name": "Zephy",
+   "file": "uranium/200-zephy.spu",
+   "thumbnail": "thumbs/uranium/200-zephy.png",
+   "bytes": 20014,
+   "views": [
+    "Front"
+   ],
+   "variants": []
+  },
+  {
+   "id": "insurgence/0727-delta-bulbasaur-default",
+   "collection": "insurgence",
+   "number": 727,
+   "name": "Delta Bulbasaur",
+   "file": "insurgence/0727-delta-bulbasaur-default.spu",
+   "thumbnail": "thumbs/insurgence/0727-delta-bulbasaur-default.png",
+   "bytes": 39104,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0727-delta-bulbasaur-female",
+   "collection": "insurgence",
+   "number": 727,
+   "name": "Delta Bulbasaur Female",
+   "file": "insurgence/0727-delta-bulbasaur-female.spu",
+   "thumbnail": "thumbs/insurgence/0727-delta-bulbasaur-female.png",
+   "bytes": 20714,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0728-delta-ivysaur-default",
+   "collection": "insurgence",
+   "number": 728,
+   "name": "Delta Ivysaur",
+   "file": "insurgence/0728-delta-ivysaur-default.spu",
+   "thumbnail": "thumbs/insurgence/0728-delta-ivysaur-default.png",
+   "bytes": 36391,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0728-delta-ivysaur-female",
+   "collection": "insurgence",
+   "number": 728,
+   "name": "Delta Ivysaur Female",
+   "file": "insurgence/0728-delta-ivysaur-female.spu",
+   "thumbnail": "thumbs/insurgence/0728-delta-ivysaur-female.png",
+   "bytes": 34194,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0729-delta-venusaur-default",
+   "collection": "insurgence",
+   "number": 729,
+   "name": "Delta Venusaur",
+   "file": "insurgence/0729-delta-venusaur-default.spu",
+   "thumbnail": "thumbs/insurgence/0729-delta-venusaur-default.png",
+   "bytes": 69227,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0729-delta-venusaur-female",
+   "collection": "insurgence",
+   "number": 729,
+   "name": "Delta Venusaur Female",
+   "file": "insurgence/0729-delta-venusaur-female.spu",
+   "thumbnail": "thumbs/insurgence/0729-delta-venusaur-female.png",
+   "bytes": 53031,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0729-delta-venusaur-mega-default",
+   "collection": "insurgence",
+   "number": 729,
+   "name": "Delta Venusaur Mega",
+   "file": "insurgence/0729-delta-venusaur-mega-default.spu",
+   "thumbnail": "thumbs/insurgence/0729-delta-venusaur-mega-default.png",
+   "bytes": 90117,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0729-delta-venusaur-mega-female",
+   "collection": "insurgence",
+   "number": 729,
+   "name": "Delta Venusaur Mega Female",
+   "file": "insurgence/0729-delta-venusaur-mega-female.spu",
+   "thumbnail": "thumbs/insurgence/0729-delta-venusaur-mega-female.png",
+   "bytes": 67378,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0730-delta-charmander",
+   "collection": "insurgence",
+   "number": 730,
+   "name": "Delta Charmander",
+   "file": "insurgence/0730-delta-charmander.spu",
+   "thumbnail": "thumbs/insurgence/0730-delta-charmander.png",
+   "bytes": 62305,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0731-delta-charmeleon",
+   "collection": "insurgence",
+   "number": 731,
+   "name": "Delta Charmeleon",
+   "file": "insurgence/0731-delta-charmeleon.spu",
+   "thumbnail": "thumbs/insurgence/0731-delta-charmeleon.png",
+   "bytes": 61830,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0732-delta-charizard-base",
+   "collection": "insurgence",
+   "number": 732,
+   "name": "Delta Charizard Base",
+   "file": "insurgence/0732-delta-charizard-base.spu",
+   "thumbnail": "thumbs/insurgence/0732-delta-charizard-base.png",
+   "bytes": 84307,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0732-delta-charizard-mega",
+   "collection": "insurgence",
+   "number": 732,
+   "name": "Delta Charizard Mega",
+   "file": "insurgence/0732-delta-charizard-mega.spu",
+   "thumbnail": "thumbs/insurgence/0732-delta-charizard-mega.png",
+   "bytes": 79331,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0733-delta-squirtle",
+   "collection": "insurgence",
+   "number": 733,
+   "name": "Delta Squirtle",
+   "file": "insurgence/0733-delta-squirtle.spu",
+   "thumbnail": "thumbs/insurgence/0733-delta-squirtle.png",
+   "bytes": 27496,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0734-delta-wartortle",
+   "collection": "insurgence",
+   "number": 734,
+   "name": "Delta Wartortle",
+   "file": "insurgence/0734-delta-wartortle.spu",
+   "thumbnail": "thumbs/insurgence/0734-delta-wartortle.png",
+   "bytes": 36909,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0735-delta-blastoise",
+   "collection": "insurgence",
+   "number": 735,
+   "name": "Delta Blastoise",
+   "file": "insurgence/0735-delta-blastoise.spu",
+   "thumbnail": "thumbs/insurgence/0735-delta-blastoise.png",
+   "bytes": 43491,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0735-delta-blastoise-mega",
+   "collection": "insurgence",
+   "number": 735,
+   "name": "Delta Blastoise Mega",
+   "file": "insurgence/0735-delta-blastoise-mega.spu",
+   "thumbnail": "thumbs/insurgence/0735-delta-blastoise-mega.png",
+   "bytes": 30344,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0736-delta-pawniard",
+   "collection": "insurgence",
+   "number": 736,
+   "name": "Delta Pawniard",
+   "file": "insurgence/0736-delta-pawniard.spu",
+   "thumbnail": "thumbs/insurgence/0736-delta-pawniard.png",
+   "bytes": 27281,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0737-delta-bisharp",
+   "collection": "insurgence",
+   "number": 737,
+   "name": "Delta Bisharp",
+   "file": "insurgence/0737-delta-bisharp.spu",
+   "thumbnail": "thumbs/insurgence/0737-delta-bisharp.png",
+   "bytes": 37716,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0738-delta-ralts",
+   "collection": "insurgence",
+   "number": 738,
+   "name": "Delta Ralts",
+   "file": "insurgence/0738-delta-ralts.spu",
+   "thumbnail": "thumbs/insurgence/0738-delta-ralts.png",
+   "bytes": 45499,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0739-delta-kirlia",
+   "collection": "insurgence",
+   "number": 739,
+   "name": "Delta Kirlia",
+   "file": "insurgence/0739-delta-kirlia.spu",
+   "thumbnail": "thumbs/insurgence/0739-delta-kirlia.png",
+   "bytes": 120381,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0740-delta-gardevoir",
+   "collection": "insurgence",
+   "number": 740,
+   "name": "Delta Gardevoir",
+   "file": "insurgence/0740-delta-gardevoir.spu",
+   "thumbnail": "thumbs/insurgence/0740-delta-gardevoir.png",
+   "bytes": 50585,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0740-delta-gardevoir-mega",
+   "collection": "insurgence",
+   "number": 740,
+   "name": "Delta Gardevoir Mega",
+   "file": "insurgence/0740-delta-gardevoir-mega.spu",
+   "thumbnail": "thumbs/insurgence/0740-delta-gardevoir-mega.png",
+   "bytes": 242109,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female Normal",
+    "Female Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0741-delta-gallade",
+   "collection": "insurgence",
+   "number": 741,
+   "name": "Delta Gallade",
+   "file": "insurgence/0741-delta-gallade.spu",
+   "thumbnail": "thumbs/insurgence/0741-delta-gallade.png",
+   "bytes": 28515,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0741-delta-gallade-mega",
+   "collection": "insurgence",
+   "number": 741,
+   "name": "Delta Gallade Mega",
+   "file": "insurgence/0741-delta-gallade-mega.spu",
+   "thumbnail": "thumbs/insurgence/0741-delta-gallade-mega.png",
+   "bytes": 43544,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0742-delta-sunkern",
+   "collection": "insurgence",
+   "number": 742,
+   "name": "Delta Sunkern",
+   "file": "insurgence/0742-delta-sunkern.spu",
+   "thumbnail": "thumbs/insurgence/0742-delta-sunkern.png",
+   "bytes": 23597,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0743-delta-mega-sunflora",
+   "collection": "insurgence",
+   "number": 743,
+   "name": "Delta Mega Sunflora",
+   "file": "insurgence/0743-delta-mega-sunflora.spu",
+   "thumbnail": "thumbs/insurgence/0743-delta-mega-sunflora.png",
+   "bytes": 40119,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0743-delta-sunflora",
+   "collection": "insurgence",
+   "number": 743,
+   "name": "Delta Sunflora",
+   "file": "insurgence/0743-delta-sunflora.spu",
+   "thumbnail": "thumbs/insurgence/0743-delta-sunflora.png",
+   "bytes": 32727,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0744-delta-bergmite",
+   "collection": "insurgence",
+   "number": 744,
+   "name": "Delta Bergmite",
+   "file": "insurgence/0744-delta-bergmite.spu",
+   "thumbnail": "thumbs/insurgence/0744-delta-bergmite.png",
+   "bytes": 87301,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0745-delta-avalugg",
+   "collection": "insurgence",
+   "number": 745,
+   "name": "Delta Avalugg",
+   "file": "insurgence/0745-delta-avalugg.spu",
+   "thumbnail": "thumbs/insurgence/0745-delta-avalugg.png",
+   "bytes": 190966,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0746-delta-scyther",
+   "collection": "insurgence",
+   "number": 746,
+   "name": "Delta Scyther",
+   "file": "insurgence/0746-delta-scyther.spu",
+   "thumbnail": "thumbs/insurgence/0746-delta-scyther.png",
+   "bytes": 29141,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0747-delta-scizor",
+   "collection": "insurgence",
+   "number": 747,
+   "name": "Delta Scizor",
+   "file": "insurgence/0747-delta-scizor.spu",
+   "thumbnail": "thumbs/insurgence/0747-delta-scizor.png",
+   "bytes": 59319,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0747-delta-scizor-mega",
+   "collection": "insurgence",
+   "number": 747,
+   "name": "Delta Scizor Mega",
+   "file": "insurgence/0747-delta-scizor-mega.spu",
+   "thumbnail": "thumbs/insurgence/0747-delta-scizor-mega.png",
+   "bytes": 61398,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0748-delta-scraggy",
+   "collection": "insurgence",
+   "number": 748,
+   "name": "Delta Scraggy",
+   "file": "insurgence/0748-delta-scraggy.spu",
+   "thumbnail": "thumbs/insurgence/0748-delta-scraggy.png",
+   "bytes": 20058,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0749-delta-scrafty",
+   "collection": "insurgence",
+   "number": 749,
+   "name": "Delta Scrafty",
+   "file": "insurgence/0749-delta-scrafty.spu",
+   "thumbnail": "thumbs/insurgence/0749-delta-scrafty.png",
+   "bytes": 23085,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0750-delta-combee",
+   "collection": "insurgence",
+   "number": 750,
+   "name": "Delta Combee",
+   "file": "insurgence/0750-delta-combee.spu",
+   "thumbnail": "thumbs/insurgence/0750-delta-combee.png",
+   "bytes": 49630,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0751-delta-vespiquen",
+   "collection": "insurgence",
+   "number": 751,
+   "name": "Delta Vespiquen",
+   "file": "insurgence/0751-delta-vespiquen.spu",
+   "thumbnail": "thumbs/insurgence/0751-delta-vespiquen.png",
+   "bytes": 26153,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0752-delta-koffing",
+   "collection": "insurgence",
+   "number": 752,
+   "name": "Delta Koffing",
+   "file": "insurgence/0752-delta-koffing.spu",
+   "thumbnail": "thumbs/insurgence/0752-delta-koffing.png",
+   "bytes": 66923,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0753-delta-weezing",
+   "collection": "insurgence",
+   "number": 753,
+   "name": "Delta Weezing",
+   "file": "insurgence/0753-delta-weezing.spu",
+   "thumbnail": "thumbs/insurgence/0753-delta-weezing.png",
+   "bytes": 21501,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0754-delta-purrloin",
+   "collection": "insurgence",
+   "number": 754,
+   "name": "Delta Purrloin",
+   "file": "insurgence/0754-delta-purrloin.spu",
+   "thumbnail": "thumbs/insurgence/0754-delta-purrloin.png",
+   "bytes": 48558,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0755-delta-liepard",
+   "collection": "insurgence",
+   "number": 755,
+   "name": "Delta Liepard",
+   "file": "insurgence/0755-delta-liepard.spu",
+   "thumbnail": "thumbs/insurgence/0755-delta-liepard.png",
+   "bytes": 22940,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0756-delta-phantump",
+   "collection": "insurgence",
+   "number": 756,
+   "name": "Delta Phantump",
+   "file": "insurgence/0756-delta-phantump.spu",
+   "thumbnail": "thumbs/insurgence/0756-delta-phantump.png",
+   "bytes": 26752,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0757-delta-trevenant",
+   "collection": "insurgence",
+   "number": 757,
+   "name": "Delta Trevenant",
+   "file": "insurgence/0757-delta-trevenant.spu",
+   "thumbnail": "thumbs/insurgence/0757-delta-trevenant.png",
+   "bytes": 105160,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0758-delta-snorunt",
+   "collection": "insurgence",
+   "number": 758,
+   "name": "Delta Snorunt",
+   "file": "insurgence/0758-delta-snorunt.spu",
+   "thumbnail": "thumbs/insurgence/0758-delta-snorunt.png",
+   "bytes": 21481,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0759-delta-glalie",
+   "collection": "insurgence",
+   "number": 759,
+   "name": "Delta Glalie",
+   "file": "insurgence/0759-delta-glalie.spu",
+   "thumbnail": "thumbs/insurgence/0759-delta-glalie.png",
+   "bytes": 68413,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0760-delta-froslass",
+   "collection": "insurgence",
+   "number": 760,
+   "name": "Delta Froslass",
+   "file": "insurgence/0760-delta-froslass.spu",
+   "thumbnail": "thumbs/insurgence/0760-delta-froslass.png",
+   "bytes": 86584,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0761-delta-shinx",
+   "collection": "insurgence",
+   "number": 761,
+   "name": "Delta Shinx",
+   "file": "insurgence/0761-delta-shinx.spu",
+   "thumbnail": "thumbs/insurgence/0761-delta-shinx.png",
+   "bytes": 37420,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "insurgence/0762-delta-luxio",
+   "collection": "insurgence",
+   "number": 762,
+   "name": "Delta Luxio",
+   "file": "insurgence/0762-delta-luxio.spu",
+   "thumbnail": "thumbs/insurgence/0762-delta-luxio.png",
+   "bytes": 61558,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  }
+ ]
+}
