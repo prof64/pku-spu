@@ -19,6 +19,7 @@ COLLECTIONS = {
     "black2-white2": "Pokémon Black 2 & White 2",
     "uranium": "Pokémon Uranium",
     "insurgence": "Pokémon Insurgence",
+    "review": "Drafts for review",
 }
 
 
@@ -34,6 +35,7 @@ def main():
     ap.add_argument("--spu", required=True)
     ap.add_argument("--uranium")
     ap.add_argument("--insurgence")
+    ap.add_argument("--review", help="folder of draft .spu files to show for review")
     ap.add_argument("--gen5", help="folder of <entry>.spu files from `smeargle spu --rom <Black 2 or White 2>`")
     args = ap.parse_args()
 
@@ -46,6 +48,9 @@ def main():
         for path in sorted(Path(args.insurgence).glob("*.spu")):
             jobs.append(("insurgence", path, None))
 
+    if args.review:
+        for path in sorted(Path(args.review).glob("*.spu")):
+            jobs.append(("review", path, None))
     if args.gen5:
         for path in sorted(Path(args.gen5).glob("*.spu"), key=lambda p: int(p.stem)):
             doc = json.loads(zipfile.ZipFile(path).read("sprite.json"))

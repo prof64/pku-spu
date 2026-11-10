@@ -31,6 +31,14 @@
     "insurgence/0727-delta-bulbasaur-female",
     "insurgence/0728-delta-ivysaur-default"
    ]
+  },
+  {
+   "id": "review",
+   "name": "Drafts for review",
+   "count": 1,
+   "samples": [
+    "review/0727-delta-bulbasaur-gen5-rig"
+   ]
   }
  ],
  "sprites": [
@@ -20017,6 +20025,24 @@
    ],
    "variants": [
     "Shiny"
+   ]
+  },
+  {
+   "id": "review/0727-delta-bulbasaur-gen5-rig",
+   "collection": "review",
+   "number": 727,
+   "name": "Delta Bulbasaur Gen5 Rig",
+   "file": "review/0727-delta-bulbasaur-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0727-delta-bulbasaur-gen5-rig.png",
+   "animation": "anim/review/0727-delta-bulbasaur-gen5-rig.png",
+   "bytes": 23960,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Eyes closed"
    ]
   }
  ]
