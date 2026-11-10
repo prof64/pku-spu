@@ -116,9 +116,11 @@
   {
    "id": "review",
    "name": "Drafts for review",
-   "count": 1,
+   "count": 5,
    "samples": [
-    "review/0727-delta-bulbasaur-gen5-rig"
+    "review/0727-delta-bulbasaur-gen5-rig",
+    "review/0728-delta-ivysaur-gen5-rig",
+    "review/0729-delta-venusaur-gen5-rig"
    ],
    "groups": [],
    "groupSamples": {}
@@ -22327,14 +22329,91 @@
   },
   {
    "id": "review/0727-delta-bulbasaur-gen5-rig",
-   "rev": "7aa0c8157c",
+   "rev": "42e2061016",
    "collection": "review",
    "number": 727,
-   "name": "Delta Bulbasaur Gen5 Rig",
+   "name": "Delta Bulbasaur (draft)",
    "file": "review/0727-delta-bulbasaur-gen5-rig.spu",
    "thumbnail": "thumbs/review/0727-delta-bulbasaur-gen5-rig.png",
    "animation": "anim/review/0727-delta-bulbasaur-gen5-rig.png",
-   "bytes": 23866,
+   "bytes": 23659,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Eyes closed"
+   ]
+  },
+  {
+   "id": "review/0728-delta-ivysaur-gen5-rig",
+   "rev": "fb5036fe5e",
+   "collection": "review",
+   "number": 728,
+   "name": "Delta Ivysaur (draft)",
+   "file": "review/0728-delta-ivysaur-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0728-delta-ivysaur-gen5-rig.png",
+   "animation": "anim/review/0728-delta-ivysaur-gen5-rig.png",
+   "bytes": 29653,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Eyes closed"
+   ]
+  },
+  {
+   "id": "review/0729-delta-venusaur-gen5-rig",
+   "rev": "145db3a2a5",
+   "collection": "review",
+   "number": 729,
+   "name": "Delta Venusaur (draft)",
+   "file": "review/0729-delta-venusaur-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0729-delta-venusaur-gen5-rig.png",
+   "animation": "anim/review/0729-delta-venusaur-gen5-rig.png",
+   "bytes": 80561,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Female",
+    "Eyes closed"
+   ]
+  },
+  {
+   "id": "review/0730-delta-charmander-gen5-rig",
+   "rev": "722414b83a",
+   "collection": "review",
+   "number": 730,
+   "name": "Delta Charmander (draft)",
+   "file": "review/0730-delta-charmander-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0730-delta-charmander-gen5-rig.png",
+   "animation": "anim/review/0730-delta-charmander-gen5-rig.png",
+   "bytes": 29492,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Eyes closed"
+   ]
+  },
+  {
+   "id": "review/0733-delta-squirtle-gen5-rig",
+   "rev": "54af66c611",
+   "collection": "review",
+   "number": 733,
+   "name": "Delta Squirtle (draft)",
+   "file": "review/0733-delta-squirtle-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0733-delta-squirtle-gen5-rig.png",
+   "animation": "anim/review/0733-delta-squirtle-gen5-rig.png",
+   "bytes": 21278,
    "views": [
     "Front",
     "Back"

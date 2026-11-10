@@ -145,7 +145,7 @@ def main():
 
     if args.review:
         for path in sorted(Path(args.review).glob("*.spu")):
-            jobs.append(("review", path, None, None))
+            jobs.append(("review", path, insurgence(path.stem.replace("-gen5-rig", "")) + " (draft)", None))
     if args.gen5:
         docs = []
         for path in sorted(Path(args.gen5).glob("*.spu"), key=lambda p: int(p.stem)):
