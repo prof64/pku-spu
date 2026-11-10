@@ -7,9 +7,9 @@
    "name": "Pokémon Black 2 & White 2",
    "count": 750,
    "samples": [
-    "black2-white2/0001-bulbasaur",
-    "black2-white2/0002-ivysaur",
-    "black2-white2/0003-venusaur"
+    "black2-white2/0500-emboar",
+    "black2-white2/0497-serperior",
+    "black2-white2/0503-samurott"
    ],
    "groups": [
     "Generation 1",
@@ -19,16 +19,52 @@
     "Generation 5",
     "Pokéstar Studios",
     "Eggs"
-   ]
+   ],
+   "groupSamples": {
+    "Generation 1": [
+     "black2-white2/0006-charizard",
+     "black2-white2/0003-venusaur",
+     "black2-white2/0009-blastoise"
+    ],
+    "Generation 2": [
+     "black2-white2/0157-typhlosion",
+     "black2-white2/0154-meganium",
+     "black2-white2/0160-feraligatr"
+    ],
+    "Generation 3": [
+     "black2-white2/0257-blaziken",
+     "black2-white2/0254-sceptile",
+     "black2-white2/0260-swampert"
+    ],
+    "Generation 4": [
+     "black2-white2/0392-infernape",
+     "black2-white2/0389-torterra",
+     "black2-white2/0395-empoleon"
+    ],
+    "Generation 5": [
+     "black2-white2/0500-emboar",
+     "black2-white2/0497-serperior",
+     "black2-white2/0503-samurott"
+    ],
+    "Pokéstar Studios": [
+     "black2-white2/0682-pok-star-smeargle-red-bow",
+     "black2-white2/0651-pok-star-brycen-man",
+     "black2-white2/0652-pok-star-mt"
+    ],
+    "Eggs": [
+     "black2-white2/0683-egg",
+     "black2-white2/0684-manaphy-egg"
+    ]
+   }
   },
   {
    "id": "uranium",
    "name": "Pokémon Uranium",
    "count": 334,
    "samples": [
-    "uranium/001-orchynx",
+    "uranium/004-archilles",
     "uranium/002-metalynx",
-    "uranium/002-metalynx-mega"
+    "uranium/006-electruxo"
    ],
    "groups": [
     "New Pokémon",
@@ -36,18 +72,46 @@
     "Nuclear forms of existing Pokémon",
     "Other forms of existing Pokémon",
     "Event costumes"
-   ]
+   ],
+   "groupSamples": {
+    "New Pokémon": [
+     "uranium/004-archilles",
+     "uranium/002-metalynx",
+     "uranium/006-electruxo"
+    ],
+    "Nuclear forms of new Pokémon": [
+     "uranium/143-dramsama-form-02-nuclear",
+     "uranium/062-baariette-form-02-nuclear",
+     "uranium/167-haagross-form-01-nuclear"
+    ],
+    "Nuclear forms of existing Pokémon": [
+     "uranium/028-gyarados-nuclear-combined",
+     "uranium/045-arbok-nuclear",
+     "uranium/076-gliscor-form-01-nuclear"
+    ],
+    "Other forms of existing Pokémon": [
+     "uranium/045-arbok-mega",
+     "uranium/091-whimsicott-form-01-mega",
+     "uranium/038-lombre-form-03"
+    ],
+    "Event costumes": [
+     "uranium/031-feliger-christmas-combined",
+     "uranium/062-baariette-form-04-halloween",
+     "uranium/186-yatagaryu-form-03-easter"
+    ]
+   }
   },
   {
    "id": "insurgence",
    "name": "Pokémon Insurgence",
    "count": 47,
    "samples": [
-    "insurgence/0727-delta-bulbasaur-default",
-    "insurgence/0727-delta-bulbasaur-female",
-    "insurgence/0728-delta-ivysaur-default"
+    "insurgence/0732-delta-charizard-base",
+    "insurgence/0729-delta-venusaur-default",
+    "insurgence/0735-delta-blastoise"
    ],
-   "groups": []
+   "groups": [],
+   "groupSamples": {}
   },
   {
    "id": "review",
@@ -56,7 +120,8 @@
    "samples": [
     "review/0727-delta-bulbasaur-gen5-rig"
    ],
-   "groups": []
+   "groups": [],
+   "groupSamples": {}
   }
  ],
  "sprites": [

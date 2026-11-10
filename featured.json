@@ -1,0 +1,23 @@
+{
+  "about": "The three sprites shown on each card in the gallery, in the order: front, back left, back right. A game's own card is under \"game\"; its sections are listed by name. Anything not listed shows its first three sprites. Run tools/build.py after changing this.",
+  "black2-white2": {
+    "game": ["0500-emboar", "0497-serperior", "0503-samurott"],
+    "Generation 1": ["0006-charizard", "0003-venusaur", "0009-blastoise"],
+    "Generation 2": ["0157-typhlosion", "0154-meganium", "0160-feraligatr"],
+    "Generation 3": ["0257-blaziken", "0254-sceptile", "0260-swampert"],
+    "Generation 4": ["0392-infernape", "0389-torterra", "0395-empoleon"],
+    "Generation 5": ["0500-emboar", "0497-serperior", "0503-samurott"],
+    "Pokéstar Studios": ["0682-pok-star-smeargle-red-bow", "0651-pok-star-brycen-man", "0652-pok-star-mt"]
+  },
+  "uranium": {
+    "game": ["004-archilles", "002-metalynx", "006-electruxo"],
+    "New Pokémon": ["004-archilles", "002-metalynx", "006-electruxo"],
+    "Nuclear forms of new Pokémon": ["143-dramsama-form-02-nuclear", "062-baariette-form-02-nuclear", "167-haagross-form-01-nuclear"],
+    "Nuclear forms of existing Pokémon": ["028-gyarados-nuclear-combined", "045-arbok-nuclear", "076-gliscor-form-01-nuclear"],
+    "Other forms of existing Pokémon": ["045-arbok-mega", "091-whimsicott-form-01-mega", "038-lombre-form-03"],
+    "Event costumes": ["031-feliger-christmas-combined", "062-baariette-form-04-halloween", "186-yatagaryu-form-03-easter"]
+  },
+  "insurgence": {
+    "game": ["0732-delta-charizard-base", "0729-delta-venusaur-default", "0735-delta-blastoise"]
+  }
+}

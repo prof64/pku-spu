@@ -209,24 +209,33 @@ def main():
         rebuilt = {j[0] for j in jobs}
         kept = [s for s in json.loads(index_path.read_text())["sprites"] if s["collection"] not in rebuilt]
     sprites = sorted(kept + built, key=lambda s: (list(COLLECTIONS).index(s["collection"]), s["number"], s["id"]))
-    index = {
-        "format": "spu-library",
-        "version": 1,
-        "collections": [
-            {
-                "id": c,
-                "name": n,
-                "count": sum(s["collection"] == c for s in sprites),
-                # Three sprites to show on the game's card.
-                "samples": [s["id"] for s in sprites if s["collection"] == c][:3],
-                # Sections inside the game, in the order to show them.
-                "groups": [g for g in GROUPS.get(c, []) if any(s.get("group") == g for s in sprites)],
-            }
-            for c, n in COLLECTIONS.items()
-            if any(s["collection"] == c for s in sprites)
-        ],
-        "sprites": sprites,
-    }
+    # The three sprites on each card: picked in featured.json, else the first three.
+    featured = json.loads((ROOT / "featured.json").read_text())
+    known = {s["id"] for s in sprites}
+
+    def picks(collection, key, among):
+        chosen = [f"{collection}/{stem}" for stem in featured.get(collection, {}).get(key, [])]
+        missing = [i for i in chosen if i not in known]
+        if missing:
+            sys.exit(f"featured.json names sprites that aren't in the library: {missing}")
+        return chosen or [s["id"] for s in among][:3]
+
+    collections = []
+    for c, n in COLLECTIONS.items():
+        inside = [s for s in sprites if s["collection"] == c]
+        if not inside:
+            continue
+        # Sections inside the game, in the order to show them.
+        groups = [g for g in GROUPS.get(c, []) if any(s.get("group") == g for s in inside)]
+        collections.append({
+            "id": c,
+            "name": n,
+            "count": len(inside),
+            "samples": picks(c, "game", inside),
+            "groups": groups,
+            "groupSamples": {g: picks(c, g, [s for s in inside if s.get("group") == g]) for g in groups},
+        })
+    index = {"format": "spu-library", "version": 1, "collections": collections, "sprites": sprites}
     index_path.write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n")
     print(f"{len(built)} built, {len(sprites)} listed")
 

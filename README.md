@@ -18,6 +18,9 @@ The artwork belongs to its original creators and the teams behind each game;
 nothing here grants a license to it. The rigging and animation were made for
 this library.
 
+`featured.json` picks the three sprites shown on each game's and section's
+card in the gallery.
+
 ## Rebuilding
 
 ```sh
