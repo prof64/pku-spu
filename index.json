@@ -15242,14 +15242,14 @@
   },
   {
    "id": "uranium/004-archilles",
-   "rev": "669e2ae09c",
+   "rev": "14a9d6b3d1",
    "collection": "uranium",
    "number": 4,
    "name": "Archilles",
    "file": "uranium/004-archilles.spu",
    "thumbnail": "thumbs/uranium/004-archilles.png",
    "animation": "anim/uranium/004-archilles.png",
-   "bytes": 88843,
+   "bytes": 174102,
    "views": [
     "Front",
     "Back"
