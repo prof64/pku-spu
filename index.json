@@ -116,11 +116,11 @@
   {
    "id": "review",
    "name": "Drafts for review",
-   "count": 5,
+   "count": 7,
    "samples": [
-    "review/0727-delta-bulbasaur-gen5-rig",
-    "review/0728-delta-ivysaur-gen5-rig",
-    "review/0729-delta-venusaur-gen5-rig"
+    "review/0731-delta-charmeleon-gen5-rig",
+    "review/0734-delta-wartortle-gen5-rig",
+    "review/0735-delta-blastoise-gen5-rig"
    ],
    "groups": [],
    "groupSamples": {}
@@ -22334,15 +22334,15 @@
    ]
   },
   {
-   "id": "review/0727-delta-bulbasaur-gen5-rig",
-   "rev": "42e2061016",
+   "id": "review/0731-delta-charmeleon-gen5-rig",
+   "rev": "6368513e2d",
    "collection": "review",
-   "number": 727,
-   "name": "Delta Bulbasaur (draft)",
-   "file": "review/0727-delta-bulbasaur-gen5-rig.spu",
-   "thumbnail": "thumbs/review/0727-delta-bulbasaur-gen5-rig.png",
-   "animation": "anim/review/0727-delta-bulbasaur-gen5-rig.png",
-   "bytes": 23659,
+   "number": 731,
+   "name": "Delta Charmeleon (draft)",
+   "file": "review/0731-delta-charmeleon-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0731-delta-charmeleon-gen5-rig.png",
+   "animation": "anim/review/0731-delta-charmeleon-gen5-rig.png",
+   "bytes": 43370,
    "views": [
     "Front",
     "Back"
@@ -22353,15 +22353,15 @@
    ]
   },
   {
-   "id": "review/0728-delta-ivysaur-gen5-rig",
-   "rev": "fb5036fe5e",
+   "id": "review/0734-delta-wartortle-gen5-rig",
+   "rev": "72543da95b",
    "collection": "review",
-   "number": 728,
-   "name": "Delta Ivysaur (draft)",
-   "file": "review/0728-delta-ivysaur-gen5-rig.spu",
-   "thumbnail": "thumbs/review/0728-delta-ivysaur-gen5-rig.png",
-   "animation": "anim/review/0728-delta-ivysaur-gen5-rig.png",
-   "bytes": 29653,
+   "number": 734,
+   "name": "Delta Wartortle (draft)",
+   "file": "review/0734-delta-wartortle-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0734-delta-wartortle-gen5-rig.png",
+   "animation": "anim/review/0734-delta-wartortle-gen5-rig.png",
+   "bytes": 33803,
    "views": [
     "Front",
     "Back"
@@ -22372,35 +22372,15 @@
    ]
   },
   {
-   "id": "review/0729-delta-venusaur-gen5-rig",
-   "rev": "145db3a2a5",
+   "id": "review/0735-delta-blastoise-gen5-rig",
+   "rev": "a9d93b0018",
    "collection": "review",
-   "number": 729,
-   "name": "Delta Venusaur (draft)",
-   "file": "review/0729-delta-venusaur-gen5-rig.spu",
-   "thumbnail": "thumbs/review/0729-delta-venusaur-gen5-rig.png",
-   "animation": "anim/review/0729-delta-venusaur-gen5-rig.png",
-   "bytes": 80561,
-   "views": [
-    "Front",
-    "Back"
-   ],
-   "variants": [
-    "Shiny",
-    "Female",
-    "Eyes closed"
-   ]
-  },
-  {
-   "id": "review/0730-delta-charmander-gen5-rig",
-   "rev": "722414b83a",
-   "collection": "review",
-   "number": 730,
-   "name": "Delta Charmander (draft)",
-   "file": "review/0730-delta-charmander-gen5-rig.spu",
-   "thumbnail": "thumbs/review/0730-delta-charmander-gen5-rig.png",
-   "animation": "anim/review/0730-delta-charmander-gen5-rig.png",
-   "bytes": 29492,
+   "number": 735,
+   "name": "Delta Blastoise (draft)",
+   "file": "review/0735-delta-blastoise-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0735-delta-blastoise-gen5-rig.png",
+   "animation": "anim/review/0735-delta-blastoise-gen5-rig.png",
+   "bytes": 55458,
    "views": [
     "Front",
     "Back"
@@ -22411,15 +22391,71 @@
    ]
   },
   {
-   "id": "review/0733-delta-squirtle-gen5-rig",
-   "rev": "54af66c611",
+   "id": "review/0738-delta-ralts-gen5-rig",
+   "rev": "650f865e84",
    "collection": "review",
-   "number": 733,
-   "name": "Delta Squirtle (draft)",
-   "file": "review/0733-delta-squirtle-gen5-rig.spu",
-   "thumbnail": "thumbs/review/0733-delta-squirtle-gen5-rig.png",
-   "animation": "anim/review/0733-delta-squirtle-gen5-rig.png",
-   "bytes": 21278,
+   "number": 738,
+   "name": "Delta Ralts (draft)",
+   "file": "review/0738-delta-ralts-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0738-delta-ralts-gen5-rig.png",
+   "animation": "anim/review/0738-delta-ralts-gen5-rig.png",
+   "bytes": 15258,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny"
+   ]
+  },
+  {
+   "id": "review/0739-delta-kirlia-gen5-rig",
+   "rev": "38fa7baa4c",
+   "collection": "review",
+   "number": 739,
+   "name": "Delta Kirlia (draft)",
+   "file": "review/0739-delta-kirlia-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0739-delta-kirlia-gen5-rig.png",
+   "animation": "anim/review/0739-delta-kirlia-gen5-rig.png",
+   "bytes": 30799,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Eyes closed"
+   ]
+  },
+  {
+   "id": "review/0740-delta-gardevoir-gen5-rig",
+   "rev": "3fb89ea3d2",
+   "collection": "review",
+   "number": 740,
+   "name": "Delta Gardevoir (draft)",
+   "file": "review/0740-delta-gardevoir-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0740-delta-gardevoir-gen5-rig.png",
+   "animation": "anim/review/0740-delta-gardevoir-gen5-rig.png",
+   "bytes": 50066,
+   "views": [
+    "Front",
+    "Back"
+   ],
+   "variants": [
+    "Shiny",
+    "Eyes closed"
+   ]
+  },
+  {
+   "id": "review/0741-delta-gallade-gen5-rig",
+   "rev": "aac59479bf",
+   "collection": "review",
+   "number": 741,
+   "name": "Delta Gallade (draft)",
+   "file": "review/0741-delta-gallade-gen5-rig.spu",
+   "thumbnail": "thumbs/review/0741-delta-gallade-gen5-rig.png",
+   "animation": "anim/review/0741-delta-gallade-gen5-rig.png",
+   "bytes": 39125,
    "views": [
     "Front",
     "Back"
