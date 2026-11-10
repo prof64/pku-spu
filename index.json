@@ -21481,20 +21481,21 @@
   },
   {
    "id": "insurgence/0727-delta-bulbasaur-default",
-   "rev": "ad4595080d",
+   "rev": "e439f1bfc1",
    "collection": "insurgence",
    "number": 727,
    "name": "Delta Bulbasaur",
    "file": "insurgence/0727-delta-bulbasaur-default.spu",
    "thumbnail": "thumbs/insurgence/0727-delta-bulbasaur-default.png",
    "animation": "anim/insurgence/0727-delta-bulbasaur-default.png",
-   "bytes": 39281,
+   "bytes": 23651,
    "views": [
     "Front",
     "Back"
    ],
    "variants": [
-    "Shiny"
+    "Shiny",
+    "Eyes closed"
    ]
   },
   {
@@ -21517,20 +21518,21 @@
   },
   {
    "id": "insurgence/0728-delta-ivysaur-default",
-   "rev": "5577dff9ca",
+   "rev": "8978d4216f",
    "collection": "insurgence",
    "number": 728,
    "name": "Delta Ivysaur",
    "file": "insurgence/0728-delta-ivysaur-default.spu",
    "thumbnail": "thumbs/insurgence/0728-delta-ivysaur-default.png",
    "animation": "anim/insurgence/0728-delta-ivysaur-default.png",
-   "bytes": 36793,
+   "bytes": 29645,
    "views": [
     "Front",
     "Back"
    ],
    "variants": [
-    "Shiny"
+    "Shiny",
+    "Eyes closed"
    ]
   },
   {
@@ -21553,20 +21555,22 @@
   },
   {
    "id": "insurgence/0729-delta-venusaur-default",
-   "rev": "6c1f219381",
+   "rev": "83722bb347",
    "collection": "insurgence",
    "number": 729,
    "name": "Delta Venusaur",
    "file": "insurgence/0729-delta-venusaur-default.spu",
    "thumbnail": "thumbs/insurgence/0729-delta-venusaur-default.png",
    "animation": "anim/insurgence/0729-delta-venusaur-default.png",
-   "bytes": 69102,
+   "bytes": 80552,
    "views": [
     "Front",
     "Back"
    ],
    "variants": [
-    "Shiny"
+    "Shiny",
+    "Female",
+    "Eyes closed"
    ]
   },
   {
@@ -21625,20 +21629,21 @@
   },
   {
    "id": "insurgence/0730-delta-charmander",
-   "rev": "450b8adcfa",
+   "rev": "0682e35c56",
    "collection": "insurgence",
    "number": 730,
    "name": "Delta Charmander",
    "file": "insurgence/0730-delta-charmander.spu",
    "thumbnail": "thumbs/insurgence/0730-delta-charmander.png",
    "animation": "anim/insurgence/0730-delta-charmander.png",
-   "bytes": 61535,
+   "bytes": 29484,
    "views": [
     "Front",
     "Back"
    ],
    "variants": [
-    "Shiny"
+    "Shiny",
+    "Eyes closed"
    ]
   },
   {
@@ -21697,20 +21702,21 @@
   },
   {
    "id": "insurgence/0733-delta-squirtle",
-   "rev": "570e485219",
+   "rev": "716a85c33c",
    "collection": "insurgence",
    "number": 733,
    "name": "Delta Squirtle",
    "file": "insurgence/0733-delta-squirtle.spu",
    "thumbnail": "thumbs/insurgence/0733-delta-squirtle.png",
    "animation": "anim/insurgence/0733-delta-squirtle.png",
-   "bytes": 27504,
+   "bytes": 21271,
    "views": [
     "Front",
     "Back"
    ],
    "variants": [
-    "Shiny"
+    "Shiny",
+    "Eyes closed"
    ]
   },
   {
