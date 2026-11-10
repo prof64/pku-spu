@@ -7,7 +7,8 @@ https://github.com/prof64/sprite-format (pass its path with --spu).
 
     python3 tools/build.py --spu ../../sprite-format/target/release/spu \
         --uranium <folder holding Uranium's catalog.json and SPUs/> \
-        --insurgence <folder of Insurgence .spu files>
+        --insurgence <folder of Insurgence .spu files> \
+        --gen5 <folder from `smeargle spu --rom white2.nds`>
 """
 import argparse, json, re, subprocess, sys, zipfile
 from concurrent.futures import ThreadPoolExecutor
@@ -15,6 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 COLLECTIONS = {
+    "black2-white2": "Pokémon Black 2 & White 2",
     "uranium": "Pokémon Uranium",
     "insurgence": "Pokémon Insurgence",
 }
@@ -32,6 +34,7 @@ def main():
     ap.add_argument("--spu", required=True)
     ap.add_argument("--uranium")
     ap.add_argument("--insurgence")
+    ap.add_argument("--gen5", help="folder of <entry>.spu files from `smeargle spu --rom <Black 2 or White 2>`")
     args = ap.parse_args()
 
     jobs = []  # (collection, source path, display name or None)
@@ -43,9 +46,22 @@ def main():
         for path in sorted(Path(args.insurgence).glob("*.spu")):
             jobs.append(("insurgence", path, None))
 
+    if args.gen5:
+        for path in sorted(Path(args.gen5).glob("*.spu"), key=lambda p: int(p.stem)):
+            doc = json.loads(zipfile.ZipFile(path).read("sprite.json"))
+            if not any(v["images"] for v in doc["views"]):
+                continue  # an empty slot in the game's archive
+            if doc["name"] == "Placeholder":
+                continue
+            jobs.append(("black2-white2", path, doc["name"]))
+
     def build(job):
         collection, source, name = job
         stem = re.sub(r"[^a-z0-9]+", "-", source.stem.lower()).strip("-")
+        if collection == "black2-white2":
+            # Named by archive entry: 0001-bulbasaur.
+            slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+            stem = f"{int(source.stem):04d}-{slug}"
         number, fallback = pretty(stem)
         out = ROOT / collection / f"{stem}.spu"
         thumb = ROOT / "thumbs" / collection / f"{stem}.png"
@@ -55,7 +71,9 @@ def main():
         anim.parent.mkdir(parents=True, exist_ok=True)
         subprocess.run([args.spu, "convert", str(source), str(out)], check=True)
         subprocess.run([args.spu, "render", str(out), str(thumb)], check=True)
-        subprocess.run([args.spu, "animate", str(out), str(anim)], check=True)
+        # The game's own sprites move on every tick; half the frames is plenty for a preview.
+        step = ["--step", "2"] if collection == "black2-white2" else []
+        subprocess.run([args.spu, "animate", str(out), str(anim), *step], check=True)
         doc = json.loads(zipfile.ZipFile(out).read("sprite.json"))
         return {
             "id": f"{collection}/{stem}",

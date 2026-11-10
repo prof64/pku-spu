@@ -1,11 +1,12 @@
 # pku-spu
 
-Animated Pokémon fan-game battle sprites as editable [SPU](https://github.com/prof64/sprite-format)
+Animated Pokémon battle sprites as editable [SPU](https://github.com/prof64/sprite-format)
 files: drawings, parts, animations and shiny colors in one `.spu` each. This
 is the library the Smeargle editor's Start screen browses.
 
 | Collection | Sprites |
 | --- | --- |
+| `black2-white2/` — Pokémon Black 2 & White 2, as the game stores them | 750 |
 | `uranium/` — Pokémon Uranium | 334 |
 | `insurgence/` — Pokémon Insurgence | 47 |
 
