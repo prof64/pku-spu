@@ -51,8 +51,11 @@ def main():
         thumb = ROOT / "thumbs" / collection / f"{stem}.png"
         out.parent.mkdir(parents=True, exist_ok=True)
         thumb.parent.mkdir(parents=True, exist_ok=True)
+        anim = ROOT / "anim" / collection / f"{stem}.png"
+        anim.parent.mkdir(parents=True, exist_ok=True)
         subprocess.run([args.spu, "convert", str(source), str(out)], check=True)
         subprocess.run([args.spu, "render", str(out), str(thumb)], check=True)
+        subprocess.run([args.spu, "animate", str(out), str(anim)], check=True)
         doc = json.loads(zipfile.ZipFile(out).read("sprite.json"))
         return {
             "id": f"{collection}/{stem}",
@@ -61,13 +64,14 @@ def main():
             "name": name or fallback,
             "file": f"{collection}/{stem}.spu",
             "thumbnail": f"thumbs/{collection}/{stem}.png",
+            "animation": f"anim/{collection}/{stem}.png",
             "bytes": out.stat().st_size,
             "views": [v["name"] for v in doc["views"]],
             "variants": [v["name"] for v in doc.get("variants", [])],
         }
 
     for collection in {j[0] for j in jobs}:
-        for old in list((ROOT / collection).glob("*.spu")) + list((ROOT / "thumbs" / collection).glob("*.png")):
+        for old in list((ROOT / collection).glob("*.spu")) + list((ROOT / "thumbs" / collection).glob("*.png")) + list((ROOT / "anim" / collection).glob("*.png")):
             old.unlink()
     with ThreadPoolExecutor(8) as pool:
         built = list(pool.map(build, jobs))
@@ -82,8 +86,15 @@ def main():
         "format": "spu-library",
         "version": 1,
         "collections": [
-            {"id": c, "name": n, "count": sum(s["collection"] == c for s in sprites)}
+            {
+                "id": c,
+                "name": n,
+                "count": sum(s["collection"] == c for s in sprites),
+                # Three sprites to show on the game's card.
+                "samples": [s["id"] for s in sprites if s["collection"] == c][:3],
+            }
             for c, n in COLLECTIONS.items()
+            if any(s["collection"] == c for s in sprites)
         ],
         "sprites": sprites,
     }

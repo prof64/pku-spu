@@ -10,7 +10,8 @@ is the library the Smeargle editor's Start screen browses.
 | `insurgence/` — Pokémon Insurgence | 47 |
 
 `index.json` lists every sprite with its name, file, thumbnail, views and
-variants. `thumbs/` holds the first frame of each.
+variants. `thumbs/` holds the first frame of each and `anim/` its first
+animation as a looping animated PNG.
 
 The artwork belongs to its original creators and the teams behind each game;
 nothing here grants a license to it. The rigging and animation were made for
