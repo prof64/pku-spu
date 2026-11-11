@@ -1,0 +1,1524 @@
+# Material channel hints
+
+Which Pokémon need lighting channels beyond the colour picture, judged from what each creature is
+(official art, Pokédex text, wikis), not from the sprites. Anything not listed only needs the usual
+normal map and default material.
+
+| Key | SPU channel | Meaning |
+| --- | --- | --- |
+| Glow | `emission` map, animated `emission` track if it pulses | self-lit: fire, lava, glowing eyes/orbs, electricity, bioluminescence, radiation |
+| See-through | `surface` B transmission (+ A thickness, material ior) | refracting: ice, glass, crystal, water, jelly, clear wings and membranes |
+| Faded | material/track `opacity` | translucent without refraction: ghost wisps, gas, smoke, mist |
+| Metal | `surface` G metalness | real metal: Steel hides, armour, blades, magnets, bolts |
+| Glossy | `surface` R low roughness, reflectivity | wet/slimy skin, polished shells, gems, pearls, ceramic, ice faces |
+| Very matte | `surface` R high roughness | chalky, dusty or fluffy where the default would look wrong |
+
+Hints after a reason are starting values (roughness and transmission 0–1; ior water 1.33, ice 1.31, glass 1.5). *Shiny* notes mean the shiny palette changes a glow colour, which must be painted separately.
+
+## Generations 1–2
+
+95 entries.
+
+- **Charmander**
+  - Glow: tail-tip flame — living tail flame (color orange-yellow; pulses)
+- **Charmeleon**
+  - Glow: tail-tip flame — living tail flame (color orange-yellow; pulses)
+- **Charizard**
+  - Glow: tail-tip flame — living tail flame (color orange-yellow; pulses)
+- **Squirtle**
+  - Glossy: shell — smooth hard shell (roughness 0.35)
+- **Wartortle**
+  - Glossy: shell — smooth hard shell (roughness 0.35)
+- **Blastoise**
+  - Metal: shoulder water cannons — cannons drawn as grey metal tubes (roughness 0.3)
+  - Glossy: shell — smooth hard shell (roughness 0.35)
+- **Metapod** *(unsure)*
+  - Glossy: green shell — hardened steel-like shell (roughness 0.4)
+- **Butterfree**
+  - See-through: wings (white panels) — translucent butterfly wings (ior 1.4; thickness thin)
+- **Kakuna** *(unsure)*
+  - Glossy: yellow shell — hardened cocoon shell (roughness 0.4)
+- **Beedrill**
+  - See-through: wings — clear insect wings (ior 1.4; thickness thin)
+  - Glossy: stingers — hard polished stingers (roughness 0.3)
+- **Pikachu**
+  - Glow: cheek pouches (only if sparks drawn) — electric sacs; subtle (color yellow-white; pulses)
+- **Raichu**
+  - Glow: cheeks / sparks if drawn — electric sacs; subtle (color yellow-white; pulses)
+- **Pichu**
+  - Glow: cheeks / sparks if drawn — electric sacs; subtle (color yellow-white; pulses)
+- **Venomoth**
+  - Very matte: wings — wings covered in dusty scales/powder (roughness 0.9)
+- **Meowth**
+  - Metal: forehead coin — gold koban coin (roughness 0.25)
+- **Persian**
+  - Glossy: red forehead jewel — polished gem (roughness 0.1)
+- **Golduck**
+  - Glossy: red forehead gem — glossy gem (roughness 0.1)
+- **Poliwag**
+  - Glossy: skin — moist amphibian skin (roughness 0.3)
+- **Poliwhirl**
+  - Glossy: skin — moist amphibian skin (roughness 0.3)
+- **Poliwrath**
+  - Glossy: skin — moist amphibian skin (roughness 0.3)
+- **Politoed**
+  - Glossy: skin — moist amphibian skin (roughness 0.3)
+- **Kadabra**
+  - Metal: spoon — silver spoon (roughness 0.2)
+- **Alakazam**
+  - Metal: both spoons — silver spoons (roughness 0.2)
+- **Tentacool**
+  - Glow: red orbs — Pokedex: orbs glow before attacking; subtle (color red; pulses)
+  - See-through: blue jelly body and tentacles — body is mostly water (ior 1.33; thickness thick)
+  - Glossy: red crystal orbs — glassy gem orbs (roughness 0.1)
+- **Tentacruel**
+  - Glow: red orbs — Pokedex: orbs glow before attacking; subtle (color red; pulses)
+  - See-through: blue jelly body and tentacles — body is mostly water (ior 1.33; thickness thick)
+  - Glossy: red crystal orbs — glassy gem orbs (roughness 0.1)
+- **Ponyta**
+  - Glow: mane and tail flames — living fire mane (color orange-yellow; pulses)
+  - *Shiny:* Shiny flames may be a different hue (check shiny sprite; bluish/darker in some games)
+- **Rapidash**
+  - Glow: mane and tail flames — living fire mane (color orange-yellow; pulses)
+  - *Shiny:* Shiny flames may be a different hue (check shiny sprite; bluish/darker in some games)
+- **Slowbro**
+  - Glossy: Shellder on tail — polished spiral shell (roughness 0.25)
+- **Slowking**
+  - Glossy: Shellder crown — polished shell (roughness 0.25)
+- **Magnemite**
+  - Metal: body sphere, U-magnets, screws — steel body with magnets and screws (roughness 0.3)
+- **Magneton**
+  - Metal: all three bodies, magnets, screws — steel body with magnets and screws (roughness 0.3)
+- **Grimer**
+  - Glossy: whole sludge body — wet slimy sludge (roughness 0.2)
+- **Muk**
+  - Glossy: whole sludge body — wet slimy sludge (roughness 0.2)
+- **Shellder**
+  - Glossy: shell; pearl inside — polished bivalve shell and pearl (roughness 0.2)
+- **Cloyster**
+  - Glossy: shell, spikes, pearl core — hard polished shell and pearl-like core (roughness 0.2)
+- **Gastly**
+  - Faded: purple gas aura around ball — body wrapped in poison gas (opacity 0.4)
+- **Haunter**
+  - Faded: wispy lower body/tail edges — gaseous ghost body (opacity 0.6)
+- **Hypno**
+  - Metal: pendulum coin — metal coin on string (roughness 0.25)
+- **Krabby**
+  - Glossy: shell and pincers — crab carapace (roughness 0.35)
+- **Kingler**
+  - Glossy: shell and big pincer — crab carapace (roughness 0.35)
+- **Voltorb**
+  - Glossy: whole body — smooth Poke Ball-like shell (roughness 0.15)
+- **Electrode**
+  - Glossy: whole body — smooth Poke Ball-like shell (roughness 0.15)
+- **Lickitung**
+  - Glossy: tongue — wet tongue (roughness 0.2)
+- **Koffing**
+  - Faded: gas puffs from craters (if drawn) — leaks poison gas (opacity 0.5)
+- **Weezing**
+  - Faded: gas puffs from craters/mouths (if drawn) — leaks poison gas (opacity 0.5)
+- **Chansey**
+  - Glossy: egg in pouch — eggshell (roughness 0.25)
+- **Blissey**
+  - Glossy: egg in pouch — eggshell (roughness 0.25)
+- **Goldeen**
+  - See-through: flowing fins and tail — translucent fins (ior 1.33; thickness thin)
+  - Glossy: horn — smooth horn (roughness 0.3)
+- **Seaking**
+  - See-through: fins and tail — translucent fins (ior 1.33; thickness thin)
+  - Glossy: horn — smooth horn (roughness 0.3)
+- **Staryu**
+  - Glow: red core gem — core blinks/glows (color red; pulses)
+  - Glossy: core gem — jewel core (roughness 0.1)
+- **Starmie**
+  - Glow: red core gem — core glows in rainbow/flashes (color red; pulses)
+  - Glossy: core gem — jewel core (roughness 0.1)
+- **Scyther**
+  - See-through: wings — clear insect wings (ior 1.4; thickness thin)
+  - Glossy: scythes — hard polished blades (roughness 0.3)
+- **Magmar**
+  - Glow: flame tail tip, flame-like head/back — body wreathed in fire (color orange-yellow; pulses)
+- **Magby** *(unsure)*
+  - Glow: embers at mouth/nostrils (if drawn) — breathes embers (color orange; pulses)
+- **Ditto**
+  - Glossy: whole body — soft gel-like blob (roughness 0.3)
+- **Vaporeon**
+  - See-through: head frill and tail fin — fin membranes (ior 1.33; thickness thin)
+  - Glossy: skin — aquatic, can melt into water (roughness 0.3)
+- **Porygon**
+  - Glossy: whole body — smooth digital/plastic surface (roughness 0.2)
+- **Porygon2**
+  - Glossy: whole body — smooth rounded plastic-like body (roughness 0.15)
+- **Omanyte**
+  - Glossy: spiral shell — ammonite shell (roughness 0.3)
+- **Omastar**
+  - Glossy: spiral shell — ammonite shell (roughness 0.3)
+- **Kabuto**
+  - Glossy: shell — hard carapace (roughness 0.3)
+- **Kabutops**
+  - Glossy: carapace and scythes — hard carapace (roughness 0.3)
+- **Articuno** *(unsure)*
+  - See-through: long tail plume tips — icy feathers (ior 1.31; thickness thin)
+  - Glossy: tail and wing feathers — icy sheen (roughness 0.25)
+- **Zapdos** *(unsure)*
+  - Glow: spiky feather tips (if sparks drawn) — crackles with electricity (color yellow-white; pulses)
+- **Moltres**
+  - Glow: flaming wings, crest and tail — body of flames (color orange-yellow; pulses)
+- **Dratini**
+  - Glossy: skin — smooth sleek serpent skin (roughness 0.3)
+- **Dragonair**
+  - Glow: neck and tail orbs — weather-controlling orbs; faint (color light blue; pulses)
+  - Glossy: crystal orbs, skin — crystal orbs, sleek skin (roughness 0.15)
+- **Cyndaquil**
+  - Glow: back/neck flames — living flames (color orange-red; pulses)
+- **Quilava**
+  - Glow: back/neck flames — living flames (color orange-red; pulses)
+- **Typhlosion**
+  - Glow: back/neck flames — living flames (color orange-red; pulses)
+- **Ledyba**
+  - Glossy: red shell — ladybug shell (roughness 0.3)
+- **Ledian**
+  - See-through: wings — insect wings (ior 1.4; thickness thin)
+  - Glossy: red shell — ladybug shell (roughness 0.3)
+- **Chinchou**
+  - Glow: antenna lure orbs — bioluminescent lures (color yellow; pulses)
+- **Lanturn**
+  - Glow: antenna lure orb — bioluminescent lure (color yellow; pulses)
+- **Togepi**
+  - Glossy: eggshell body — eggshell (roughness 0.25)
+- **Flaaffy**
+  - Glow: tail-tip orb — glowing tail orb (color blue; pulses)
+- **Ampharos**
+  - Glow: tail orb and forehead orb — lighthouse-bright orbs (color red; pulses)
+  - Glossy: orbs — gem-like orbs (roughness 0.1)
+- **Marill** *(unsure)*
+  - Glossy: tail ball — oil-filled floating ball (roughness 0.25)
+- **Yanma**
+  - See-through: wings — clear dragonfly wings (ior 1.4; thickness thin)
+- **Wooper**
+  - Glossy: skin — coated in slimy film (roughness 0.25)
+- **Quagsire**
+  - Glossy: skin — slimy skin (roughness 0.25)
+- **Espeon**
+  - Glossy: red forehead gem — jewel (roughness 0.1)
+- **Umbreon**
+  - Glow: yellow rings — rings glow in moonlight (color yellow; pulses)
+  - *Shiny:* Shiny rings are blue: blue glow
+- **Misdreavus**
+  - Faded: wispy hair/body fringe — ghost body (opacity 0.7)
+  - Glossy: red neck pearls — pearl beads (roughness 0.1)
+- **Forretress**
+  - Metal: shell plates — steel-type shell (roughness 0.4)
+- **Steelix**
+  - Metal: whole body segments — iron snake body (roughness 0.3)
+- **Scizor**
+  - See-through: wings — insect wings (ior 1.4; thickness thin)
+  - Metal: body and pincers — steel body (roughness 0.3)
+- **Shuckle** *(unsure)*
+  - Glossy: red shell — hard shell (roughness 0.35)
+- **Heracross**
+  - Glossy: carapace and horn — beetle carapace (roughness 0.3)
+- **Slugma**
+  - Glow: whole magma body — living magma (color orange-red; pulses)
+  - *Shiny:* Shiny is grey (cooled magma): weaker/no glow
+- **Magcargo**
+  - Glow: magma body (not rock shell) — living magma (color orange-red; pulses)
+  - *Shiny:* Shiny is grey/silver: weaker/no glow
+- **Skarmory**
+  - Metal: whole body, bladed wings — steel armour feathers (roughness 0.3)
+- **Raikou** *(unsure)*
+  - Faded: purple cloud mane edges — mane is a storm cloud (opacity 0.8)
+- **Suicune**
+  - See-through: ribbon-like tails — translucent flowing ribbons (ior 1.33; thickness thin)
+  - Glossy: forehead crystal — crystal (roughness 0.1)
+- **Celebi**
+  - See-through: wings — clear fairy wings (ior 1.4; thickness thin)
+
+## Generations 3–4
+
+109 entries.
+
+- **Blaziken**
+  - Glow: wrist flames — flames burst from wrists in battle (color orange-yellow; pulses)
+- **Marshtomp**
+  - Glossy: whole body skin — covered in thin sticky wet film (roughness 0.35)
+- **Seedot** *(unsure)*
+  - Glossy: acorn body — acorn shell sheen (roughness 0.35)
+- **Masquerain** *(unsure)*
+  - See-through: four wing membranes — thin pale translucent wings (ior 1.4; thickness thin)
+- **Ninjask**
+  - See-through: wings — clear insect wings (ior 1.4; thickness thin)
+- **Shedinja**
+  - Glow: halo above head — halo ring, faint glow (color pale gold)
+  - Glossy: hollow shell body — dry cast-off exoskeleton, papery sheen (roughness 0.4)
+- **Sableye**
+  - Glow: gem eyes — eyes glint/glow in darkness (color pale blue-white; pulses)
+  - See-through: gem eyes, chest gems — faceted crystal gems (ior 2.0; thickness thick)
+  - Glossy: gem eyes, chest gems — jewels it eats (roughness 0.1)
+  - *Shiny:* shiny gem colour changes (green gems vs red/blue); check
+- **Mawile**
+  - Metal: big rear jaws — steel horns reshaped into jaws (roughness 0.4)
+- **Aron**
+  - Metal: whole steel armour body — body made of steel (roughness 0.35)
+- **Lairon**
+  - Metal: steel armour plates, horns — steel armour hide (roughness 0.35)
+- **Aggron**
+  - Metal: silver armour plates, horns, back — iron armour (roughness 0.35)
+- **Electrike** *(unsure)*
+  - Glow: sparks around fur/tips — stores static in fur, discharges (color yellow; pulses)
+- **Manectric**
+  - Glow: blue-yellow mane, spark discharge — mane gathers electricity and sparks (color yellow; pulses)
+- **Plusle** *(unsure)*
+  - Glow: cheek circles, sparks from hands — electric cheeks spark when cheering (color yellow; pulses)
+- **Minun** *(unsure)*
+  - Glow: cheek circles, sparks from hands — electric cheeks spark when cheering (color yellow; pulses)
+- **Volbeat**
+  - Glow: tail bulb — tail light flashes in night signals (color yellow; pulses)
+  - See-through: wings — clear insect wings (ior 1.4; thickness thin)
+- **Illumise**
+  - See-through: wings — clear insect wings (ior 1.4; thickness thin)
+- **Camerupt**
+  - Glow: hump vents/craters — magma inside volcano humps (color orange-red; pulses)
+  - Faded: smoke above humps if drawn — volcanic smoke (opacity 0.5)
+- **Torkoal**
+  - Glow: shell openings — burns coal inside shell (color orange; pulses)
+  - Faded: smoke from nostrils/shell if drawn — black smoke (opacity 0.5)
+- **Spoink**
+  - Glossy: pearl on head — pearl boosts psychic power (roughness 0.15)
+- **Grumpig**
+  - Glossy: black pearls on head and body — dark pearls (roughness 0.15)
+- **Vibrava** *(unsure)*
+  - See-through: wings — membranous wings, partly translucent (ior 1.4; thickness thin)
+- **Flygon**
+  - See-through: red eye covers — red lenses shield eyes from sand (ior 1.5; thickness thin)
+  - Glossy: red eye covers — smooth lens (roughness 0.1)
+- **Swablu** *(unsure)*
+  - Very matte: cotton wings — fluffy cotton-cloud wings (roughness 0.95)
+- **Altaria** *(unsure)*
+  - Very matte: cotton cloud wings — fluffy cloud wings (roughness 0.95)
+- **Lunatone** *(unsure)*
+  - Glow: red eyes — eerie glowing eyes, moon power (color red; pulses)
+- **Solrock**
+  - Glow: flame-like rays, red eyes — radiates sunlight (color orange-yellow; pulses)
+- **Barboach**
+  - Glossy: whole body — slimy film coats body (roughness 0.2)
+- **Whiscash**
+  - Glossy: whole body — slimy catfish skin (roughness 0.2)
+- **Corphish**
+  - Glossy: red shell, pincers — crustacean carapace (roughness 0.3)
+- **Crawdaunt**
+  - Glossy: red shell, pincers — hard crustacean carapace (roughness 0.3)
+- **Armaldo** *(unsure)*
+  - Glossy: armour plates, claws — hard carapace (roughness 0.35)
+- **Feebas** *(unsure)*
+  - Glossy: body — wet fish scales (roughness 0.3)
+- **Milotic**
+  - See-through: tail fan, head fins — thin translucent fins (ior 1.33; thickness thin)
+  - Glossy: cream scales, tail fan, fins — lustrous scales, most beautiful (roughness 0.2)
+- **Castform (Sunny)** *(unsure)*
+  - Glow: sun-shaped body and rays — takes the form of the sun (color orange; pulses)
+- **Castform (Rainy)** *(unsure)*
+  - See-through: body edges — water droplet (ior 1.33; thickness thick)
+  - Glossy: raindrop body — wet water-drop form (roughness 0.15)
+- **Castform (Snowy)** *(unsure)*
+  - See-through: icy hood edges — ice (ior 1.31; thickness thick)
+  - Glossy: icy cloud body — frozen hail form (roughness 0.2)
+- **Banette**
+  - Metal: zipper mouth — metal zipper (roughness 0.3)
+- **Duskull**
+  - Glow: red eye — single eye glows red (color red; pulses)
+- **Dusclops**
+  - Glow: red eye — single eye glows red (color red; pulses)
+- **Glalie**
+  - See-through: ice horns, rim — ice (ior 1.31; thickness thick)
+  - Glossy: ice body and horns — body of solid ice (roughness 0.2)
+- **Clamperl**
+  - Glossy: shell, pearl — bivalve shell and pearl (roughness 0.15)
+- **Huntail**
+  - Glossy: body — wet deep-sea fish skin (roughness 0.25)
+- **Gorebyss**
+  - Glossy: body — wet pink fish skin (roughness 0.25)
+- **Beldum**
+  - Metal: whole body, claws — Steel-type body (roughness 0.35)
+- **Metang**
+  - Metal: whole body, arms — Steel-type body (roughness 0.35)
+- **Metagross**
+  - Metal: whole body, legs, X face plate — Steel-type body (roughness 0.35)
+- **Regirock**
+  - Glow: face dots — braille eye dots light up (color orange; pulses)
+- **Regice**
+  - Glow: face dots — braille eye dots light up (color yellow; pulses)
+  - See-through: whole ice body — Antarctic ice (ior 1.31; thickness thick)
+  - Glossy: ice body — ice surface (roughness 0.1)
+- **Registeel**
+  - Glow: face dots — braille eye dots light up (color red; pulses)
+  - Metal: whole body — unknown hard metal (roughness 0.3)
+- **Latias** *(unsure)*
+  - Glossy: down feathers, body — glass-like down refracts light (roughness 0.3)
+- **Latios** *(unsure)*
+  - Glossy: down feathers, body — glass-like down refracts light (roughness 0.3)
+- **Kyogre**
+  - Glossy: whole body — wet whale skin (roughness 0.25)
+- **Deoxys** (Deoxys (Attack), Deoxys (Defense), Deoxys (Speed))
+  - Glow: chest crystal organ — glowing crystal core (color purple; pulses)
+  - Glossy: chest crystal — crystal (roughness 0.1)
+- **Chimchar**
+  - Glow: tail flame — flame from rear (color orange; pulses)
+- **Monferno**
+  - Glow: tail flame — tail flame (color orange; pulses)
+- **Infernape**
+  - Glow: head flame — crown of fire (color orange; pulses)
+- **Empoleon**
+  - Metal: trident crest, wing-edge blades — steel horns and wings (roughness 0.35)
+- **Shinx** *(unsure)*
+  - Glow: fur flash, sparks — fur glows when in danger (color yellow; pulses)
+- **Luxio** *(unsure)*
+  - Glow: claws, sparks — electricity in claw tips (color yellow; pulses)
+- **Luxray** *(unsure)*
+  - Glow: gold eyes — eyes see through walls, glow (color gold)
+- **Shieldon**
+  - Metal: face shield — hard Steel-type face plate (roughness 0.5)
+- **Bastiodon**
+  - Metal: face shield — hard Steel-type shield face (roughness 0.5)
+- **Combee**
+  - See-through: wings — clear bee wings (ior 1.4; thickness thin)
+  - Glossy: honeycomb body — waxy comb (roughness 0.35)
+- **Vespiquen**
+  - See-through: wings — clear bee wings (ior 1.4; thickness thin)
+- **Pachirisu** *(unsure)*
+  - Glow: cheek pouches, sparks — electric cheek sacs, static (color yellow; pulses)
+- **Shellos** (Shellos (East Sea))
+  - Glossy: whole body — soft slimy sea slug (roughness 0.2)
+- **Gastrodon** (Gastrodon (East Sea))
+  - Glossy: whole body — sticky slimy sea slug (roughness 0.2)
+- **Drifloon**
+  - Glossy: balloon body — rubbery balloon (roughness 0.35)
+- **Drifblim**
+  - Glossy: balloon body — rubbery balloon (roughness 0.35)
+- **Mismagius**
+  - Glossy: red neck beads — jewel-like beads (roughness 0.15)
+- **Bronzor**
+  - Metal: whole bronze disc — bronze mirror body (roughness 0.4)
+- **Bronzong**
+  - Metal: whole bronze bell body — bronze bell (roughness 0.4)
+- **Spiritomb**
+  - Glow: green spirit vortex, eyes — 108 spirits, green glow (color green; pulses)
+  - Faded: wispy vortex edges — ghostly wisps (opacity 0.6)
+  - Glossy: keystone base — polished stone (roughness 0.4)
+  - *Shiny:* shiny vortex colour differs (bluer); verify
+- **Lucario**
+  - Metal: chest and paw spikes — Steel-type spikes (roughness 0.3)
+- **Drapion** *(unsure)*
+  - Glossy: armoured carapace — hard arthropod shell (roughness 0.35)
+- **Finneon**
+  - Glow: pink side lines, tail spots — stores sunlight, shines at night (color pink; pulses)
+  - See-through: tail fins — thin translucent fins (ior 1.33; thickness thin)
+  - Glossy: body — wet fish (roughness 0.2)
+- **Lumineon**
+  - Glow: fin patterns, pink spots — fins glow to lure prey (color pink; pulses)
+  - See-through: four fins — thin translucent fins (ior 1.33; thickness thin)
+  - Glossy: body — wet fish (roughness 0.2)
+- **Weavile** *(unsure)*
+  - Glossy: forehead gem — gem on forehead (roughness 0.1)
+- **Magnezone**
+  - Glow: sparks between magnets — magnetism and electric discharge (color yellow; pulses)
+  - Metal: whole body, magnets, screws — Steel-type machine body (roughness 0.3)
+- **Electivire**
+  - Glow: tail tips, sparks — electricity between tails (color yellow; pulses)
+- **Magmortar**
+  - Glow: arm cannon openings, flame tufts — fires fireballs, 2000C body (color orange; pulses)
+- **Yanmega**
+  - See-through: wings — clear dragonfly wings (ior 1.4; thickness thin)
+- **Mamoswine** *(unsure)*
+  - Glossy: tusks — tusks made of ice (roughness 0.2)
+- **Porygon-Z**
+  - Glossy: whole body — glossy polygon body (roughness 0.2)
+- **Probopass**
+  - Metal: mustache, mini-noses — iron-filing mustache, magnetic units (roughness 0.4)
+- **Dusknoir**
+  - Glow: red eye — eye glows red (color red; pulses)
+- **Froslass**
+  - See-through: ice ornaments on head — ice crystal (ior 1.31; thickness thick)
+  - Glossy: ice ornaments — ice (roughness 0.1)
+- **Rotom**
+  - Glow: plasma body, aura — body made of plasma (color orange with blue aura; pulses)
+  - Faded: blue electric aura — flickering plasma aura (opacity 0.6)
+- **Rotom (Heat)**
+  - Glow: blue aura, eyes, lightning — plasma inside appliance (color blue-white; pulses)
+  - Faded: blue electric aura — flickering plasma (opacity 0.6)
+  - Glossy: oven casing — plastic appliance shell (roughness 0.25)
+- **Rotom (Wash)**
+  - Glow: blue aura, eyes, lightning — plasma inside appliance (color blue-white; pulses)
+  - See-through: door window — glass door (ior 1.5; thickness thin)
+  - Faded: blue electric aura — flickering plasma (opacity 0.6)
+  - Glossy: washer casing — plastic appliance shell (roughness 0.25)
+- **Rotom (Frost)**
+  - Glow: blue aura, eyes, lightning — plasma inside appliance (color blue-white; pulses)
+  - Faded: blue electric aura — flickering plasma (opacity 0.6)
+  - Glossy: fridge casing — plastic appliance shell (roughness 0.25)
+- **Rotom (Fan)**
+  - Glow: blue aura, eyes, lightning — plasma inside appliance (color blue-white; pulses)
+  - Faded: blue electric aura — flickering plasma (opacity 0.6)
+  - Glossy: fan casing — plastic appliance shell (roughness 0.25)
+- **Rotom (Mow)**
+  - Glow: blue aura, eyes, lightning — plasma inside appliance (color blue-white; pulses)
+  - Faded: blue electric aura — flickering plasma (opacity 0.6)
+  - Glossy: mower casing — plastic appliance shell (roughness 0.25)
+- **Uxie**
+  - Glow: red gems — gems glow (color red; pulses)
+  - Glossy: forehead and tail gems — red gems (roughness 0.1)
+- **Mesprit**
+  - Glow: red gems — gems glow (color red; pulses)
+  - Glossy: forehead and tail gems — red gems (roughness 0.1)
+- **Azelf**
+  - Glow: red gems — gems glow (color red; pulses)
+  - Glossy: forehead and tail gems — red gems (roughness 0.1)
+- **Dialga**
+  - Glow: chest diamond — glows with time power (color light blue; pulses)
+  - See-through: chest diamond — diamond (ior 2.4; thickness thick)
+  - Metal: blue plates, crest, chest frame — Steel-type armour (roughness 0.3)
+  - Glossy: chest diamond — diamond (roughness 0.05)
+- **Palkia**
+  - Glow: shoulder pearls — pearls glow with space power (color pink-white; pulses)
+  - Glossy: shoulder pearls — pearls (roughness 0.1)
+- **Heatran**
+  - Glow: face/eyes, magma seams — magma-like blood (color orange; pulses)
+  - Metal: steel body, legs — rugged steel body (roughness 0.5)
+- **Regigigas**
+  - Glow: face dots — eye dots light up (color yellow/red; pulses)
+- **Giratina** (Giratina (Origin)) *(unsure)*
+  - Metal: gold rib bands, crown, spikes — golden armour (roughness 0.3)
+- **Cresselia**
+  - Glow: ring sparkles — emits shining particles (color pink; pulses)
+  - See-through: pink veil rings/wings — veil-like wings (ior 1.4; thickness thin)
+- **Phione**
+  - Glossy: whole body — wet sea body (roughness 0.2)
+- **Manaphy**
+  - Glossy: whole body — wet sea body (roughness 0.2)
+- **Darkrai**
+  - Faded: smoky lower body, collar wisp edges — shadowy smoke-like form (opacity 0.7)
+- **Arceus** *(unsure)*
+  - Metal: gold cross-wheel — golden wheel (roughness 0.3)
+  - Glossy: wheel gems — jewels (roughness 0.1)
+- **Jirachi** *(unsure)*
+  - Glossy: star-shaped head and wish tags — Steel type; smooth, polished-looking star (roughness 0.3)
+- **Rayquaza** *(unsure)*
+  - Glow: yellow ring markings along body — markings glow in official art and Mega form (color yellow; pulses)
+
+## Generation 5, Pokéstar Studios and eggs
+
+92 entries.
+
+- **Emboar**
+  - Glow: flaming beard around neck and chin — living fire beard (color orange-red; pulses)
+- **Oshawott**
+  - Glossy: scalchop on belly — polished seashell (roughness 0.25)
+- **Dewott**
+  - Glossy: two scalchops on thighs — polished seashell (roughness 0.25)
+- **Samurott**
+  - Glossy: helmet shell, seamitar shell blades, leg armour shells — hard polished shell (roughness 0.25)
+- **Watchog**
+  - Glow: yellow body stripes and red eyes — dex: luminescent matter makes eyes and body glow (color yellow / red; pulses)
+- **Musharna**
+  - Glow: dream mist, faint — dream mist glows softly (color pink; pulses)
+  - Faded: pink dream mist from forehead — dream smoke (opacity 0.5)
+- **Blitzle**
+  - Glow: lightning-bolt mane — mane flashes with electricity (color white-yellow; pulses)
+- **Zebstrika**
+  - Glow: lightning mane and white stripes — electric mane flashes when discharging (color white-yellow; pulses)
+- **Boldore**
+  - Glow: orange crystals, faint — crystals glow with surplus energy (color orange; pulses)
+  - See-through: orange crystals — translucent crystal (ior 1.6; thickness thick)
+  - Glossy: orange crystals on body — faceted crystals (roughness 0.2)
+- **Gigalith**
+  - Glow: red crystals — crystals store and release solar energy (color red-orange; pulses)
+  - See-through: red crystals — translucent crystal (ior 1.6; thickness thick)
+  - Glossy: red crystals on body — faceted crystals (roughness 0.2)
+- **Drilbur** *(unsure)*
+  - Metal: claws and head blade — steel-like claws (low)
+- **Excadrill**
+  - Metal: steel claws and head drill blade — Steel type drill
+- **Gurdurr**
+  - Metal: steel I-beam girder it carries — steel beam
+- **Tympole**
+  - Glossy: whole wet skin — wet tadpole skin (roughness 0.25)
+- **Palpitoad**
+  - Glossy: body skin and head bumps — wet sticky amphibian skin (roughness 0.25)
+- **Seismitoad**
+  - Glossy: skin and lumps — wet skin, lumps secrete poison (roughness 0.3)
+- **Whirlipede**
+  - Glossy: curled shell carapace — hard polished shell (roughness 0.3)
+- **Scolipede**
+  - Glossy: body segments and horns — hard carapace (roughness 0.35)
+- **Cottonee**
+  - Very matte: cotton puff — fluffy cotton (roughness 1.0)
+- **Whimsicott**
+  - Very matte: large cotton mane — fluffy cotton (roughness 1.0)
+- **Basculin** (Basculin (Blue-Striped))
+  - Glossy: scales and fins — wet fish scales (roughness 0.25)
+- **Darmanitan**
+  - Glow: flame eyebrows — fire burning from brows (color orange-yellow; pulses)
+- **Yamask**
+  - Glow: red eyes — glowing ghost eyes (color red)
+  - Faded: wispy tail of shadow body — ghostly wisp (opacity 0.7)
+- **Cofagrigus**
+  - Glow: red eyes — glowing eyes (color red)
+  - Faded: shadow hands — ghostly shadow limbs (opacity 0.8)
+  - Metal: gold sarcophagus body — golden coffin
+- **Tirtouga**
+  - Glossy: shell and wet skin — wet sea turtle (roughness 0.35)
+- **Carracosta**
+  - Glossy: shell and wet skin — wet sea turtle (roughness 0.35)
+- **Trubbish**
+  - Glossy: garbage-bag body — plastic bag (roughness 0.35)
+- **Garbodor** *(unsure)*
+  - Glossy: garbage-bag patches — plastic trash (roughness 0.4)
+- **Solosis**
+  - See-through: outer gel membrane — gel membrane, see-through (ior 1.35; thickness thick)
+  - Glossy: outer gel membrane — wet gel (roughness 0.1)
+- **Duosion**
+  - See-through: outer gel membrane around two brains — gel membrane, see-through (ior 1.35; thickness thick)
+  - Glossy: outer gel membrane around two brains — wet gel (roughness 0.1)
+- **Reuniclus**
+  - See-through: green gel body and arms — gel membrane, see-through (ior 1.35; thickness thick)
+  - Glossy: green gel body and arms — wet gel (roughness 0.1)
+- **Vanillite**
+  - See-through: icicle crest on top — ice crystal (ior 1.31; thickness thick)
+  - Glossy: icicle crest — ice (roughness 0.1)
+- **Vanillish**
+  - See-through: icicle crest — ice crystal (ior 1.31; thickness thick)
+  - Glossy: icicle crest and icy cone — ice (roughness 0.15)
+- **Vanilluxe**
+  - See-through: icicle crowns on both heads — ice crystal (ior 1.31; thickness thick)
+  - Glossy: icicles and icy cone — ice (roughness 0.15)
+- **Emolga** *(unsure)*
+  - Glow: yellow cheek pouches — electric pouches spark (subtle) (color yellow; pulses)
+- **Escavalier**
+  - Metal: helmet, armour shell and lance arms — Steel-type armour
+- **Frillish**
+  - See-through: veil-like tentacles and body edges — translucent jellyfish (ior 1.33; thickness thin)
+  - Glossy: body — wet jelly (roughness 0.15)
+- **Jellicent**
+  - See-through: tentacles and body edges — translucent jellyfish (ior 1.33; thickness thin)
+  - Glossy: body and crown — wet jelly (roughness 0.15)
+- **Alomomola**
+  - See-through: fins — thin translucent fins (ior 1.33; thickness thin)
+  - Glossy: body — wet slick skin (roughness 0.2)
+- **Joltik** *(unsure)*
+  - Glow: blue eyes, faint sparks — static electricity (color blue; pulses)
+- **Galvantula** *(unsure)*
+  - Glow: blue eyes and electric webbing — electrified web (color blue; pulses)
+- **Ferroseed**
+  - Metal: iron spiky shell — iron spikes
+- **Ferrothorn**
+  - Metal: iron body spikes and thorny pods — iron spikes
+- **Klink**
+  - Metal: both gears — living gears
+- **Klang**
+  - Metal: big and small gears — living gears
+- **Klinklang**
+  - Glow: red core in centre gear — energy core (color red; pulses)
+  - Metal: all gears — living gears
+- **Tynamo** *(unsure)*
+  - Glow: yellow spots — electric organs (faint) (color yellow; pulses)
+  - Glossy: body — slimy eel skin (roughness 0.25)
+- **Eelektrik**
+  - Glow: yellow circle markings — electric organs (color yellow; pulses)
+  - Glossy: body — slimy eel skin (roughness 0.25)
+- **Eelektross**
+  - Glow: yellow spots — electric organs (color yellow; pulses)
+  - Glossy: body — slimy eel skin (roughness 0.3)
+- **Beheeyem**
+  - Glow: three finger lights — flashing coloured lights (color red, yellow, green; pulses)
+- **Litwick**
+  - Glow: head flame — ghost candle flame (color violet-blue; pulses)
+  - Glossy: wax body — candle wax (roughness 0.35)
+  - *Shiny:* shiny may change flame hue; check
+- **Lampent**
+  - Glow: flame inside lantern — ghost flame (color violet; pulses)
+  - See-through: lantern glass body — glass lamp (ior 1.5; thickness thin)
+  - Metal: lamp cap and arms — metal lantern fittings
+  - *Shiny:* shiny may change flame hue; check
+- **Chandelure**
+  - Glow: flames on arms and in head — ghost flames (color violet; pulses)
+  - See-through: glass head globe — glass chandelier (ior 1.5; thickness thin)
+  - Metal: black arms — iron chandelier arms
+  - *Shiny:* shiny may change flame hue; check
+- **Cubchoo**
+  - See-through: snot drip — translucent mucus (ior 1.33; thickness thin)
+  - Glossy: snot drip from nose — wet mucus (roughness 0.1)
+- **Beartic**
+  - See-through: icy beard / ice fangs on chin — ice (ior 1.31; thickness thick)
+  - Glossy: ice beard — ice (roughness 0.1)
+- **Cryogonal**
+  - See-through: whole ice-crystal body — ice crystal (ior 1.31; thickness thick)
+  - Glossy: whole body — ice crystal (roughness 0.08)
+- **Shelmet**
+  - Glossy: shell, wet body — shell and slime (roughness 0.3)
+- **Accelgor**
+  - Glossy: body and wrappings — slimy body (roughness 0.25)
+- **Stunfisk**
+  - Glossy: body — wet muddy fish skin (roughness 0.35)
+- **Golett**
+  - Glow: eyes — energy-lit eyes (color yellow; pulses)
+- **Golurk**
+  - Glow: eyes and chest seal cracks — energy-lit eyes (color yellow; pulses)
+- **Pawniard**
+  - Metal: blade arms, head blade, chest blades — Steel-type blades
+- **Bisharp**
+  - Metal: head blade, arm blades, chest blades, armour — Steel-type blades
+- **Durant**
+  - Metal: iron armour shell and mandibles — Steel-type armour
+- **Volcarona**
+  - Glow: fiery wing scales — wings shed burning scales (color orange; pulses)
+  - *Shiny:* shiny wings paler; ember colour may change
+- **Larvesta** *(unsure)*
+  - Glow: red horn tips, faint — horns spout fire (low) (color orange-red; pulses)
+- **Cobalion**
+  - Metal: horns and head crest — Steel type
+- **Tornadus**
+  - Faded: cloud tail / lower body — wispy cloud (opacity 0.8)
+- **Thundurus** *(unsure)*
+  - Glow: tail spikes when charged — lightning (color yellow; pulses)
+  - Faded: cloud tail / lower body — wispy cloud (opacity 0.8)
+- **Thundurus (Therian)** *(unsure)*
+  - Glow: lightning tail and spikes — electric tail (color yellow; pulses)
+- **Landorus**
+  - Faded: cloud tail / lower body — wispy cloud (opacity 0.8)
+- **Reshiram**
+  - Glow: tail turbine — turbine flares with fire (color orange-red; pulses)
+- **Zekrom**
+  - Glow: tail generator — generator glows with electricity (color blue; pulses)
+- **Kyurem**
+  - See-through: ice crystals on wings, back and tail — ice (ior 1.31; thickness thick)
+  - Glossy: ice crystals — ice (roughness 0.1)
+- **Kyurem (White)**
+  - Glow: tail turbine — turbine glows (color orange / icy blue; pulses)
+  - See-through: ice crystals on wings and body — ice (ior 1.31; thickness thick)
+  - Glossy: ice crystals — ice (roughness 0.1)
+- **Kyurem (Black)**
+  - Glow: tail generator — generator glows (color blue; pulses)
+  - See-through: ice crystals on wings and body — ice (ior 1.31; thickness thick)
+  - Glossy: ice crystals — ice (roughness 0.1)
+- **Genesect**
+  - Glow: red eyes — lit optics (color red; pulses)
+  - Metal: cannon, body plating — cybernetic Steel-type
+- **Genesect (Douse Drive)**
+  - Glow: red eyes, drive slot in cannon — lit optics and drive (color red / blue; pulses)
+  - Metal: cannon, body plating — cybernetic Steel-type
+- **Genesect (Shock Drive)**
+  - Glow: red eyes, drive slot in cannon — lit optics and drive (color red / yellow; pulses)
+  - Metal: cannon, body plating — cybernetic Steel-type
+- **Genesect (Burn Drive)**
+  - Glow: red eyes, drive slot in cannon — lit optics and drive (color red / red; pulses)
+  - Metal: cannon, body plating — cybernetic Steel-type
+- **Genesect (Chill Drive)**
+  - Glow: red eyes, drive slot in cannon — lit optics and drive (color red / white-blue; pulses)
+  - Metal: cannon, body plating — cybernetic Steel-type
+- **Pokéstar: UFO** (Pokéstar: UFO (duplicate))
+  - Glow: red central eye and red lights underneath — lit craft lights (color red; pulses)
+  - Metal: spiked hull — alien craft hull
+- **Pokéstar: MT**
+  - Glow: blue chest panel — lit panel (color blue; pulses)
+  - Metal: whole robot Tyranitar body — mechanical costume
+- **Pokéstar: MT2**
+  - Glow: red chest panel and eyes — lit panel (color red; pulses)
+  - Metal: whole robot Tyranitar body — mechanical costume
+- **Pokéstar: Transport**
+  - Glow: clock face / screen — lit display (color cyan-white)
+  - See-through: glass dome / clock face window — glass (ior 1.5; thickness thin)
+  - Metal: capsule shell and fittings — machine
+- **Pokéstar: Monster** *(unsure)*
+  - Glossy: red tentacles and body — slimy alien (roughness 0.3)
+- **Pokéstar: F-00**
+  - Glow: eyes / face screen — lit optics (color green; pulses)
+  - Metal: robot body and antenna — robot
+- **Pokéstar: F-00 (Hacked)**
+  - Glow: red eyes on face — hacked lit optics (color red; pulses)
+  - Metal: robot body and limbs — robot
+- **Pokéstar: Majin**
+  - Glow: eyes — glowing monster eyes (color pink-red)
+  - Faded: smoky lower body — dark wisps (opacity 0.7)
+  - Metal: chains — iron chains
+- **Pokéstar: White Door** (Pokéstar: Black Door)
+  - Glow: central eye — glowing eye (color red)
+  - Faded: dark smoke around frame — smoke (opacity 0.6)
+  - Metal: chains — iron chains
+- **Pokéstar: Props** (Pokéstar: Suspended Props 1, Pokéstar: Suspended Props 2, Pokéstar: Standing Props 1, Pokéstar: Standing Props 2, Pokéstar: Standing Props 3, Pokéstar: Standing Props 4, Pokéstar: Standing Props 5, Pokéstar: Standing Props 6, Pokéstar: Standing Props 7, Pokéstar: Standing Props 8, Pokéstar: Standing Props 9, Pokéstar: Standing Props 10, Pokéstar: Standing Props 11, Pokéstar: Standing Props 12, Pokéstar: Standing Props 13, Pokéstar: Standing Props 14) *(unsure)*
+  - Metal: corner rivets, hanging wires — metal fittings
+  - Glossy: green board face — plastic placeholder panel (roughness 0.35)
+- **Manaphy Egg**
+  - See-through: blue shell — translucent jelly egg (ior 1.35; thickness thick)
+  - Glossy: shell — wet jelly (roughness 0.1)
+
+## Pokémon Uranium
+
+154 entries.
+
+- **Orchynx** *(unsure)*
+  - Metal: small steel tail-tip ring and claw caps — Grass/Steel; steel accents
+- **Metalynx** (Mega Metalynx)
+  - Metal: steel leg plating, tail blade (Mega: wing blades, armour) — Steel-type blades/armour
+- **Raptorch**
+  - Glow: tail-tip flame — living flame (color orange-yellow; pulses)
+- **Archilles** (Mega Archilles)
+  - Glow: tail and head flames, flaming mane/limbs (Mega: large flame trails) — living flame (color orange-yellow; pulses)
+- **Eletux**
+  - Glow: yellow orbs on tail tips — electric/magnetic charge (color yellow; pulses)
+  - Glossy: sleek wet penguin body — aquatic wet skin (roughness 0.35)
+- **Electruxo** (Mega Electruxo)
+  - Glow: yellow lightning stripes and crest (Mega: yellow tendrils) — electric charge (color yellow; pulses)
+  - Glossy: sleek body — aquatic wet skin (roughness 0.35)
+- **Nuclear Chyinmunk**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Kinetmunk**
+  - Glow: neon-green zigzag tail, markings, outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Aveden**
+  - Glossy: blue chest feathers — feathers reflect light to flash signals (roughness 0.3)
+- **Nimflora**
+  - See-through: pink petal-like wings — translucent fairy/insect wings (ior 1.4; thickness thin)
+- **Cubblfly** *(unsure)*
+  - See-through: pink wings — thin insect wing membrane (ior 1.4; thickness thin)
+- **Barewl**
+  - Metal: whole dense-metal body, steel mantle and spikes, wire — body made of heavy metals
+- **Dearewl**
+  - Metal: steel mantle, plates and horn — Steel/Rock metal body
+- **Gararewl**
+  - Metal: steel panels on knees/back/head, mantles, spikes, whip wire; wire-hair sheen — body infused with metal
+- **Grozard (Form 3, apple costume)** (Grozard (Form 3))
+  - Glossy: red apple shell — waxy polished apple (roughness 0.25)
+- **Terlard (apple costume)** (Terlard (Costume, Back), Terlard (Costume, Front))
+  - Glossy: red apple — waxy polished apple (roughness 0.25)
+- **Nuclear Tonemy**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Tofurang**
+  - Glow: neon-green mouth interior, back ridge, tail, outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Fortog**
+  - Glossy: skin, belly and throat sac — moist amphibian skin (roughness 0.3)
+- **Folerog**
+  - Glossy: skin, belly and throat sac — moist amphibian skin (roughness 0.3)
+- **Blubelrog**
+  - Glossy: skin, belly and throat sac — moist amphibian skin (roughness 0.3)
+- **Nuclear Magikarp** (Magikarp (Form 1))
+  - Glow: neon-green fins, crown, barbels, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - Glossy: dark scales — wet fish scales (roughness 0.3)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Gyarados** (Nuclear Mega Gyarados)
+  - Glow: neon-green fins, crest, spots, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - Glossy: dark scales — wet serpent scales (roughness 0.3)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Empirilla**
+  - Metal: gold crown, wrist cuffs, tusk cap — gold ornaments
+- **Nuclear Owten**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Eshouten**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Smore** *(unsure)*
+  - Glossy: black/red carapace — polished ant exoskeleton (roughness 0.35)
+- **Firoke** *(unsure)*
+  - Glow: red stripes and abdomen nozzle — belly full of super-hot lava (color red-orange; pulses)
+  - Glossy: black exoskeleton — hard carapace (roughness 0.35)
+- **Brailip**
+  - Glossy: exposed pink brain and fish body — wet sea creature (roughness 0.25)
+- **Brainoar**
+  - Glossy: exposed pink brain and fish body — wet sea creature (roughness 0.25)
+- **Nuclear Ekans**
+  - Glow: neon-green belly, rattle, stripes, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Arbok** (Nuclear Mega Arbok)
+  - Glow: neon-green biohazard hood pattern, belly, outline, extra heads (Mega) — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Tancoon (Form 6)**
+  - Glow: orange cracks, horns, tail stripe — magma-like burning form (color orange-red; pulses)
+- **Tanscure (Form 6)**
+  - Glow: orange-red flame tails, mane and cracks — magma/flame form (color orange-red; pulses)
+- **Nuclear Tancoon**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Tanscure**
+  - Glow: neon-green tails, mane, outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Pajay**
+  - Glow: wing fire trails and two fire streamers — wings constantly trail fire (color orange-yellow; pulses)
+- **Palij** *(unsure)*
+  - Glow: spark trails off wing feathers (in flight) — friction sparks (color orange-yellow; pulses)
+- **Nuclear Pahar**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Palij**
+  - Glow: neon-green plumes, wings, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Pajay**
+  - Glow: neon-green wing fire, streamers, plumes, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Jerbolta** *(unsure)*
+  - Glow: back spines and tail tip when charged — electricity in spines (color yellow; pulses)
+- **Nuclear Jerbolta**
+  - Glow: neon-green spines, tail, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Comite**
+  - See-through: crystal — crystal (ior 1.55; thickness thick)
+  - Glossy: lavender crystal on top — crystal (roughness 0.15)
+- **Cometeor**
+  - Glow: crystals (flashing colours) — crystals flash when meeting own kind (color multicolour; pulses)
+  - See-through: crystals jutting from top — crystal (ior 1.55; thickness thick)
+  - Glossy: crystals — crystal facets (roughness 0.1)
+- **Astronite** *(unsure)*
+  - Glow: pink spiral eye/core and psychic links on arm — psychic glow (color magenta; pulses)
+- **Comite (Costume) crystal-ball costume** (Comite (Costume)) *(unsure)*
+  - Glow: pink swirl inside ball — glowing inner spiral (color pink; pulses)
+  - See-through: blue crystal ball — glass orb (ior 1.5; thickness thick)
+  - Glossy: crystal ball — polished glass (roughness 0.05)
+- **Cometeor (Form 3) crystal-ball costume** (Cometeor (Form 3)) *(unsure)*
+  - Glow: pink swirl inside ball — glowing inner spiral (color pink; pulses)
+  - See-through: blue crystal ball and floating ice shards — glass orb (ior 1.5; thickness thick)
+  - Glossy: crystal ball — polished glass (roughness 0.05)
+- **Astronite (Form 3) crystal-ball costume** (Astronite (Form 3)) *(unsure)*
+  - Glow: pink swirl inside ball — glowing inner spiral (color pink; pulses)
+  - See-through: blue crystal ball and floating blue crystals — glass orb (ior 1.5; thickness thick)
+  - Glossy: crystal ball — polished glass (roughness 0.05)
+- **Nuclear Baashaun**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Baaschaf**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Baariette** (Nuclear Mega Baariette)
+  - Glow: neon-green horns, wool tufts, markings, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Harylect**
+  - Glow: light-bulb abdomen — abdomen resembles a lit bulb, electric (color warm yellow; pulses)
+  - See-through: wings — bee wing membrane (ior 1.4; thickness thin)
+- **Nuclear Costraw**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Trawpint**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Modrille** *(unsure)*
+  - Metal: yellow drill cone — drill
+- **Drilgann** (Mega Drilgann) *(unsure)*
+  - Metal: drill claws and drill cones — spinning drill claws
+- **Nuclear Gligar**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Gliscor**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Christmas Sableye**
+  - Glossy: gem eyes and chest gems — raw gemstones (roughness 0.1)
+- **Christmas Mega Sableye**
+  - See-through: snow-globe glass dome — glass globe (ior 1.5; thickness thick)
+  - Glossy: globe glass, red gem — glass and gems (roughness 0.05)
+- **Nuclear Corsola** (Corsola (Form 2))
+  - Glow: neon-green coral branches, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Corsola (Form 3)** *(unsure)*
+  - See-through: floating bubbles — water bubbles (ior 1.33; thickness thin)
+  - Glossy: bubbles — wet (roughness 0.05)
+- **Nuclear Corsoreef**
+  - Glow: neon-green coral growths, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Christmas Corsoreef**
+  - Glow: tree string lights and star — Christmas lights (color multicolour; pulses)
+- **Tubareel** *(unsure)*
+  - Glow: green diamond markings and teeth — deep-sea bioluminescence (color green; pulses)
+  - Glossy: eel skin — wet (roughness 0.3)
+- **Nuclear Tubjaw**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Tubareel**
+  - Glow: neon-green diamond markings, fins, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Cassnail**
+  - Glossy: soft blue snail body — slimy gastropod skin (roughness 0.25)
+- **Sableau**
+  - Glossy: soft blue snail body — slimy gastropod skin (roughness 0.25)
+- **Escartress**
+  - Glossy: soft blue snail body — slimy gastropod skin (roughness 0.25)
+- **Cassnail (Form 3)** *(unsure)*
+  - Glossy: cupcake frosting and snail body — frosting and slime (roughness 0.3)
+- **Sableau (Form 3)**
+  - Glow: birthday candle flame(s) — candle flame (color orange-yellow; pulses)
+  - Glossy: cake frosting and snail body — frosting and slime (roughness 0.3)
+- **Escartress (Form 3)**
+  - Glow: birthday candle flame(s) — candle flame (color orange-yellow; pulses)
+  - Glossy: cake frosting and snail body — frosting and slime (roughness 0.3)
+- **Nupin** *(unsure)*
+  - Glossy: cell-wall body — moist cell membrane (roughness 0.3)
+- **Nuclear Nupin**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nupin (Christmas tree costume)** (Nupin (Costume, Back), Nupin (Costume, Front))
+  - Glow: string lights on tree — Christmas lights (color multicolour; pulses)
+- **Gellin**
+  - See-through: pale membrane legs/body — translucent cell (ior 1.35; thickness thick)
+  - Glossy: squishy membrane body — gel-like semi-permeable membrane (roughness 0.2)
+- **Nuclear Gellin**
+  - Glow: neon-green organelles, mitochondria, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Festive Gellin** (Festive Gellin (Back), Festive Gellin (Front))
+  - Glow: string lights in garland — Christmas lights (color multicolour; pulses)
+  - Glossy: membrane body, bells — gel body (roughness 0.2)
+- **Nuclear Barand**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Glaslug** (Easter Glaslug)
+  - See-through: glassy translucent body and fins — glass-like ice sea slug (ior 1.31; thickness thick)
+  - Glossy: body, ice-crystal frills — wet icy skin (roughness 0.15)
+- **Glavinug** (Easter Glavinug)
+  - See-through: glassy translucent body and fins — glass-like ice sea slug (ior 1.31; thickness thick)
+  - Glossy: body, ice-crystal frills — wet icy skin (roughness 0.15)
+- **S51**
+  - Metal: disk saucer body — metallic UFO disk
+- **S51-A** (Mega S51-A)
+  - Glow: multicoloured hull lights — UFO lights (color multicolour; pulses)
+  - See-through: glass dome over head — glass dome (ior 1.5; thickness thin)
+  - Metal: UFO hull, purple bottom, laser cannons (Mega) — metallic UFO
+- **Nuclear Paraudio**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Paraboom**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Halloween Paraudio** *(unsure)*
+  - Glow: held lantern — lit lantern (color warm yellow; pulses)
+  - Metal: lantern frame — metal lantern
+- **Flager**
+  - Glow: tail flame — living flame (color orange-yellow; pulses)
+- **Inflagetah**
+  - Glow: flame mane and tail flames — living flame (color orange-yellow; pulses)
+- **Mega Inflagetah**
+  - Glow: blue-white jet flames — jet-like flames (color blue-white; pulses)
+- **Flager/Inflagetah spectral forms** (Flager (Form 4), Inflagetah (Form 4), Inflagetah (Form 5)) *(unsure)*
+  - Glow: green-white ghostly flames on legs, mane, tail — spectral flame (color pale green; pulses)
+  - Faded: flame wisps — ghostly fading flames (opacity 0.7)
+- **Frikitiki** *(unsure)*
+  - Glow: fiery headdress crest — Fire-type flame crest (color orange; pulses)
+- **Harptera**
+  - See-through: dragonfly wings — insect wing membrane (ior 1.4; thickness thin)
+- **Tracton**
+  - Metal: mechanical body, jaws, plates — Mechanical Dragon, Steel type
+- **Christmas Tracton**
+  - Glossy: candy cane and peppermint swirls — hard candy (roughness 0.15)
+- **Dermafrost**
+  - See-through: ice armour chunks on limbs/head — glacier ice (ior 1.31; thickness thick)
+  - Glossy: ice — ice surface (roughness 0.15)
+- **Titanice**
+  - See-through: ice floes — ice (ior 1.31; thickness thick)
+  - Metal: ship hull, chimney stacks, portholes — Steel ship hull
+  - Glossy: ice floes — ice (roughness 0.15)
+- **Halloween Titanice**
+  - Glow: spectral green ship and mist — ghost ship glow (color pale green; pulses)
+  - Faded: whole ghost ship and mist — ghostly (opacity 0.7)
+- **Frynai**
+  - Metal: bladed tail — Water/Steel blade
+  - Glossy: fish body — wet (roughness 0.3)
+- **Saidine**
+  - Metal: bladed tails — Water/Steel blade
+  - Glossy: fish body — wet (roughness 0.3)
+- **Daikatuna**
+  - Metal: head sword and blades — Water/Steel blade
+  - Glossy: fish body — wet (roughness 0.3)
+- **Syrentide** (Mega Syrentide)
+  - Metal: gold trident and crown — metal trident
+  - Glossy: seal/mermaid body — wet sea mammal (roughness 0.3)
+- **Nucleon**
+  - Glow: green ear and tail triangles, chest radiation symbol triangles, paws — glowing green triangles, fires gamma rays (color neon green; pulses)
+- **Ratsy** *(unsure)*
+  - Glossy: wet paint on tail brush — dripping paint (roughness 0.2)
+- **Raffiti** *(unsure)*
+  - Glossy: wet paint on tail brush — dripping paint (roughness 0.2)
+- **Nuclear Masking**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Dramsama** (Nuclear Mega Dramsama, Nuclear Dark Mega Dramsama)
+  - Glow: neon-green feather crowns, eyespots, coat, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Antarki**
+  - Glow: small star/fireball held in claws and tail — guides souls with star light (color orange-white; pulses)
+  - Faded: ghost body edges — ghost (opacity 0.85)
+- **Antarki (Form 3)** *(unsure)*
+  - Glow: golden halo — halo glow (color gold; pulses)
+  - Metal: halo ring — gold halo
+- **Nuclear Chupacho**
+  - Glow: neon-green markings, rim outline and eyes — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Luchabra**
+  - Glow: neon-green thorns, mask, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Linkite** (Christmas Linkite)
+  - Metal: shackles and chain — iron shackles
+  - Glossy: Poké Ball — glossy plastic ball (roughness 0.15)
+- **Chainite** (Christmas Chainite)
+  - Glow: orange-yellow edges of spirit flames — spirit energy (color orange; pulses)
+  - Faded: black smoke wisps from arms/feet/mouth — malicious spirit smoke (opacity 0.7)
+  - Metal: heavy shackles, padlock, spiked ball — iron restraints
+- **Alpico** (Christmas Alpico)
+  - Glossy: two waxy tails — waxy coating for gliding (roughness 0.2)
+- **Anderind** (Christmas Anderind) *(unsure)*
+  - Glossy: eye shield/visor — protective visor (roughness 0.1)
+- **Colarva** (Colarva (Alternate back)) *(unsure)*
+  - See-through: ice spikes — ice (ior 1.31; thickness thick)
+  - Glossy: ice spikes on back — ice (roughness 0.15)
+- **Frosulo** (Frosulo (Alternate back))
+  - See-through: ice shell cocoon — unmelting ice shell (ior 1.31; thickness thick)
+  - Glossy: ice shell — ice (roughness 0.1)
+- **Frosthra** (Frosthra (Alternate back))
+  - See-through: wings — ice-crystal moth wings (ior 1.31; thickness thin)
+  - Glossy: wing crystal panes — ice crystals (roughness 0.1)
+- **Lavent**
+  - Glow: embers/flames at base and mouth — geothermal heat, Fire type (color orange; pulses)
+- **Lavent (Form 3)** *(unsure)*
+  - Glossy: chocolate body and berries — glossy chocolate (roughness 0.2)
+- **Navighast**
+  - Glow: blue spectral flames on head and lower body — spectral icy flames (color cyan-blue; pulses)
+  - Faded: wispy lower body — ghost (opacity 0.7)
+- **Stenowatt** *(unsure)*
+  - Glow: tail stripes — stored electricity in tail (color pale blue; pulses)
+- **Jungore**
+  - Metal: gold nuggets studding hide — solid gold pieces
+- **Majungold**
+  - Metal: solid gold arms — solid gold
+- **Hagoop**
+  - Glow: whiskers/antennae — electric bite (color yellow; pulses)
+  - Glossy: slime-covered feet/tail/body — toxic slime (roughness 0.15)
+- **Haagross**
+  - Glow: whiskers/antennae — electric bite (color yellow; pulses)
+  - Glossy: slime-covered feet/tail/body — toxic slime (roughness 0.15)
+- **Nuclear Hagoop**
+  - Glow: neon-green slime and body, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - Glossy: slime — slime (roughness 0.15)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Nuclear Haagross**
+  - Glow: neon-green slime, antennae, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - Glossy: slime — slime (roughness 0.15)
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Xenomite**
+  - Glow: neon-green markings, tubes, spikes — Nuclear-type mutant glow (color neon green; pulses)
+  - Glossy: black carapace — alien chitin (roughness 0.3)
+- **Xenogen**
+  - Glow: neon-green markings, tubes, spikes — Nuclear-type mutant glow (color neon green; pulses)
+  - Glossy: black carapace — alien chitin (roughness 0.3)
+- **Xenoqueen**
+  - Glow: neon-green markings, tubes, spikes — Nuclear-type mutant glow (color neon green; pulses)
+  - Glossy: black carapace — alien chitin (roughness 0.3)
+- **Hazma** (Anniversary Hazma)
+  - Glow: green back spikes (Anniversary: blue-green glow) — Nuclear type (color neon green; pulses)
+  - Glossy: hazmat suit, respirator lenses — rubber suit and glass lenses (roughness 0.3)
+- **Geigeroach** *(unsure)*
+  - Glow: green markings — Nuclear type (color green; pulses)
+  - Glossy: carapace — roach shell (roughness 0.25)
+- **Luxi**
+  - Glossy: jade/ceramic body — porcelain good-luck charm look (roughness 0.2)
+- **Luxor**
+  - Glossy: jade tail — polished jade (roughness 0.1)
+- **Luxelong**
+  - Glossy: jade tail and scales — polished jade (roughness 0.1)
+- **Luxi (Form 3)** *(unsure)*
+  - Glow: red lantern orb — lantern glow (color red-orange; pulses)
+  - Metal: gold patterns — gold leaf
+  - Glossy: red lacquer body — lacquerware (roughness 0.15)
+- **Luxor (Form 3)** *(unsure)*
+  - Glow: red lantern orb — lantern glow (color red-orange; pulses)
+  - Metal: gold patterns — gold leaf
+  - Glossy: red lacquer body — lacquerware (roughness 0.15)
+- **Luxelong (Form 3)** *(unsure)*
+  - Glow: red lantern orb — lantern glow (color red-orange; pulses)
+  - Metal: gold patterns — gold leaf
+  - Glossy: red lacquer body — lacquerware (roughness 0.15)
+- **Praseopunk** (Praseopunk (Form 3))
+  - Glow: green electric aura, bolts, screen face — cyber electricity (color green; pulses)
+  - Metal: grey robotic body — machine body
+- **Neopunk** (Neopunk (Form 3))
+  - Glow: pink electric aura, bolts, screen face — cyber electricity (color pink; pulses)
+  - Metal: grey robotic body — machine body
+- **Devimp**
+  - Glow: flame between horns — living flame (color orange-yellow; pulses)
+- **Fallengel**
+  - Glow: flames between horns and on tail tip — living flame (color orange-yellow; pulses)
+- **Beliaddon**
+  - Glow: flame wings/horn fires and chest furnace — furnace in chest (color orange-yellow; pulses)
+- **Seikamater** *(unsure)*
+  - See-through: wings — insect wing membrane (ior 1.4; thickness thin)
+- **Baitatao**
+  - Glow: glowing orange scale spots — heat from scales boils water (color orange; pulses)
+  - Glossy: scales — wet (roughness 0.3)
+- **Leviathao**
+  - See-through: ice horn — ice (ior 1.31; thickness thick)
+  - Glossy: ice horn, body — ice and wet (roughness 0.15)
+- **Krakanao** *(unsure)*
+  - Glow: yellow-orange spots and lures — deep-sea lure (color yellow; pulses)
+  - Glossy: body — wet (roughness 0.3)
+- **Lanthan**
+  - Metal: metal body plates — Ground/Steel ore titan
+- **Actan**
+  - Metal: dark metal body and claws — Dark/Steel radioactive metal
+- **Nuclear Actan**
+  - Glow: neon-green stripes, claws, outline — Nuclear form: radioactive glow (color neon green; pulses)
+  - Metal: metal body — Steel type
+  - *Shiny:* shiny Nuclear glow colour may differ; check shiny palette
+- **Urayne** (Urayne Beta, Urayne Gamma)
+  - Glow: power core, eyes, hover rings, nucleon on antenna, green panels — atom-splitting reactor (color neon green / light blue; pulses)
+  - Metal: black machine body — biological machine
+- **Skelerogue** *(unsure)*
+  - Metal: cutlass and hook — pirate steel blade
+
+## Pokémon Insurgence (all original designs, done or not)
+
+123 entries.
+
+- **Mega Poliwrath**
+  - Glossy: wet skin, belly swirl — Water type, wet amphibian skin (roughness 0.3)
+- **Mega Marowak** *(unsure)*
+  - Glow: ghostly flames/spirit wisps around bone and skull — Ground/Ghost Mega spirit fire (color blue-purple; pulses)
+  - Faded: spirit wisps — ghostly aura (opacity 0.6)
+  - Glossy: bone club, skull helmet — polished bone (roughness 0.4)
+- **Mega Eevee** *(unsure)*
+  - Very matte: enlarged fluffy ruff and tail fur — very fluffy fur (roughness 0.95)
+- **Mega Eevee (effect states)** (Mega Eevee forms 2-9) *(unsure)*
+  - Glow: elemental aura/effect overlay per state (fire, electric, psychic etc.) — effect-state glow (color matches eeveelution element; pulses)
+  - See-through: ice/water effect state shards or droplets only — ice/water states (ior 1.31; thickness thin)
+  - Faded: aura and effect wisps — semi-transparent effect overlay (opacity 0.5)
+  - *Shiny:* effect colours may stay fixed while fur changes
+- **Space Mew**
+  - Glow: star specks and cosmic patterns on body, eyes, aura — starry space body (color white/cyan/violet; pulses)
+  - Faded: outer nebula aura/tail tip — cosmic haze; Mew can turn invisible (opacity 0.6)
+- **Mega Typhlosion**
+  - Glow: neck/back flame collar and any extra flames — living flames, heat haze (color orange-yellow; pulses)
+- **Mega Feraligatr**
+  - Glossy: wet scaly hide, jaw — Water type wet skin (roughness 0.3)
+- **Mega Politoed**
+  - Glossy: wet frog skin — amphibian (roughness 0.25)
+- **Mega Sunflora** (Male Mega Sunflora, Female Mega Sunflora, Male Mega Sunflora (Unleafed), Female Mega Sunflora (Unleafed)) *(unsure)*
+  - Glow: sun-fire petals/corona around face (Grass/Fire forms) — solar fire petals (color yellow-orange; pulses)
+- **Mega Steelix (Steel)**
+  - Metal: all body segments, jaw, spikes — Steel type
+  - Glossy: crystal shards if present — Mega Steelix crystals (roughness 0.2)
+- **Mega Steelix (Fire)**
+  - Glow: glowing heated seams/cracks between segments, mouth — molten heat (color red-orange; pulses)
+  - Metal: body segments and spikes — Steel/Fire
+- **Mega Magcargo**
+  - Glow: magma body, shell vents, dripping lava — body is magma (color orange-red; pulses)
+  - Glossy: molten flowing magma surface — liquid lava sheen (roughness 0.3)
+- **Armored Tyranitar**
+  - Metal: armour plating, helmet, spikes — Shadow-armour plates
+- **Mega Flygon**
+  - See-through: wings — Bug/Dragon membrane wings (ior 1.4; thickness thin)
+  - Glossy: red eye lenses — glassy lens covers (roughness 0.15)
+- **Armored Flygon**
+  - See-through: wing membranes — diamond wings (ior 1.4; thickness thin)
+  - Metal: armour plates on head, body, wings — armoured form
+  - Glossy: red eye lenses — glassy lens covers (roughness 0.15)
+- **Mega Crawdaunt**
+  - Glossy: carapace and giant pincers — polished crustacean shell (roughness 0.25)
+- **Mega Milotic**
+  - See-through: fins, tail fan, long head fins — translucent fins (ior 1.33; thickness thin)
+  - Glossy: scales and body — iridescent wet scales (roughness 0.2)
+- **Castform (Cloudy)** (Cloudy Form)
+  - Faded: cloud body edges and puffs — soft cloud vapour (opacity 0.75)
+  - Very matte: cloud body — fluffy cloud (roughness 0.95)
+- **Castform (Sandy)** (Sandy Form)
+  - Faded: drifting sand haze — sandstorm particles (opacity 0.6)
+  - Very matte: sand body and swirl — dusty sand (roughness 0.95)
+- **Kecleon (type colours)** (Kecleon forms 1-19) *(unsure)*
+  - Glow: Fire: flame-tinted accents; Electric: spark stripe (only on those type states) — type-state accents if drawn as glow (color per type)
+  - See-through: Ice/Water/Crystal states surface sheen only if drawn glassy — glassy states (ior 1.4; thickness thin)
+  - Faded: Ghost state body — ghostly colour state (opacity 0.8)
+  - Metal: Steel state body sheen — Steel-type colour state
+  - Glossy: Water/Ice/Crystal states skin — wet/icy colour states (roughness 0.25)
+- **Mega Jirachi**
+  - Glow: wish tags, third eye, star tips — wish-granting glow (color yellow-white; pulses)
+  - Metal: star-shaped head points/plates — Steel/Psychic
+  - Glossy: crystalline shell parts — crystalline shell (roughness 0.15)
+- **Mega Spiritomb**
+  - Glow: green spirit eyes, mouth, swirl orbs — 108 spirits glow (color green-purple; pulses)
+  - Faded: spirit vortex body — ghost wisps (opacity 0.6)
+  - Glossy: odd keystone — polished stone (roughness 0.35)
+- **Mega Froslass**
+  - See-through: ice ornaments, ice crystals on head/sleeves — Ice/Ghost ice (ior 1.31; thickness medium)
+  - Faded: hollow ghostly body/sleeve ends — body is hollow, ghostly (opacity 0.7)
+  - Glossy: ice surfaces — ice (roughness 0.15)
+- **Primal Regigigas** *(unsure)*
+  - Glow: body dots/lights and eyes — Regi light dots (color yellow-white or red; pulses)
+  - Metal: rock-metal body plates if drawn metallic — golem body
+- **Primal Giratina**
+  - Glow: red stripes/spikes, eyes — Primal energy (color red; pulses)
+  - Faded: shadow tendrils/wings — Distortion World shadow (opacity 0.7)
+  - Metal: gold armour bands/crown — gold plating
+- **Primal Arceus** *(unsure)*
+  - Glow: cross-wheel ring, gem points, eyes — godly energy (color gold/white; pulses)
+  - Metal: gold wheel ring and hooves — gold
+  - Glossy: gem nodes on wheel — jewels (roughness 0.15)
+- **Mega Zebstrika**
+  - Glow: lightning mane, stripes, hooves sparks — shoots lightning from mane (color white-yellow (fairy pink tints); pulses)
+- **Armored Leavanny**
+  - Metal: armour plates and blade-arm guards — armoured form
+- **Mega Zoroark** *(unsure)*
+  - Faded: illusion wisps / mane tips — illusion aura (opacity 0.7)
+- **Mega Gothitelle** *(unsure)*
+  - Glow: star motifs on dress/bows, eyes — reads the stars (color white-blue; pulses)
+- **Mega Reuniclus**
+  - See-through: outer gel body and arms — translucent jelly (ior 1.35; thickness thick)
+  - Glossy: gel surface — slick gel (roughness 0.15)
+- **Mega Haxorus**
+  - Metal: tusks/axe blades and armour plates — Dragon/Steel, cuts steel
+- **Mega Cryogonal**
+  - See-through: whole crystal body and ice chains — ice crystal (ior 1.31; thickness medium)
+  - Glossy: ice facets — ice (roughness 0.1)
+- **Mega Stunfisk**
+  - Glow: sparks/electric markings, lips — delivers jolts (color yellow; pulses)
+  - Glossy: muddy slick skin — wet mud fish (roughness 0.3)
+- **Mega Bisharp**
+  - Metal: head blade, arm blades, torso plates — Steel/Dark
+- **Armored Zekrom**
+  - Glow: tail generator, eyes — electric generator (color blue-white; pulses)
+  - Metal: armour plates — armoured form
+- **Froakie line (Protean type colours)** (Froakie forms 1-19, Frogadier forms 1-19, Greninja forms 1-19) *(unsure)*
+  - Glow: only Fire/Electric type states: flame/spark-coloured accents — type-state accents (color per type)
+  - See-through: frubbles (chest/back bubbles), Greninja water shuriken — bubbles/compressed water (ior 1.33; thickness thin)
+  - Glossy: wet skin — amphibian (roughness 0.3)
+- **Delta Bulbasaur line** (Delta Bulbasaur, Delta Ivysaur, Delta Venusaur)
+  - Glow: faint inner glow in crystal — crystal resonates with brain activity (color pink-violet; pulses)
+  - See-through: crystal on back (and forehead shard on Venusaur) — psychic crystal (ior 1.8; thickness thick)
+  - Glossy: crystal facets — Insurgence crystal (roughness 0.1)
+- **Mega Delta Venusaur**
+  - Glow: crystal inner glow — psychic resonance (color pink-violet; pulses)
+  - See-through: large crystal clusters on back and head — crystal growth (ior 1.8; thickness thick)
+  - Glossy: crystal facets — Insurgence crystal (roughness 0.1)
+- **Delta Charmander line** (Delta Charmander, Delta Charmeleon, Delta Charizard)
+  - Glow: ghostly tail flame (none on newborn), Charizard breath — Ghost/Dragon spirit flame (color purple-blue; pulses)
+  - Faded: flame edges — spectral flame (opacity 0.7)
+  - *Shiny:* flame colour may change with shiny
+- **Mega Delta Charizard**
+  - Glow: tail flame, wing/body flames, mouth — ghost flames (color purple-blue; pulses)
+  - Faded: spectral flame wisps — ghostly fire (opacity 0.7)
+- **Delta Squirtle line** (Delta Squirtle, Delta Wartortle, Delta Blastoise) *(unsure)*
+  - Glossy: dark shell — polished shell (roughness 0.3)
+- **Mega Delta Blastoise** *(unsure)*
+  - Glow: spirit-energy cannons / fists — blasts of spirit energy (color blue-purple; pulses)
+  - Glossy: shell — polished shell (roughness 0.3)
+- **Delta Ralts line** (Delta Ralts, Delta Kirlia, Delta Gardevoir, Delta Gallade)
+  - Glow: sparks and electric accents — generates sparks (color yellow-cyan; pulses)
+  - See-through: ice crystal horns/dress/blades — Electric/Ice ice parts (ior 1.31; thickness medium)
+  - Glossy: ice surfaces — ice (roughness 0.15)
+- **Mega Delta Gardevoir / Gallade** (Mega Delta Gardevoir, Mega Delta Gallade)
+  - Glow: electric arcs — discharges sparks (color yellow-cyan; pulses)
+  - See-through: enlarged ice gown/ice blades — ice (ior 1.31; thickness medium)
+  - Glossy: ice — ice (roughness 0.15)
+- **Delta Sunkern line** (Delta Sunkern, Delta Sunflora)
+  - Glow: purple fire petals/flames — emits purple poison fire (color purple-magenta; pulses)
+- **Mega Delta Sunflora**
+  - Glow: purple fire corona/petals — poison fire (color purple-magenta; pulses)
+- **Delta Scyther**
+  - See-through: ice scythes, wings — Ice/Fighting; fragile icy blades (ior 1.31; thickness thin)
+  - Glossy: ice blades — ice (roughness 0.1)
+- **Delta Scizor** (Mega Delta Scizor)
+  - See-through: ice coating on exoskeleton, claws, wings — coated with thick ice (ior 1.31; thickness medium)
+  - Glossy: ice shell — ice (roughness 0.1)
+- **Delta Combee line** (Delta Combee, Delta Vespiquen)
+  - Glow: reactor core in middle body — reactor powers fire moves (color orange; pulses)
+  - Metal: body plates, honeycomb shell — Steel/Fire
+- **Delta Koffing line** (Delta Koffing, Delta Weezing)
+  - Glow: electric sparks/bolts around body — discharges electricity (color yellow; pulses)
+  - Faded: cloud/gas puffs — Electric/Flying storm cloud (opacity 0.6)
+- **Delta Purrloin line** (Delta Purrloin, Delta Liepard, Mega Delta Liepard) *(unsure)*
+  - Glow: eyes/spirit markings — ghost glow (color pink-violet; pulses)
+  - Faded: ghostly tail/limb ends, illusion wisps — Ghost/Fairy illusions (opacity 0.7)
+- **Delta Snorunt**
+  - Glow: flame hood/eyes — Fire type (color orange; pulses)
+- **Delta Glalie** (Mega Delta Glalie)
+  - Glow: magma cracks, mouth, eyes — Fire/Rock; evaporates oceans (color orange-red; pulses)
+  - Glossy: obsidian/rock face — volcanic glass (roughness 0.3)
+- **Delta Froslass** (Mega Delta Froslass)
+  - Glow: fiery body, sleeves and head flames — fiery body (color orange-red; pulses)
+  - See-through: glass/obsidian ornaments edges — glass art (ior 1.5; thickness medium)
+  - Faded: hollow flame body edges — body is hollow (opacity 0.75)
+  - Glossy: obsidian shards — volcanic glass (roughness 0.1)
+- **Delta Shinx line** (Delta Shinx, Delta Luxio, Delta Luxray)
+  - Metal: body plates, claws, mane armour — Steel/Poison
+- **Delta Noibat line** (Delta Noibat, Delta Noivern)
+  - Metal: speaker ears, metal body parts — Grass/Steel; heavy metal
+- **Delta Drifloon line** (Delta Drifloon, Delta Drifblim)
+  - Glow: flame inside balloon/lantern body — Fire/Flying passionate spirits (color orange; pulses)
+  - See-through: balloon skin lit from within — paper/balloon lantern (ior 1.4; thickness thin)
+- **Delta Grimer line** (Delta Grimer, Delta Muk, Delta Muk forms 1-7)
+  - Very matte: sand sludge body — made of sand (roughness 0.95)
+- **Delta Wooper** *(unsure)*
+  - Glossy: candy pieces — Halloween candy (roughness 0.2)
+- **Delta Quagsire**
+  - Glow: jack-o-lantern face/eyes and inner glow — glows with Halloween spirit (color orange; pulses)
+- **Delta Misdreavus line** (Delta Misdreavus, Delta Mismagius) *(unsure)*
+  - Glow: holiday lights/ornaments — festive lights (color multi; pulses)
+  - Faded: ghostly skirt edges — ghost-like body (opacity 0.8)
+  - Glossy: ornament baubles, ice — Ice/Fairy ornaments (roughness 0.15)
+- **Delta Cyndaquil**
+  - Glow: tesla coil sparks on back — generates electricity (color blue-white; pulses)
+- **Delta Quilava / Typhlosion** (Delta Quilava, Delta Typhlosion)
+  - Glow: coils, electric arcs, lights — pulsates with lightning (color blue-white; pulses)
+  - Metal: machine plates, coils — Electric/Steel machine body
+- **Mega Delta Typhlosion (Inactive)** (Mega Delta Typhlosion (Inactive Mode))
+  - Glow: dim indicator lights — inactive mode (color blue)
+  - Metal: machine body — Electric/Steel
+- **Mega Delta Typhlosion (Active)** (Mega Delta Typhlosion (Active Mode))
+  - Glow: electric arcs, coils, lights at full — active mode (color blue-white; pulses)
+  - Metal: machine body — Electric/Steel
+- **Delta Torterra** *(unsure)*
+  - Metal: gold coins/treasure chest on back — pirate loot
+  - Glossy: wet shell — ocean turtle (roughness 0.35)
+- **Delta Snivy line** (Delta Snivy, Delta Servine, Delta Serperior) *(unsure)*
+  - See-through: fins — translucent fins (ior 1.33; thickness thin)
+  - Glossy: wet sea-serpent skin — Water type (roughness 0.25)
+- **Delta Greninja** *(unsure)*
+  - Glow: fire on hands/mouth when attacking — Grass/Fire, incinerates (color orange; pulses)
+- **Delta Pidgey line** (Delta Pidgey, Delta Pidgeotto, Delta Pidgeot, Mega Delta Pidgeot) *(unsure)*
+  - Glow: petrifying eyes — gorgon gaze (color yellow-green; pulses)
+- **Delta Geodude line** (Delta Geodude, Delta Graveler, Delta Golem) *(unsure)*
+  - Glow: psychic runes/eyes on ruin stone — Psychic/Rock living ruin (color cyan-violet; pulses)
+- **Delta Tentacool line** (Delta Tentacool, Delta Tentacruel) *(unsure)*
+  - Glossy: poison sacs — wet poison sacs (roughness 0.2)
+- **Delta Ditto** (Delta Ditto forms 1-18)
+  - See-through: whole water-blob body — Water-type liquid body (ior 1.33; thickness thick)
+  - Glossy: liquid surface — water (roughness 0.1)
+- **Delta Kabuto**
+  - Glossy: shell — Bug/Dark carapace (roughness 0.25)
+- **Delta Kabutops**
+  - See-through: wings — hovering insect wings (ior 1.4; thickness thin)
+  - Glossy: carapace — insect shell (roughness 0.25)
+- **Delta Dratini line** (Delta Dratini, Delta Dragonair, Delta Dragonite)
+  - Glow: electric orbs/sparks, horn — constantly releases electricity (color yellow-cyan; pulses)
+  - Glossy: sleek wet skin — Water/Electric (roughness 0.25)
+- **Delta Hoothoot line** (Delta Hoothoot, Delta Noctowl) *(unsure)*
+  - See-through: ice crystal feathers/ears if present — Ice/Flying (ior 1.31; thickness thin)
+  - Glossy: ice — ice (roughness 0.15)
+- **Delta Chinchou line** (Delta Chinchou, Delta Lanturn)
+  - Glow: lure flames on antennae, eyes — emits bright flames (color orange-red or ghost blue; pulses)
+  - Faded: body edges fading into shadows — Ghost/Fire (opacity 0.8)
+- **Delta Aipom line** (Delta Aipom, Delta Ambipom) *(unsure)*
+  - Faded: ghostly tail hand / detached spirit — Ghost/Normal (opacity 0.7)
+- **Delta Yanma line** (Delta Yanma, Delta Yanmega) *(unsure)*
+  - See-through: leaf-like wings — insect wings (ior 1.4; thickness thin)
+- **Delta Girafarig** (Mega Delta Girafarig)
+  - Metal: steel tail head, plates — Steel/Poison
+- **Delta Dunsparce** *(unsure)*
+  - See-through: wings — Bug/Water insect wings (ior 1.4; thickness thin)
+  - Glossy: carapace — water strider (roughness 0.3)
+- **Delta Shuckle**
+  - Metal: crank and shell plates — Fighting/Steel
+- **Delta Remoraid line** (Delta Remoraid, Delta Octillery)
+  - Glow: magma on head / lava on body — lives in lava (color orange-red; pulses)
+  - Faded: Octillery smokescreen beard — smoke (opacity 0.6)
+- **Delta Magby line** (Delta Magby, Delta Magmar, Delta Magmortar)
+  - See-through: helmet visor — glass diving visor (ior 1.5; thickness thin)
+  - Metal: oxygen tank, helmet, Magmortar armour and cannons — diving gear
+  - Glossy: wet skin — Water (roughness 0.3)
+- **Delta Seedot line** (Delta Seedot, Delta Nuzleaf, Delta Shiftry)
+  - Glow: flashing face (Seedot), lightning arms (Shiftry) — Electric; face flashes (color yellow; pulses)
+  - Faded: Nuzleaf/Shiftry storm cloud — cloud (opacity 0.7)
+- **Delta Sableye** (Mega Delta Sableye)
+  - Glow: molten rock, ember glow in gem eyes/mega shield — eats molten rock (color orange-red; pulses)
+  - Glossy: gem eyes and gems — gems (roughness 0.1)
+- **Delta Aron line** (Delta Aron, Delta Lairon, Delta Aggron)
+  - Glow: flames through armour cracks — flames escape cracks (color orange; pulses)
+  - Metal: armour plates, horns — Fire/Steel
+- **Delta Numel**
+  - Glow: radioactive markings — nuclear origin (color toxic green; pulses)
+- **Delta Camerupt** (Mega Delta Camerupt)
+  - Glow: radioactive humps/vents, markings — feeds on radiation (color toxic green; pulses)
+- **Delta Plusle**
+  - Glow: fire accents/ear flames — Fire/Fairy (color orange; pulses)
+- **Delta Minun**
+  - See-through: ice accents — Ice/Fairy (ior 1.31; thickness thin)
+  - Glossy: ice — ice (roughness 0.15)
+- **Delta Wailmer line** (Delta Wailmer, Delta Wailord) *(unsure)*
+  - See-through: ice/hail parts — Ice/Flying (ior 1.31; thickness medium)
+  - Glossy: ice — ice (roughness 0.15)
+- **Delta Feebas line** (Delta Feebas, Delta Milotic, Mega Delta Milotic)
+  - Glow: spirit glow in eye sockets — ghost (color cyan-violet; pulses)
+  - Faded: ghostly fins/ribbons — Ghost; skeletal (opacity 0.7)
+- **Delta Clamperl**
+  - Glossy: shell interior, pearl — nacre (roughness 0.15)
+- **Delta Beldum (Ruin) line** (Delta Beldum (Ruin), Delta Metang (Ruin), Delta Metagross (Ruin), Mega Delta Metagross (Ruin))
+  - Glow: crystal resonance glow — crystals resonate (color pale; pulses)
+  - See-through: exposed crystal core/shards — crystal core (ior 1.8; thickness thick)
+  - Glossy: crystal — Insurgence crystal (roughness 0.1)
+- **Crystal Delta Metagross** (Crystal Metagross)
+  - Glow: inner crystal glow — crystal energy (color pale; pulses)
+  - See-through: crystal body breaking out of rock shell — body composed of crystal (ior 1.8; thickness thick)
+  - Glossy: crystal — Insurgence crystal (roughness 0.1)
+- **Delta Riolu line** (Delta Riolu, Delta Lucario, Mega Delta Lucario) *(unsure)*
+  - Metal: gold Egyptian jewellery/collars — Anubis motif
+- **Delta Croagunk line** (Delta Croagunk, Delta Toxicroak)
+  - Glow: fire cheeks / knuckle flames — fiery knives (color orange; pulses)
+  - Faded: smog — thick smog (opacity 0.6)
+- **Delta Venipede line** (Delta Venipede, Delta Whirlipede, Delta Scolipede)
+  - Glow: magma seams/claws — dissolves foes with magma (color orange-red; pulses)
+- **Delta Petilil (Water) line** (Delta Petilil (Water), Delta Lilligant (Water))
+  - Glow: head flame/lure — undousable flame guiding divers (color orange-blue; pulses)
+  - Glossy: wet body — deep sea (roughness 0.3)
+- **Delta Petilil (Fairy) line** (Delta Petilil (Fairy), Delta Lilligant (Fairy)) *(unsure)*
+  - Glow: barrier/halo glow — protective barriers (color pale gold; pulses)
+- **Delta Solosis line** (Delta Solosis, Delta Duosion, Delta Reuniclus)
+  - Glow: soul cores/eyes — spirit (color green-violet; pulses)
+  - Faded: ghostly soul goo around rocks — Ghost/Rock bound souls (opacity 0.6)
+- **Delta Darumaka line** (Delta Darumaka, Delta Darmanitan)
+  - Faded: ghostly body edges — passes through things (opacity 0.7)
+- **Delta Maractus**
+  - Metal: gears, motors, whole body — Steel; mechanical
+- **Delta Dwebble (Berry) line** (Delta Dwebble (Berry), Delta Crustle (Berry)) *(unsure)*
+  - Glossy: berries — shiny fruit (roughness 0.25)
+- **Delta Dwebble (Cake) line** (Delta Dwebble (Cake), Delta Crustle (Cake))
+  - Metal: Crustle's fork — cutlery
+  - Glossy: frosting, fruit topping — glossy icing (roughness 0.25)
+- **Delta Yamask line** (Delta Yamask, Delta Cofagrigus)
+  - Glow: radioactive ooze/eyes — radioactive waste (color toxic green; pulses)
+  - Metal: waste barrel / coffin casing — Steel/Poison
+- **Delta Emolga**
+  - Glow: embers on tail/feet — ignites itself (color orange; pulses)
+- **Delta Emolga (Blaze Boosted)** (Blaze Boosted)
+  - Glow: blazing tail, feet and membranes — blaze visible for miles (color orange-red; pulses)
+- **Delta Escavalier**
+  - Metal: lance and armour under coating — steel armour
+  - Glossy: sugary white coating — candy glaze (roughness 0.2)
+- **Delta Litwick line** (Delta Litwick, Delta Lampent, Delta Chandelure)
+  - Glow: flames — Fairy/Fire flames (color pink-gold; pulses)
+  - See-through: Lampent lamp glass — glass lantern (ior 1.5; thickness thin)
+  - Glossy: wax body / lamp glass — candle wax (roughness 0.2)
+- **Delta Axew line** (Delta Axew, Delta Fraxure, Delta Haxorus)
+  - Metal: Haxorus anchor fin, tusks — Water/Steel
+  - Glossy: wet skin — Water (roughness 0.3)
+- **Delta Golett line** (Delta Golett, Delta Golurk)
+  - Metal: helmet and armour — Fighting/Steel
+- **Delta Heatmor**
+  - Metal: body mechanisms, arm nozzles — Steel/Poison
+  - Glossy: acid — liquid acid (roughness 0.15)
+- **Delta Larvesta line** (Delta Larvesta, Delta Volcarona)
+  - Glow: cosmic/space pattern stars on wings — warps space, black holes (color violet-white; pulses)
+  - Faded: toxic dust — lethal toxins (opacity 0.5)
+- **Armored Delta Volcarona** (Armored Volcarona)
+  - Glow: cosmic wing pattern — space warp (color violet-white; pulses)
+  - Metal: armour plates — armoured form
+- **Delta Goomy line** (Delta Goomy, Delta Sliggoo, Delta Goodra)
+  - Glossy: wet mud body — squishy mud (roughness 0.25)
+- **Delta Regirock**
+  - Glow: Regi dots — Regi lights (color yellow; pulses)
+  - Very matte: sand body — made of sand (roughness 0.95)
+- **Delta Regice**
+  - Glow: Regi dots — Regi lights (color cyan; pulses)
+  - See-through: whole water body — body is water (ior 1.33; thickness thick)
+  - Glossy: water surface — water (roughness 0.1)
+- **Delta Registeel**
+  - Glow: glowing hot core, dots, magma seams — core glows with heat (color orange-white; pulses)
+  - Glossy: molten surface — magma (roughness 0.3)
+- **Delta Hoopa** (Delta Hoopa Confined, Delta Hoopa Unleashed)
+  - Faded: clouds around torso — floating clouds (opacity 0.7)
+  - Metal: gold rings/jewellery — Hoopa rings
+- **UFI** *(unsure)*
+  - Glow: alien lights/eyes — from beyond visible universe (color cyan; pulses)
+  - Metal: saucer-like parts if present — UFO motif
