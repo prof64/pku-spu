@@ -22338,14 +22338,14 @@
   },
   {
    "id": "review/0731-delta-charmeleon-gen5-rig",
-   "rev": "6368513e2d",
+   "rev": "2d68bd5c10",
    "collection": "review",
    "number": 731,
    "name": "Delta Charmeleon (draft)",
    "file": "review/0731-delta-charmeleon-gen5-rig.spu",
    "thumbnail": "thumbs/review/0731-delta-charmeleon-gen5-rig.png",
    "animation": "anim/review/0731-delta-charmeleon-gen5-rig.png",
-   "bytes": 43370,
+   "bytes": 43006,
    "views": [
     "Front",
     "Back"
@@ -22357,14 +22357,14 @@
   },
   {
    "id": "review/0735-delta-blastoise-gen5-rig",
-   "rev": "a9d93b0018",
+   "rev": "3bddfe7c14",
    "collection": "review",
    "number": 735,
    "name": "Delta Blastoise (draft)",
    "file": "review/0735-delta-blastoise-gen5-rig.spu",
    "thumbnail": "thumbs/review/0735-delta-blastoise-gen5-rig.png",
    "animation": "anim/review/0735-delta-blastoise-gen5-rig.png",
-   "bytes": 55458,
+   "bytes": 56359,
    "views": [
     "Front",
     "Back"
@@ -22376,14 +22376,14 @@
   },
   {
    "id": "review/0738-delta-ralts-gen5-rig",
-   "rev": "650f865e84",
+   "rev": "18f7520f34",
    "collection": "review",
    "number": 738,
    "name": "Delta Ralts (draft)",
    "file": "review/0738-delta-ralts-gen5-rig.spu",
    "thumbnail": "thumbs/review/0738-delta-ralts-gen5-rig.png",
    "animation": "anim/review/0738-delta-ralts-gen5-rig.png",
-   "bytes": 15258,
+   "bytes": 15080,
    "views": [
     "Front",
     "Back"
@@ -22394,14 +22394,14 @@
   },
   {
    "id": "review/0740-delta-gardevoir-gen5-rig",
-   "rev": "3fb89ea3d2",
+   "rev": "787f127552",
    "collection": "review",
    "number": 740,
    "name": "Delta Gardevoir (draft)",
    "file": "review/0740-delta-gardevoir-gen5-rig.spu",
    "thumbnail": "thumbs/review/0740-delta-gardevoir-gen5-rig.png",
    "animation": "anim/review/0740-delta-gardevoir-gen5-rig.png",
-   "bytes": 50066,
+   "bytes": 48181,
    "views": [
     "Front",
     "Back"
