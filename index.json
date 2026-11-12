@@ -116,11 +116,11 @@
   {
    "id": "review",
    "name": "Drafts for review",
-   "count": 4,
+   "count": 3,
    "samples": [
     "review/0731-delta-charmeleon-gen5-rig",
-    "review/0735-delta-blastoise-gen5-rig",
-    "review/0738-delta-ralts-gen5-rig"
+    "review/0738-delta-ralts-gen5-rig",
+    "review/0740-delta-gardevoir-gen5-rig"
    ],
    "groups": [],
    "groupSamples": {}
@@ -21740,20 +21740,21 @@
   },
   {
    "id": "insurgence/0735-delta-blastoise",
-   "rev": "b52d3d3850",
+   "rev": "b5e7c5ace6",
    "collection": "insurgence",
    "number": 735,
    "name": "Delta Blastoise",
    "file": "insurgence/0735-delta-blastoise.spu",
    "thumbnail": "thumbs/insurgence/0735-delta-blastoise.png",
    "animation": "anim/insurgence/0735-delta-blastoise.png",
-   "bytes": 43441,
+   "bytes": 56351,
    "views": [
     "Front",
     "Back"
    ],
    "variants": [
-    "Shiny"
+    "Shiny",
+    "Eyes closed"
    ]
   },
   {
@@ -22346,25 +22347,6 @@
    "thumbnail": "thumbs/review/0731-delta-charmeleon-gen5-rig.png",
    "animation": "anim/review/0731-delta-charmeleon-gen5-rig.png",
    "bytes": 43006,
-   "views": [
-    "Front",
-    "Back"
-   ],
-   "variants": [
-    "Shiny",
-    "Eyes closed"
-   ]
-  },
-  {
-   "id": "review/0735-delta-blastoise-gen5-rig",
-   "rev": "3bddfe7c14",
-   "collection": "review",
-   "number": 735,
-   "name": "Delta Blastoise (draft)",
-   "file": "review/0735-delta-blastoise-gen5-rig.spu",
-   "thumbnail": "thumbs/review/0735-delta-blastoise-gen5-rig.png",
-   "animation": "anim/review/0735-delta-blastoise-gen5-rig.png",
-   "bytes": 56359,
    "views": [
     "Front",
     "Back"
