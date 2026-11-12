@@ -21481,14 +21481,14 @@
   },
   {
    "id": "insurgence/0727-delta-bulbasaur-default",
-   "rev": "e439f1bfc1",
+   "rev": "9f665f5dbd",
    "collection": "insurgence",
    "number": 727,
    "name": "Delta Bulbasaur",
    "file": "insurgence/0727-delta-bulbasaur-default.spu",
    "thumbnail": "thumbs/insurgence/0727-delta-bulbasaur-default.png",
    "animation": "anim/insurgence/0727-delta-bulbasaur-default.png",
-   "bytes": 23651,
+   "bytes": 48770,
    "views": [
     "Front",
     "Back"
@@ -21518,14 +21518,14 @@
   },
   {
    "id": "insurgence/0728-delta-ivysaur-default",
-   "rev": "8978d4216f",
+   "rev": "7d64495b88",
    "collection": "insurgence",
    "number": 728,
    "name": "Delta Ivysaur",
    "file": "insurgence/0728-delta-ivysaur-default.spu",
    "thumbnail": "thumbs/insurgence/0728-delta-ivysaur-default.png",
    "animation": "anim/insurgence/0728-delta-ivysaur-default.png",
-   "bytes": 29645,
+   "bytes": 63746,
    "views": [
     "Front",
     "Back"
@@ -21555,14 +21555,14 @@
   },
   {
    "id": "insurgence/0729-delta-venusaur-default",
-   "rev": "83722bb347",
+   "rev": "7ff58681f4",
    "collection": "insurgence",
    "number": 729,
    "name": "Delta Venusaur",
    "file": "insurgence/0729-delta-venusaur-default.spu",
    "thumbnail": "thumbs/insurgence/0729-delta-venusaur-default.png",
    "animation": "anim/insurgence/0729-delta-venusaur-default.png",
-   "bytes": 80552,
+   "bytes": 158264,
    "views": [
     "Front",
     "Back"
@@ -21629,14 +21629,14 @@
   },
   {
    "id": "insurgence/0730-delta-charmander",
-   "rev": "0682e35c56",
+   "rev": "998a515409",
    "collection": "insurgence",
    "number": 730,
    "name": "Delta Charmander",
    "file": "insurgence/0730-delta-charmander.spu",
    "thumbnail": "thumbs/insurgence/0730-delta-charmander.png",
    "animation": "anim/insurgence/0730-delta-charmander.png",
-   "bytes": 29484,
+   "bytes": 75455,
    "views": [
     "Front",
     "Back"
@@ -21702,14 +21702,14 @@
   },
   {
    "id": "insurgence/0733-delta-squirtle",
-   "rev": "716a85c33c",
+   "rev": "c7b352428c",
    "collection": "insurgence",
    "number": 733,
    "name": "Delta Squirtle",
    "file": "insurgence/0733-delta-squirtle.spu",
    "thumbnail": "thumbs/insurgence/0733-delta-squirtle.png",
    "animation": "anim/insurgence/0733-delta-squirtle.png",
-   "bytes": 21271,
+   "bytes": 38083,
    "views": [
     "Front",
     "Back"
@@ -21721,14 +21721,14 @@
   },
   {
    "id": "insurgence/0734-delta-wartortle",
-   "rev": "b809e34263",
+   "rev": "891e390af8",
    "collection": "insurgence",
    "number": 734,
    "name": "Delta Wartortle",
    "file": "insurgence/0734-delta-wartortle.spu",
    "thumbnail": "thumbs/insurgence/0734-delta-wartortle.png",
    "animation": "anim/insurgence/0734-delta-wartortle.png",
-   "bytes": 33795,
+   "bytes": 63140,
    "views": [
     "Front",
     "Back"
@@ -21740,14 +21740,14 @@
   },
   {
    "id": "insurgence/0735-delta-blastoise",
-   "rev": "b5e7c5ace6",
+   "rev": "f9bbea0d71",
    "collection": "insurgence",
    "number": 735,
    "name": "Delta Blastoise",
    "file": "insurgence/0735-delta-blastoise.spu",
    "thumbnail": "thumbs/insurgence/0735-delta-blastoise.png",
    "animation": "anim/insurgence/0735-delta-blastoise.png",
-   "bytes": 56351,
+   "bytes": 106438,
    "views": [
     "Front",
     "Back"
@@ -21831,14 +21831,14 @@
   },
   {
    "id": "insurgence/0739-delta-kirlia",
-   "rev": "1965613504",
+   "rev": "df6034db1d",
    "collection": "insurgence",
    "number": 739,
    "name": "Delta Kirlia",
    "file": "insurgence/0739-delta-kirlia.spu",
    "thumbnail": "thumbs/insurgence/0739-delta-kirlia.png",
    "animation": "anim/insurgence/0739-delta-kirlia.png",
-   "bytes": 30790,
+   "bytes": 54177,
    "views": [
     "Front",
     "Back"
@@ -21888,14 +21888,14 @@
   },
   {
    "id": "insurgence/0741-delta-gallade",
-   "rev": "c076d45d8f",
+   "rev": "4977ad0a43",
    "collection": "insurgence",
    "number": 741,
    "name": "Delta Gallade",
    "file": "insurgence/0741-delta-gallade.spu",
    "thumbnail": "thumbs/insurgence/0741-delta-gallade.png",
    "animation": "anim/insurgence/0741-delta-gallade.png",
-   "bytes": 39117,
+   "bytes": 143133,
    "views": [
     "Front",
     "Back"
@@ -22339,14 +22339,14 @@
   },
   {
    "id": "review/0731-delta-charmeleon-gen5-rig",
-   "rev": "2d68bd5c10",
+   "rev": "cda841c68e",
    "collection": "review",
    "number": 731,
    "name": "Delta Charmeleon (draft)",
    "file": "review/0731-delta-charmeleon-gen5-rig.spu",
    "thumbnail": "thumbs/review/0731-delta-charmeleon-gen5-rig.png",
    "animation": "anim/review/0731-delta-charmeleon-gen5-rig.png",
-   "bytes": 43006,
+   "bytes": 110524,
    "views": [
     "Front",
     "Back"
@@ -22358,14 +22358,14 @@
   },
   {
    "id": "review/0738-delta-ralts-gen5-rig",
-   "rev": "18f7520f34",
+   "rev": "0d08f86a2e",
    "collection": "review",
    "number": 738,
    "name": "Delta Ralts (draft)",
    "file": "review/0738-delta-ralts-gen5-rig.spu",
    "thumbnail": "thumbs/review/0738-delta-ralts-gen5-rig.png",
    "animation": "anim/review/0738-delta-ralts-gen5-rig.png",
-   "bytes": 15080,
+   "bytes": 26332,
    "views": [
     "Front",
     "Back"
@@ -22376,14 +22376,14 @@
   },
   {
    "id": "review/0740-delta-gardevoir-gen5-rig",
-   "rev": "787f127552",
+   "rev": "9c68e80851",
    "collection": "review",
    "number": 740,
    "name": "Delta Gardevoir (draft)",
    "file": "review/0740-delta-gardevoir-gen5-rig.spu",
    "thumbnail": "thumbs/review/0740-delta-gardevoir-gen5-rig.png",
    "animation": "anim/review/0740-delta-gardevoir-gen5-rig.png",
-   "bytes": 48181,
+   "bytes": 139584,
    "views": [
     "Front",
     "Back"
