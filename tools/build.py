@@ -3,7 +3,7 @@
 
 Each sprite is upgraded to SPU version 1 (if it is older), checked, and given
 a thumbnail; index.json lists them all. Needs the `spu` command from
-https://github.com/prof64/sprite-format (pass its path with --spu).
+https://github.com/prof64/spu (pass its path with --spu).
 
     python3 tools/build.py --spu ../../sprite-format/target/release/spu \
         --uranium <folder holding Uranium's catalog.json and SPUs/> \

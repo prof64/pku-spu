@@ -1,6 +1,6 @@
 # pku-spu
 
-Animated Pokémon battle sprites as editable [SPU](https://github.com/prof64/sprite-format)
+Animated Pokémon battle sprites as editable [SPU](https://github.com/prof64/spu)
 files: drawings, parts, animations and shiny colors in one `.spu` each. This
 is the library the Smeargle editor's Start screen browses.
 
