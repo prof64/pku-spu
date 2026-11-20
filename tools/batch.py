@@ -19,6 +19,9 @@ https://smeargle.prof64.net/?review=<name>&at=<commit>, which anyone can open to
 
 Needs the `switchboard` command (to ask in the queue) and, to check files and draw their
 thumbnails, the `spu` command from https://github.com/prof64/spu (--spu, or $SPU).
+
+Every sprite of the library is laid out as Gen 5's are (the README says how). `add` refuses one
+that is not, and `land` does not file one, unless it was added with --as-is.
 """
 import argparse, json, os, re, shutil, struct, subprocess, sys, tempfile, zlib
 from datetime import datetime, timezone
@@ -125,27 +128,69 @@ def read_png(path):
     return width, height, rows
 
 
-def drawn(spu, source):
-    """How big the sprite is drawn at rest, and whether every pixel of it is doubled (a sprite kept
-    at twice its real size, as some games store them). None if it cannot be told."""
+# A Gen 5 sprite at rest is never larger than this either way (its cell is 96 pixels; the largest is 111).
+LARGEST = 112
+
+
+def seen(spu, source, view):
+    """What a view's plain picture at rest shows: the drawn part's size, how many pixels are drawn,
+    whether every pixel is doubled (art kept at twice its real size, as some games store it), and
+    whether the drawing runs off the bottom of its canvas along a wide edge (only part of the body
+    is drawn). None if it cannot be told."""
     with tempfile.TemporaryDirectory() as folder:
         picture = Path(folder) / "rest.png"
-        if subprocess.run([spu, "render", str(source), str(picture)], capture_output=True).returncode:
+        if subprocess.run([spu, "render", str(source), str(picture), "--view", view], capture_output=True).returncode:
             return None
         read = read_png(picture)
     if not read:
         return None
     width, height, rows = read
     pixel = lambda x, y: bytes(rows[y][x * 4:x * 4 + 4]) if rows[y][x * 4 + 3] else None
-    inked = [(x, y) for y in range(height) for x in range(width) if pixel(x, y)]
-    if not inked:
-        return None
-    x0, y0 = min(x for x, _ in inked), min(y for _, y in inked)
-    w, h = max(x for x, _ in inked) - x0 + 1, max(y for _, y in inked) - y0 + 1
+    across = [sum(1 for x in range(width) if rows[y][x * 4 + 3]) for y in range(height)]
+    drawn_rows = [y for y in range(height) if across[y]]
+    if not drawn_rows:
+        return {"width": 0, "height": 0, "pixels": 0, "doubled": False, "cut": False}
+    y0, y1 = drawn_rows[0], drawn_rows[-1]
+    columns = [x for x in range(width) if any(rows[y][x * 4 + 3] for y in range(y0, y1 + 1))]
+    x0, w, h = columns[0], columns[-1] - columns[0] + 1, y1 - y0 + 1
     doubled = w % 2 == 0 and h % 2 == 0 and w >= 8 and h >= 8 and all(
         pixel(x, y) == pixel(x0 + (x - x0) // 2 * 2, y0 + (y - y0) // 2 * 2)
-        for y in range(y0, y0 + h) for x in range(x0, x0 + w))
-    return w, h, doubled
+        for y in range(y0, y1 + 1) for x in range(x0, x0 + w))
+    # Feet and tails come to a point or two; a body that runs off the canvas leaves a wide straight edge.
+    cut = y1 == height - 1 and across[y1] >= 0.45 * max(across)
+    return {"width": w, "height": h, "pixels": sum(across), "doubled": doubled, "cut": cut}
+
+
+def layout(spu, source):
+    """Where a sprite is not laid out as Gen 5's are, which is what every sprite here is held to
+    (see the README): drawn at its real size, a whole back, front and back at the same scale.
+    A list of plain sentences; empty when it is."""
+    listed = subprocess.run([spu, "info", str(source)], capture_output=True, text=True).stdout
+    views = re.findall(r"^view (\S+) \((.*?)\):", listed, re.M)
+    looked = [(name, seen(spu, source, view)) for view, name in views[:2]]
+    if not looked or any(v is None for _, v in looked):
+        return ["It could not be drawn to check its layout."]
+    said = []
+    for name, v in looked:
+        if v["doubled"]:
+            said.append(f'Every pixel of the {name.lower()} is doubled: it is drawn at twice its real size '
+                        f'({v["width"]}×{v["height"]}, really {v["width"] // 2}×{v["height"] // 2}).')
+        elif max(v["width"], v["height"]) > LARGEST:
+            said.append(f'The {name.lower()} is {v["width"]}×{v["height"]}: larger than a Gen 5 sprite.')
+    front = looked[0][1]
+    if not front["pixels"]:
+        return said
+    back = looked[1][1] if len(looked) > 1 else None
+    if not back or not back["pixels"]:
+        return said + ["It has no back."]
+    if back["cut"]:
+        said.append("The back is cut off at the bottom: only part of the body is drawn.")
+    scale = (back["pixels"] / front["pixels"]) ** 0.5
+    if scale > 1.3:
+        said.append(f"The back is drawn about {scale:.1f} times as large as the front. In Gen 5 they are the same scale.")
+    elif scale < 0.75:
+        said.append(f"The back is drawn smaller than the front (about {scale:.1f} times). In Gen 5 they are the same scale.")
+    return said
 
 
 def add(args):
@@ -162,10 +207,10 @@ def add(args):
         checked = subprocess.run([spu, "validate", str(source)], text=True, capture_output=True)
         if checked.returncode:
             fail(f"{source} does not pass `spu validate`:\n{checked.stdout}{checked.stderr}")
-        size = drawn(spu, source)
-        if size and size[2] and not args.doubled:
-            fail(f"{source} is drawn with every pixel doubled, at twice its real size ({size[0]}×{size[1]}, really "
-                 f"{size[0] // 2}×{size[1] // 2}). Rebuild it at its real size first, or pass --doubled if it is meant to be so.")
+        wrong = layout(spu, source)
+        if wrong and not args.as_is:
+            fail(f"{source} is not laid out like a Gen 5 sprite:\n  " + "\n  ".join(wrong)
+                 + "\nRedo it in that layout first (see the README), or pass --as-is to have it looked at anyway.")
     else:
         print("batch: no spu command found, so the file was not checked (--spu)", file=sys.stderr)
 
@@ -183,6 +228,9 @@ def add(args):
     entry = {"id": args.id, "name": args.name or old_names().get(args.id) or stem.replace("-", " ").title(), "file": f"{args.id}.spu"}
     if args.note:
         entry["note"] = args.note
+    if args.as_is:
+        # Looked at as it is; `land` files it whatever its layout.
+        entry["as_is"] = True
     before = f"anim/{args.id}.png"
     if (ROOT / before).exists():
         entry["before"] = before
@@ -289,6 +337,12 @@ def land(args):
             kept.append(sprite)
             continue
         source = folder(args.batch) / sprite["file"]
+        # Good to look at is not enough to join the library: it has to be laid out like the rest.
+        wrong = [] if sprite.get("as_is") else layout(spu, source)
+        if wrong:
+            sprite["redo"] = "Not laid out like a Gen 5 sprite. " + " ".join(wrong)
+            kept.append(sprite)
+            continue
         target = LIBRARY / sprite["file"]
         thumb = LIBRARY / "thumbs" / f'{sprite["id"]}.png'
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -363,7 +417,7 @@ def main():
     adding.add_argument("--note", help="what to look at: shown beside the sprite")
     adding.add_argument("--title", help="what the batch is called")
     adding.add_argument("--about", help="a line about the whole batch")
-    adding.add_argument("--doubled", action="store_true", help="it is meant to be drawn with every pixel doubled")
+    adding.add_argument("--as-is", action="store_true", help="take it although it is not laid out like a Gen 5 sprite")
     adding.set_defaults(act=add)
     sending = commands.add_parser("send", help="commit, push, and ask in the queue")
     sending.add_argument("batch")

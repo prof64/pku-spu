@@ -21,6 +21,32 @@ this library.
 `featured.json` picks the three sprites shown on each game's and section's
 card in the gallery.
 
+## One layout: Gen 5's
+
+Every sprite in the rebuilt library (`v2/`) is laid out the way Black 2 and
+White 2 lay theirs out, whichever game it comes from:
+
+- **Real size.** One pixel of art is one pixel of the file. At rest a sprite
+  fits Gen 5's 96 × 96 cell (the largest Gen 5 sprite is 111 across); a view's
+  canvas is larger only where an animation reaches outside it.
+- **A whole back.** The back shows the whole body, not the top half.
+- **One scale.** Front and back are drawn at the same scale, so the two are
+  about the same size.
+
+The Gen 5 sprites already are. The other two games' are not yet, and are
+redone in this layout before they are rebuilt in format 2 (measured
+2026-11-20 on the version 1 files, at rest):
+
+| Collection | In the layout | What is different |
+| --- | --- | --- |
+| Black 2 & White 2 (750) | 717 | The 33 Pokéstar Studios props have only a placeholder back |
+| Uranium (334) | none | 320 backs are drawn about 1.9 times as large as their fronts; 14 have no back |
+| Insurgence (47) | 9 (the Deltas already redone on Gen 5 rigs) | Most are kept at twice their size, and 34 backs are cut off at the bottom |
+
+`tools/batch.py` checks this: `add` refuses a sprite that is not in the
+layout, and `land` does not file one, unless it was added with `--as-is`.
+Smeargle's review page says the same beside the sprite.
+
 ## Format 2, and looking at sprites before they join
 
 The sprites are being rebuilt in SPU format 2, which adds lighting: a material
@@ -41,8 +67,6 @@ tools/batch.py remove first-six <id>   # take one sprite back out
 tools/batch.py drop first-six     # give the batch up: withdraw its question, delete it
 ```
 
-`add` refuses a sprite drawn with every pixel doubled (kept at twice its real
-size, as Insurgence stores its own): it is rebuilt at its real size first.
 After changing a batch that was already sent, `send --again` withdraws the
 earlier question and asks about the sprites as they now are.
 
