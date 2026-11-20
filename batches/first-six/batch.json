@@ -1,0 +1,50 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "First six",
+  "sprites": [
+    {
+      "id": "black2-white2/0001-bulbasaur",
+      "name": "Bulbasaur",
+      "file": "black2-white2/0001-bulbasaur.spu",
+      "note": "Every tick matches the old file, in both views, normal, shiny and eyes closed. Eight materials: skin, outline, bulb, mouth, eye, eye white, claws, spots. Nothing glows.",
+      "before": "anim/black2-white2/0001-bulbasaur.png"
+    },
+    {
+      "id": "black2-white2/0593-jellicent",
+      "name": "Jellicent",
+      "file": "black2-white2/0593-jellicent.spu",
+      "note": "Matches the old file, except female with eyes closed: the old file showed the wrong eyes, this one shows her own shut eyes. The body is glossy see-through jelly, the ruff and frills softer. The open eyes glow faintly.",
+      "before": "anim/black2-white2/0593-jellicent.png"
+    },
+    {
+      "id": "black2-white2/0493-arceus",
+      "name": "Arceus",
+      "file": "black2-white2/0493-arceus.spu",
+      "note": "All 1,008 frames match the old file, and every type's look at sample ticks. The gold is metal. The wheel's gems glow, the eyes faintly.",
+      "before": "anim/black2-white2/0493-arceus.png"
+    },
+    {
+      "id": "uranium/004-archilles",
+      "name": "Archilles",
+      "file": "uranium/004-archilles.spu",
+      "note": "All 628 frames match the old file. The flames glow (white cores most, red edges least) and the head and tail flames flicker slowly. The red petals on the tail are shell, not flame.",
+      "before": "anim/uranium/004-archilles.png"
+    },
+    {
+      "id": "insurgence/0732-delta-charizard-base",
+      "name": "Delta Charizard",
+      "file": "insurgence/0732-delta-charizard-base.spu",
+      "note": "All 248 frames match the old file. The tail flame, the eyes and the fire in the chest glow, brightest at the hottest colors.",
+      "before": "anim/insurgence/0732-delta-charizard-base.png"
+    },
+    {
+      "id": "uranium/082-corsoreef-form-03-christmas",
+      "name": "Christmas Corsoreef",
+      "file": "uranium/082-corsoreef-form-03-christmas.spu",
+      "note": "All 500 frames match the old file, across three animations. 49 materials. The string lights glow fully, the star softly.",
+      "before": "anim/uranium/082-corsoreef-form-03-christmas.png"
+    }
+  ],
+  "note": "The first sprites rebuilt in the new format. An agent that had only the old file remade each one through the Smeargle site, then lit it. Is the lighting right?"
+}
