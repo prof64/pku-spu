@@ -10,6 +10,8 @@ page) and marked good or redo, with a note.
     tools/batch.py send first-six       commit, push, and ask in the queue
     tools/batch.py answer first-six     what was answered, once it has been
     tools/batch.py land first-six       file the good ones under v2/; keep the rest to redo
+    tools/batch.py remove first-six <id>    take one sprite back out
+    tools/batch.py drop first-six       give the batch up: withdraw its question, delete it
 
 A batch is the folder batches/<name>/: batch.json, and each sprite at the path it will
 have in the library (<collection>/<file>.spu). Its page is
@@ -18,7 +20,7 @@ https://smeargle.prof64.net/?review=<name>&at=<commit>, which anyone can open to
 Needs the `switchboard` command (to ask in the queue) and, to check files and draw their
 thumbnails, the `spu` command from https://github.com/prof64/spu (--spu, or $SPU).
 """
-import argparse, json, os, re, shutil, subprocess, sys
+import argparse, json, os, re, shutil, struct, subprocess, sys, tempfile, zlib
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -82,6 +84,70 @@ def old_names():
     return {s["id"]: s["name"] for s in json.loads(index.read_text())["sprites"]}
 
 
+def read_png(path):
+    """The pixels of an 8-bit RGBA picture (what `spu render` writes), row by row; None for any other kind."""
+    data = Path(path).read_bytes()
+    if data[:8] != b"\x89PNG\r\n\x1a\n":
+        return None
+    at, packed, head = 8, [], None
+    while at < len(data):
+        length, kind = struct.unpack(">I4s", data[at:at + 8])
+        body = data[at + 8:at + 8 + length]
+        at += 12 + length
+        if kind == b"IHDR":
+            head = struct.unpack(">IIBBBBB", body)
+        elif kind == b"IDAT":
+            packed.append(body)
+    if not head or head[2:5] != (8, 6, 0) or head[6] != 0:
+        return None
+    width, height = head[0], head[1]
+    raw, stride = zlib.decompress(b"".join(packed)), width * 4
+    rows, above, at = [], bytearray(stride), 0
+    for _ in range(height):
+        how, line = raw[at], bytearray(raw[at + 1:at + 1 + stride])
+        at += 1 + stride
+        for x in range(stride):
+            a = line[x - 4] if x >= 4 else 0
+            b = above[x]
+            c = above[x - 4] if x >= 4 else 0
+            if how == 1:
+                line[x] = (line[x] + a) & 255
+            elif how == 2:
+                line[x] = (line[x] + b) & 255
+            elif how == 3:
+                line[x] = (line[x] + (a + b) // 2) & 255
+            elif how == 4:
+                p = a + b - c
+                pa, pb, pc = abs(p - a), abs(p - b), abs(p - c)
+                line[x] = (line[x] + (a if pa <= pb and pa <= pc else b if pb <= pc else c)) & 255
+        rows.append(line)
+        above = line
+    return width, height, rows
+
+
+def drawn(spu, source):
+    """How big the sprite is drawn at rest, and whether every pixel of it is doubled (a sprite kept
+    at twice its real size, as some games store them). None if it cannot be told."""
+    with tempfile.TemporaryDirectory() as folder:
+        picture = Path(folder) / "rest.png"
+        if subprocess.run([spu, "render", str(source), str(picture)], capture_output=True).returncode:
+            return None
+        read = read_png(picture)
+    if not read:
+        return None
+    width, height, rows = read
+    pixel = lambda x, y: bytes(rows[y][x * 4:x * 4 + 4]) if rows[y][x * 4 + 3] else None
+    inked = [(x, y) for y in range(height) for x in range(width) if pixel(x, y)]
+    if not inked:
+        return None
+    x0, y0 = min(x for x, _ in inked), min(y for _, y in inked)
+    w, h = max(x for x, _ in inked) - x0 + 1, max(y for _, y in inked) - y0 + 1
+    doubled = w % 2 == 0 and h % 2 == 0 and w >= 8 and h >= 8 and all(
+        pixel(x, y) == pixel(x0 + (x - x0) // 2 * 2, y0 + (y - y0) // 2 * 2)
+        for y in range(y0, y0 + h) for x in range(x0, x0 + w))
+    return w, h, doubled
+
+
 def add(args):
     collection, _, stem = args.id.partition("/")
     if collection not in COLLECTIONS or not PLAIN.match(stem):
@@ -96,6 +162,10 @@ def add(args):
         checked = subprocess.run([spu, "validate", str(source)], text=True, capture_output=True)
         if checked.returncode:
             fail(f"{source} does not pass `spu validate`:\n{checked.stdout}{checked.stderr}")
+        size = drawn(spu, source)
+        if size and size[2] and not args.doubled:
+            fail(f"{source} is drawn with every pixel doubled, at twice its real size ({size[0]}×{size[1]}, really "
+                 f"{size[0] // 2}×{size[1] // 2}). Rebuild it at its real size first, or pass --doubled if it is meant to be so.")
     else:
         print("batch: no spu command found, so the file was not checked (--spu)", file=sys.stderr)
 
@@ -121,11 +191,28 @@ def add(args):
     print(f'{entry["name"]} is in batch {args.batch} ({len(batch["sprites"])} so far)')
 
 
+def withdraw(name):
+    """Take the batch's question back out of the queue, if it has one that is still waiting."""
+    file = folder(name) / "question.json"
+    if not file.exists():
+        return False
+    address = json.loads(file.read_text())["address"]
+    got = subprocess.run(["switchboard", "GET", address], text=True, capture_output=True)
+    waiting = not got.returncode and json.loads(got.stdout)["state"] == "open"
+    if waiting:
+        subprocess.run(["switchboard", "DELETE", address], capture_output=True)
+    return waiting
+
+
 def send(args):
     batch = read(args.batch)
     there = folder(args.batch).relative_to(ROOT)
-    if (folder(args.batch) / "question.json").exists() and not args.again:
-        fail(f"this batch was already sent (see `answer`); --again asks afresh")
+    if (folder(args.batch) / "question.json").exists():
+        if not args.again:
+            fail(f"this batch was already sent (see `answer`); --again asks afresh")
+        # The sprites have changed: the earlier question shows the old ones.
+        if withdraw(args.batch):
+            print("The earlier question was withdrawn.")
     for sprite in batch["sprites"]:
         if not (folder(args.batch) / sprite["file"]).is_file():
             fail(f'{sprite["file"]} is listed but is not in the batch')
@@ -240,6 +327,30 @@ def land(args):
             print(f'Not marked: {sprite["name"]}')
 
 
+def remove(args):
+    batch = read(args.batch)
+    kept = [s for s in batch["sprites"] if s["id"] != args.id]
+    if len(kept) == len(batch["sprites"]):
+        fail(f'{args.id} is not in batch {args.batch}')
+    (folder(args.batch) / f"{args.id}.spu").unlink(missing_ok=True)
+    batch["sprites"] = kept
+    write(args.batch, batch)
+    print(f'{args.id} is out of batch {args.batch} ({len(kept)} left); `send --again` asks about the rest')
+
+
+def drop(args):
+    read(args.batch)
+    if withdraw(args.batch):
+        print("Its question was withdrawn.")
+    there = str(folder(args.batch).relative_to(ROOT))
+    shutil.rmtree(folder(args.batch))
+    if git("ls-files", "--", there):
+        git("add", "-A", "--", there)
+        git("commit", "-q", "-m", f"Batch {args.batch}: given up", "--", there)
+        git("push", "-q", "origin", "HEAD")
+    print(f"Batch {args.batch} is gone")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--spu", help="path to the spu command")
@@ -252,6 +363,7 @@ def main():
     adding.add_argument("--note", help="what to look at: shown beside the sprite")
     adding.add_argument("--title", help="what the batch is called")
     adding.add_argument("--about", help="a line about the whole batch")
+    adding.add_argument("--doubled", action="store_true", help="it is meant to be drawn with every pixel doubled")
     adding.set_defaults(act=add)
     sending = commands.add_parser("send", help="commit, push, and ask in the queue")
     sending.add_argument("batch")
@@ -263,6 +375,13 @@ def main():
     landing = commands.add_parser("land", help="file the good ones under v2/, keep the rest to redo")
     landing.add_argument("batch")
     landing.set_defaults(act=land)
+    removing = commands.add_parser("remove", help="take one sprite back out of a batch")
+    removing.add_argument("batch")
+    removing.add_argument("id")
+    removing.set_defaults(act=remove)
+    dropping = commands.add_parser("drop", help="withdraw the batch's question and delete the batch")
+    dropping.add_argument("batch")
+    dropping.set_defaults(act=drop)
     args = parser.parse_args()
     args.act(args)
 
