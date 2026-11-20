@@ -1,0 +1,43 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "First five",
+  "sprites": [
+    {
+      "id": "black2-white2/0001-bulbasaur",
+      "name": "Bulbasaur",
+      "file": "black2-white2/0001-bulbasaur.spu",
+      "note": "Fixed: the head has a second drawing (mouth open, at ticks 54 to 65, 126 to 137, 198 to 209 and 252 to 287), and its top right used to jump on those frames. It now faces the same way as the first. Every tick still matches the old file.",
+      "before": "anim/black2-white2/0001-bulbasaur.png"
+    },
+    {
+      "id": "black2-white2/0593-jellicent",
+      "name": "Jellicent",
+      "file": "black2-white2/0593-jellicent.spu",
+      "note": "Matches the old file, except female with eyes closed: the old file showed the wrong eyes, this one shows her own shut eyes. The body is glossy see-through jelly, the ruff and frills softer. The open eyes glow faintly.",
+      "before": "anim/black2-white2/0593-jellicent.png"
+    },
+    {
+      "id": "black2-white2/0493-arceus",
+      "name": "Arceus",
+      "file": "black2-white2/0493-arceus.spu",
+      "note": "All 1,008 frames match the old file, and every type's look at sample ticks. The gold is metal. The wheel's gems glow, the eyes faintly.",
+      "before": "anim/black2-white2/0493-arceus.png"
+    },
+    {
+      "id": "uranium/004-archilles",
+      "name": "Archilles",
+      "file": "uranium/004-archilles.spu",
+      "note": "All 628 frames match the old file. The flames glow (white cores most, red edges least) and the head and tail flames flicker slowly. The red petals on the tail are shell, not flame. The drawings only its Alert animation shows are now shaped where they sit, like the rest.",
+      "before": "anim/uranium/004-archilles.png"
+    },
+    {
+      "id": "uranium/082-corsoreef-form-03-christmas",
+      "name": "Christmas Corsoreef",
+      "file": "uranium/082-corsoreef-form-03-christmas.spu",
+      "note": "All 500 frames match the old file, across three animations. 49 materials. The string lights glow fully, the star softly. The drawings only its Alert animation shows are now shaped where they sit, like the rest.",
+      "before": "anim/uranium/082-corsoreef-form-03-christmas.png"
+    }
+  ],
+  "note": "The first rebuilt sprites again, with their facing worked out afresh after your notes. Delta Charizard is out until it is redone at its real size."
+}
