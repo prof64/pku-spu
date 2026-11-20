@@ -37,7 +37,14 @@ tools/batch.py add first-six black2-white2/0001-bulbasaur ~/work/bulbasaur.spu -
 tools/batch.py send first-six     # commit, push, and ask in the queue at console.prof64.net
 tools/batch.py answer first-six   # what was answered
 tools/batch.py land first-six     # file the good ones under v2/, keep the rest to redo
+tools/batch.py remove first-six <id>   # take one sprite back out
+tools/batch.py drop first-six     # give the batch up: withdraw its question, delete it
 ```
+
+`add` refuses a sprite drawn with every pixel doubled (kept at twice its real
+size, as Insurgence stores its own): it is rebuilt at its real size first.
+After changing a batch that was already sent, `send --again` withdraws the
+earlier question and asks about the sprites as they now are.
 
 `send` and `land` commit and push the branch they are run on: work on a branch
 and merge it (with a merge commit, so the commit a review points at stays).

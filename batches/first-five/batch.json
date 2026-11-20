@@ -1,13 +1,13 @@
 {
   "format": "spu-batch",
   "version": 1,
-  "name": "First six",
+  "name": "First five",
   "sprites": [
     {
       "id": "black2-white2/0001-bulbasaur",
       "name": "Bulbasaur",
       "file": "black2-white2/0001-bulbasaur.spu",
-      "note": "Every tick matches the old file, in both views, normal, shiny and eyes closed. Eight materials: skin, outline, bulb, mouth, eye, eye white, claws, spots. Nothing glows.",
+      "note": "Fixed: the head has a second drawing (mouth open, at ticks 54 to 65, 126 to 137, 198 to 209 and 252 to 287), and its top right used to jump on those frames. It now faces the same way as the first. Every tick still matches the old file.",
       "before": "anim/black2-white2/0001-bulbasaur.png"
     },
     {
@@ -28,23 +28,16 @@
       "id": "uranium/004-archilles",
       "name": "Archilles",
       "file": "uranium/004-archilles.spu",
-      "note": "All 628 frames match the old file. The flames glow (white cores most, red edges least) and the head and tail flames flicker slowly. The red petals on the tail are shell, not flame.",
+      "note": "All 628 frames match the old file. The flames glow (white cores most, red edges least) and the head and tail flames flicker slowly. The red petals on the tail are shell, not flame. The drawings only its Alert animation shows are now shaped where they sit, like the rest.",
       "before": "anim/uranium/004-archilles.png"
-    },
-    {
-      "id": "insurgence/0732-delta-charizard-base",
-      "name": "Delta Charizard",
-      "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "All 248 frames match the old file. The tail flame, the eyes and the fire in the chest glow, brightest at the hottest colors.",
-      "before": "anim/insurgence/0732-delta-charizard-base.png"
     },
     {
       "id": "uranium/082-corsoreef-form-03-christmas",
       "name": "Christmas Corsoreef",
       "file": "uranium/082-corsoreef-form-03-christmas.spu",
-      "note": "All 500 frames match the old file, across three animations. 49 materials. The string lights glow fully, the star softly.",
+      "note": "All 500 frames match the old file, across three animations. 49 materials. The string lights glow fully, the star softly. The drawings only its Alert animation shows are now shaped where they sit, like the rest.",
       "before": "anim/uranium/082-corsoreef-form-03-christmas.png"
     }
   ],
-  "note": "The first sprites rebuilt in the new format. An agent that had only the old file remade each one through the Smeargle site, then lit it. Is the lighting right?"
+  "note": "The first rebuilt sprites again, with their facing worked out afresh after your notes. Delta Charizard is out until it is redone at its real size."
 }
