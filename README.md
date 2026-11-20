@@ -67,8 +67,12 @@ tools/batch.py remove first-six <id>   # take one sprite back out
 tools/batch.py drop first-six     # give the batch up: withdraw its question, delete it
 ```
 
-After changing a batch that was already sent, `send --again` withdraws the
-earlier question and asks about the sprites as they now are.
+A batch asked about again (redone after what was said) is the next round of
+the same question, so the queue shows one thing with its rounds: `send`
+follows the batch's earlier question by itself (`--again` if that one is
+still waiting, which the next round closes), and `send --follows <question>`
+does when the redo has another name. `answer --wait` holds until the batch
+has been looked at.
 
 `send` and `land` commit and push the branch they are run on: work on a branch
 and merge it (with a merge commit, so the commit a review points at stays).

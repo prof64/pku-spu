@@ -8,7 +8,7 @@ page) and marked good or redo, with a note.
 
     tools/batch.py add first-six black2-white2/0001-bulbasaur ~/work/bulbasaur.spu --note "..."
     tools/batch.py send first-six       commit, push, and ask in the queue
-    tools/batch.py answer first-six     what was answered, once it has been
+    tools/batch.py answer first-six     what was answered, once it has been (--wait: held until it is)
     tools/batch.py land first-six       file the good ones under v2/; keep the rest to redo
     tools/batch.py remove first-six <id>    take one sprite back out
     tools/batch.py drop first-six       give the batch up: withdraw its question, delete it
@@ -16,6 +16,11 @@ page) and marked good or redo, with a note.
 A batch is the folder batches/<name>/: batch.json, and each sprite at the path it will
 have in the library (<collection>/<file>.spu). Its page is
 https://smeargle.prof64.net/?review=<name>&at=<commit>, which anyone can open to look.
+
+Asking again about a batch (redone after what was said about it) is the next round of the
+same question, not a new one: `send` follows the batch's earlier question by itself, and
+`send --follows <question>` does when the redo has another name. The queue closes a round
+still waiting when the next is asked.
 
 Needs the `switchboard` command (to ask in the queue) and, to check files and draw their
 thumbnails, the `spu` command from https://github.com/prof64/spu (--spu, or $SPU).
@@ -239,28 +244,42 @@ def add(args):
     print(f'{entry["name"]} is in batch {args.batch} ({len(batch["sprites"])} so far)')
 
 
-def withdraw(name):
-    """Take the batch's question back out of the queue, if it has one that is still waiting."""
+def queue_read(address, wait=False):
+    """A question as the queue has it; None if its record is gone. With `wait`, the read is held
+    until it is answered or withdrawn (a minute at a time, as the queue offers: never a sleep)."""
+    while True:
+        got = subprocess.run(["switchboard", "GET", address] + (["--wait", "60"] if wait else []), text=True, capture_output=True)
+        if got.returncode:
+            try:
+                gone = json.loads(got.stderr).get("status") == 404
+            except ValueError:
+                gone = False
+            if gone:
+                return None
+            fail(f"the queue could not be read:\n{got.stderr or got.stdout}")
+        item = json.loads(got.stdout)
+        if not wait or item["state"] != "open":
+            return item
+
+
+def earlier_question(name):
+    """The question this batch was last asked with, as the queue has it now; None if it never was."""
     file = folder(name) / "question.json"
-    if not file.exists():
-        return False
-    address = json.loads(file.read_text())["address"]
-    got = subprocess.run(["switchboard", "GET", address], text=True, capture_output=True)
-    waiting = not got.returncode and json.loads(got.stdout)["state"] == "open"
-    if waiting:
-        subprocess.run(["switchboard", "DELETE", address], capture_output=True)
-    return waiting
+    return queue_read(json.loads(file.read_text())["address"]) if file.exists() else None
 
 
 def send(args):
     batch = read(args.batch)
     there = folder(args.batch).relative_to(ROOT)
-    if (folder(args.batch) / "question.json").exists():
-        if not args.again:
-            fail(f"this batch was already sent (see `answer`); --again asks afresh")
-        # The sprites have changed: the earlier question shows the old ones.
-        if withdraw(args.batch):
-            print("The earlier question was withdrawn.")
+    # A batch asked about before is asked about again as the next round of that question. The
+    # queue closes a round still waiting when the next is asked, so nothing is withdrawn here.
+    follows = args.follows
+    earlier = earlier_question(args.batch)
+    if earlier:
+        if earlier["state"] == "open" and not args.again:
+            fail("this batch is in the queue, waiting to be looked at (see `answer`). `send --again` asks the next "
+                 "round, about the sprites as they now are.")
+        follows = follows or earlier["id"]
     for sprite in batch["sprites"]:
         if not (folder(args.batch) / sprite["file"]).is_file():
             fail(f'{sprite["file"]} is listed but is not in the batch')
@@ -277,6 +296,8 @@ def send(args):
         "about": f"pku-spu batch {args.batch}",
         "page": PAGE.format(name=args.batch, at=at),
     }
+    if follows:
+        question["follows"] = follows
     asked = subprocess.run(["switchboard", "POST", "/queue/items", "-"], input=json.dumps(question), text=True, capture_output=True)
     if asked.returncode:
         fail(f"the queue did not take the question:\n{asked.stderr or asked.stdout}")
@@ -286,28 +307,27 @@ def send(args):
         subprocess.run(["switchboard", "DELETE", answer["address"]], capture_output=True)
         fail("the queue took the question without its page, so it was withdrawn")
     (folder(args.batch) / "question.json").write_text(json.dumps(
-        {"address": answer["address"], "page": question["page"], "at": at,
-         "asked": datetime.now(timezone.utc).isoformat(timespec="seconds")}, indent=2) + "\n")
+        {"id": answer["id"], "address": answer["address"], "thread": answer.get("thread"), "round": answer.get("round"),
+         "page": question["page"], "at": at, "asked": datetime.now(timezone.utc).isoformat(timespec="seconds")}, indent=2) + "\n")
     git("add", "--", str(there))
     git("commit", "-q", "-m", f"Batch {args.batch}: asked in the queue", "--", str(there))
     git("push", "-q", "origin", "HEAD")
-    print(f'Asked: https://console.prof64.net/queue/{answer["id"]}')
+    print(f'Asked{f" (round {answer['round']})" if (answer.get("round") or 1) > 1 else ""}: https://console.prof64.net/queue/{answer["id"]}')
     print(f'The page: {question["page"]}')
 
 
-def asked_answer(name):
-    file = folder(name) / "question.json"
-    if not file.exists():
+def asked_answer(name, wait=False):
+    if not (folder(name) / "question.json").exists():
         fail("this batch has not been sent yet (`send`)")
-    question = json.loads(file.read_text())
-    got = subprocess.run(["switchboard", "GET", question["address"]], text=True, capture_output=True)
-    if got.returncode:
-        fail(f"the queue could not be read:\n{got.stderr or got.stdout}")
-    return json.loads(got.stdout)
+    question = json.loads((folder(name) / "question.json").read_text())
+    item = queue_read(question["address"], wait)
+    if not item:
+        fail("the queue no longer has this batch's question; `send` asks again")
+    return item
 
 
 def answer(args):
-    item = asked_answer(args.batch)
+    item = asked_answer(args.batch, args.wait)
     if item["state"] != "answered":
         print(f'Not answered yet ({item["state"]}): https://console.prof64.net/queue/{item["id"]}')
         return
@@ -363,8 +383,7 @@ def land(args):
         if said.get("note"):
             batch["said"] = said["note"]
         write(args.batch, batch)
-        # The next `send` asks about what is left.
-        (folder(args.batch) / "question.json").unlink()
+        # question.json stays: the next `send` asks about what is left, as the next round of it.
         for empty in sorted((p for p in folder(args.batch).rglob("*") if p.is_dir()), reverse=True):
             if not any(empty.iterdir()):
                 empty.rmdir()
@@ -394,7 +413,10 @@ def remove(args):
 
 def drop(args):
     read(args.batch)
-    if withdraw(args.batch):
+    earlier = earlier_question(args.batch)
+    # Only a question still waiting is withdrawn: the same call on a closed one removes its record.
+    if earlier and earlier["state"] == "open":
+        subprocess.run(["switchboard", "DELETE", earlier["address"]], capture_output=True)
         print("Its question was withdrawn.")
     there = str(folder(args.batch).relative_to(ROOT))
     shutil.rmtree(folder(args.batch))
@@ -421,10 +443,13 @@ def main():
     adding.set_defaults(act=add)
     sending = commands.add_parser("send", help="commit, push, and ask in the queue")
     sending.add_argument("batch")
-    sending.add_argument("--again", action="store_true", help="ask afresh although it was asked before")
+    sending.add_argument("--again", action="store_true", help="ask the next round although the last is still waiting")
+    sending.add_argument("--follows", help="the earlier question this is the next round of (its id or address), "
+                                           "when the batch is a redo of one sent under another name")
     sending.set_defaults(act=send)
     answering = commands.add_parser("answer", help="what was answered")
     answering.add_argument("batch")
+    answering.add_argument("--wait", action="store_true", help="hold until it is answered or withdrawn")
     answering.set_defaults(act=answer)
     landing = commands.add_parser("land", help="file the good ones under v2/, keep the rest to redo")
     landing.add_argument("batch")
