@@ -25,13 +25,6 @@
       "before": "anim/black2-white2/0493-arceus.png"
     },
     {
-      "id": "uranium/004-archilles",
-      "name": "Archilles",
-      "file": "uranium/004-archilles.spu",
-      "note": "Back redone in Gen 5 style: redrawn at half its size, so it is the front's scale (66 × 71 beside 71 × 73), in the front's colors, and its bare edges (tail, a leg, the head) are outlined as the front's are. Its idle and alert motion are kept. The front is unchanged. Flames glow and flicker as before.",
-      "before": "anim/uranium/004-archilles.png"
-    },
-    {
       "id": "uranium/082-corsoreef-form-03-christmas",
       "name": "Christmas Corsoreef",
       "file": "uranium/082-corsoreef-form-03-christmas.spu",
