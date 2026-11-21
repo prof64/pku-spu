@@ -1,0 +1,13 @@
+{
+ "format": "spu-library",
+ "version": 2,
+ "sprites": [
+  {
+   "id": "uranium/004-archilles",
+   "name": "Archilles",
+   "game": "Pokémon Uranium",
+   "file": "uranium/004-archilles.spu",
+   "thumb": "thumbs/uranium/004-archilles.png"
+  }
+ ]
+}

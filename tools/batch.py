@@ -10,6 +10,7 @@ page) and marked good or redo, with a note.
     tools/batch.py send first-six       commit, push, and ask in the queue
     tools/batch.py answer first-six     what was answered, once it has been (--wait: held until it is)
     tools/batch.py land first-six       file the good ones under v2/; keep the rest to redo
+    tools/batch.py land first-six --said-good <id>    file one the owner called good somewhere else
     tools/batch.py remove first-six <id>    take one sprite back out
     tools/batch.py drop first-six       give the batch up: withdraw its question, delete it
 
@@ -335,12 +336,20 @@ def answer(args):
 
 
 def land(args):
-    item = asked_answer(args.batch)
-    if item["state"] != "answered":
-        fail(f'the batch is not answered yet ({item["state"]})')
-    said = item["answer"]
-    good, redo, notes = set(said.get("good", [])), set(said.get("redo", [])), said.get("notes", {})
     batch = read(args.batch)
+    if args.said_good:
+        # The owner called these good somewhere other than the queue's page (in conversation). Only
+        # they are filed; the rest of the batch stays as it is, still waiting to be looked at.
+        unknown = [i for i in args.said_good if i not in {s["id"] for s in batch["sprites"]}]
+        if unknown:
+            fail(f'not in batch {args.batch}: {", ".join(unknown)}')
+        said = {"good": args.said_good}
+    else:
+        item = asked_answer(args.batch)
+        if item["state"] != "answered":
+            fail(f'the batch is not answered yet ({item["state"]})')
+        said = item["answer"]
+    good, redo, notes = set(said.get("good", [])), set(said.get("redo", [])), said.get("notes", {})
     spu = spu_command(args.spu)
     if not spu:
         fail("landing draws thumbnails, which needs the spu command (--spu)")
@@ -390,13 +399,14 @@ def land(args):
     else:
         shutil.rmtree(folder(args.batch))
     git("add", "--", "v2", "batches")
-    git("commit", "-q", "-m", f'Batch {args.batch}: {len(landed)} in the library, {len(kept)} still in the batch')
+    how = " (called good outside the queue)" if args.said_good else ""
+    git("commit", "-q", "-m", f'Batch {args.batch}: {len(landed)} in the library{how}, {len(kept)} still in the batch')
     git("push", "-q", "origin", "HEAD")
     print(f'In the library: {", ".join(landed) or "none"}')
     for sprite in kept:
         if "redo" in sprite:
             print(f'To redo: {sprite["name"]}' + (f': {sprite["redo"]}' if sprite["redo"] else ""))
-        else:
+        elif not args.said_good:
             print(f'Not marked: {sprite["name"]}')
 
 
@@ -453,6 +463,8 @@ def main():
     answering.set_defaults(act=answer)
     landing = commands.add_parser("land", help="file the good ones under v2/, keep the rest to redo")
     landing.add_argument("batch")
+    landing.add_argument("--said-good", nargs="+", metavar="ID",
+                         help="file only these, which the owner called good somewhere other than the queue; the rest keep waiting")
     landing.set_defaults(act=land)
     removing = commands.add_parser("remove", help="take one sprite back out of a batch")
     removing.add_argument("batch")

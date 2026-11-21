@@ -72,7 +72,8 @@ the same question, so the queue shows one thing with its rounds: `send`
 follows the batch's earlier question by itself (`--again` if that one is
 still waiting, which the next round closes), and `send --follows <question>`
 does when the redo has another name. `answer --wait` holds until the batch
-has been looked at.
+has been looked at. `land --said-good <id>` files a sprite the owner called
+good somewhere other than the queue's page, and leaves the rest waiting.
 
 `send` and `land` commit and push the branch they are run on: work on a branch
 and merge it (with a merge commit, so the commit a review points at stays).
