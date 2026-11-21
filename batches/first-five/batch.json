@@ -28,16 +28,16 @@
       "id": "uranium/004-archilles",
       "name": "Archilles",
       "file": "uranium/004-archilles.spu",
-      "note": "All 628 frames match the old file. The flames glow (white cores most, red edges least) and the head and tail flames flicker slowly. The red petals on the tail are shell, not flame. The drawings only its Alert animation shows are now shaped where they sit, like the rest.",
+      "note": "Back redone in Gen 5 style: redrawn at half its size, so it is the front's scale (66 × 71 beside 71 × 73), in the front's colors, and its bare edges (tail, a leg, the head) are outlined as the front's are. Its idle and alert motion are kept. The front is unchanged. Flames glow and flicker as before.",
       "before": "anim/uranium/004-archilles.png"
     },
     {
       "id": "uranium/082-corsoreef-form-03-christmas",
       "name": "Christmas Corsoreef",
       "file": "uranium/082-corsoreef-form-03-christmas.spu",
-      "note": "All 500 frames match the old file, across three animations. 49 materials. The string lights glow fully, the star softly. The drawings only its Alert animation shows are now shaped where they sit, like the rest.",
+      "note": "Back redrawn at half its size, so it is the front's scale (75 × 74 beside 73 × 80), with its motion kept. Not matched yet: the back's garlands and ornaments are drawn bolder than the front's fine tinsel and small lights. Matching that means redrawing the tree by hand. Mark it Redo if you want that.",
       "before": "anim/uranium/082-corsoreef-form-03-christmas.png"
     }
   ],
-  "note": "The first rebuilt sprites again, with their facing worked out afresh after your notes. Delta Charizard is out until it is redone at its real size."
+  "note": "Third look. The two Uranium backs are redone in Gen 5 style, at the scale of their fronts. Bulbasaur, Jellicent and Arceus are unchanged and keep your marks."
 }
