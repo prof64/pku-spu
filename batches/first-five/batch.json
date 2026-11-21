@@ -30,7 +30,14 @@
       "file": "uranium/082-corsoreef-form-03-christmas.spu",
       "note": "Back redrawn at half its size, so it is the front's scale (75 × 74 beside 73 × 80), with its motion kept. Not matched yet: the back's garlands and ornaments are drawn bolder than the front's fine tinsel and small lights. Matching that means redrawing the tree by hand. Mark it Redo if you want that.",
       "before": "anim/uranium/082-corsoreef-form-03-christmas.png"
+    },
+    {
+      "id": "insurgence/0732-delta-charizard-base",
+      "name": "Delta Charizard",
+      "file": "insurgence/0732-delta-charizard-base.spu",
+      "note": "Redone in Gen 5 style. Front: Insurgence keeps it with every pixel doubled; it is now its real size (77 × 84) and matches the Insurgence art pixel for pixel, normal and shiny. Back: Insurgence only has a bust cut off at the waist, so this back is new (85 × 88). The head, horn, flame and wing bones are that bust at the front's scale; the ribs, hips, legs, feet and tail below it are drawn new, in the front's design. Judge that lower half hardest. It moves on the front's beat: the head listens, the wings flex and spread, the flame licks.",
+      "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Third look. The two Uranium backs are redone in Gen 5 style, at the scale of their fronts. Bulbasaur, Jellicent and Arceus are unchanged and keep your marks."
+  "note": "Fourth look. Delta Charizard is back, redone in Gen 5 style, front and back. Archilles is in the library now. The other four are unchanged and keep your marks."
 }
