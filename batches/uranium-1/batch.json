@@ -1,0 +1,36 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "Uranium, first four",
+  "sprites": [
+    {
+      "id": "uranium/002-metalynx",
+      "name": "Metalynx",
+      "file": "uranium/002-metalynx.spu",
+      "note": "Back redrawn at the front's scale and touched up by hand: outlines, flower spots, eye, stripes, claws, armor seams. The leg plating and tail blade are steel; the rest is matte.",
+      "before": "anim/uranium/002-metalynx.png"
+    },
+    {
+      "id": "uranium/003-raptorch",
+      "name": "Raptorch",
+      "file": "uranium/003-raptorch.spu",
+      "note": "Back redrawn at the front's scale and touched up. The tail flame glows.",
+      "before": "anim/uranium/003-raptorch.png"
+    },
+    {
+      "id": "uranium/005-eletux",
+      "name": "Eletux",
+      "file": "uranium/005-eletux.spu",
+      "note": "Back redrawn at the front's scale and touched up: eye, mouth, nostril, the lightning bolt's edge, the three bulbs. The four orbs glow and pulse; the body is sleek. Look at the back's eye, mouth and far hind foot.",
+      "before": "anim/uranium/005-eletux.png"
+    },
+    {
+      "id": "uranium/006-electruxo",
+      "name": "Electruxo",
+      "file": "uranium/006-electruxo.spu",
+      "note": "Back redrawn at the front's scale and touched up: eye, brow streak, mouth, throat edge. The hide and belly are glossy. The head crest and lightning stripes glow and pulse; the sail on its back does not.",
+      "before": "anim/uranium/006-electruxo.png"
+    }
+  ],
+  "note": "The first Uranium sprites in the Gen 5 layout: each back redrawn at the front's scale and touched up, then lit. Orchynx and Chyinmunk follow."
+}
