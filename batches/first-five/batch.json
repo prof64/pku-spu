@@ -35,9 +35,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Redone from scratch on the official Gen 5 Charizard: its parts, pose, size and motion, front and back, repainted. Charcoal hide, a ribcage belly with ghost fire between the ribs, a plated tail underside, a purple ghost flame, and a faint see-through film of ghost fire between the wing bones. Shiny is Insurgence's dark red with orange fire. It keeps Charizard's two horns and build. Say if it should take more from the Insurgence drawing (one swept horn, a skull face, bare wing bones).",
+      "note": "Redrawn to look like Insurgence's Delta Charizard, still on official Charizard's parts, pose and motion. The head and horn are Insurgence's own drawing. The wings are bare bones, the body is a ribcage with ghost fire inside, the thighs are balls, and the neck and tail are segments. Two changes to Charizard's motion: the jaw drops open, showing ghost fire in the mouth, and the wings turn without squashing, because thin bones broke up when squashed. Shiny is Insurgence's dark red with orange fire.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Fifth look. The four you marked are redone: Bulbasaur's bulb, Jellicent's mustache, Corsoreef's back tree, and Delta Charizard from scratch on Charizard. Arceus is unchanged."
+  "note": "Sixth look. Only Delta Charizard changed: it is redrawn to look like the Insurgence design. The other four are as they were in the fifth look."
 }
