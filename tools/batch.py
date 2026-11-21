@@ -199,6 +199,43 @@ def layout(spu, source):
     return said
 
 
+def waiting(spu):
+    """Rewrite batches/index.json: every sprite waiting in a batch, with a thumbnail.
+
+    Smeargle's front page shows these beside the library's own, marked as in review, so what is
+    being made can be seen before it is looked over. Nothing else reads it: the library is v2/.
+    """
+    sprites = []
+    for file in sorted(BATCHES.glob("*/batch.json")):
+        there, listed = file.parent, set()
+        for sprite in json.loads(file.read_text())["sprites"]:
+            source = there / sprite["file"]
+            if not source.is_file():
+                continue
+            thumb = there / "thumbs" / f'{sprite["id"]}.png'
+            if spu and not thumb.exists():
+                thumb.parent.mkdir(parents=True, exist_ok=True)
+                run(spu, "render", str(source), str(thumb))
+            entry = {"id": sprite["id"], "name": sprite["name"], "game": COLLECTIONS[sprite["id"].split("/")[0]],
+                     "batch": there.name, "file": f'{there.name}/{sprite["file"]}'}
+            if thumb.exists():
+                entry["thumb"] = str(thumb.relative_to(BATCHES))
+                listed.add(thumb)
+            sprites.append(entry)
+        # A sprite that left the batch (filed, or taken out) leaves no thumbnail behind.
+        for old in (there / "thumbs").rglob("*.png"):
+            if old not in listed:
+                old.unlink()
+        for empty in sorted((p for p in (there / "thumbs").rglob("*") if p.is_dir()), reverse=True):
+            if not any(empty.iterdir()):
+                empty.rmdir()
+        if (there / "thumbs").is_dir() and not any((there / "thumbs").iterdir()):
+            (there / "thumbs").rmdir()
+    BATCHES.mkdir(exist_ok=True)
+    (BATCHES / "index.json").write_text(json.dumps(
+        {"format": "spu-waiting", "version": 1, "sprites": sprites}, indent=1, ensure_ascii=False) + "\n")
+
+
 def add(args):
     collection, _, stem = args.id.partition("/")
     if collection not in COLLECTIONS or not PLAIN.match(stem):
@@ -242,6 +279,9 @@ def add(args):
         entry["before"] = before
     batch["sprites"] = [s for s in batch["sprites"] if s["id"] != args.id] + [entry]
     write(args.batch, batch)
+    # Its thumbnail is drawn again from the file just put there.
+    (there / "thumbs" / f"{args.id}.png").unlink(missing_ok=True)
+    waiting(spu)
     print(f'{entry["name"]} is in batch {args.batch} ({len(batch["sprites"])} so far)')
 
 
@@ -285,9 +325,11 @@ def send(args):
         if not (folder(args.batch) / sprite["file"]).is_file():
             fail(f'{sprite["file"]} is listed but is not in the batch')
     count = len(batch["sprites"])
-    git("add", "--", str(there))
-    if git("status", "--porcelain", "--", str(there)):
-        git("commit", "-q", "-m", f'Batch {args.batch}: {count} sprite{"" if count == 1 else "s"} to look at', "--", str(there))
+    waiting(spu_command(args.spu))
+    listing = str((BATCHES / "index.json").relative_to(ROOT))
+    git("add", "--", str(there), listing)
+    if git("status", "--porcelain", "--", str(there), listing):
+        git("commit", "-q", "-m", f'Batch {args.batch}: {count} sprite{"" if count == 1 else "s"} to look at', "--", str(there), listing)
     git("push", "-q", "origin", "HEAD")
     at = git("rev-parse", "HEAD")
 
@@ -392,12 +434,14 @@ def land(args):
         if said.get("note"):
             batch["said"] = said["note"]
         write(args.batch, batch)
+        waiting(spu)
         # question.json stays: the next `send` asks about what is left, as the next round of it.
         for empty in sorted((p for p in folder(args.batch).rglob("*") if p.is_dir()), reverse=True):
             if not any(empty.iterdir()):
                 empty.rmdir()
     else:
         shutil.rmtree(folder(args.batch))
+        waiting(spu)
     git("add", "--", "v2", "batches")
     how = " (called good outside the queue)" if args.said_good else ""
     git("commit", "-q", "-m", f'Batch {args.batch}: {len(landed)} in the library{how}, {len(kept)} still in the batch')
@@ -418,6 +462,7 @@ def remove(args):
     (folder(args.batch) / f"{args.id}.spu").unlink(missing_ok=True)
     batch["sprites"] = kept
     write(args.batch, batch)
+    waiting(spu_command(args.spu))
     print(f'{args.id} is out of batch {args.batch} ({len(kept)} left); `send --again` asks about the rest')
 
 
@@ -430,9 +475,11 @@ def drop(args):
         print("Its question was withdrawn.")
     there = str(folder(args.batch).relative_to(ROOT))
     shutil.rmtree(folder(args.batch))
+    waiting(spu_command(args.spu))
+    listing = str((BATCHES / "index.json").relative_to(ROOT))
     if git("ls-files", "--", there):
-        git("add", "-A", "--", there)
-        git("commit", "-q", "-m", f"Batch {args.batch}: given up", "--", there)
+        git("add", "-A", "--", there, listing)
+        git("commit", "-q", "-m", f"Batch {args.batch}: given up", "--", there, listing)
         git("push", "-q", "origin", "HEAD")
     print(f"Batch {args.batch} is gone")
 

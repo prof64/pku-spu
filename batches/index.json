@@ -1,0 +1,78 @@
+{
+ "format": "spu-waiting",
+ "version": 1,
+ "sprites": [
+  {
+   "id": "black2-white2/0493-arceus",
+   "name": "Arceus",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "first-five",
+   "file": "first-five/black2-white2/0493-arceus.spu",
+   "thumb": "first-five/thumbs/black2-white2/0493-arceus.png"
+  },
+  {
+   "id": "black2-white2/0001-bulbasaur",
+   "name": "Bulbasaur",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "first-five",
+   "file": "first-five/black2-white2/0001-bulbasaur.spu",
+   "thumb": "first-five/thumbs/black2-white2/0001-bulbasaur.png"
+  },
+  {
+   "id": "black2-white2/0593-jellicent",
+   "name": "Jellicent",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "first-five",
+   "file": "first-five/black2-white2/0593-jellicent.spu",
+   "thumb": "first-five/thumbs/black2-white2/0593-jellicent.png"
+  },
+  {
+   "id": "uranium/082-corsoreef-form-03-christmas",
+   "name": "Christmas Corsoreef",
+   "game": "Pokémon Uranium",
+   "batch": "first-five",
+   "file": "first-five/uranium/082-corsoreef-form-03-christmas.spu",
+   "thumb": "first-five/thumbs/uranium/082-corsoreef-form-03-christmas.png"
+  },
+  {
+   "id": "insurgence/0732-delta-charizard-base",
+   "name": "Delta Charizard",
+   "game": "Pokémon Insurgence",
+   "batch": "first-five",
+   "file": "first-five/insurgence/0732-delta-charizard-base.spu",
+   "thumb": "first-five/thumbs/insurgence/0732-delta-charizard-base.png"
+  },
+  {
+   "id": "uranium/002-metalynx",
+   "name": "Metalynx",
+   "game": "Pokémon Uranium",
+   "batch": "uranium-1",
+   "file": "uranium-1/uranium/002-metalynx.spu",
+   "thumb": "uranium-1/thumbs/uranium/002-metalynx.png"
+  },
+  {
+   "id": "uranium/003-raptorch",
+   "name": "Raptorch",
+   "game": "Pokémon Uranium",
+   "batch": "uranium-1",
+   "file": "uranium-1/uranium/003-raptorch.spu",
+   "thumb": "uranium-1/thumbs/uranium/003-raptorch.png"
+  },
+  {
+   "id": "uranium/005-eletux",
+   "name": "Eletux",
+   "game": "Pokémon Uranium",
+   "batch": "uranium-1",
+   "file": "uranium-1/uranium/005-eletux.spu",
+   "thumb": "uranium-1/thumbs/uranium/005-eletux.png"
+  },
+  {
+   "id": "uranium/006-electruxo",
+   "name": "Electruxo",
+   "game": "Pokémon Uranium",
+   "batch": "uranium-1",
+   "file": "uranium-1/uranium/006-electruxo.spu",
+   "thumb": "uranium-1/thumbs/uranium/006-electruxo.png"
+  }
+ ]
+}
