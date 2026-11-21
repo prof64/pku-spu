@@ -81,6 +81,11 @@ The question shows `https://smeargle.prof64.net/?review=<name>&at=<commit>`:
 every sprite of the batch lit and moving, to mark Good or Redo with a note.
 Anyone can open that address to look.
 
+Smeargle's front page shows the waiting sprites too, beside the library's
+own and marked "In review", so what is being made can be seen before it is
+looked over. They are listed, with thumbnails, in `batches/index.json`, which
+the tool rewrites; only `v2/` is the library.
+
 ## Rebuilding
 
 ```sh
