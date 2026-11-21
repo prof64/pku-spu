@@ -4,20 +4,6 @@
   "name": "First five",
   "sprites": [
     {
-      "id": "black2-white2/0001-bulbasaur",
-      "name": "Bulbasaur",
-      "file": "black2-white2/0001-bulbasaur.spu",
-      "note": "Fixed: the head has a second drawing (mouth open, at ticks 54 to 65, 126 to 137, 198 to 209 and 252 to 287), and its top right used to jump on those frames. It now faces the same way as the first. Every tick still matches the old file.",
-      "before": "anim/black2-white2/0001-bulbasaur.png"
-    },
-    {
-      "id": "black2-white2/0593-jellicent",
-      "name": "Jellicent",
-      "file": "black2-white2/0593-jellicent.spu",
-      "note": "Matches the old file, except female with eyes closed: the old file showed the wrong eyes, this one shows her own shut eyes. The body is glossy see-through jelly, the ruff and frills softer. The open eyes glow faintly.",
-      "before": "anim/black2-white2/0593-jellicent.png"
-    },
-    {
       "id": "black2-white2/0493-arceus",
       "name": "Arceus",
       "file": "black2-white2/0493-arceus.spu",
@@ -25,19 +11,33 @@
       "before": "anim/black2-white2/0493-arceus.png"
     },
     {
+      "id": "black2-white2/0001-bulbasaur",
+      "name": "Bulbasaur",
+      "file": "black2-white2/0001-bulbasaur.spu",
+      "note": "Back: the bulb's leaf edges now count as drawn lines, so each leaf catches the light as its own leaf. Before, the whole bulb shaded as one ball. The bulb is close to matte now; it was a little glossy and see-through. The art is unchanged.",
+      "before": "anim/black2-white2/0001-bulbasaur.png"
+    },
+    {
+      "id": "black2-white2/0593-jellicent",
+      "name": "Jellicent",
+      "file": "black2-white2/0593-jellicent.spu",
+      "note": "The white mustache and frills (pink on the female) are soft and dull now. They were set a little glossy and half see-through, which gave the wet shine. Checked against the library's material notes (only the body and crown are wet jelly) and the games' Pokédex text (the body is mostly seawater; nothing calls the collar shiny). The blue body is still glossy jelly. The art is unchanged.",
+      "before": "anim/black2-white2/0593-jellicent.png"
+    },
+    {
       "id": "uranium/082-corsoreef-form-03-christmas",
       "name": "Christmas Corsoreef",
       "file": "uranium/082-corsoreef-form-03-christmas.spu",
-      "note": "Back redrawn at half its size, so it is the front's scale (75 × 74 beside 73 × 80), with its motion kept. Not matched yet: the back's garlands and ornaments are drawn bolder than the front's fine tinsel and small lights. Matching that means redrawing the tree by hand. Mark it Redo if you want that.",
+      "note": "Back: the tree is now the front's own tree (fine tinsel, small lights) in every pose, normal and shiny, so the two sides match. It is the front's drawing, not flipped, so its painted light still comes from the upper left. The rest of the back is as it was.",
       "before": "anim/uranium/082-corsoreef-form-03-christmas.png"
     },
     {
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Redone in Gen 5 style. Front: Insurgence keeps it with every pixel doubled; it is now its real size (77 × 84) and matches the Insurgence art pixel for pixel, normal and shiny. Back: Insurgence only has a bust cut off at the waist, so this back is new (85 × 88). The head, horn, flame and wing bones are that bust at the front's scale; the ribs, hips, legs, feet and tail below it are drawn new, in the front's design. Judge that lower half hardest. It moves on the front's beat: the head listens, the wings flex and spread, the flame licks.",
+      "note": "Redone from scratch on the official Gen 5 Charizard: its parts, pose, size and motion, front and back, repainted. Charcoal hide, a ribcage belly with ghost fire between the ribs, a plated tail underside, a purple ghost flame, and a faint see-through film of ghost fire between the wing bones. Shiny is Insurgence's dark red with orange fire. It keeps Charizard's two horns and build. Say if it should take more from the Insurgence drawing (one swept horn, a skull face, bare wing bones).",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Fourth look. Delta Charizard is back, redone in Gen 5 style, front and back. Archilles is in the library now. The other four are unchanged and keep your marks."
+  "note": "Fifth look. The four you marked are redone: Bulbasaur's bulb, Jellicent's mustache, Corsoreef's back tree, and Delta Charizard from scratch on Charizard. Arceus is unchanged."
 }
