@@ -7,9 +7,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Head: held up now, front and back. It stands on Insurgence's own thick neck straight above the collar, and the chest leans forward only a little. The neck rears back slightly in the roar. Left hand (front): the thin spike above it is gone; the arm now starts at the shoulder plate and turns at the shoulder. Back: the spine runs straight down the middle, and the head is upright over the back. The flame sits beside the horn and stays on the tail's tip as the tail swings. The rest is official Charizard's pose and motion.",
+      "note": "Back: it looks ahead now, away from you. The head is drawn from behind: no eye in sight, the muzzle shorter and lifted a little. The head turned back toward the trainer is kept as its own animation, Look back (in the animation list): the idle, with the head turned back for about three seconds of each loop. Nothing else changed.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Eleventh look. Arceus and Christmas Corsoreef are in the library. Delta Charizard is redone: head held up, the left hand fixed, the back straightened."
+  "note": "Twelfth look. Delta Charizard's back now looks ahead; the look back at the trainer is kept as an animation."
 }
