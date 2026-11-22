@@ -11,22 +11,6 @@
    "thumb": "first-five/thumbs/black2-white2/0493-arceus.png"
   },
   {
-   "id": "black2-white2/0001-bulbasaur",
-   "name": "Bulbasaur",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "first-five",
-   "file": "first-five/black2-white2/0001-bulbasaur.spu",
-   "thumb": "first-five/thumbs/black2-white2/0001-bulbasaur.png"
-  },
-  {
-   "id": "black2-white2/0593-jellicent",
-   "name": "Jellicent",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "first-five",
-   "file": "first-five/black2-white2/0593-jellicent.spu",
-   "thumb": "first-five/thumbs/black2-white2/0593-jellicent.png"
-  },
-  {
    "id": "uranium/082-corsoreef-form-03-christmas",
    "name": "Christmas Corsoreef",
    "game": "Pokémon Uranium",

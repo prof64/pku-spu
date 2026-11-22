@@ -3,6 +3,20 @@
  "version": 2,
  "sprites": [
   {
+   "id": "black2-white2/0001-bulbasaur",
+   "name": "Bulbasaur",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0001-bulbasaur.spu",
+   "thumb": "thumbs/black2-white2/0001-bulbasaur.png"
+  },
+  {
+   "id": "black2-white2/0593-jellicent",
+   "name": "Jellicent",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0593-jellicent.spu",
+   "thumb": "thumbs/black2-white2/0593-jellicent.png"
+  },
+  {
    "id": "uranium/004-archilles",
    "name": "Archilles",
    "game": "Pokémon Uranium",

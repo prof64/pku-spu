@@ -8,35 +8,24 @@
       "name": "Arceus",
       "file": "black2-white2/0493-arceus.spu",
       "note": "All 1,008 frames match the old file, and every type's look at sample ticks. The gold is metal. The wheel's gems glow, the eyes faintly.",
-      "before": "anim/black2-white2/0493-arceus.png"
-    },
-    {
-      "id": "black2-white2/0001-bulbasaur",
-      "name": "Bulbasaur",
-      "file": "black2-white2/0001-bulbasaur.spu",
-      "note": "Back: the bulb's leaf edges now count as drawn lines, so each leaf catches the light as its own leaf. Before, the whole bulb shaded as one ball. The bulb is close to matte now; it was a little glossy and see-through. The art is unchanged.",
-      "before": "anim/black2-white2/0001-bulbasaur.png"
-    },
-    {
-      "id": "black2-white2/0593-jellicent",
-      "name": "Jellicent",
-      "file": "black2-white2/0593-jellicent.spu",
-      "note": "The white mustache and frills (pink on the female) are soft and dull now. They were set a little glossy and half see-through, which gave the wet shine. Checked against the library's material notes (only the body and crown are wet jelly) and the games' Pokédex text (the body is mostly seawater; nothing calls the collar shiny). The blue body is still glossy jelly. The art is unchanged.",
-      "before": "anim/black2-white2/0593-jellicent.png"
+      "before": "anim/black2-white2/0493-arceus.png",
+      "redo": "To make these you use materials accurate to the pokemon (based of Pokedex entries and other artwork) right? Arveus ting I think should be metallic for instance. And I guess he has a white fur coat ish?"
     },
     {
       "id": "uranium/082-corsoreef-form-03-christmas",
       "name": "Christmas Corsoreef",
       "file": "uranium/082-corsoreef-form-03-christmas.spu",
       "note": "Back: the tree is now the front's own tree (fine tinsel, small lights) in every pose, normal and shiny, so the two sides match. It is the front's drawing, not flipped, so its painted light still comes from the upper left. The rest of the back is as it was.",
-      "before": "anim/uranium/082-corsoreef-form-03-christmas.png"
+      "before": "anim/uranium/082-corsoreef-form-03-christmas.png",
+      "redo": "It's good but I feel like it's slightly smaller in the back sprite. Like overall maybe?"
     },
     {
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
       "note": "The head is held up now, front and back: 9 pixels higher than official Charizard's and a little back, on a neck that rises from the collar. Everything else is as in the eighth look: official Charizard's pose and motion, Insurgence's pieces, bare bone wings, a tail of vertebrae.",
-      "before": "anim/insurgence/0732-delta-charizard-base.png"
+      "before": "anim/insurgence/0732-delta-charizard-base.png",
+      "redo": "The head is as craned as before and the back sprite looks worse it's like charziard is coming apart."
     }
   ],
   "note": "Ninth look. Only Delta Charizard changed: its head no longer cranes down. The other four are as they were."
