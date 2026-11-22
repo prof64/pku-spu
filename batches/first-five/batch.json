@@ -4,26 +4,12 @@
   "name": "First five",
   "sprites": [
     {
-      "id": "black2-white2/0493-arceus",
-      "name": "Arceus",
-      "file": "black2-white2/0493-arceus.spu",
-      "note": "Yes: each surface is set from what the Pokémon is, going by its official art and Pokédex text. Arceus's Pokédex entries say nothing about what it is made of, so this follows the art. The gold wheel and hooves are now fully polished metal; they were metal before, but duller. The white body and gray underside are now a short coat of fur; they were smooth with a slight sheen. The art is unchanged.",
-      "before": "anim/black2-white2/0493-arceus.png"
-    },
-    {
-      "id": "uranium/082-corsoreef-form-03-christmas",
-      "name": "Christmas Corsoreef",
-      "file": "uranium/082-corsoreef-form-03-christmas.spu",
-      "note": "The back's body was about a tenth smaller than the front's. It is redone from the original back art a little larger, so the head and body now match the front's size. The tree is the same one as before, the front's.",
-      "before": "anim/uranium/082-corsoreef-form-03-christmas.png"
-    },
-    {
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Head: the chest now leans in under the head on a short thick neck, so the head sits on the shoulders as Charizard's does, not out on a long thin neck. The head is 6 pixels higher than Charizard's. Back: joined up. The ribs are solid to their edge, the arm is attached at the shoulder, the tail's vertebrae touch, and the neck is thicker. Still official Charizard's pose and motion in both views.",
+      "note": "Head: held up now, front and back. It stands on Insurgence's own thick neck straight above the collar, and the chest leans forward only a little. The neck rears back slightly in the roar. Left hand (front): the thin spike above it is gone; the arm now starts at the shoulder plate and turns at the shoulder. Back: the spine runs straight down the middle, and the head is upright over the back. The flame sits beside the horn and stays on the tail's tip as the tail swings. The rest is official Charizard's pose and motion.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Tenth look. Bulbasaur and Jellicent are in the library. The three you marked are redone: Arceus's materials, Corsoreef's back size, and Delta Charizard's head and back."
+  "note": "Eleventh look. Arceus and Christmas Corsoreef are in the library. Delta Charizard is redone: head held up, the left hand fixed, the back straightened."
 }
