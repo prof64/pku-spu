@@ -3,22 +3,6 @@
  "version": 1,
  "sprites": [
   {
-   "id": "black2-white2/0493-arceus",
-   "name": "Arceus",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "first-five",
-   "file": "first-five/black2-white2/0493-arceus.spu",
-   "thumb": "first-five/thumbs/black2-white2/0493-arceus.png"
-  },
-  {
-   "id": "uranium/082-corsoreef-form-03-christmas",
-   "name": "Christmas Corsoreef",
-   "game": "Pokémon Uranium",
-   "batch": "first-five",
-   "file": "first-five/uranium/082-corsoreef-form-03-christmas.spu",
-   "thumb": "first-five/thumbs/uranium/082-corsoreef-form-03-christmas.png"
-  },
-  {
    "id": "insurgence/0732-delta-charizard-base",
    "name": "Delta Charizard",
    "game": "Pokémon Insurgence",
