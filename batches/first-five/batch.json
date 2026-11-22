@@ -35,9 +35,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Both sides now stand in official Charizard's pose, front and back, and move with Charizard's own motion. The pieces are Insurgence's: its head, ribcage with the fire inside, ball thighs, arms, feet and flame. The wings are bare bones raised as Charizard's are, and the tail is a string of vertebrae, so there are gaps between the bones. The back is a true view from behind: you can see through between the rib ends, and the chest fire glows between the ribs. Changed from Charizard's motion: the jaw drops open on a hinge, and the wings and thighs do not squash.",
+      "note": "The head is held up now, front and back: 9 pixels higher than official Charizard's and a little back, on a neck that rises from the collar. Everything else is as in the eighth look: official Charizard's pose and motion, Insurgence's pieces, bare bone wings, a tail of vertebrae.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Eighth look. Only Delta Charizard changed: both sides are in official Charizard's pose now, as you asked in the queue. The other four are as they were."
+  "note": "Ninth look. Only Delta Charizard changed: its head no longer cranes down. The other four are as they were."
 }
