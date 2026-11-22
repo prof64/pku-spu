@@ -35,9 +35,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Redrawn to look like Insurgence's Delta Charizard, still on official Charizard's parts, pose and motion. The head and horn are Insurgence's own drawing. The wings are bare bones, the body is a ribcage with ghost fire inside, the thighs are balls, and the neck and tail are segments. Two changes to Charizard's motion: the jaw drops open, showing ghost fire in the mouth, and the wings turn without squashing, because thin bones broke up when squashed. Shiny is Insurgence's dark red with orange fire.",
+      "note": "The front is now Insurgence's own front sprite, pixel for pixel at rest, cut into the pieces official Charizard's rig moves: head up, thin bones with gaps between them. The back is the same figure from behind: ribs with dark gaps and the chest fire glowing through, and the tail running up the middle of the back to the flame. The motion is Charizard's timing (breathing, wing beat, arms, the roar with the jaw dropping), fitted to this upright pose. From the front the tail stays hidden behind the body, as Insurgence drew it.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Sixth look. Only Delta Charizard changed: it is redrawn to look like the Insurgence design. The other four are as they were in the fifth look."
+  "note": "Seventh look. Only Delta Charizard changed: it is Insurgence's own sprite on Charizard's rig now, head up, with gaps between the bones. The other four are as they were."
 }
