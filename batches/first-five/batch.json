@@ -7,9 +7,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "From your comparison notes. See-through skeleton: between the ribs there is now nothing, front and back, so the background shows through, and the purple fire floats in the middle of the chest. From the front you see the spine behind it. This replaces Insurgence's solid ribs on the front with ribs drawn one by one; say if you would rather keep the solid ones there. Tail: the vertebrae are now evenly spaced and narrow steadily to the tip, in both views. Top of the back: the flat black line under the horn is gone; the horn runs straight into the skull.",
+      "note": "Fire: the flame on the tail and the fire in the chest now flicker through three frames, in both views. Eyes: they glow brighter and dimmer on a slow cycle of about 3.6 seconds. Ribs (front): a real ribcage now, with a breastbone, ribs arching out and down from it to pointed ends, and an open arch underneath where the fire sits and the spine shows behind. Back: the spine now runs up through the neck into the head, and on down to the root of the tail. The wings leave from the shoulders on either side of it; before, the right wing's bone stood on top of the spine and read as part of it. The right wing now passes behind the head. The back also has four clear pairs of ribs and a solid hip bone, and the far arm is hidden.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Fifteenth look. Delta Charizard: open gaps between the bones with the fire inside, an even tail, and the line under the horn removed."
+  "note": "Sixteenth look. Delta Charizard: flickering fire, slowly glowing eyes, a proper ribcage, and the back's spine running from the head."
 }
