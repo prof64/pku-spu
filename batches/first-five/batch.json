@@ -7,9 +7,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Back only; the front is as it was. Head: now built on official Charizard's own back head, so it faces at the same angle: seen from behind, muzzle down and to the right, a small eye, the mouth open. It has Delta Charizard's tones and its one swept horn. Spine: the ribcage is the same width either side of it now, and it runs from the neck straight to the root of the tail. Tail: it leaves the base of the spine and stays joined there and at each joint while it swings; the flame stays on its tip. Look back still turns Insurgence's side-on head toward the trainer for about three seconds.",
+      "note": "From your comparison notes. See-through skeleton: between the ribs there is now nothing, front and back, so the background shows through, and the purple fire floats in the middle of the chest. From the front you see the spine behind it. This replaces Insurgence's solid ribs on the front with ribs drawn one by one; say if you would rather keep the solid ones there. Tail: the vertebrae are now evenly spaced and narrow steadily to the tip, in both views. Top of the back: the flat black line under the horn is gone; the horn runs straight into the skull.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Fourteenth look. Delta Charizard's back: the head at Charizard's angle, an even spine, the tail joined at its root. The front is unchanged."
+  "note": "Fifteenth look. Delta Charizard: open gaps between the bones with the fire inside, an even tail, and the line under the horn removed."
 }
