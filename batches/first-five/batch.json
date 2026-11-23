@@ -7,9 +7,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Back only; the front is as it was. Face: turned about 15 degrees clockwise, so the muzzle is level, no longer lifted. Breathing: the back now breathes exactly as the front does. Before, it had no hold at the bottom of each breath, skipped the fifth breath, moved the body, arms and wings by different amounts, and one thigh twitched by a pixel. Now everything above the legs goes down 3 pixels together, holds, and comes up, five times before the roar, and the thighs stay still. Also moved the near wing bone clear of the head, where a sliver of light showed between them.",
+      "note": "Back only; the front is as it was. Head: now built on official Charizard's own back head, so it faces at the same angle: seen from behind, muzzle down and to the right, a small eye, the mouth open. It has Delta Charizard's tones and its one swept horn. Spine: the ribcage is the same width either side of it now, and it runs from the neck straight to the root of the tail. Tail: it leaves the base of the spine and stays joined there and at each joint while it swings; the flame stays on its tip. Look back still turns Insurgence's side-on head toward the trainer for about three seconds.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Thirteenth look. Delta Charizard's back: the face is turned down level and the breathing is steady. The front is unchanged."
+  "note": "Fourteenth look. Delta Charizard's back: the head at Charizard's angle, an even spine, the tail joined at its root. The front is unchanged."
 }
