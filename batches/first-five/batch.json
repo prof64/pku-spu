@@ -7,9 +7,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Back: it looks ahead now, away from you. The head is drawn from behind: no eye in sight, the muzzle shorter and lifted a little. The head turned back toward the trainer is kept as its own animation, Look back (in the animation list): the idle, with the head turned back for about three seconds of each loop. Nothing else changed.",
+      "note": "Back only; the front is as it was. Face: turned about 15 degrees clockwise, so the muzzle is level, no longer lifted. Breathing: the back now breathes exactly as the front does. Before, it had no hold at the bottom of each breath, skipped the fifth breath, moved the body, arms and wings by different amounts, and one thigh twitched by a pixel. Now everything above the legs goes down 3 pixels together, holds, and comes up, five times before the roar, and the thighs stay still. Also moved the near wing bone clear of the head, where a sliver of light showed between them.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Twelfth look. Delta Charizard's back now looks ahead; the look back at the trainer is kept as an animation."
+  "note": "Thirteenth look. Delta Charizard's back: the face is turned down level and the breathing is steady. The front is unchanged."
 }
