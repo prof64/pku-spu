@@ -7,9 +7,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Front ribcage: back to Insurgence's own ribs, exactly as drawn, so it is rounded again. Its dark hollow down the middle is opened right through: the fire flickers in it and the spine shows behind. The gaps between the ribs are dark lines again, as in the original, not see-through. Back: the head is where official Charizard's is, forward and to the right, not perched on top of the spine. The spine now curves through the neck into the back of the skull and stops there; it no longer runs over the skull. The right wing rises from the right shoulder behind the neck. Look back seats the turned head on the same neck. The flickering fire and the slowly glowing eyes are as before.",
+      "note": "Front: nothing is left between the bones now. The dark lines between the ribs are gone, so every gap is see-through, as the middle is. To keep each rib outlined, the ribs are redrawn in the original's shape: dipping toward the middle, lighter in front and darker at the sides so the chest reads as round. Back: the spine stands nearly upright now and the ribs are even on both sides of it, so the back no longer bends. The head sits just forward of the top of the spine on a short neck.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Seventeenth look. Delta Charizard: Insurgence's rounded ribcage opened down the middle, and a back pose that follows Charizard's, with the spine curving into the back of the skull."
+  "note": "Eighteenth look. Delta Charizard: see-through between every bone on the front, and an upright, balanced back."
 }
