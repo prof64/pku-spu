@@ -7,30 +7,30 @@
       "id": "uranium/002-metalynx",
       "name": "Metalynx",
       "file": "uranium/002-metalynx.spu",
-      "note": "Back redrawn at the front's scale and touched up by hand: outlines, flower spots, eye, stripes, claws, armor seams. The leg plating and tail blade are steel; the rest is matte.",
+      "note": "Tail: from behind, the blade now stays raised while it is edge-on, as it does from the front. Before, it dropped low for that part of the swing. Fur: yes, the green coat, its stripes and the flower spots are fur now. They were set as plain matte hide.",
       "before": "anim/uranium/002-metalynx.png"
     },
     {
       "id": "uranium/003-raptorch",
       "name": "Raptorch",
       "file": "uranium/003-raptorch.spu",
-      "note": "Back redrawn at the front's scale and touched up. The tail flame glows.",
+      "note": "Fire: the tail flame now flickers through three frames in every pose, front and back. Motion: from behind it now leans forward and down with its tail stretched out, as it does from the front. Before, the back stood up taller at that moment, which was the opposite move.",
       "before": "anim/uranium/003-raptorch.png"
     },
     {
       "id": "uranium/005-eletux",
       "name": "Eletux",
       "file": "uranium/005-eletux.spu",
-      "note": "Back redrawn at the front's scale and touched up: eye, mouth, nostril, the lightning bolt's edge, the three bulbs. The four orbs glow and pulse; the body is sleek. Look at the back's eye, mouth and far hind foot.",
+      "note": "From behind, the head keeps its own drawing when it dips. The drawing it used to switch to there, with the big eye, is no longer shown.",
       "before": "anim/uranium/005-eletux.png"
     },
     {
       "id": "uranium/006-electruxo",
       "name": "Electruxo",
       "file": "uranium/006-electruxo.spu",
-      "note": "Back redrawn at the front's scale and touched up: eye, brow streak, mouth, throat edge. The hide and belly are glossy. The head crest and lightning stripes glow and pulse; the sail on its back does not.",
+      "note": "Mostly yes: the bob, the tail, the flippers and the sweep of the near flipper were already the same moves seen from the other side. One thing was missing from behind: the crest lighting up as it charges. It now brightens at the same moments as from the front.",
       "before": "anim/uranium/006-electruxo.png"
     }
   ],
-  "note": "The first Uranium sprites in the Gen 5 layout: each back redrawn at the front's scale and touched up, then lit. Orchynx and Chyinmunk follow."
+  "note": "Second look. All four redone from your notes: Metalynx's tail and fur, Raptorch's fire and back motion, Eletux's head from behind, Electruxo's crest from behind."
 }
