@@ -7,18 +7,16 @@
       "id": "uranium/003-raptorch",
       "name": "Raptorch",
       "file": "uranium/003-raptorch.spu",
-      "note": "Fire: the tail flame now flickers through three frames in every pose, front and back. Motion: from behind it now leans forward and down with its tail stretched out, as it does from the front. Before, the back stood up taller at that moment, which was the opposite move.",
-      "before": "anim/uranium/003-raptorch.png",
-      "redo": "The animations don't match up. From moves head down the back moves head up"
+      "note": "From behind, the head now tips its snout down and dips as it leans, the same way and by about the same amount as from the front, in both the idle and the alert. Last time the back's head had dropped but still tilted slightly up. The flame still flickers.",
+      "before": "anim/uranium/003-raptorch.png"
     },
     {
       "id": "uranium/005-eletux",
       "name": "Eletux",
       "file": "uranium/005-eletux.spu",
-      "note": "From behind, the head keeps its own drawing when it dips. The drawing it used to switch to there, with the big eye, is no longer shown.",
-      "before": "anim/uranium/005-eletux.png",
-      "redo": "In the front the bent leg pushed forward but in the back it's reversed."
+      "note": "From behind, the bent foreleg is now the one that pushes forward, and the straight one stays planted, as from the front. They were the other way round. The head change from last time is kept.",
+      "before": "anim/uranium/005-eletux.png"
     }
   ],
-  "note": "Second look. All four redone from your notes: Metalynx's tail and fur, Raptorch's fire and back motion, Eletux's head from behind, Electruxo's crest from behind."
+  "note": "Third look. Metalynx and Electruxo are in the library. Raptorch and Eletux are redone: the back now makes the same move as the front."
 }
