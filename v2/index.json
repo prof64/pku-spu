@@ -24,11 +24,25 @@
    "thumb": "thumbs/black2-white2/0593-jellicent.png"
   },
   {
+   "id": "uranium/002-metalynx",
+   "name": "Metalynx",
+   "game": "Pokémon Uranium",
+   "file": "uranium/002-metalynx.spu",
+   "thumb": "thumbs/uranium/002-metalynx.png"
+  },
+  {
    "id": "uranium/004-archilles",
    "name": "Archilles",
    "game": "Pokémon Uranium",
    "file": "uranium/004-archilles.spu",
    "thumb": "thumbs/uranium/004-archilles.png"
+  },
+  {
+   "id": "uranium/006-electruxo",
+   "name": "Electruxo",
+   "game": "Pokémon Uranium",
+   "file": "uranium/006-electruxo.spu",
+   "thumb": "thumbs/uranium/006-electruxo.png"
   },
   {
    "id": "uranium/082-corsoreef-form-03-christmas",
