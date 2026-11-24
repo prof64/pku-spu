@@ -7,9 +7,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Back: I undid my last three reworks of it. This is the back from the look you called good beside official Charizard (the fourteenth and fifteenth), with the two things you asked for after it: the spine now ends under the head, and the right wing no longer stands on top of the spine (it comes from the right shoulder, behind the head). It keeps the flickering fire and the glowing eye. If it is still wrong, use Point at this frame on the part that is off, or say which earlier look's back was closest. Front ribcage: longer and no longer the same all the way down. Five ribs: narrow at the top, widest in the middle, narrow again at the bottom, and each reaches nearly to the middle. Every gap is still see-through.",
+      "note": "Back: the right wing is on the right now. It spreads out from the right shoulder, past the head, as the left wing does on the left; it is a little smaller because it is the far one. Before, it came up on the left of the head, beside the left wing. Nothing else changed.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Nineteenth look. Delta Charizard: the back is returned to the version you called good, with the spine and wing fixes; the front ribcage is longer and shaped."
+  "note": "Twentieth look. Delta Charizard: the back's right wing is moved to the right side."
 }
