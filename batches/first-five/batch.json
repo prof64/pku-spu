@@ -7,9 +7,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Front: nothing is left between the bones now. The dark lines between the ribs are gone, so every gap is see-through, as the middle is. To keep each rib outlined, the ribs are redrawn in the original's shape: dipping toward the middle, lighter in front and darker at the sides so the chest reads as round. Back: the spine stands nearly upright now and the ribs are even on both sides of it, so the back no longer bends. The head sits just forward of the top of the spine on a short neck.",
+      "note": "Back: I undid my last three reworks of it. This is the back from the look you called good beside official Charizard (the fourteenth and fifteenth), with the two things you asked for after it: the spine now ends under the head, and the right wing no longer stands on top of the spine (it comes from the right shoulder, behind the head). It keeps the flickering fire and the glowing eye. If it is still wrong, use Point at this frame on the part that is off, or say which earlier look's back was closest. Front ribcage: longer and no longer the same all the way down. Five ribs: narrow at the top, widest in the middle, narrow again at the bottom, and each reaches nearly to the middle. Every gap is still see-through.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Eighteenth look. Delta Charizard: see-through between every bone on the front, and an upright, balanced back."
+  "note": "Nineteenth look. Delta Charizard: the back is returned to the version you called good, with the spine and wing fixes; the front ribcage is longer and shaped."
 }
