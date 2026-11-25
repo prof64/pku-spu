@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """Send a batch of rebuilt sprites to be looked at, and file the ones that are good.
 
-The library's sprites are being rebuilt in SPU format 2, which adds lighting. Before a
-rebuilt sprite joins the library (v2/), a person looks at it. A batch of them is put in
+A sprite joins the library once a person has looked at it. A batch of them is put in
 the queue at console.prof64.net, where each is shown lit and moving (Smeargle's review
 page) and marked good or redo, with a note.
 
     tools/batch.py add first-six black2-white2/0001-bulbasaur ~/work/bulbasaur.spu --note "..."
     tools/batch.py send first-six       commit, push, and ask in the queue
     tools/batch.py answer first-six     what was answered, once it has been (--wait: held until it is)
-    tools/batch.py land first-six       file the good ones under v2/; keep the rest to redo
+    tools/batch.py land first-six       file the good ones in the library; keep the rest to redo
     tools/batch.py land first-six --said-good <id>    file one the owner called good somewhere else
     tools/batch.py remove first-six <id>    take one sprite back out
     tools/batch.py drop first-six       give the batch up: withdraw its question, delete it
@@ -35,7 +34,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BATCHES = ROOT / "batches"
-LIBRARY = ROOT / "v2"
+LIBRARY = ROOT
 PAGE = "https://smeargle.prof64.net/?review={name}&at={at}"
 MAGIC = bytes([0x89, 0x53, 0x50, 0x55, 0x0D, 0x0A, 0x1A, 0x0A])
 COLLECTIONS = {
@@ -203,7 +202,7 @@ def waiting(spu):
     """Rewrite batches/index.json: every sprite waiting in a batch, with a thumbnail.
 
     Smeargle's front page shows these beside the library's own, marked as in review, so what is
-    being made can be seen before it is looked over. Nothing else reads it: the library is v2/.
+    being made can be seen before it is looked over. Nothing else reads it: the library is index.json.
     """
     sprites = []
     for file in sorted(BATCHES.glob("*/batch.json")):
@@ -244,7 +243,7 @@ def add(args):
     if not source.is_file():
         fail(f"{source} is not a file")
     if source.read_bytes()[:8] != MAGIC:
-        fail(f"{source} is not SPU format 2 (an older file is upgraded with `spu convert` first)")
+        fail(f"{source} is not an SPU file")
     spu = spu_command(args.spu)
     if spu:
         checked = subprocess.run([spu, "validate", str(source)], text=True, capture_output=True)
@@ -397,7 +396,7 @@ def land(args):
         fail("landing draws thumbnails, which needs the spu command (--spu)")
 
     index_file = LIBRARY / "index.json"
-    index = json.loads(index_file.read_text()) if index_file.exists() else {"format": "spu-library", "version": 2, "sprites": []}
+    index = json.loads(index_file.read_text()) if index_file.exists() else {"format": "spu-library", "sprites": []}
     kept, landed = [], []
     for sprite in batch["sprites"]:
         if sprite["id"] not in good:
@@ -442,7 +441,7 @@ def land(args):
     else:
         shutil.rmtree(folder(args.batch))
         waiting(spu)
-    git("add", "--", "v2", "batches")
+    git("add", "--", "index.json", "thumbs", *COLLECTIONS, "batches")
     how = " (called good outside the queue)" if args.said_good else ""
     git("commit", "-q", "-m", f'Batch {args.batch}: {len(landed)} in the library{how}, {len(kept)} still in the batch')
     git("push", "-q", "origin", "HEAD")
@@ -491,7 +490,7 @@ def main():
     adding = commands.add_parser("add", help="put a rebuilt sprite in a batch")
     adding.add_argument("batch")
     adding.add_argument("id", help="its library id, e.g. black2-white2/0001-bulbasaur")
-    adding.add_argument("file", help="the format 2 .spu file")
+    adding.add_argument("file", help="the .spu file")
     adding.add_argument("--name", help="what it is called, when the library does not have it yet")
     adding.add_argument("--note", help="what to look at: shown beside the sprite")
     adding.add_argument("--title", help="what the batch is called")
@@ -508,7 +507,7 @@ def main():
     answering.add_argument("batch")
     answering.add_argument("--wait", action="store_true", help="hold until it is answered or withdrawn")
     answering.set_defaults(act=answer)
-    landing = commands.add_parser("land", help="file the good ones under v2/, keep the rest to redo")
+    landing = commands.add_parser("land", help="file the good ones in the library, keep the rest to redo")
     landing.add_argument("batch")
     landing.add_argument("--said-good", nargs="+", metavar="ID",
                          help="file only these, which the owner called good somewhere other than the queue; the rest keep waiting")
