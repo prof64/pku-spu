@@ -7,9 +7,9 @@
       "id": "insurgence/0732-delta-charizard-base",
       "name": "Delta Charizard",
       "file": "insurgence/0732-delta-charizard-base.spu",
-      "note": "Back: the right wing now follows official Charizard's back sprite. As in Charizard's, the far wing is seen nearly edge-on: it rises from behind the top of the back, passes behind the head and its tip stands up just behind the horn. Its fingers hang behind the head. Before, it spread wide out to the right. Nothing else changed.",
+      "note": "Back: the right wing is now in front of the head and body, as in official Charizard's back sprite, where that wing is nearer to you than the head. Before, it was drawn behind them. Its place and shape are unchanged.",
       "before": "anim/insurgence/0732-delta-charizard-base.png"
     }
   ],
-  "note": "Twenty-first look. Delta Charizard: the back's right wing placed as official Charizard's is."
+  "note": "Twenty-second look. Delta Charizard: the back's right wing drawn in front of the head, as in Charizard's."
 }
