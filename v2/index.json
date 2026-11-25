@@ -24,6 +24,13 @@
    "thumb": "thumbs/black2-white2/0593-jellicent.png"
   },
   {
+   "id": "insurgence/0732-delta-charizard-base",
+   "name": "Delta Charizard",
+   "game": "Pokémon Insurgence",
+   "file": "insurgence/0732-delta-charizard-base.spu",
+   "thumb": "thumbs/insurgence/0732-delta-charizard-base.png"
+  },
+  {
    "id": "uranium/001-orchynx",
    "name": "Orchynx",
    "game": "Pokémon Uranium",
