@@ -31,11 +31,25 @@
    "thumb": "thumbs/uranium/002-metalynx.png"
   },
   {
+   "id": "uranium/003-raptorch",
+   "name": "Raptorch",
+   "game": "Pokémon Uranium",
+   "file": "uranium/003-raptorch.spu",
+   "thumb": "thumbs/uranium/003-raptorch.png"
+  },
+  {
    "id": "uranium/004-archilles",
    "name": "Archilles",
    "game": "Pokémon Uranium",
    "file": "uranium/004-archilles.spu",
    "thumb": "thumbs/uranium/004-archilles.png"
+  },
+  {
+   "id": "uranium/005-eletux",
+   "name": "Eletux",
+   "game": "Pokémon Uranium",
+   "file": "uranium/005-eletux.spu",
+   "thumb": "thumbs/uranium/005-eletux.png"
   },
   {
    "id": "uranium/006-electruxo",

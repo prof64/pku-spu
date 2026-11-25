@@ -9,22 +9,6 @@
    "batch": "first-five",
    "file": "first-five/insurgence/0732-delta-charizard-base.spu",
    "thumb": "first-five/thumbs/insurgence/0732-delta-charizard-base.png"
-  },
-  {
-   "id": "uranium/003-raptorch",
-   "name": "Raptorch",
-   "game": "Pokémon Uranium",
-   "batch": "uranium-1",
-   "file": "uranium-1/uranium/003-raptorch.spu",
-   "thumb": "uranium-1/thumbs/uranium/003-raptorch.png"
-  },
-  {
-   "id": "uranium/005-eletux",
-   "name": "Eletux",
-   "game": "Pokémon Uranium",
-   "batch": "uranium-1",
-   "file": "uranium-1/uranium/005-eletux.spu",
-   "thumb": "uranium-1/thumbs/uranium/005-eletux.png"
   }
  ]
 }
