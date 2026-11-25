@@ -9,22 +9,6 @@
    "batch": "first-five",
    "file": "first-five/insurgence/0732-delta-charizard-base.spu",
    "thumb": "first-five/thumbs/insurgence/0732-delta-charizard-base.png"
-  },
-  {
-   "id": "uranium/001-orchynx",
-   "name": "Orchynx",
-   "game": "Pokémon Uranium",
-   "batch": "uranium-2",
-   "file": "uranium-2/uranium/001-orchynx.spu",
-   "thumb": "uranium-2/thumbs/uranium/001-orchynx.png"
-  },
-  {
-   "id": "uranium/007-chyinmunk",
-   "name": "Chyinmunk",
-   "game": "Pokémon Uranium",
-   "batch": "uranium-2",
-   "file": "uranium-2/uranium/007-chyinmunk.spu",
-   "thumb": "uranium-2/thumbs/uranium/007-chyinmunk.png"
   }
  ]
 }

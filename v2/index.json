@@ -24,6 +24,13 @@
    "thumb": "thumbs/black2-white2/0593-jellicent.png"
   },
   {
+   "id": "uranium/001-orchynx",
+   "name": "Orchynx",
+   "game": "Pokémon Uranium",
+   "file": "uranium/001-orchynx.spu",
+   "thumb": "thumbs/uranium/001-orchynx.png"
+  },
+  {
    "id": "uranium/002-metalynx",
    "name": "Metalynx",
    "game": "Pokémon Uranium",
@@ -57,6 +64,13 @@
    "game": "Pokémon Uranium",
    "file": "uranium/006-electruxo.spu",
    "thumb": "thumbs/uranium/006-electruxo.png"
+  },
+  {
+   "id": "uranium/007-chyinmunk",
+   "name": "Chyinmunk",
+   "game": "Pokémon Uranium",
+   "file": "uranium/007-chyinmunk.spu",
+   "thumb": "thumbs/uranium/007-chyinmunk.png"
   },
   {
    "id": "uranium/082-corsoreef-form-03-christmas",
