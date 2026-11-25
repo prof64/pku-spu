@@ -84,12 +84,13 @@ def write(name, batch):
     file.write_text(json.dumps(batch, indent=2, ensure_ascii=False) + "\n")
 
 
-def old_names():
-    """What each sprite is called in the library as it stands."""
-    index = ROOT / "index.json"
-    if not index.exists():
-        return {}
-    return {s["id"]: s["name"] for s in json.loads(index.read_text())["sprites"]}
+def known_names():
+    """What each sprite is called: in the sources, and in the library as it stands."""
+    names = {}
+    for index in (ROOT / "sources" / "index.json", ROOT / "index.json"):
+        if index.exists():
+            names.update({s["id"]: s["name"] for s in json.loads(index.read_text())["sprites"]})
+    return names
 
 
 def read_png(path):
@@ -267,7 +268,7 @@ def add(args):
     target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(source, target)
 
-    entry = {"id": args.id, "name": args.name or old_names().get(args.id) or stem.replace("-", " ").title(), "file": f"{args.id}.spu"}
+    entry = {"id": args.id, "name": args.name or known_names().get(args.id) or stem.replace("-", " ").title(), "file": f"{args.id}.spu"}
     if args.note:
         entry["note"] = args.note
     if args.as_is:
