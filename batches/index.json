@@ -1,14 +1,5 @@
 {
  "format": "spu-waiting",
  "version": 1,
- "sprites": [
-  {
-   "id": "insurgence/0732-delta-charizard-base",
-   "name": "Delta Charizard",
-   "game": "Pokémon Insurgence",
-   "batch": "first-five",
-   "file": "first-five/insurgence/0732-delta-charizard-base.spu",
-   "thumb": "first-five/thumbs/insurgence/0732-delta-charizard-base.png"
-  }
- ]
+ "sprites": []
 }
