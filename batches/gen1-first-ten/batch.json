@@ -7,62 +7,57 @@
       "id": "black2-white2/0001-bulbasaur",
       "name": "Bulbasaur",
       "file": "black2-white2/0001-bulbasaur.spu",
-      "note": "Already in the library; only its materials changed, to the standard ones: skin and spots Skin, bulb Petal. Mark Redo to keep the old settings."
+      "note": "Already in the library; only its materials changed, to match the rest."
     },
     {
       "id": "black2-white2/0002-ivysaur",
       "name": "Ivysaur",
-      "file": "black2-white2/0002-ivysaur.spu",
-      "note": "Skin and spots: Skin. Leaves: Leaf. Bud: Petal."
+      "file": "black2-white2/0002-ivysaur.spu"
     },
     {
       "id": "black2-white2/0003-venusaur",
       "name": "Venusaur",
-      "file": "black2-white2/0003-venusaur.spu",
-      "note": "Skin and ear insides: Skin. Petals, their spots and the yellow center: Petal. Leaves: Leaf. Trunk: Bark."
+      "file": "black2-white2/0003-venusaur.spu"
     },
     {
       "id": "black2-white2/0004-charmander",
       "name": "Charmander",
       "file": "black2-white2/0004-charmander.spu",
-      "note": "Skin and belly: Skin. Tail flame: Flame, brightest at the yellow core, its glow flickering with the drawn flicker. Its Alternate 1 is gone: in the game data it was only a still pose."
+      "note": "Alternate 1 dropped: in the game data it is a still pose."
     },
     {
       "id": "black2-white2/0005-charmeleon",
       "name": "Charmeleon",
       "file": "black2-white2/0005-charmeleon.spu",
-      "note": "Skin and belly: Skin. Tail flame: Flame, brighter than Charmander's. Its Alternate 1 is gone: its front was a still body, its back nearly a copy of Idle."
-    },
-    {
-      "id": "black2-white2/0010-caterpie",
-      "name": "Caterpie",
-      "file": "black2-white2/0010-caterpie.spu",
-      "note": "Body, underside, side rings, antenna and tail tip: Skin. The head's spots are its eyes (this sprite closes them): Eye. Nothing glows."
+      "note": "Alternate 1 dropped: a still body and a copy of Idle."
     },
     {
       "id": "black2-white2/0006-charizard",
       "name": "Charizard",
       "file": "black2-white2/0006-charizard.spu",
-      "note": "The format demo's Charizard again, which looked better: hide with a soft sheen that lets no light through, a belly that lets a little light through, and wings with an extra brighter blue so they catch the light. Its Alternate 1 is gone (its back was a still pose while the front moved), and its flame's glow flickers."
+      "note": "The format demo's Charizard."
     },
     {
       "id": "black2-white2/0007-squirtle",
       "name": "Squirtle",
-      "file": "black2-white2/0007-squirtle.spu",
-      "note": "Skin: Skin. Shell, belly plate and rim: Shell."
+      "file": "black2-white2/0007-squirtle.spu"
     },
     {
       "id": "black2-white2/0008-wartortle",
       "name": "Wartortle",
-      "file": "black2-white2/0008-wartortle.spu",
-      "note": "Ears and tail: Fur. Skin and cheek streaks: Skin. Shell, belly plate and rim: Shell."
+      "file": "black2-white2/0008-wartortle.spu"
     },
     {
       "id": "black2-white2/0009-blastoise",
       "name": "Blastoise",
       "file": "black2-white2/0009-blastoise.spu",
-      "note": "Skin and lower jaw: Skin. Shell, belly plate, rim and cannons: Shell. The cannons are not metal (no source says so); choose in the materials question."
+      "note": "Cannons as shell, not metal: no source says metal."
+    },
+    {
+      "id": "black2-white2/0010-caterpie",
+      "name": "Caterpie",
+      "file": "black2-white2/0010-caterpie.spu"
     }
   ],
-  "note": "Second look. The skin no longer lets light through, which is what made it look slick. Every surface now uses one of a few standard materials, defined in the queue question \"Materials for the first ten\". Motion is the game's own."
+  "note": "Skin now has a soft sheen like the old Charizard's, with no light through it. Mark only what needs work."
 }
