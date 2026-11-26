@@ -10,11 +10,18 @@ Smeargle names the ranges like this: finish below 0.25 is "matte", 0.25 to 0.75 
 
 ## The standard materials
 
-Every surface uses one of these. They are set to match the format demo's lit sprites, which the owner judged the best looking (Charizard above all), then checked by an independent review of the first ten in a studio, a field, a cave and lit from behind: a soft sheen on skin with no light through it, light through only what is thin, and nothing that washes out pale colors or muddies a belly. Spots, stripes and rings use the material of what they sit on, as their own row, so the light reads them as color, not bumps. A new kind of surface gets a new standard material here before it is used.
+Every surface uses one of these. Skin is not one material: each Pokémon gets the kind of skin its Pokédex entries and art describe, and a new kind is added here when a new kind of animal needs one. They are set to match the format demo's lit sprites, which the owner judged the best looking (Charizard above all), then checked by an independent review of the first ten in a studio, a field, a cave and lit from behind: a soft sheen on skin with no light through it, light through only what is thin, and nothing that washes out pale colors or muddies a belly. Spots, stripes and rings use the material of what they sit on, as their own row, so the light reads them as color, not bumps. A new kind of surface gets a new standard material here before it is used.
 
 | Material | finish | body | glow | What you see | For |
 |---|---|---|---|---|---|
-| Skin | 0.3 | 0.05 | 0 | A soft sheen; no light through | Skin, hide and scales |
+| Frog skin | 0.35 | 0.12 | 0 | Smooth, a faint moist sheen | Amphibians (Bulbasaur, Ivysaur) |
+| Bumpy hide | 0.15 | 0.05 | 0 | Thick and dull | Bumpy, thick amphibian hide (Venusaur) |
+| Lizard skin | 0.3 | 0.1 | 0 | Smooth and warm, a soft sheen | Smooth reptiles (Charmander) |
+| Scales | 0.4 | 0.03 | 0 | Harder, a little more sheen | Scaled reptiles (Charmeleon) |
+| Dragon hide | 0.5 | 0.05 | 0 | A soft sheen, solid | Dragons (Charizard, from the format demo) |
+| Turtle skin | 0.5 | 0.08 | 0 | Smooth aquatic skin, a wetter sheen | Turtles that swim (Squirtle, Wartortle) |
+| Thick hide | 0.25 | 0 | 0 | Heavy and dull | Heavy, thick-skinned animals (Blastoise) |
+| Larval skin | 0.45 | 0.15 | 0 | Soft, a highlight on every segment | Caterpillars and larvae (Caterpie) |
 | Belly | 0.4 | 0.25 | 0 | A sheen, and a little light through | Pale, fleshy undersides (Charizard's belly) |
 | Fur | -0.7 | 0.05 | 0 | Soft, broken edges; a bright rim lit from the side | Fur; lines drawn in fur get their own row with the same values |
 | Fluff | -1 | 0.2 | 0 | The same, glowing faintly at the edge | Down, cotton |
@@ -32,7 +39,7 @@ Every surface uses one of these. They are set to match the format demo's lit spr
 | Flame | 0 | 0 | 180 to 255 | Glows, lights what is around it, flickers | Fire: brightest at the core |
 | Outline | 0.1 | 0 | 0 | | The drawn line |
 
-**Letting light through makes skin look slick.** Body above about 0.3 fills a surface's shadows with a warm glow and washes out its color; skin set that way looks gummy and wet. Keep skin, hide and scales at body 0.05. A strong sheen washes pale skin out in sunlight, so skin's is soft (0.3); Charizard's saturated orange takes 0.5.
+**Letting light through makes skin look slick.** Body above about 0.3 fills a surface's shadows with a warm glow and washes out its color; skin set that way looks gummy and wet. Keep skin, hide and scales at body 0.15 or less.
 
 **After changing a body value, work out facing again** (`bake_facing`): how far light moves a pixel between shades depends on it, so old facing no longer gives back the art.
 
@@ -77,8 +84,8 @@ Drawn surfaces (front and back): skin, darker spots, bulb, claws, eyes (red with
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Skin (blue-green) | smooth amphibian skin | Skin | Bulbapedia Biology: "a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches." Official art is flat, matte watercolor; the HOME model is smooth with one soft broad highlight, no wet shine. **No Pokédex entry or Bulbapedia text calls the skin moist, slimy or glossy** (searched), so it is Skin, with no wet shine. | medium |
-| Darker spots | pigment | Skin | Bulbapedia: "darker patches". Flat in art and the 3D model. Own material row. | high |
+| Skin (blue-green) | smooth amphibian skin | Frog skin | Bulbapedia Biology: "a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches." Official art is flat, matte watercolor; the HOME model is smooth with one soft broad highlight, no wet shine. **No Pokédex entry or Bulbapedia text calls the skin moist, slimy or glossy** (searched), so it is Frog skin: a faint sheen, not wet. | medium |
+| Darker spots | pigment | Frog skin | Bulbapedia: "darker patches". Flat in art and the 3D model. Own material row. | high |
 | Bulb | plant bulb grown from a seed: firm, fleshy plant tissue | Petal | Black 2/White 2: "For some time after its birth, it grows by gaining nourishment from the seed on its back." Yellow: "In the bulb on its back, it stores energy." Gold: "The seed on its back is filled with nutrients." Bulbapedia: "a green plant bulb... The bulb also provides it with energy through photosynthesis"; Origin: "The bulb on its back resembles a lily or onion." Onion and lily bulbs are fleshy plant; the HOME model shows it smooth and brighter than the skin. Petal: lets a little light through. | medium |
 | Claws | keratin | Claw and tooth | Bulbapedia: "Each of its thick legs ends with three sharp claws." White in art and sprite. | medium |
 | Eyes, mouth, tooth | see shared rules | see shared rules | Bulbapedia: "red eyes with white pupils"; "Small, pointed teeth are visible in the upper jaw when the mouth is open." | high |
@@ -91,8 +98,8 @@ Drawn surfaces: skin, darker patches, ear insides (dark), pink bud, leaves, claw
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Skin | smooth amphibian skin | Skin | Bulbapedia: "a quadrupedal amphibian Pokémon that has blue-green skin with darker patches." Same as Bulbasaur. | medium |
-| Darker patches, ear insides | pigment | Skin | Bulbapedia: "pointed ears with black insides". Own row. | high |
+| Skin | smooth amphibian skin | Frog skin | Bulbapedia: "a quadrupedal amphibian Pokémon that has blue-green skin with darker patches." Same as Bulbasaur. | medium |
+| Darker patches, ear insides | pigment | Frog skin | Bulbapedia: "pointed ears with black insides". Own row. | high |
 | Bud (pink) | closed flower bud: thick, fleshy, tightly wrapped petals | Petal | Black 2/White 2: "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom." Gold: "Sunlight also makes the bud on its back grow larger." Bulbapedia Origin: "The bud on its back resembles a Rafflesia flower." Rafflesia buds are thick and fleshy: Petal, a little light through. | medium |
 | Leaves (fronds) | palm-like leaves | Leaf | Bulbapedia: "leafy green fronds"; Origin: "the leaves around the bud resemble palms." Palm leaves are thin: Leaf lets light through when lit from behind. | medium |
 | Claws, eyes, fangs | see shared rules | see shared rules | Bulbapedia: "narrow red eyes", "two pointed teeth in its upper jaw", "Each of its feet has three claws". | high |
@@ -103,9 +110,9 @@ Drawn surfaces: skin (bumpy, with lighter bumps and darker patches), ear insides
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Skin | thicker, bumpy amphibian hide | Skin | Bulbapedia: "a squat, quadrupedal amphibian Pokémon with bumpy, blue-green skin." Art shows small bumps along the back and legs. | medium |
-| Bumps and darker patches | real bumps plus pigment | Skin | Here the light dots **are** bumps ("bumpy"), so they may stay in the skin row and let the light shape them; the darker patches get their own row. | medium |
-| Ear insides | skin | Skin | Bulbapedia: "small, pointed ears with reddish-pink insides." | high |
+| Skin | thicker, bumpy amphibian hide | Bumpy hide | Bulbapedia: "a squat, quadrupedal amphibian Pokémon with bumpy, blue-green skin." Art shows small bumps along the back and legs. | medium |
+| Bumps and darker patches | real bumps plus pigment | Bumpy hide | Here the light dots **are** bumps ("bumpy"), so they may stay in the skin row and let the light shape them; the darker patches get their own row. | medium |
+| Ear insides | skin | Bumpy hide | Bulbapedia: "small, pointed ears with reddish-pink insides." | high |
 | Petals (pink-red) | large, thick, fleshy petals | Petal | Gold, HeartGold, X and Violet: "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power." Ruby/Sapphire: "The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight." Bulbapedia Origin: "The flower on its back resembles the Rafflesia arnoldii", a thick, leathery, matte flower with pale warts. Thick, so Petal lets only a little light through. Art and HOME both show them matte. | medium |
 | White petal spots | pigment (Rafflesia-like warts) | Petal | Bulbapedia: "a large pink, white-spotted flower". Own row. | high |
 | Flower center (yellow crown) | floral organ | Petal | Bulbapedia: "A female Venusaur has a gynoecium in the center of its flower." The crown is on the default (male) sprite too and is redrawn for the female; it sits on top of the trunk in both the art and the HOME model. Not described in any Pokédex entry. | low |
@@ -119,7 +126,7 @@ Drawn surfaces: orange skin, cream belly and soles, tail flame (yellow core, ora
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Skin (orange) | smooth lizard skin | Skin | Bulbapedia: "a bipedal, reptilian Pokémon with a primarily orange body"; Origin: "Charmander was designed as a lizard", also a salamander. No entry mentions scales on Charmander; art and HOME show it smooth with a soft sheen: Skin. | medium |
+| Skin (orange) | smooth lizard skin | Lizard skin | Bulbapedia: "a bipedal, reptilian Pokémon with a primarily orange body"; Origin: "Charmander was designed as a lizard", also a salamander. No entry mentions scales on Charmander; art and HOME show it smooth with a soft sheen: Lizard skin. | medium |
 | Belly and soles (cream) | the same skin, lighter | Belly | Bulbapedia: "Its underside from the chest down and the soles of its feet are cream-colored." Own row. | high |
 | Tail flame, yellow core | fire | Flame (glow 230) | Black 2/White 2: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely." Silver: "If it is healthy, the flame burns brightly." | high |
 | Tail flame, orange-red outer tongues | fire, cooler edge | Flame (glow 180) | Same entries. The outer flame is redder and dimmer in the art, the HOME model and the sprite. | high |
@@ -137,9 +144,9 @@ Drawn surfaces: dark red skin, cream belly and soles, head horn, white claws (lo
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Skin (dark red) | scaly reptile hide | Skin | Bulbapedia: "It has dark red scales and a cream underside from the chest down." No Pokédex entry describes the skin; art and HOME show no visible scale pattern. With no scale pattern drawn, it is Skin like Charmander's. | medium-low |
+| Skin (dark red) | scaly reptile hide | Scales | Bulbapedia: "It has dark red scales and a cream underside from the chest down." No Pokédex entry describes the skin; art and HOME show no visible scale pattern. Its scales are harder than Charmander's skin, so a clearer sheen: Scales. | medium-low |
 | Belly and soles (cream) | the same hide | Belly | Bulbapedia: "cream-colored soles". Own row. | high |
-| Head horn | skin-covered horn | Skin | Bulbapedia: "On the back of its head is a single horn-like protrusion." Same color as the skin in art and sprite, so it is skin over horn, not bare keratin. | low |
+| Head horn | skin-covered horn | Scales | Bulbapedia: "On the back of its head is a single horn-like protrusion." Same color as the skin in art and sprite, so it is skin over horn, not bare keratin. | low |
 | Claws | keratin | Claw and tooth | Bulbapedia: "relatively long arms with three sharp claws". Ruby/Sapphire: "CHARMELEON mercilessly destroys its foes using its sharp claws." | medium |
 | Tail flame, core | fire | Flame (glow 240) | Black 2/White 2: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars." Red/Blue: "When it swings its burning tail, it elevates the temperature to unbearably high levels." | high |
 | Tail flame, outer tongues and embers | fire | Flame (glow 200) | Same. The sprite draws loose embers around the flame: give them the core's glow and let them flicker with it. | high |
@@ -153,12 +160,12 @@ Drawn surfaces: orange skin, cream belly, underside of tail and soles, wing memb
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Body skin (orange) | dragon-like reptile skin | Skin | Bulbapedia: "a draconic, bipedal Pokémon. It is primarily orange"; Origin: European dragons, lizards. Smooth in art and HOME. | medium |
+| Body skin (orange) | dragon-like reptile skin | Dragon hide | Bulbapedia: "a draconic, bipedal Pokémon. It is primarily orange"; Origin: European dragons, lizards. Smooth in art and HOME. | medium |
 | Belly, tail underside, soles (cream) | the same skin | Belly | Bulbapedia: "a cream underside from the chest to the tip of its tail", "cream-colored soles". Own row. | high |
 | Wing membrane | thin skin stretched between wing bones | Wing membrane | Bulbapedia: "Two large wings with blue-green undersides sprout from its back... A single wing finger is visible through the center of each wing membrane." FireRed, Y, Shield: "Its wings can carry this Pokémon close to an altitude of 4,600 feet." **No official text or art says light passes through** (searched); translucency comes from what a wing membrane is (bat and pterosaur wings are thin skin). The two sides are colored differently, so it is pigmented skin: lets light through, never clear. This is the strongest visual effect on the sprite and worth keeping. | medium-low |
-| Wing arms, finger and outer edge (orange) | skin over bone | Skin | Same color and outline as the body in art and sprite. | medium |
-| Wing spur | horn | Skin | Bulbapedia: "a horn-like appendage juts out from the top of the third joint of each wing." Skin-colored on this sprite; barely a few pixels. | low |
-| Head horns | skin-covered horn | Skin | Bulbapedia: "two horn-like structures protruding from the back of its rectangular head." Orange like the skin in art and HOME. | low |
+| Wing arms, finger and outer edge (orange) | skin over bone | Dragon hide | Same color and outline as the body in art and sprite. | medium |
+| Wing spur | horn | Dragon hide | Bulbapedia: "a horn-like appendage juts out from the top of the third joint of each wing." Skin-colored on this sprite; barely a few pixels. | low |
+| Head horns | skin-covered horn | Dragon hide | Bulbapedia: "two horn-like structures protruding from the back of its rectangular head." Orange like the skin in art and HOME. | low |
 | Claws | keratin | Claw and tooth | Bulbapedia: "each limb has three white claws." | medium |
 | Tail flame, core | fire | Flame (glow 255) | Black 2/White 2: "It is said that Charizard's fire burns hotter if it has experienced harsh battles." Yellow: "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely." Red/Blue: "Spits fire that is hot enough to melt boulders." | high |
 | Tail flame, outer tongues | fire | Flame (glow 215) | Same. Flicker as for Charmander. | high |
@@ -174,11 +181,11 @@ Drawn surfaces: light blue skin, brown upper shell (back view), pale yellow bell
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Skin (light blue) | smooth aquatic reptile skin | Skin | Bulbapedia: "a small reptilian Pokémon that resembles a light-blue turtle"; Origin: baby turtles and terrapins; lives "around small ponds and lakes". Art and HOME: smooth, with a soft sheen; Skin. | medium |
+| Skin (light blue) | smooth aquatic reptile skin | Turtle skin | Bulbapedia: "a small reptilian Pokémon that resembles a light-blue turtle"; Origin: baby turtles and terrapins; lives "around small ponds and lakes". Art and HOME: smooth, with a soft sheen; Turtle skin, a little wetter than land skin. | medium |
 | Upper shell (brown) | hard, smooth, springy shell | Shell | The entries quoted above. Bulbapedia: "Its body is encased by a tough shell that forms and hardens after birth." Black 2/White 2: "It shelters itself in its shell then strikes back with spouts of water at every opportunity." | medium |
 | Belly plate (pale yellow) | the same shell, underside | Belly plate | Bulbapedia: "This shell is brown on the top, pale yellow on the bottom". The drawn grooves are lines, not a different material. | medium |
 | Shell rim (white) | the same shell | Shell | Bulbapedia: "has a thick white ridge between the two halves." | medium |
-| Tail | skin | Skin | Bulbapedia: "The end of its long, squirrel-like tail curls inward." | high |
+| Tail | skin | Turtle skin | Bulbapedia: "The end of its long, squirrel-like tail curls inward." | high |
 | Eyes, mouth | see shared rules | see shared rules | Bulbapedia: "large, purplish, or reddish eyes". | high |
 
 ### Wartortle (#008)
@@ -187,8 +194,8 @@ Drawn surfaces: blue skin, dark cheek streaks, furry ears, big furry tail, brown
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Skin (blue) | smooth aquatic reptile skin | Skin | Bulbapedia: "a bipedal, indigo reptilian Pokémon similar to a turtle." | medium |
-| Cheek streaks | pigment | Skin | Bulbapedia: "a dark blue streak on each cheek". Own row. | high |
+| Skin (blue) | smooth aquatic reptile skin | Turtle skin | Bulbapedia: "a bipedal, indigo reptilian Pokémon similar to a turtle." | medium |
+| Cheek streaks | pigment | Turtle skin | Bulbapedia: "a dark blue streak on each cheek". Own row. | high |
 | Ear fur | fur | Fur | Silver and SoulSilver: "It cleverly controls its furry ears and tail to maintain its balance while swimming." Bulbapedia: "feather-like ears covered in pale blue fur". Fully fuzzy so it reads clearly at sprite size. | high |
 | Tail fur | thick fur | Fur (its blue swirl lines their own Fur row) | Black 2/White 2: "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity." Ruby/Sapphire: "Its tail is large and covered with a rich, thick fur." Bulbapedia: "Air can be stored in its fur". Thick fur, so it does not let light through. Origin: the minogame, a 10,000-year-old turtle with a seaweed tail. | high |
 | Upper shell (brown) | hard shell, scratched with age | Shell | Ruby/Sapphire: "The scratches on its shell are evidence of this POKéMON's toughness as a battler." Gold: "If its shell has algae on it, that WARTORTLE is very old." A worn, older shell: a little less shine than Squirtle's. | medium |
@@ -206,7 +213,7 @@ So they are Shell, like the rim. Metal (finish 1, body -1) would be a style choi
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Skin (blue) | heavy, thick reptile skin | Skin | Bulbapedia: "Its body is blue and is mostly hidden by its tough, brown shell." HeartGold: "It deliberately makes itself heavy so it can withstand the recoil of the water jets it fires." | medium |
+| Skin (blue) | heavy, thick reptile skin | Thick hide | Bulbapedia: "Its body is blue and is mostly hidden by its tough, brown shell." HeartGold: "It deliberately makes itself heavy so it can withstand the recoil of the water jets it fires." | medium |
 | Lower jaw (cream), ear insides (black) | the same skin | Belly (jaw); the ear insides are drawn black, so line | Bulbapedia: "triangular ears that are black on the inside", "a cream-colored lower jaw". Own rows. | high |
 | Upper shell (brown) | tough shell | Shell | Bulbapedia: "tough, brown shell". FireRed, X, Sword: "In a pinch, it will withdraw inside its shell." Art: weathered brown plates; HOME: soft sheen. | medium |
 | Belly plate (cream) | the same shell | Belly plate | Bulbapedia: "This shell has a cream-colored underside". | medium |
@@ -223,11 +230,11 @@ Drawn surfaces: green body segments, cream-yellow belly and feet, eye (black wit
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
-| Body segments (green) | soft caterpillar skin | Skin | FireRed: "It is covered with a green skin. When it grows, it sheds the skin, covers itself with silk, and becomes a cocoon." Ultra Moon: "Its body is soft and weak." Black 2/White 2: "It grows by molting repeatedly." Crystal: "It crawls into foliage where it camouflages itself among leaves that are the same color as its body." Sugimori art draws white highlights on every segment and HOME shows slightly shiny segments, so it is Skin (its sheen), without light through, which looked slick. | medium |
+| Body segments (green) | soft caterpillar skin | Larval skin | FireRed: "It is covered with a green skin. When it grows, it sheds the skin, covers itself with silk, and becomes a cocoon." Ultra Moon: "Its body is soft and weak." Black 2/White 2: "It grows by molting repeatedly." Crystal: "It crawls into foliage where it camouflages itself among leaves that are the same color as its body." Sugimori art draws white highlights on every segment and HOME shows slightly shiny segments, so Larval skin: that sheen, and only a little light through (more looked slick). | medium |
 | Belly and feet (cream-yellow) | the same soft skin | Belly | Red/Blue: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls." Bulbapedia: "a green caterpillar with a yellow underside". | medium |
 | Eye (black with yellow ring) | eye | Eye | Bulbapedia Trivia: "It is inconsistent across the franchise whether or not the yellow and black spots on Caterpie's head are actually its eyes or merely spots resembling eyes." **On this sprite they are eyes**: the Black 2/White 2 sprite has an "eyes closed" look that shuts them with a green lid. | high (for this sprite) |
-| Side ring spots (yellow) | pigment, false eyes | Skin | Bulbapedia: "Yellow ring-shaped markings down the sides of its segmented body resemble its eyes and are meant to scare off predators." Origin: swallowtail caterpillars' "yellow eyespots". Painted marks on the skin; own row. **No glow**: nothing says they give off light. | high |
-| Red antenna (osmeterium) | soft scent organ | Skin | Black 2/White 2: "It releases a stench from its red antenna to repel enemies." Sword: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies." Yellow: "If you touch the feeler on top of its head, it will release a horrible stink to protect itself." Bulbapedia: "the bright red antenna (osmeterium) on its head, which releases a stench to repel predators." A real swallowtail's osmeterium is soft, moist tissue (real-world biology, not game text); Skin. **No glow**: its color is a warning, not light. | glow 0: high; material: medium-low |
+| Side ring spots (yellow) | pigment, false eyes | Larval skin | Bulbapedia: "Yellow ring-shaped markings down the sides of its segmented body resemble its eyes and are meant to scare off predators." Origin: swallowtail caterpillars' "yellow eyespots". Painted marks on the skin; own row. **No glow**: nothing says they give off light. | high |
+| Red antenna (osmeterium) | soft scent organ | Larval skin | Black 2/White 2: "It releases a stench from its red antenna to repel enemies." Sword: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies." Yellow: "If you touch the feeler on top of its head, it will release a horrible stink to protect itself." Bulbapedia: "the bright red antenna (osmeterium) on its head, which releases a stench to repel predators." A real swallowtail's osmeterium is soft, moist tissue (real-world biology, not game text); Larval skin. **No glow**: its color is a warning, not light. | glow 0: high; material: medium-low |
 | Tail tip (yellow teardrop) | soft horn-like tip | Belly | Bulbapedia: "teardrop-shaped tail"; Origin: "The tip of its tail resembles the horn that many species of hawk moth larvae have on their rear ends." Those horns are soft skin. | low |
 | Mouth | see shared rules | see shared rules | Small and dark on this sprite. | high |
 
