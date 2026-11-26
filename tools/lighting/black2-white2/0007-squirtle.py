@@ -2,9 +2,9 @@ SOURCE = "sources/black2-white2/0007-squirtle.spu"
 MATERIALS = [
     dict(name="outline", shades=[15], finish=0.1, body=0),
     dict(name="turtle skin", shades=[14, 13, 12, 11], base=2, finish=0.5, body=0.08),
-    dict(name="shell", shades=[5, 4, 3], base=1, finish=0.6, body=0),
-    dict(name="shell rim", shades=[2, 1], base=0, finish=0.6, body=0),
-    dict(name="belly plate", shades=[9, 8, 7, 6], base=2, finish=0.5, body=0),
+    dict(name="shell", shades=[5, 4, 3], base=1, finish=0.2, body=0),
+    dict(name="shell rim", shades=[2, 1], base=0, finish=0.2, body=0),
+    dict(name="belly plate", shades=[9, 8, 7, 6], base=2, finish=0.15, body=0),
     dict(name="mouth", shades=[10, 9], base=1, finish=0.8, body=0),
     dict(name="seams and wrinkles", shades=[], finish=0, body=0),   # lines drawn inside a surface: tinted, never a crease
     dict(name="eye (line art)", shades=[10, 9, 5, 2, 1], finish=0.9, body=0),

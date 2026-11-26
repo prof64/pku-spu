@@ -3,7 +3,7 @@ MATERIALS = [
     dict(name="outline", shades=[15, 1, 2], finish=0.1, body=0),
     dict(name="larval skin", shades=[1, 2, 3, 4, 5, 6], base=2, finish=0.45, body=0.15),
     # the cream underside, feet and tail tip, and the yellow rings along the sides: the same skin, paler
-    dict(name="larval skin, pale parts", shades=[7, 8, 9, 10], base=2, finish=0.45, body=0.15),
+    dict(name="larval skin, pale parts", shades=[7, 8, 9, 10], base=2, finish=0.2, body=0.15),
     dict(name="larval skin, antenna", shades=[11, 12, 13, 14], base=1, finish=0.5, body=0.15),
     dict(name="seams and wrinkles", shades=[], finish=0, body=0),   # lines drawn inside a surface: tinted, never a crease
     dict(name="eye (line art)", shades=[15, 7, 8, 9, 10], finish=0.9, body=0),
