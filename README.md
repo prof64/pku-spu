@@ -10,6 +10,7 @@ page.
 | `black2-white2/`, `uranium/`, `insurgence/` | The library: finished sprites, each looked over before it was filed here. `index.json` lists them, `thumbs/` has a picture of each. |
 | `batches/` | Sprites made and waiting to be looked over, by batch. Smeargle shows them too, marked "In review". |
 | `sources/` | Where new sprites start: every sprite of Pokémon Black 2 & White 2 (750, as the game stores them), Pokémon Uranium (334) and Pokémon Insurgence (50), as parts and animation without lighting. `sources/index.json` lists them. |
+| `docs/` | What each surface of a Pokémon is made of, and how to set its material: [materials.md](docs/materials.md), with [material-hints.md](docs/material-hints.md) listing the surfaces easy to get wrong for every Pokémon in the sources. |
 
 The artwork belongs to its original creators and the teams behind each game;
 nothing here grants a license to it. The rigging and animation were made for
