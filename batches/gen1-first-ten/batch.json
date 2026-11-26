@@ -10,37 +10,10 @@
       "note": "Alternate 1 dropped: in the game data it is a still pose."
     },
     {
-      "id": "black2-white2/0005-charmeleon",
-      "name": "Charmeleon",
-      "file": "black2-white2/0005-charmeleon.spu",
-      "note": "Alternate 1 dropped: a still body and a copy of Idle."
-    },
-    {
       "id": "black2-white2/0006-charizard",
       "name": "Charizard",
       "file": "black2-white2/0006-charizard.spu",
       "note": "The format demo's Charizard. From behind, its wings now let a little light through."
-    },
-    {
-      "id": "black2-white2/0007-squirtle",
-      "name": "Squirtle",
-      "file": "black2-white2/0007-squirtle.spu"
-    },
-    {
-      "id": "black2-white2/0008-wartortle",
-      "name": "Wartortle",
-      "file": "black2-white2/0008-wartortle.spu"
-    },
-    {
-      "id": "black2-white2/0009-blastoise",
-      "name": "Blastoise",
-      "file": "black2-white2/0009-blastoise.spu",
-      "note": "Cannons are polished shell, not metal: metal mirrored the grass and turned them green."
-    },
-    {
-      "id": "black2-white2/0010-caterpie",
-      "name": "Caterpie",
-      "file": "black2-white2/0010-caterpie.spu"
     },
     {
       "id": "black2-white2/0001-bulbasaur",
@@ -59,6 +32,35 @@
       "name": "Venusaur",
       "file": "black2-white2/0003-venusaur.spu",
       "note": "Leaves now matte."
+    },
+    {
+      "id": "black2-white2/0005-charmeleon",
+      "name": "Charmeleon",
+      "file": "black2-white2/0005-charmeleon.spu",
+      "note": "Alternate 1 dropped: a still body and a copy of Idle."
+    },
+    {
+      "id": "black2-white2/0007-squirtle",
+      "name": "Squirtle",
+      "file": "black2-white2/0007-squirtle.spu",
+      "note": "Shell now dull, as the official art paints it."
+    },
+    {
+      "id": "black2-white2/0008-wartortle",
+      "name": "Wartortle",
+      "file": "black2-white2/0008-wartortle.spu",
+      "note": "Shell now dull."
+    },
+    {
+      "id": "black2-white2/0009-blastoise",
+      "name": "Blastoise",
+      "file": "black2-white2/0009-blastoise.spu",
+      "note": "Shell and cannons now dull, like the white rim: not polished, not metal."
+    },
+    {
+      "id": "black2-white2/0010-caterpie",
+      "name": "Caterpie",
+      "file": "black2-white2/0010-caterpie.spu"
     }
   ],
   "note": "Each Pokémon now has its own kind of skin (frog, lizard, scales, turtle, larval...). Its materials are shown on their own beside it. Mark only what needs work."

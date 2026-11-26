@@ -17,17 +17,16 @@ Every surface uses one of these. Skin is not one material: each Pokémon gets th
 | Frog skin | 0.3 | 0.1 | 0 | Smooth, a faint sheen, not wet | Amphibians (Bulbasaur, Ivysaur) |
 | Bumpy hide | 0.15 | 0.06 | 0 | Thick and dull | Bumpy, thick amphibian hide (Venusaur) |
 | Lizard skin | 0.35 | 0.1 | 0 | Smooth and warm, a soft sheen | Smooth reptiles (Charmander) |
-| Scales | 0.45 | 0.06 | 0 | Harder, a little more sheen | Scaled reptiles (Charmeleon) |
+| Scales | 0.35 | 0.08 | 0 | The same soft sheen as lizard skin: the art paints Charmeleon no glossier than Charmander | Scaled reptiles (Charmeleon) |
 | Dragon hide | 0.5 | 0.05 | 0 | A soft sheen, solid | Dragons (Charizard, from the format demo) |
 | Turtle skin | 0.5 | 0.08 | 0 | Smooth aquatic skin, a wetter sheen | Turtles that swim (Squirtle, Wartortle) |
 | Thick hide | 0.4 | 0.06 | 0 | The same skin, heavier and less wet | Heavy, thick-skinned animals (Blastoise) |
-| Larval skin | 0.45 | 0.15 | 0 | Soft, a highlight on every segment | Caterpillars and larvae (Caterpie), their pale parts and markings too |
+| Larval skin | 0.45 | 0.15 | 0 | Soft, a highlight on every segment | Caterpillars and larvae (Caterpie). The cream underside, feet and tail tip are painted without highlights: finish 0.2 |
 | Belly | 0.4 | 0.25 | 0 | A sheen, and a little light through | Pale, fleshy undersides (the Charmander line) |
 | Fur | -0.7 | 0.05 | 0 | Soft, broken edges; a bright rim lit from the side | Fur |
 | Fluff | -1 | 0.2 | 0 | The same, glowing faintly at the edge | Down, cotton |
-| Shell | 0.6 | 0 | 0 | A clear highlight on a smooth dome | Turtle shells and their rims |
-| Belly plate | 0.5 | 0 | 0 | The same shell, a little softer; solid, so it goes dark with the rest of the body | The pale underside of a shell |
-| Polished shell | 0.85 | 0 | 0 | A hard bright highlight, the room at its edges | Blastoise's cannons |
+| Shell | 0.2 | 0 | 0 | Dull and hard, one smooth dome | Turtle shells, their white rims, Blastoise's cannons |
+| Belly plate | 0.15 | 0 | 0 | The same shell, matte; solid, so it goes dark with the rest of the body | The pale underside of a shell |
 | Claw and tooth | 0.7 | 0.05 | 0 | A small bright highlight | Claws, horns, teeth, pads |
 | Eye | line art | | 0 | Stays as drawn | Every pixel of an eye: white, iris, pupil, catchlight |
 | Mouth | 0.8 | 0 | 0 | A wet shine | The inside of a mouth |
@@ -61,7 +60,7 @@ The two dials matter less than which pixels are given to which row, and what the
 - **A mouth is wet, not lit from inside.** Finish 0.8, solid. With light through it, an open mouth stays vivid in a dark cave.
 - **Markings.** A darker patch wholly inside lighter skin is pigment: its own row with the skin's dials and the skin's ramp one step down, so light reads it as color, not as a dent.
 - **Fire.** Only the flame's own colors are in its row (not the dark tail tip under it); glow is strongest at the core, and the part's emission follows its drawn flicker, brighter on the bigger drawing.
-- **Sheen needs a source.** Before giving a surface a sheen, look at the official art and the HOME model of that part: if both draw it with soft shading and no highlight (Bulbasaur's bulb, Venusaur's leaves and petals), it is matte, whatever the real plant or animal is like.
+- **Sheen needs a source: look at the painted art, part by part.** The Sugimori art paints light patches and highlights where a surface has a sheen (Squirtle's skin, Caterpie's green segments and antenna, claws, eyes) and flat soft shading where it has none (Bulbasaur's bulb, leaves and petals, every turtle shell and its rim and plate, Blastoise's cannons, cream bellies and undersides). Set each part from that, not from what the real plant or animal is like, and not from the HOME model alone, whose shading is soft on everything. Shells were first made glossy because real shells can be; the art shows them dull.
 - **Check.** `tools/light.py check`: light alone must give back the art at rest for every pixel, in every look (shiny, eyes closed, female), and no row may be unused. Then look, front and back: field, studio, cave, rain, lit from behind and from the right, and the material map. Then someone who did not make it looks.
 
 ## How this was checked
@@ -222,7 +221,7 @@ Drawn surfaces: blue skin, cream lower jaw, ear insides (black), brown upper she
 
 **Are the cannons gray metal?** Not by the evidence. No Pokédex entry or official page calls them metal: Black 2/White 2 calls them "rocket cannons", Violet "jet nozzles", Ruby/Sapphire "water spouts that protrude from its shell", and the official Gigantamax page "water cannons". Bulbapedia says "These cannons can be extended or withdrawn", which makes them part of the shell. In the Sugimori art and the HOME model they are **white with pale gray shading, the same white as the shell rim**, with no reflections and no metallic tint. The only metal hints are the word "rocket cannons" and Bulbapedia's Origin note that the design is "a turtle mixed with aspects of a tank". The Black 2/White 2 sprite draws them in a gray ramp with a white highlight band, which makes them look more like metal than the art does.
 
-So they are shell, not metal, but polished: the sprite gives them a gray ramp and a white band that the plain white rim does not have. Polished shell (finish 0.85, solid) gives that hard highlight. Real metal was tried and mirrors the place, so the cannons turn green in a field.
+So they are shell, like the rim, and as dull: the Sugimori art paints them the rim's own off-white with soft shading and no highlight. (They were first made polished, from the sprite's gray ramp, and before that metal was tried, which mirrors the place and turns them green in a field.)
 
 | Surface | Made of | Material | Evidence | Confidence |
 |---|---|---|---|---|
@@ -231,7 +230,7 @@ So they are shell, not metal, but polished: the sprite gives them a gray ramp an
 | Upper shell (brown) | tough shell | Shell | Bulbapedia: "tough, brown shell". FireRed, X, Sword: "In a pinch, it will withdraw inside its shell." Art: weathered brown plates; HOME: soft sheen. | medium |
 | Belly plate (cream) | the same shell | Belly plate | Bulbapedia: "This shell has a cream-colored underside". | medium |
 | Shell rim (white) | the same shell | Shell | Bulbapedia: "a white ridge encircling its arms and separating the upper and lower halves." | medium |
-| Cannons | hard tubes that grow from the shell (material never stated) | Polished shell | See above. | low |
+| Cannons | hard tubes that grow from the shell (material never stated) | Shell | See above. | medium |
 | Cannon openings (dark) | a hole | Outline | Keep dark; do not let a highlight land in it. | high |
 | Claws, eyes | see shared rules | see shared rules | Bulbapedia: "small brown eyes", "three claws on each hand". | high |
 

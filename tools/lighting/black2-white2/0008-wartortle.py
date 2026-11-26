@@ -3,9 +3,9 @@ MATERIALS = [
     dict(name="outline", shades=[15, 4, 14, 13, 12, 11], finish=0.1, body=0),
     dict(name="turtle skin", shades=[14, 13, 12, 11], base=2, finish=0.5, body=0.08),
     dict(name="fur", shades=[3, 2, 1], base=0, finish=-0.7, body=0.05),
-    dict(name="shell", shades=[7, 6, 5], base=1, finish=0.6, body=0),
-    dict(name="shell rim", shades=[3, 1], base=0, finish=0.6, body=0),
-    dict(name="belly plate", shades=[7, 10, 9, 8], base=3, finish=0.5, body=0),
+    dict(name="shell", shades=[7, 6, 5], base=1, finish=0.2, body=0),
+    dict(name="shell rim", shades=[3, 1], base=0, finish=0.2, body=0),
+    dict(name="belly plate", shades=[7, 10, 9, 8], base=3, finish=0.15, body=0),
     dict(name="claws and teeth", shades=[3, 1], base=1, finish=0.7, body=0.05),
     dict(name="seams and wrinkles", shades=[], finish=0, body=0),   # lines drawn inside a surface: tinted, never a crease
     dict(name="eye (line art)", shades=[7, 6, 3, 1], finish=0.9, body=0),
