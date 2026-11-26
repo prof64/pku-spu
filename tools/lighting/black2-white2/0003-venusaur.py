@@ -4,7 +4,7 @@ MATERIALS = [
     dict(name="bumpy hide", shades=[1, 2, 3, 4], base=2, finish=0.15, body=0.06),
     dict(name="bumpy hide, patches", shades=[1, 2, 3], base=1, finish=0.15, body=0.06),
     dict(name="bumpy hide, ear insides", shades=[7, 5, 6], base=1, finish=0.15, body=0.06),
-    dict(name="leaves", shades=[13, 14], base=0, finish=0.4, body=0.35),
+    dict(name="leaves", shades=[13, 14], base=0, finish=0.15, body=0.35),
     dict(name="petals", shades=[7, 5, 6], base=2, finish=0.2, body=0.25),
     dict(name="petal spots", shades=[6, 12], base=1, finish=0.2, body=0.25),
     dict(name="trunk", shades=[7, 8], base=1, finish=-0.45, body=0.05),

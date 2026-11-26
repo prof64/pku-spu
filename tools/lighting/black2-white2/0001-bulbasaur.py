@@ -4,7 +4,7 @@ MATERIALS = [
     dict(name="outline", shades=[10, 14], finish=0.1, body=0),
     dict(name="frog skin", shades=[5, 15, 4, 3, 2], base=3, finish=0.3, body=0.1),
     dict(name="frog skin, spots", shades=[5, 4, 3], base=1, finish=0.3, body=0.1),
-    dict(name="bulb", shades=[14, 13, 12, 11], base=1, finish=0.35, body=0.2),
+    dict(name="bulb", shades=[14, 13, 12, 11], base=1, finish=0.1, body=0.25),
     dict(name="claws and teeth", shades=[9, 1], base=1, finish=0.7, body=0.05),
     dict(name="mouth", shades=[8, 7, 6], base=0, finish=0.8, body=0),
     dict(name="seams and wrinkles", shades=[], finish=0, body=0),   # lines drawn inside a surface: tinted, never a crease

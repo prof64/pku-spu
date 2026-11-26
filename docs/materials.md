@@ -31,9 +31,9 @@ Every surface uses one of these. Skin is not one material: each Pokémon gets th
 | Claw and tooth | 0.7 | 0.05 | 0 | A small bright highlight | Claws, horns, teeth, pads |
 | Eye | line art | | 0 | Stays as drawn | Every pixel of an eye: white, iris, pupil, catchlight |
 | Mouth | 0.8 | 0 | 0 | A wet shine | The inside of a mouth |
-| Leaf | 0.4 | 0.35 | 0 | Lights up when the light is behind it | Leaves |
+| Leaf | 0.15 | 0.35 | 0 | Matte; lights up when the light is behind it | Leaves. Glossy only where a source shows a waxy leaf |
 | Petal | 0.2 | 0.25 | 0 | Nearly matte; lights up a little from behind | Petals, a flower's center |
-| Bud and bulb | 0.35 | 0.2 | 0 | Waxy and firm; a little light through | A closed bud, a seed bulb |
+| Bud and bulb | 0.1 | 0.25 | 0 | Matte, like a soft leaf; a little light through | A closed bud, a seed bulb |
 | Bark | -0.45 | 0.05 | 0 | Dry and rough | Trunks, stems |
 | Wing membrane | 0.45 | 0.5 | 0 | Bright, and lights up from behind | Thin skin between wing bones (its outer, skin-colored side: body 0.3) |
 | Metal | 0.7 | -1 | 0 | Mirrors the room, tinted | Real metal (gold 0.8) |
@@ -61,6 +61,7 @@ The two dials matter less than which pixels are given to which row, and what the
 - **A mouth is wet, not lit from inside.** Finish 0.8, solid. With light through it, an open mouth stays vivid in a dark cave.
 - **Markings.** A darker patch wholly inside lighter skin is pigment: its own row with the skin's dials and the skin's ramp one step down, so light reads it as color, not as a dent.
 - **Fire.** Only the flame's own colors are in its row (not the dark tail tip under it); glow is strongest at the core, and the part's emission follows its drawn flicker, brighter on the bigger drawing.
+- **Sheen needs a source.** Before giving a surface a sheen, look at the official art and the HOME model of that part: if both draw it with soft shading and no highlight (Bulbasaur's bulb, Venusaur's leaves and petals), it is matte, whatever the real plant or animal is like.
 - **Check.** `tools/light.py check`: light alone must give back the art at rest for every pixel, in every look (shiny, eyes closed, female), and no row may be unused. Then look, front and back: field, studio, cave, rain, lit from behind and from the right, and the material map. Then someone who did not make it looks.
 
 ## How this was checked
@@ -97,7 +98,7 @@ Drawn surfaces (front and back): skin, darker spots, bulb, claws, eyes (red with
 |---|---|---|---|---|
 | Skin (blue-green) | smooth amphibian skin | Frog skin | Bulbapedia Biology: "a small, quadrupedal amphibian Pokémon that has blue-green skin with darker patches." Official art is flat, matte watercolor; the HOME model is smooth with one soft broad highlight, no wet shine. **No Pokédex entry or Bulbapedia text calls the skin moist, slimy or glossy** (searched), so it is Frog skin: a faint sheen, not wet. | medium |
 | Darker spots | pigment | Frog skin | Bulbapedia: "darker patches". Flat in art and the 3D model. Own material row. | high |
-| Bulb | plant bulb grown from a seed: firm, fleshy plant tissue | Bud and bulb | Black 2/White 2: "For some time after its birth, it grows by gaining nourishment from the seed on its back." Yellow: "In the bulb on its back, it stores energy." Gold: "The seed on its back is filled with nutrients." Bulbapedia: "a green plant bulb... The bulb also provides it with energy through photosynthesis"; Origin: "The bulb on its back resembles a lily or onion." Onion and lily bulbs are fleshy and waxy; the HOME model shows it smooth and brighter than the skin. Bud and bulb: a waxy sheen, a little light through. The lines between its lobes are creases. | medium |
+| Bulb | plant bulb grown from a seed: firm, fleshy plant tissue | Bud and bulb | Black 2/White 2: "For some time after its birth, it grows by gaining nourishment from the seed on its back." Yellow: "In the bulb on its back, it stores energy." Gold: "The seed on its back is filled with nutrients." Bulbapedia: "a green plant bulb... The bulb also provides it with energy through photosynthesis"; Origin: "The bulb on its back resembles a lily or onion." The official art and the HOME model both draw it matte, with soft broad shading and no highlight, like a closed bud of soft leaves: Bud and bulb, matte, a little light through. (It was first given a waxy sheen with nothing behind it but "bulbs are waxy"; the owner asked why it was shiny.) The lines between its lobes are creases. | medium |
 | Claws | keratin | Claw and tooth | Bulbapedia: "Each of its thick legs ends with three sharp claws." White in art and sprite. | medium |
 | Eyes, mouth, tooth | see shared rules | see shared rules | Bulbapedia: "red eyes with white pupils"; "Small, pointed teeth are visible in the upper jaw when the mouth is open." | high |
 
