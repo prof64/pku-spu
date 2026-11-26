@@ -4,22 +4,6 @@
   "name": "Generation 1: the first ten",
   "sprites": [
     {
-      "id": "black2-white2/0001-bulbasaur",
-      "name": "Bulbasaur",
-      "file": "black2-white2/0001-bulbasaur.spu",
-      "note": "Already in the library; only its lighting changed."
-    },
-    {
-      "id": "black2-white2/0002-ivysaur",
-      "name": "Ivysaur",
-      "file": "black2-white2/0002-ivysaur.spu"
-    },
-    {
-      "id": "black2-white2/0003-venusaur",
-      "name": "Venusaur",
-      "file": "black2-white2/0003-venusaur.spu"
-    },
-    {
       "id": "black2-white2/0004-charmander",
       "name": "Charmander",
       "file": "black2-white2/0004-charmander.spu",
@@ -57,6 +41,24 @@
       "id": "black2-white2/0010-caterpie",
       "name": "Caterpie",
       "file": "black2-white2/0010-caterpie.spu"
+    },
+    {
+      "id": "black2-white2/0001-bulbasaur",
+      "name": "Bulbasaur",
+      "file": "black2-white2/0001-bulbasaur.spu",
+      "note": "Already in the library; only its lighting changed. The bulb is now matte, like a soft leaf."
+    },
+    {
+      "id": "black2-white2/0002-ivysaur",
+      "name": "Ivysaur",
+      "file": "black2-white2/0002-ivysaur.spu",
+      "note": "Bud and leaves now matte."
+    },
+    {
+      "id": "black2-white2/0003-venusaur",
+      "name": "Venusaur",
+      "file": "black2-white2/0003-venusaur.spu",
+      "note": "Leaves now matte."
     }
   ],
   "note": "Each Pokémon now has its own kind of skin (frog, lizard, scales, turtle, larval...). Its materials are shown on their own beside it. Mark only what needs work."
