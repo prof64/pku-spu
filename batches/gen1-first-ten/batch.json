@@ -7,7 +7,7 @@
       "id": "black2-white2/0001-bulbasaur",
       "name": "Bulbasaur",
       "file": "black2-white2/0001-bulbasaur.spu",
-      "note": "Already in the library; only its materials changed, to match the rest."
+      "note": "Already in the library; only its lighting changed."
     },
     {
       "id": "black2-white2/0002-ivysaur",
@@ -35,7 +35,7 @@
       "id": "black2-white2/0006-charizard",
       "name": "Charizard",
       "file": "black2-white2/0006-charizard.spu",
-      "note": "The format demo's Charizard."
+      "note": "The format demo's Charizard. From behind, its wings now let a little light through."
     },
     {
       "id": "black2-white2/0007-squirtle",
@@ -51,7 +51,7 @@
       "id": "black2-white2/0009-blastoise",
       "name": "Blastoise",
       "file": "black2-white2/0009-blastoise.spu",
-      "note": "Cannons as shell, not metal: no source says metal."
+      "note": "Cannons are polished shell, not metal: metal mirrored the grass and turned them green."
     },
     {
       "id": "black2-white2/0010-caterpie",
