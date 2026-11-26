@@ -1,0 +1,68 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "Generation 1: the first ten",
+  "sprites": [
+    {
+      "id": "black2-white2/0001-bulbasaur",
+      "name": "Bulbasaur",
+      "file": "black2-white2/0001-bulbasaur.spu",
+      "note": "Already in the library; only its settings changed, to match the research: skin and spots get a faint sheen (frog-like skin; no source calls it wet), the bulb is fleshy plant that lets a little light through, the mouth is wet, eyes and claws hard. Mark Redo to keep the old settings."
+    },
+    {
+      "id": "black2-white2/0002-ivysaur",
+      "name": "Ivysaur",
+      "file": "black2-white2/0002-ivysaur.spu",
+      "note": "Skin and its darker patches: smooth frog-like skin, faint sheen (patches are their own material, so they read as color, not bumps). Leaves: thin palm-like fronds that let light through. Bud: thick, fleshy, lets a little light through. Eyes, mouth, fangs and claws: hard and shiny."
+    },
+    {
+      "id": "black2-white2/0003-venusaur",
+      "name": "Venusaur",
+      "file": "black2-white2/0003-venusaur.spu",
+      "note": "Skin: bumpy hide, nearly matte. Petals: thick, matte Rafflesia-like petals that let a little light through; their pale spots are their own material. Trunk: dry palm bark. Yellow center: soft. Leaves: thin fronds, light through. Eyes, teeth and claws: hard and shiny."
+    },
+    {
+      "id": "black2-white2/0004-charmander",
+      "name": "Charmander",
+      "file": "black2-white2/0004-charmander.spu",
+      "note": "Skin and cream belly: smooth lizard skin, faint sheen. The tail flame glows (yellow core brightest, red tips least), and its glow flickers with the flame's drawings (the Pokédex: it burns brightly when healthy). Its Alternate 1 is gone: in the game data it was only a still pose."
+    },
+    {
+      "id": "black2-white2/0005-charmeleon",
+      "name": "Charmeleon",
+      "file": "black2-white2/0005-charmeleon.spu",
+      "note": "Skin and belly: harder scales, a little more shine than Charmander's. The flame glows brighter than Charmander's and flickers with its drawings. Its Alternate 1 is gone: its front was a still body, its back nearly a copy of Idle."
+    },
+    {
+      "id": "black2-white2/0006-charizard",
+      "name": "Charizard",
+      "file": "black2-white2/0006-charizard.spu",
+      "note": "Wing membranes (teal inside, orange outside): thin skin that lets light through. Skin and belly: faint sheen. The flame glows brightest of the three and flickers. Its Alternate 1 is gone: its back was a still pose while the front moved."
+    },
+    {
+      "id": "black2-white2/0007-squirtle",
+      "name": "Squirtle",
+      "file": "black2-white2/0007-squirtle.spu",
+      "note": "Shell: hard, springy turtle shell with a satin shine, not glassy (the Pokédex: fingers bounce off it); the belly plate a little less, the white rim the same. Skin: smooth, faint sheen."
+    },
+    {
+      "id": "black2-white2/0008-wartortle",
+      "name": "Wartortle",
+      "file": "black2-white2/0008-wartortle.spu",
+      "note": "Ears and tail: fur, fully fuzzy (the Pokédex calls them furry). Shell: worn, a little less shine than Squirtle's. Skin: smooth; the cheek streaks are their own material."
+    },
+    {
+      "id": "black2-white2/0009-blastoise",
+      "name": "Blastoise",
+      "file": "black2-white2/0009-blastoise.spu",
+      "note": "Cannons: shiny shell, not metal. No Pokédex entry or official art calls them metal; the art draws them white like the shell's rim. Say so if you want them metal. Shell, rim and belly plate: satin. Lower jaw: skin. Mouth: wet."
+    },
+    {
+      "id": "black2-white2/0010-caterpie",
+      "name": "Caterpie",
+      "file": "black2-white2/0010-caterpie.spu",
+      "note": "Body: soft green larval skin that lets light through like a leaf. The head's spots are its eyes (this sprite closes them); the ring spots along its sides are their own material. Red antenna: soft and moist. Nothing glows."
+    }
+  ],
+  "note": "Bulbasaur to Caterpie, from the Black 2/White 2 sources. Each surface's material is set from the Pokédex and official art (the research is in the library's docs/materials.md). Motion is the game's own. Bulbasaur was already in the library; only its material settings changed."
+}
