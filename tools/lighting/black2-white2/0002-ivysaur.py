@@ -3,8 +3,8 @@ MATERIALS = [
     dict(name="outline", shades=[15, 14], finish=0.1, body=0),
     dict(name="frog skin", shades=[8, 7, 6, 5], base=2, finish=0.3, body=0.1),
     dict(name="frog skin, spots", shades=[8, 7, 6], base=1, finish=0.3, body=0.1),
-    dict(name="leaves", shades=[12, 11, 10, 9], base=1, finish=0.4, body=0.35),
-    dict(name="bud", shades=[14, 4, 3, 2], base=1, finish=0.35, body=0.2),
+    dict(name="leaves", shades=[12, 11, 10, 9], base=1, finish=0.15, body=0.35),
+    dict(name="bud", shades=[14, 4, 3, 2], base=1, finish=0.1, body=0.25),
     # the palette has no gray: its unused first color (a pale warm gray) is the white's shade
     dict(name="claws and teeth", shades=[0, 1], base=1, finish=0.7, body=0.05),
     dict(name="mouth", shades=[14, 4], base=1, finish=0.8, body=0),
