@@ -43,6 +43,14 @@
    "thumb": "gen1-first-ten/thumbs/black2-white2/0005-charmeleon.png"
   },
   {
+   "id": "black2-white2/0010-caterpie",
+   "name": "Caterpie",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1-first-ten",
+   "file": "gen1-first-ten/black2-white2/0010-caterpie.spu",
+   "thumb": "gen1-first-ten/thumbs/black2-white2/0010-caterpie.png"
+  },
+  {
    "id": "black2-white2/0006-charizard",
    "name": "Charizard",
    "game": "Pokémon Black 2 & White 2",
@@ -73,14 +81,6 @@
    "batch": "gen1-first-ten",
    "file": "gen1-first-ten/black2-white2/0009-blastoise.spu",
    "thumb": "gen1-first-ten/thumbs/black2-white2/0009-blastoise.png"
-  },
-  {
-   "id": "black2-white2/0010-caterpie",
-   "name": "Caterpie",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-first-ten",
-   "file": "gen1-first-ten/black2-white2/0010-caterpie.spu",
-   "thumb": "gen1-first-ten/thumbs/black2-white2/0010-caterpie.png"
   }
  ]
 }

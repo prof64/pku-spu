@@ -34,10 +34,16 @@
       "note": "Skin and belly: Skin. Tail flame: Flame, brighter than Charmander's. Its Alternate 1 is gone: its front was a still body, its back nearly a copy of Idle."
     },
     {
+      "id": "black2-white2/0010-caterpie",
+      "name": "Caterpie",
+      "file": "black2-white2/0010-caterpie.spu",
+      "note": "Body, underside, side rings, antenna and tail tip: Skin. The head's spots are its eyes (this sprite closes them): Eye. Nothing glows."
+    },
+    {
       "id": "black2-white2/0006-charizard",
       "name": "Charizard",
       "file": "black2-white2/0006-charizard.spu",
-      "note": "Skin and belly: Skin. Wings: Wing membrane, so they light up when the light is behind them. Tail flame: Flame, the brightest of the three. Its Alternate 1 is gone: its back was a still pose while the front moved."
+      "note": "The format demo's Charizard again, which looked better: hide with a soft sheen that lets no light through, a belly that lets a little light through, and wings with an extra brighter blue so they catch the light. Its Alternate 1 is gone (its back was a still pose while the front moved), and its flame's glow flickers."
     },
     {
       "id": "black2-white2/0007-squirtle",
@@ -56,12 +62,6 @@
       "name": "Blastoise",
       "file": "black2-white2/0009-blastoise.spu",
       "note": "Skin and lower jaw: Skin. Shell, belly plate, rim and cannons: Shell. The cannons are not metal (no source says so); choose in the materials question."
-    },
-    {
-      "id": "black2-white2/0010-caterpie",
-      "name": "Caterpie",
-      "file": "black2-white2/0010-caterpie.spu",
-      "note": "Body, underside, side rings, antenna and tail tip: Skin. The head's spots are its eyes (this sprite closes them): Eye. Nothing glows."
     }
   ],
   "note": "Second look. The skin no longer lets light through, which is what made it look slick. Every surface now uses one of a few standard materials, defined in the queue question \"Materials for the first ten\". Motion is the game's own."
