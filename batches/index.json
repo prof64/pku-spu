@@ -11,20 +11,44 @@
    "thumb": "gen1-first-ten/thumbs/black2-white2/0004-charmander.png"
   },
   {
-   "id": "black2-white2/0005-charmeleon",
-   "name": "Charmeleon",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-first-ten",
-   "file": "gen1-first-ten/black2-white2/0005-charmeleon.spu",
-   "thumb": "gen1-first-ten/thumbs/black2-white2/0005-charmeleon.png"
-  },
-  {
    "id": "black2-white2/0006-charizard",
    "name": "Charizard",
    "game": "Pokémon Black 2 & White 2",
    "batch": "gen1-first-ten",
    "file": "gen1-first-ten/black2-white2/0006-charizard.spu",
    "thumb": "gen1-first-ten/thumbs/black2-white2/0006-charizard.png"
+  },
+  {
+   "id": "black2-white2/0001-bulbasaur",
+   "name": "Bulbasaur",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1-first-ten",
+   "file": "gen1-first-ten/black2-white2/0001-bulbasaur.spu",
+   "thumb": "gen1-first-ten/thumbs/black2-white2/0001-bulbasaur.png"
+  },
+  {
+   "id": "black2-white2/0002-ivysaur",
+   "name": "Ivysaur",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1-first-ten",
+   "file": "gen1-first-ten/black2-white2/0002-ivysaur.spu",
+   "thumb": "gen1-first-ten/thumbs/black2-white2/0002-ivysaur.png"
+  },
+  {
+   "id": "black2-white2/0003-venusaur",
+   "name": "Venusaur",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1-first-ten",
+   "file": "gen1-first-ten/black2-white2/0003-venusaur.spu",
+   "thumb": "gen1-first-ten/thumbs/black2-white2/0003-venusaur.png"
+  },
+  {
+   "id": "black2-white2/0005-charmeleon",
+   "name": "Charmeleon",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1-first-ten",
+   "file": "gen1-first-ten/black2-white2/0005-charmeleon.spu",
+   "thumb": "gen1-first-ten/thumbs/black2-white2/0005-charmeleon.png"
   },
   {
    "id": "black2-white2/0007-squirtle",
@@ -57,30 +81,6 @@
    "batch": "gen1-first-ten",
    "file": "gen1-first-ten/black2-white2/0010-caterpie.spu",
    "thumb": "gen1-first-ten/thumbs/black2-white2/0010-caterpie.png"
-  },
-  {
-   "id": "black2-white2/0001-bulbasaur",
-   "name": "Bulbasaur",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-first-ten",
-   "file": "gen1-first-ten/black2-white2/0001-bulbasaur.spu",
-   "thumb": "gen1-first-ten/thumbs/black2-white2/0001-bulbasaur.png"
-  },
-  {
-   "id": "black2-white2/0002-ivysaur",
-   "name": "Ivysaur",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-first-ten",
-   "file": "gen1-first-ten/black2-white2/0002-ivysaur.spu",
-   "thumb": "gen1-first-ten/thumbs/black2-white2/0002-ivysaur.png"
-  },
-  {
-   "id": "black2-white2/0003-venusaur",
-   "name": "Venusaur",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-first-ten",
-   "file": "gen1-first-ten/black2-white2/0003-venusaur.spu",
-   "thumb": "gen1-first-ten/thumbs/black2-white2/0003-venusaur.png"
   }
  ]
 }
