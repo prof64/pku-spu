@@ -9,6 +9,69 @@
    "thumb": "thumbs/black2-white2/0001-bulbasaur.png"
   },
   {
+   "id": "black2-white2/0002-ivysaur",
+   "name": "Ivysaur",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0002-ivysaur.spu",
+   "thumb": "thumbs/black2-white2/0002-ivysaur.png"
+  },
+  {
+   "id": "black2-white2/0003-venusaur",
+   "name": "Venusaur",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0003-venusaur.spu",
+   "thumb": "thumbs/black2-white2/0003-venusaur.png"
+  },
+  {
+   "id": "black2-white2/0004-charmander",
+   "name": "Charmander",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0004-charmander.spu",
+   "thumb": "thumbs/black2-white2/0004-charmander.png"
+  },
+  {
+   "id": "black2-white2/0005-charmeleon",
+   "name": "Charmeleon",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0005-charmeleon.spu",
+   "thumb": "thumbs/black2-white2/0005-charmeleon.png"
+  },
+  {
+   "id": "black2-white2/0006-charizard",
+   "name": "Charizard",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0006-charizard.spu",
+   "thumb": "thumbs/black2-white2/0006-charizard.png"
+  },
+  {
+   "id": "black2-white2/0007-squirtle",
+   "name": "Squirtle",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0007-squirtle.spu",
+   "thumb": "thumbs/black2-white2/0007-squirtle.png"
+  },
+  {
+   "id": "black2-white2/0008-wartortle",
+   "name": "Wartortle",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0008-wartortle.spu",
+   "thumb": "thumbs/black2-white2/0008-wartortle.png"
+  },
+  {
+   "id": "black2-white2/0009-blastoise",
+   "name": "Blastoise",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0009-blastoise.spu",
+   "thumb": "thumbs/black2-white2/0009-blastoise.png"
+  },
+  {
+   "id": "black2-white2/0010-caterpie",
+   "name": "Caterpie",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0010-caterpie.spu",
+   "thumb": "thumbs/black2-white2/0010-caterpie.png"
+  },
+  {
    "id": "black2-white2/0493-arceus",
    "name": "Arceus",
    "game": "Pokémon Black 2 & White 2",
