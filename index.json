@@ -72,6 +72,62 @@
    "thumb": "thumbs/black2-white2/0010-caterpie.png"
   },
   {
+   "id": "black2-white2/0072-tentacool",
+   "name": "Tentacool",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0072-tentacool.spu",
+   "thumb": "thumbs/black2-white2/0072-tentacool.png"
+  },
+  {
+   "id": "black2-white2/0077-ponyta",
+   "name": "Ponyta",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0077-ponyta.spu",
+   "thumb": "thumbs/black2-white2/0077-ponyta.png"
+  },
+  {
+   "id": "black2-white2/0081-magnemite",
+   "name": "Magnemite",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0081-magnemite.spu",
+   "thumb": "thumbs/black2-white2/0081-magnemite.png"
+  },
+  {
+   "id": "black2-white2/0088-grimer",
+   "name": "Grimer",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0088-grimer.spu",
+   "thumb": "thumbs/black2-white2/0088-grimer.png"
+  },
+  {
+   "id": "black2-white2/0091-cloyster",
+   "name": "Cloyster",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0091-cloyster.spu",
+   "thumb": "thumbs/black2-white2/0091-cloyster.png"
+  },
+  {
+   "id": "black2-white2/0092-gastly",
+   "name": "Gastly",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0092-gastly.spu",
+   "thumb": "thumbs/black2-white2/0092-gastly.png"
+  },
+  {
+   "id": "black2-white2/0095-onix",
+   "name": "Onix",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0095-onix.spu",
+   "thumb": "thumbs/black2-white2/0095-onix.png"
+  },
+  {
+   "id": "black2-white2/0120-staryu",
+   "name": "Staryu",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0120-staryu.spu",
+   "thumb": "thumbs/black2-white2/0120-staryu.png"
+  },
+  {
    "id": "black2-white2/0493-arceus",
    "name": "Arceus",
    "game": "Pokémon Black 2 & White 2",
