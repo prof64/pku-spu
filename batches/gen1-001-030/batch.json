@@ -1,8 +1,60 @@
 {
   "format": "spu-batch",
   "version": 1,
-  "name": "Generation 1: #011 to #030",
+  "name": "Generation 1: #001 to #030",
   "sprites": [
+    {
+      "id": "black2-white2/0001-bulbasaur",
+      "name": "Bulbasaur",
+      "file": "black2-white2/0001-bulbasaur.spu",
+      "note": "In the library already; redone under the fixed lighting."
+    },
+    {
+      "id": "black2-white2/0002-ivysaur",
+      "name": "Ivysaur",
+      "file": "black2-white2/0002-ivysaur.spu"
+    },
+    {
+      "id": "black2-white2/0003-venusaur",
+      "name": "Venusaur",
+      "file": "black2-white2/0003-venusaur.spu"
+    },
+    {
+      "id": "black2-white2/0004-charmander",
+      "name": "Charmander",
+      "file": "black2-white2/0004-charmander.spu"
+    },
+    {
+      "id": "black2-white2/0005-charmeleon",
+      "name": "Charmeleon",
+      "file": "black2-white2/0005-charmeleon.spu"
+    },
+    {
+      "id": "black2-white2/0006-charizard",
+      "name": "Charizard",
+      "file": "black2-white2/0006-charizard.spu",
+      "note": "The format demo's Charizard. Wings no longer go pale: the undrawn brighter blue is out of their shades."
+    },
+    {
+      "id": "black2-white2/0007-squirtle",
+      "name": "Squirtle",
+      "file": "black2-white2/0007-squirtle.spu"
+    },
+    {
+      "id": "black2-white2/0008-wartortle",
+      "name": "Wartortle",
+      "file": "black2-white2/0008-wartortle.spu"
+    },
+    {
+      "id": "black2-white2/0009-blastoise",
+      "name": "Blastoise",
+      "file": "black2-white2/0009-blastoise.spu"
+    },
+    {
+      "id": "black2-white2/0010-caterpie",
+      "name": "Caterpie",
+      "file": "black2-white2/0010-caterpie.spu"
+    },
     {
       "id": "black2-white2/0011-metapod",
       "name": "Metapod",
@@ -65,6 +117,17 @@
       "file": "black2-white2/0022-fearow.spu"
     },
     {
+      "id": "black2-white2/0023-ekans",
+      "name": "Ekans",
+      "file": "black2-white2/0023-ekans.spu"
+    },
+    {
+      "id": "black2-white2/0024-arbok",
+      "name": "Arbok",
+      "file": "black2-white2/0024-arbok.spu",
+      "note": "Was oiled-looking: that was the renderer. Scales nearly matte."
+    },
+    {
       "id": "black2-white2/0025-pikachu",
       "name": "Pikachu",
       "file": "black2-white2/0025-pikachu.spu"
@@ -94,18 +157,7 @@
       "id": "black2-white2/0030-nidorina",
       "name": "Nidorina",
       "file": "black2-white2/0030-nidorina.spu"
-    },
-    {
-      "id": "black2-white2/0023-ekans",
-      "name": "Ekans",
-      "file": "black2-white2/0023-ekans.spu",
-      "note": "Scales now nearly matte, like Arbok's."
-    },
-    {
-      "id": "black2-white2/0024-arbok",
-      "name": "Arbok",
-      "file": "black2-white2/0024-arbok.spu",
-      "note": "Scales now nearly matte: the hard highlights are gone."
     }
-  ]
+  ],
+  "note": "All thirty under the fixed lighting: the shine was the renderer, not the materials."
 }

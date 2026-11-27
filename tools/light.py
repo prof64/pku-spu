@@ -32,6 +32,7 @@ A sprite's lighting is written down as a small Python file in tools/lighting/<co
               region from a pixel, for two surfaces that share colors in one drawing
   MARKS       [dict(drawings, color, on=[colors around], to=material, max=pixels)]: a patch of a
               darker color wholly inside lighter skin is a marking, with its own row
+  KEEP_TOP    [row names] whose lightest shade stays in the row although few pixels use it (see glints)
   AREAS, GLOW lists of arguments for assign_material and set_glow
   AFTER(job)  anything else: job.flicker([parts]) ties a flame's glow to its drawn flicker
 """
@@ -272,8 +273,29 @@ class Job:
             if not used[m["index"]] and m["index"] != 0:
                 self.s.remove_material(material=m["index"], intent=f"no pixel is {m['name']}")
 
+    def glints(self, share=0.07):
+        """A surface's lightest color that the art uses on only a few of its pixels is a painted glint,
+        not a shade: it is taken out of the row (those pixels then stay as painted), so another light
+        cannot spread it over a third of the surface. Rows a spec lists in KEEP_TOP, polished rows
+        (finish 0.6 and up) and rows of two shades are left alone."""
+        keep = set(getattr(self.spec, "KEEP_TOP", []))
+        count = collections.Counter()
+        for d in self.s.overview()["drawings"]:
+            for view in d["pictures"]:
+                g = grid(self.s.read_picture(drawing=d["id"], view=view)["rows"])
+                mg = grid(self.s.read_picture(drawing=d["id"], view=view, layer="material")["rows"])
+                for y, row in enumerate(g):
+                    for x, c in enumerate(row):
+                        if c is not None: count[(mg[y][x], c)] += 1
+        for m in self.s.overview()["materials"]:
+            sh = m["shades"]
+            if m["line"] or len(sh) < 3 or m["finish"] >= 0.6 or m["name"] in keep or m["base"] >= len(sh) - 1: continue
+            total = sum(count[(m["index"], c)] for c in sh)
+            if total and count[(m["index"], sh[-1])] / total < share:
+                self.s.update_material(material=m["index"], shades=sh[:-1], intent=f"{m['name']}: its lightest color is a painted glint, not a shade")
+
     def run(self):
-        self.strip(); self.materials(); self.paint(); self.unused(); self.glow()
+        self.strip(); self.materials(); self.paint(); self.unused(); self.glints(); self.glow()
         if hasattr(self.spec, "AFTER"): self.spec.AFTER(self)
         r = self.bake()
         c = self.s.check()
