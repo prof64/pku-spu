@@ -297,6 +297,14 @@
    "batch": "random-sample",
    "file": "random-sample/black2-white2/0446-munchlax.spu",
    "thumb": "random-sample/thumbs/black2-white2/0446-munchlax.png"
+  },
+  {
+   "id": "black2-white2/0598-ferrothorn",
+   "name": "Ferrothorn",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "random-sample",
+   "file": "random-sample/black2-white2/0598-ferrothorn.spu",
+   "thumb": "random-sample/thumbs/black2-white2/0598-ferrothorn.png"
   }
  ]
 }

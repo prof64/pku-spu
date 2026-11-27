@@ -40,6 +40,12 @@
       "name": "Munchlax",
       "file": "black2-white2/0446-munchlax.spu",
       "note": "Body is long fur, as the Pokédex says, so it has a grain; head and ears are short fur."
+    },
+    {
+      "id": "black2-white2/0598-ferrothorn",
+      "name": "Ferrothorn",
+      "file": "black2-white2/0598-ferrothorn.spu",
+      "note": "Spikes and disc tops are steel, so they mirror the sky and turn blue in the field. The pod is dull shell, not metal."
     }
   ],
   "note": "Eight sprites drawn at random from Black 2/White 2."
