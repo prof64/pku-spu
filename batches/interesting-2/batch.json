@@ -26,6 +26,24 @@
       "name": "Litwick",
       "file": "black2-white2/0607-litwick.spu",
       "note": "Wax lets light through; only the flame glows."
+    },
+    {
+      "id": "black2-white2/0219-magcargo",
+      "name": "Magcargo",
+      "file": "black2-white2/0219-magcargo.spu",
+      "note": "Lava body glows faintly; the flame and the cracks in its rock shell are the bright parts."
+    },
+    {
+      "id": "black2-white2/0582-vanillite",
+      "name": "Vanillite",
+      "file": "black2-white2/0582-vanillite.spu",
+      "note": "Snow head lets light through, so it turns warm by the torch; the body is ice."
+    },
+    {
+      "id": "black2-white2/0622-golett",
+      "name": "Golett",
+      "file": "black2-white2/0622-golett.spu",
+      "note": "Matte clay; the yellow energy in its chest and seams glows."
     }
   ],
   "note": "Picked for what they are made of, to judge the approach."

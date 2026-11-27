@@ -35,6 +35,30 @@
    "thumb": "interesting-2/thumbs/black2-white2/0607-litwick.png"
   },
   {
+   "id": "black2-white2/0219-magcargo",
+   "name": "Magcargo",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "interesting-2",
+   "file": "interesting-2/black2-white2/0219-magcargo.spu",
+   "thumb": "interesting-2/thumbs/black2-white2/0219-magcargo.png"
+  },
+  {
+   "id": "black2-white2/0582-vanillite",
+   "name": "Vanillite",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "interesting-2",
+   "file": "interesting-2/black2-white2/0582-vanillite.spu",
+   "thumb": "interesting-2/thumbs/black2-white2/0582-vanillite.png"
+  },
+  {
+   "id": "black2-white2/0622-golett",
+   "name": "Golett",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "interesting-2",
+   "file": "interesting-2/black2-white2/0622-golett.spu",
+   "thumb": "interesting-2/thumbs/black2-white2/0622-golett.png"
+  },
+  {
    "id": "black2-white2/0011-metapod",
    "name": "Metapod",
    "game": "Pokémon Black 2 & White 2",
