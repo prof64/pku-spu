@@ -1,0 +1,223 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "gen1",
+  "sprites": [
+    {
+      "id": "black2-white2/0035-clefairy",
+      "name": "Clefairy",
+      "file": "black2-white2/0035-clefairy.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0036-clefable",
+      "name": "Clefable",
+      "file": "black2-white2/0036-clefable.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0046-paras",
+      "name": "Paras",
+      "file": "black2-white2/0046-paras.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0047-parasect",
+      "name": "Parasect",
+      "file": "black2-white2/0047-parasect.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0052-meowth",
+      "name": "Meowth",
+      "file": "black2-white2/0052-meowth.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0053-persian",
+      "name": "Persian",
+      "file": "black2-white2/0053-persian.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0050-diglett",
+      "name": "Diglett",
+      "file": "black2-white2/0050-diglett.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0051-dugtrio",
+      "name": "Dugtrio",
+      "file": "black2-white2/0051-dugtrio.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0041-zubat",
+      "name": "Zubat",
+      "file": "black2-white2/0041-zubat.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0042-golbat",
+      "name": "Golbat",
+      "file": "black2-white2/0042-golbat.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0054-psyduck",
+      "name": "Psyduck",
+      "file": "black2-white2/0054-psyduck.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0055-golduck",
+      "name": "Golduck",
+      "file": "black2-white2/0055-golduck.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0031-nidoqueen",
+      "name": "Nidoqueen",
+      "file": "black2-white2/0031-nidoqueen.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0034-nidoking",
+      "name": "Nidoking",
+      "file": "black2-white2/0034-nidoking.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0058-growlithe",
+      "name": "Growlithe",
+      "file": "black2-white2/0058-growlithe.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0059-arcanine",
+      "name": "Arcanine",
+      "file": "black2-white2/0059-arcanine.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0037-vulpix",
+      "name": "Vulpix",
+      "file": "black2-white2/0037-vulpix.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0038-ninetales",
+      "name": "Ninetales",
+      "file": "black2-white2/0038-ninetales.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0066-machop",
+      "name": "Machop",
+      "file": "black2-white2/0066-machop.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0067-machoke",
+      "name": "Machoke",
+      "file": "black2-white2/0067-machoke.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0039-jigglypuff",
+      "name": "Jigglypuff",
+      "file": "black2-white2/0039-jigglypuff.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0040-wigglytuff",
+      "name": "Wigglytuff",
+      "file": "black2-white2/0040-wigglytuff.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0073-tentacruel",
+      "name": "Tentacruel",
+      "file": "black2-white2/0073-tentacruel.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0090-shellder",
+      "name": "Shellder",
+      "file": "black2-white2/0090-shellder.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0043-oddish",
+      "name": "Oddish",
+      "file": "black2-white2/0043-oddish.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0044-gloom",
+      "name": "Gloom",
+      "file": "black2-white2/0044-gloom.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0045-vileplume",
+      "name": "Vileplume",
+      "file": "black2-white2/0045-vileplume.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0048-venonat",
+      "name": "Venonat",
+      "file": "black2-white2/0048-venonat.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0049-venomoth",
+      "name": "Venomoth",
+      "file": "black2-white2/0049-venomoth.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0056-mankey",
+      "name": "Mankey",
+      "file": "black2-white2/0056-mankey.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0057-primeape",
+      "name": "Primeape",
+      "file": "black2-white2/0057-primeape.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0074-geodude",
+      "name": "Geodude",
+      "file": "black2-white2/0074-geodude.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0075-graveler",
+      "name": "Graveler",
+      "file": "black2-white2/0075-graveler.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0076-golem",
+      "name": "Golem",
+      "file": "black2-white2/0076-golem.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0032-nidoran",
+      "name": "Nidoran♂",
+      "file": "black2-white2/0032-nidoran.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0033-nidorino",
+      "name": "Nidorino",
+      "file": "black2-white2/0033-nidorino.spu",
+      "note": "Gen 1, made the approved way."
+    }
+  ]
+}
