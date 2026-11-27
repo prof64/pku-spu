@@ -10,40 +10,9 @@
       "note": "In the library already; redone under the fixed lighting."
     },
     {
-      "id": "black2-white2/0002-ivysaur",
-      "name": "Ivysaur",
-      "file": "black2-white2/0002-ivysaur.spu"
-    },
-    {
       "id": "black2-white2/0003-venusaur",
       "name": "Venusaur",
       "file": "black2-white2/0003-venusaur.spu"
-    },
-    {
-      "id": "black2-white2/0004-charmander",
-      "name": "Charmander",
-      "file": "black2-white2/0004-charmander.spu"
-    },
-    {
-      "id": "black2-white2/0005-charmeleon",
-      "name": "Charmeleon",
-      "file": "black2-white2/0005-charmeleon.spu"
-    },
-    {
-      "id": "black2-white2/0006-charizard",
-      "name": "Charizard",
-      "file": "black2-white2/0006-charizard.spu",
-      "note": "The format demo's Charizard. Wings no longer go pale: the undrawn brighter blue is out of their shades."
-    },
-    {
-      "id": "black2-white2/0007-squirtle",
-      "name": "Squirtle",
-      "file": "black2-white2/0007-squirtle.spu"
-    },
-    {
-      "id": "black2-white2/0008-wartortle",
-      "name": "Wartortle",
-      "file": "black2-white2/0008-wartortle.spu"
     },
     {
       "id": "black2-white2/0009-blastoise",
@@ -66,11 +35,6 @@
       "file": "black2-white2/0012-butterfree.spu"
     },
     {
-      "id": "black2-white2/0013-weedle",
-      "name": "Weedle",
-      "file": "black2-white2/0013-weedle.spu"
-    },
-    {
       "id": "black2-white2/0014-kakuna",
       "name": "Kakuna",
       "file": "black2-white2/0014-kakuna.spu"
@@ -79,11 +43,6 @@
       "id": "black2-white2/0015-beedrill",
       "name": "Beedrill",
       "file": "black2-white2/0015-beedrill.spu"
-    },
-    {
-      "id": "black2-white2/0016-pidgey",
-      "name": "Pidgey",
-      "file": "black2-white2/0016-pidgey.spu"
     },
     {
       "id": "black2-white2/0017-pidgeotto",
@@ -110,11 +69,6 @@
       "id": "black2-white2/0021-spearow",
       "name": "Spearow",
       "file": "black2-white2/0021-spearow.spu"
-    },
-    {
-      "id": "black2-white2/0022-fearow",
-      "name": "Fearow",
-      "file": "black2-white2/0022-fearow.spu"
     },
     {
       "id": "black2-white2/0023-ekans",
@@ -149,14 +103,60 @@
       "file": "black2-white2/0028-sandslash.spu"
     },
     {
-      "id": "black2-white2/0029-nidoran",
-      "name": "Nidoran♀",
-      "file": "black2-white2/0029-nidoran.spu"
-    },
-    {
       "id": "black2-white2/0030-nidorina",
       "name": "Nidorina",
       "file": "black2-white2/0030-nidorina.spu"
+    },
+    {
+      "id": "black2-white2/0002-ivysaur",
+      "name": "Ivysaur",
+      "file": "black2-white2/0002-ivysaur.spu"
+    },
+    {
+      "id": "black2-white2/0004-charmander",
+      "name": "Charmander",
+      "file": "black2-white2/0004-charmander.spu"
+    },
+    {
+      "id": "black2-white2/0005-charmeleon",
+      "name": "Charmeleon",
+      "file": "black2-white2/0005-charmeleon.spu"
+    },
+    {
+      "id": "black2-white2/0006-charizard",
+      "name": "Charizard",
+      "file": "black2-white2/0006-charizard.spu",
+      "note": "The format demo's Charizard. Wings no longer go pale: the undrawn brighter blue is out of their shades."
+    },
+    {
+      "id": "black2-white2/0007-squirtle",
+      "name": "Squirtle",
+      "file": "black2-white2/0007-squirtle.spu"
+    },
+    {
+      "id": "black2-white2/0008-wartortle",
+      "name": "Wartortle",
+      "file": "black2-white2/0008-wartortle.spu"
+    },
+    {
+      "id": "black2-white2/0013-weedle",
+      "name": "Weedle",
+      "file": "black2-white2/0013-weedle.spu"
+    },
+    {
+      "id": "black2-white2/0016-pidgey",
+      "name": "Pidgey",
+      "file": "black2-white2/0016-pidgey.spu"
+    },
+    {
+      "id": "black2-white2/0022-fearow",
+      "name": "Fearow",
+      "file": "black2-white2/0022-fearow.spu"
+    },
+    {
+      "id": "black2-white2/0029-nidoran",
+      "name": "Nidoran♀",
+      "file": "black2-white2/0029-nidoran.spu"
     }
   ],
   "note": "All thirty under the fixed lighting: the shine was the renderer, not the materials."
