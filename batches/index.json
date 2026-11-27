@@ -99,22 +99,6 @@
    "thumb": "gen1-011-030/thumbs/black2-white2/0022-fearow.png"
   },
   {
-   "id": "black2-white2/0023-ekans",
-   "name": "Ekans",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-011-030",
-   "file": "gen1-011-030/black2-white2/0023-ekans.spu",
-   "thumb": "gen1-011-030/thumbs/black2-white2/0023-ekans.png"
-  },
-  {
-   "id": "black2-white2/0024-arbok",
-   "name": "Arbok",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-011-030",
-   "file": "gen1-011-030/black2-white2/0024-arbok.spu",
-   "thumb": "gen1-011-030/thumbs/black2-white2/0024-arbok.png"
-  },
-  {
    "id": "black2-white2/0025-pikachu",
    "name": "Pikachu",
    "game": "Pokémon Black 2 & White 2",
@@ -161,6 +145,22 @@
    "batch": "gen1-011-030",
    "file": "gen1-011-030/black2-white2/0030-nidorina.spu",
    "thumb": "gen1-011-030/thumbs/black2-white2/0030-nidorina.png"
+  },
+  {
+   "id": "black2-white2/0023-ekans",
+   "name": "Ekans",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1-011-030",
+   "file": "gen1-011-030/black2-white2/0023-ekans.spu",
+   "thumb": "gen1-011-030/thumbs/black2-white2/0023-ekans.png"
+  },
+  {
+   "id": "black2-white2/0024-arbok",
+   "name": "Arbok",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1-011-030",
+   "file": "gen1-011-030/black2-white2/0024-arbok.spu",
+   "thumb": "gen1-011-030/thumbs/black2-white2/0024-arbok.png"
   }
  ]
 }

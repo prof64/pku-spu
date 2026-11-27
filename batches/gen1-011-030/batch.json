@@ -65,16 +65,6 @@
       "file": "black2-white2/0022-fearow.spu"
     },
     {
-      "id": "black2-white2/0023-ekans",
-      "name": "Ekans",
-      "file": "black2-white2/0023-ekans.spu"
-    },
-    {
-      "id": "black2-white2/0024-arbok",
-      "name": "Arbok",
-      "file": "black2-white2/0024-arbok.spu"
-    },
-    {
       "id": "black2-white2/0025-pikachu",
       "name": "Pikachu",
       "file": "black2-white2/0025-pikachu.spu"
@@ -104,6 +94,18 @@
       "id": "black2-white2/0030-nidorina",
       "name": "Nidorina",
       "file": "black2-white2/0030-nidorina.spu"
+    },
+    {
+      "id": "black2-white2/0023-ekans",
+      "name": "Ekans",
+      "file": "black2-white2/0023-ekans.spu",
+      "note": "Scales now nearly matte, like Arbok's."
+    },
+    {
+      "id": "black2-white2/0024-arbok",
+      "name": "Arbok",
+      "file": "black2-white2/0024-arbok.spu",
+      "note": "Scales now nearly matte: the hard highlights are gone."
     }
   ]
 }
