@@ -44,6 +44,12 @@
       "name": "Staryu",
       "file": "black2-white2/0120-staryu.spu",
       "note": "Core is a gem that glows red, as the Pokédex says."
+    },
+    {
+      "id": "black2-white2/0092-gastly",
+      "name": "Gastly",
+      "file": "black2-white2/0092-gastly.spu",
+      "note": "Gas: soft and see-through. In bright daylight the cloud goes pale, almost white."
     }
   ],
   "note": "Picked for what they are made of, not dex order."
