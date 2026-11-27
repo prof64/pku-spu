@@ -1,0 +1,109 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "Generation 1: #011 to #030",
+  "sprites": [
+    {
+      "id": "black2-white2/0011-metapod",
+      "name": "Metapod",
+      "file": "black2-white2/0011-metapod.spu"
+    },
+    {
+      "id": "black2-white2/0012-butterfree",
+      "name": "Butterfree",
+      "file": "black2-white2/0012-butterfree.spu"
+    },
+    {
+      "id": "black2-white2/0013-weedle",
+      "name": "Weedle",
+      "file": "black2-white2/0013-weedle.spu"
+    },
+    {
+      "id": "black2-white2/0014-kakuna",
+      "name": "Kakuna",
+      "file": "black2-white2/0014-kakuna.spu"
+    },
+    {
+      "id": "black2-white2/0015-beedrill",
+      "name": "Beedrill",
+      "file": "black2-white2/0015-beedrill.spu"
+    },
+    {
+      "id": "black2-white2/0016-pidgey",
+      "name": "Pidgey",
+      "file": "black2-white2/0016-pidgey.spu"
+    },
+    {
+      "id": "black2-white2/0017-pidgeotto",
+      "name": "Pidgeotto",
+      "file": "black2-white2/0017-pidgeotto.spu"
+    },
+    {
+      "id": "black2-white2/0018-pidgeot",
+      "name": "Pidgeot",
+      "file": "black2-white2/0018-pidgeot.spu",
+      "note": "Feathers slightly glossy, as the Pokédex says; the painted art shows them flat."
+    },
+    {
+      "id": "black2-white2/0019-rattata",
+      "name": "Rattata",
+      "file": "black2-white2/0019-rattata.spu"
+    },
+    {
+      "id": "black2-white2/0020-raticate",
+      "name": "Raticate",
+      "file": "black2-white2/0020-raticate.spu"
+    },
+    {
+      "id": "black2-white2/0021-spearow",
+      "name": "Spearow",
+      "file": "black2-white2/0021-spearow.spu"
+    },
+    {
+      "id": "black2-white2/0022-fearow",
+      "name": "Fearow",
+      "file": "black2-white2/0022-fearow.spu"
+    },
+    {
+      "id": "black2-white2/0023-ekans",
+      "name": "Ekans",
+      "file": "black2-white2/0023-ekans.spu"
+    },
+    {
+      "id": "black2-white2/0024-arbok",
+      "name": "Arbok",
+      "file": "black2-white2/0024-arbok.spu"
+    },
+    {
+      "id": "black2-white2/0025-pikachu",
+      "name": "Pikachu",
+      "file": "black2-white2/0025-pikachu.spu"
+    },
+    {
+      "id": "black2-white2/0026-raichu",
+      "name": "Raichu",
+      "file": "black2-white2/0026-raichu.spu",
+      "note": "Glows very faintly in the dark, as its Pokédex entries say."
+    },
+    {
+      "id": "black2-white2/0027-sandshrew",
+      "name": "Sandshrew",
+      "file": "black2-white2/0027-sandshrew.spu"
+    },
+    {
+      "id": "black2-white2/0028-sandslash",
+      "name": "Sandslash",
+      "file": "black2-white2/0028-sandslash.spu"
+    },
+    {
+      "id": "black2-white2/0029-nidoran",
+      "name": "Nidoran♀",
+      "file": "black2-white2/0029-nidoran.spu"
+    },
+    {
+      "id": "black2-white2/0030-nidorina",
+      "name": "Nidorina",
+      "file": "black2-white2/0030-nidorina.spu"
+    }
+  ]
+}
