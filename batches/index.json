@@ -241,6 +241,62 @@
    "batch": "gen1-001-030",
    "file": "gen1-001-030/black2-white2/0029-nidoran.spu",
    "thumb": "gen1-001-030/thumbs/black2-white2/0029-nidoran.png"
+  },
+  {
+   "id": "black2-white2/0072-tentacool",
+   "name": "Tentacool",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "material-samples",
+   "file": "material-samples/black2-white2/0072-tentacool.spu",
+   "thumb": "material-samples/thumbs/black2-white2/0072-tentacool.png"
+  },
+  {
+   "id": "black2-white2/0077-ponyta",
+   "name": "Ponyta",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "material-samples",
+   "file": "material-samples/black2-white2/0077-ponyta.spu",
+   "thumb": "material-samples/thumbs/black2-white2/0077-ponyta.png"
+  },
+  {
+   "id": "black2-white2/0081-magnemite",
+   "name": "Magnemite",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "material-samples",
+   "file": "material-samples/black2-white2/0081-magnemite.spu",
+   "thumb": "material-samples/thumbs/black2-white2/0081-magnemite.png"
+  },
+  {
+   "id": "black2-white2/0088-grimer",
+   "name": "Grimer",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "material-samples",
+   "file": "material-samples/black2-white2/0088-grimer.spu",
+   "thumb": "material-samples/thumbs/black2-white2/0088-grimer.png"
+  },
+  {
+   "id": "black2-white2/0091-cloyster",
+   "name": "Cloyster",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "material-samples",
+   "file": "material-samples/black2-white2/0091-cloyster.spu",
+   "thumb": "material-samples/thumbs/black2-white2/0091-cloyster.png"
+  },
+  {
+   "id": "black2-white2/0095-onix",
+   "name": "Onix",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "material-samples",
+   "file": "material-samples/black2-white2/0095-onix.spu",
+   "thumb": "material-samples/thumbs/black2-white2/0095-onix.png"
+  },
+  {
+   "id": "black2-white2/0120-staryu",
+   "name": "Staryu",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "material-samples",
+   "file": "material-samples/black2-white2/0120-staryu.spu",
+   "thumb": "material-samples/thumbs/black2-white2/0120-staryu.png"
   }
  ]
 }
