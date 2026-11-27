@@ -297,6 +297,14 @@
    "batch": "material-samples",
    "file": "material-samples/black2-white2/0120-staryu.spu",
    "thumb": "material-samples/thumbs/black2-white2/0120-staryu.png"
+  },
+  {
+   "id": "black2-white2/0092-gastly",
+   "name": "Gastly",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "material-samples",
+   "file": "material-samples/black2-white2/0092-gastly.spu",
+   "thumb": "material-samples/thumbs/black2-white2/0092-gastly.png"
   }
  ]
 }
