@@ -241,6 +241,62 @@
    "batch": "gen1-001-030",
    "file": "gen1-001-030/black2-white2/0029-nidoran.spu",
    "thumb": "gen1-001-030/thumbs/black2-white2/0029-nidoran.png"
+  },
+  {
+   "id": "black2-white2/0068-machamp",
+   "name": "Machamp",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "random-sample",
+   "file": "random-sample/black2-white2/0068-machamp.spu",
+   "thumb": "random-sample/thumbs/black2-white2/0068-machamp.png"
+  },
+  {
+   "id": "black2-white2/0191-sunkern",
+   "name": "Sunkern",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "random-sample",
+   "file": "random-sample/black2-white2/0191-sunkern.spu",
+   "thumb": "random-sample/thumbs/black2-white2/0191-sunkern.png"
+  },
+  {
+   "id": "black2-white2/0211-qwilfish",
+   "name": "Qwilfish",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "random-sample",
+   "file": "random-sample/black2-white2/0211-qwilfish.spu",
+   "thumb": "random-sample/thumbs/black2-white2/0211-qwilfish.png"
+  },
+  {
+   "id": "black2-white2/0309-electrike",
+   "name": "Electrike",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "random-sample",
+   "file": "random-sample/black2-white2/0309-electrike.spu",
+   "thumb": "random-sample/thumbs/black2-white2/0309-electrike.png"
+  },
+  {
+   "id": "black2-white2/0332-cacturne",
+   "name": "Cacturne",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "random-sample",
+   "file": "random-sample/black2-white2/0332-cacturne.spu",
+   "thumb": "random-sample/thumbs/black2-white2/0332-cacturne.png"
+  },
+  {
+   "id": "black2-white2/0351-castform",
+   "name": "Castform",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "random-sample",
+   "file": "random-sample/black2-white2/0351-castform.spu",
+   "thumb": "random-sample/thumbs/black2-white2/0351-castform.png"
+  },
+  {
+   "id": "black2-white2/0446-munchlax",
+   "name": "Munchlax",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "random-sample",
+   "file": "random-sample/black2-white2/0446-munchlax.spu",
+   "thumb": "random-sample/thumbs/black2-white2/0446-munchlax.png"
   }
  ]
 }
