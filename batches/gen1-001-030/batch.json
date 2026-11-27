@@ -4,27 +4,6 @@
   "name": "Generation 1: #001 to #030",
   "sprites": [
     {
-      "id": "black2-white2/0001-bulbasaur",
-      "name": "Bulbasaur",
-      "file": "black2-white2/0001-bulbasaur.spu",
-      "note": "In the library already; redone under the fixed lighting."
-    },
-    {
-      "id": "black2-white2/0003-venusaur",
-      "name": "Venusaur",
-      "file": "black2-white2/0003-venusaur.spu"
-    },
-    {
-      "id": "black2-white2/0009-blastoise",
-      "name": "Blastoise",
-      "file": "black2-white2/0009-blastoise.spu"
-    },
-    {
-      "id": "black2-white2/0010-caterpie",
-      "name": "Caterpie",
-      "file": "black2-white2/0010-caterpie.spu"
-    },
-    {
       "id": "black2-white2/0011-metapod",
       "name": "Metapod",
       "file": "black2-white2/0011-metapod.spu"
@@ -106,37 +85,6 @@
       "id": "black2-white2/0030-nidorina",
       "name": "Nidorina",
       "file": "black2-white2/0030-nidorina.spu"
-    },
-    {
-      "id": "black2-white2/0002-ivysaur",
-      "name": "Ivysaur",
-      "file": "black2-white2/0002-ivysaur.spu"
-    },
-    {
-      "id": "black2-white2/0004-charmander",
-      "name": "Charmander",
-      "file": "black2-white2/0004-charmander.spu"
-    },
-    {
-      "id": "black2-white2/0005-charmeleon",
-      "name": "Charmeleon",
-      "file": "black2-white2/0005-charmeleon.spu"
-    },
-    {
-      "id": "black2-white2/0006-charizard",
-      "name": "Charizard",
-      "file": "black2-white2/0006-charizard.spu",
-      "note": "The format demo's Charizard. Wings no longer go pale: the undrawn brighter blue is out of their shades."
-    },
-    {
-      "id": "black2-white2/0007-squirtle",
-      "name": "Squirtle",
-      "file": "black2-white2/0007-squirtle.spu"
-    },
-    {
-      "id": "black2-white2/0008-wartortle",
-      "name": "Wartortle",
-      "file": "black2-white2/0008-wartortle.spu"
     },
     {
       "id": "black2-white2/0013-weedle",
