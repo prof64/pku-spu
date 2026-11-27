@@ -1,0 +1,32 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "Interesting set 2",
+  "sprites": [
+    {
+      "id": "black2-white2/0171-lanturn",
+      "name": "Lanturn",
+      "file": "black2-white2/0171-lanturn.spu",
+      "note": "The two orbs give off light and light its head in the cave."
+    },
+    {
+      "id": "black2-white2/0208-steelix",
+      "name": "Steelix",
+      "file": "black2-white2/0208-steelix.spu",
+      "note": "Polished steel: it mirrors sky and grass in the field and goes silver in the studio."
+    },
+    {
+      "id": "black2-white2/0302-sableye",
+      "name": "Sableye",
+      "file": "black2-white2/0302-sableye.spu",
+      "note": "Eyes and chest gems are crystal; the eyes glow in the dark, as the Pokédex says."
+    },
+    {
+      "id": "black2-white2/0607-litwick",
+      "name": "Litwick",
+      "file": "black2-white2/0607-litwick.spu",
+      "note": "Wax lets light through; only the flame glows."
+    }
+  ],
+  "note": "Picked for what they are made of, to judge the approach."
+}
