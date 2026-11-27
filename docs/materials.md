@@ -25,9 +25,25 @@ Every surface uses one of these. Skin is not one material: each Pokémon gets th
 | Belly | 0.4 | 0.25 | 0 | A sheen, and a little light through | Pale, fleshy undersides (the Charmander line) |
 | Fur | -0.7 | 0.05 | 0 | Soft, broken edges; a bright rim lit from the side | Fur |
 | Fluff | -1 | 0.2 | 0 | The same, glowing faintly at the edge | Down, cotton |
+| Short fur | -0.2 | 0.05 | 0 | Velvety and flat, a faint soft edge | Sleek short coats (Rattata, Raticate, Pikachu, Raichu); each marking its own row |
+| Feathers | -0.2 | 0.05 | 0 | Soft and matte | Body plumage (Pidgey, Pidgeotto, Spearow, Fearow) |
+| Glossy feathers | 0.3 | 0 | 0 | A soft sheen | Only where a Pokédex entry says so (Pidgeot: "beautifully glossy feathers") |
+| Beak | 0.4 | 0.05 | 0 | Smooth horn, a soft lighter top | Birds' beaks |
+| Insect shell | 0.45 | 0 | 0 | Hard, a clear soft sheen | Cocoons, a wasp's body, smooth insect limbs (Metapod, Kakuna, Beedrill, Butterfree's hands and feet) |
+| Insect body | 0.2 | 0.05 | 0 | Nearly matte | A butterfly's soft body (Butterfree) |
+| Insect wing | 0.4 | 0.3 | 0 | Pale, lights up from behind | Veined insect wings (Beedrill). More light through made them sparkle and stay bright in the cave |
+| Butterfly wing | 0.05 | 0.3 | 0 | Powdery, lights up from behind | Butterfree's wings; black margins are a tinted row |
+| Snake scales | 0.35 | 0.05 | 0 | Smooth, a soft sheen | Ekans, Arbok; bands and hood pattern are their own rows |
+| Rattle | 0.2 | 0.05 | 0 | Dry, nearly matte | Ekans's rattle |
+| Plated hide | 0.2 | 0.03 | 0 | Dry plates, a soft pale patch on each | Sandshrew, Sandslash |
+| Dry hide | 0.05 | 0.03 | 0 | Dead matte | Bare bird legs and feet; Sandshrew's cream belly (body 0.08) |
+| Hide | 0.25 | 0.08 | 0 | Plain bare skin | Nidoran♀, Nidorina; a rat's bare tail and feet |
+| Spines | 0.4 | 0 | 0 | Hard, a little sheen | Quills, barbs and hide-colored horns (Sandslash, the Nidoran line) |
+| Whiskers | 0.1 | 0.05 | 0 | Smooth single hairs, matte | Whiskers |
+| Comb | 0.1 | 0.08 | 0 | Bare skin, matte | Fearow's comb |
 | Shell | 0.2 | 0 | 0 | Dull and hard, one smooth dome | Turtle shells, their white rims, Blastoise's cannons |
 | Belly plate | 0.15 | 0 | 0 | The same shell, matte; solid, so it goes dark with the rest of the body | The pale underside of a shell |
-| Claw and tooth | 0.7 | 0.05 | 0 | A small bright highlight | Claws, horns, teeth, pads |
+| Claw and tooth | 0.7 | 0.05 | 0 | A small bright highlight | Claws, talons, white horns, teeth, stingers |
 | Eye | line art | | 0 | Stays as drawn | Every pixel of an eye: white, iris, pupil, catchlight |
 | Mouth | 0.8 | 0 | 0 | A wet shine | The inside of a mouth |
 | Leaf | 0.15 | 0.35 | 0 | Matte; lights up when the light is behind it | Leaves. Glossy only where a source shows a waxy leaf |
@@ -249,6 +265,329 @@ Drawn surfaces: green body segments, cream-yellow belly and feet, eye (black wit
 | Red antenna (osmeterium) | soft scent organ | Larval skin | Black 2/White 2: "It releases a stench from its red antenna to repel enemies." Sword: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies." Yellow: "If you touch the feeler on top of its head, it will release a horrible stink to protect itself." Bulbapedia: "the bright red antenna (osmeterium) on its head, which releases a stench to repel predators." A real swallowtail's osmeterium is soft, moist tissue (real-world biology, not game text); Larval skin. **No glow**: its color is a warning, not light. | glow 0: high; material: medium-low |
 | Tail tip (yellow teardrop) | soft horn-like tip | Larval skin (the pale parts row) | Bulbapedia: "teardrop-shaped tail"; Origin: "The tip of its tail resembles the horn that many species of hawk moth larvae have on their rear ends." Those horns are soft skin. | low |
 | Mouth | see shared rules | see shared rules | Small and dark on this sprite. | high |
+
+## Part 1, continued: #011 to #030
+
+Made one evolution line at a time, each part set from the Sugimori art first (light patches and highlights mean a sheen, flat soft shading means matte), then the Pokédex text, then checked lit by someone who did not make it. Quotes are game text from PokeAPI's species data; "HOME" is the Pokémon HOME render, used for shape and color only.
+
+What that review changed across the set: short coats were first given more fuzz (-0.35), which left a bright dotted rim around a backlit Pikachu and a streaked white belly on Raichu, so Short fur is -0.2; beaks were first Claw and tooth (0.7) and went dark maroon in shade, and the art paints them with only a soft lighter top, so Beak is 0.4; Sandshrew's plates each have a soft pale patch in the art, so they are Plated hide (0.2), not dead matte; Spearow's flat black back is only tinted, so it does not lift to gray. Raichu alone glows, very faintly (glow 4 on the coat): Sapphire says "This POKéMON exudes a weak electrical charge from all over its body that makes it take on a slight glow in darkness." At glow 26 it lit the whole cave.
+
+### Metapod (#011)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Shell (all the green) | hard chitin cocoon | Insect shell (0.45 / 0) | Black 2/White 2: "A steel-hard shell protects its tender body." Ruby/Sapphire: "The shell covering this POKéMON's body is as hard as an iron slab." Moon: "Its shell is hard, but it's still just a bug shell." Art: soft lighter patches on the horn, plates and belly, no white highlights, so satin rather than polished. | high |
+| Plate lines and tail rings (dark green lines inside the shell) | edges between raised plates and overlapping rings | Outline (creases) | Art: the big plate under the eye overhangs the body with a shadow under its corner, and the tail is drawn as separate bulging rings. HOME models each plate as its own raised facet. The shell's outer contour in the same dark greens stays the shell's darkest shade. | medium |
+| Eye (white, black pupil) | eye | Eye (line art) | Art: white eye with a heavy lid. The back view draws one pupil pixel in dark green; it is in the eye row. The eyes-closed lid is shell. | high |
+
+Nothing glows. Base is the mid green (color 3), which most of both views is painted in.
+
+### Butterfree (#012)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Wings (white, lavender and gray shading) | thin wing covered in powdery scales | Butterfly wing, 0.05 / 0.3 (starting row: 0.4) | Yellow: "Its wings, covered with poisonous powders, repel water." Ultra Sun: "Its wings are covered in toxic scales." FireRed: "The wings are protected by rain-repellent dust." Art: flat white with pale blue shading, no highlight, so matte. | finish high; light-through medium |
+| Black wing margins and bands (navy) | pigment in the same wing | Butterfly wing, black markings (wing dials, no shades) | Art: flat black, no highlight. The sprite draws them in one navy, so light only tints them. They are not line art, so the wing is not creased along them. | high |
+| Wing veins and the wings' soft upper edge (purple lines) | veins in one flat sheet | Seams and wrinkles | Art and HOME: thin lines on a flat wing, with no shading per cell. | medium |
+| Female lower-wing patches (purple) | pigment | Butterfly wing, female spots (wing dials) | Painted by the sprite's Female look. Own row, with the navy as the darker shade. | high |
+| Head, thorax, abdomen (purple) | an adult insect's body | Insect body, 0.2 / 0.05 (new kind) | No Pokédex entry describes the body. Art: soft shading with only a faint lighter area on the head. HOME is matte. | medium-low |
+| Snout, hands, feet (blue) | smooth hard limbs | Insect shell (0.45 / 0), own row | Art paints a clear lighter patch on the snout, each hand and near each foot's tip. Gold/HeartGold/Shield: "It rubs honey onto the hairs on its legs to carry it back to its nest", but neither the art, HOME nor the sprite draws hair. | medium |
+| Fangs (two white pixels) | tooth | Claw and tooth | Art: two small white fangs under the snout. The palette's first color is green, so the white's shade is the wings' pale lavender. | high |
+| Eyes (red, pink highlight, dark red rim) | compound eyes | Eye (line art) | Sun: "each eye is composed of a myriad of tiny eyes." The art and the sprite both paint the highlight. | high |
+| Antennae | thin black stalks | Outline | One pixel wide and black, with two dark pixels on each club tip. | high |
+| Line between head and thorax | one ball overlapping the other | Outline (crease) | Drawn in navy at the neck in both views. | high |
+
+Nothing glows. The wing base is white (color 14) and the body base is the dark purple (color 2).
+
+### Weedle (#013)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Body: head and segments (brown) | soft larval skin | Larval skin, **finish 0.35** (standard 0.45), body 0.15 | Gold/HeartGold/Y: "Its bright-colored body is intended to warn off its enemies." No entry says what the skin is like. Art: a soft, broad pale patch on the upper left of the head and a soft lighter band on each segment, no white highlights like Caterpie's; HOME: soft everywhere. So a softer sheen than Caterpie's. The sprite paints one small pale patch on the front of the head. | medium |
+| Nose (pink) | soft fleshy snout | Larval skin, own row "nose and feet", finish 0.45, body 0.15 | Ruby/Sapphire: "sniffing with its big red proboscis (nose)." Art: a crisp pale highlight spot on the nose. | medium |
+| Feet (pink balls along the body) | the same soft pink tissue | same row as the nose | Not described in any entry. Art: every pink foot has its own small highlight dot. | medium |
+| Head stinger, tail stinger (white, gray) | hard horn-like needle | Claw and tooth 0.7 / 0.05 | Black 2/White 2: "It fends off attackers with the needle on its head." FireRed/X: "a sharp, toxic barb of around two inches on top of its head." Red/Blue: "a sharp venomous stinger on its head." Art: white with gray shade; the tail stinger carries a white streak. Its dark gray edge is its darkest shade. | high |
+| Eyes (black, white catchlight, a gray pixel) | eye | Eye (line art) | Art: black bead eyes with a white catchlight. Includes the eye drawn on the head itself in the back view. Closed eyes are drawn as black lines (outline). | high |
+| Line between the two segments drawn in one picture (body4 both views, body5 back) | crease | Outline | Segments are separate bulges; the other segments are separate pictures, whose brown contour stays the skin's darkest shade. | high |
+
+### Kakuna (#014)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Whole cocoon (yellow): head dome, shoulder plates, folded arms, tail rings | hard shell | Insect shell 0.45 / 0 | Red/Blue: "this POKéMON can only harden its shell to protect itself from predators." Silver/SoulSilver: "As its body becomes softer, the external shell hardens." Ruby/Sapphire: "how hot the shell becomes to the touch." Gold: "Although it is a cocoon, it can move a little." Art: a small pale highlight on the dome and pale edges on the plates: a satin sheen, no mirror. The sprite paints pale highlight patches on the head, an arm and the tail end. | high |
+| Dark lines between plates (inside body, arms, neck) | where plates overlap | Outline (creases) | Art draws the shoulder plates, arms and tail rings as separate raised pieces, each shaded on its own. The same dark brown along the outside is the shell's darkest shade; the softer brown beside the lines stays shell. | medium |
+| Eyes (black with gray sheen and white catchlight) | eye | Eye (line art) | Art: black triangular eyes with a white catchlight. The eyes-closed look is drawn the same as open in this sprite. | high |
+
+### Beedrill (#015)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Head, thorax, abdomen (yellow) | hard wasp shell | Insect shell 0.45 / 0 | No entry names the body's surface (they are about speed and stingers: Black 2/White 2: "flying around at high speed, striking with poison needles"). Art: small pale highlights on the head, thorax and each yellow band; HOME: smooth. | medium |
+| Black bands on the abdomen | pigment in the same shell | Insect shell, own row "stripes" (black with the blue-gray the sprite paints as its sheen) | Art: black bands with a gray highlight band on the upper left, the same sheen as the yellow. The black along the silhouette stays outline. | high |
+| Legs, arms, antennae (drawn black with a blue-gray lit side) | the same hard shell, thin | Insect shell, own row "limbs" | Art: dark gray-purple limbs with a soft lighter side, no crisp highlight. They are surfaces, not line art, so light shapes them. One lilac pixel on a back-view antenna stays as drawn (outline). | medium |
+| Arm stingers (white to lilac-gray cones) | hard needle | Claw and tooth 0.7 / 0.05 | Red/Blue: "its large venomous stingers on its forelegs and tail." X: "three poisonous stingers on its forelegs and its tail." Art: broad streaked light bands along each cone: the shiniest part of the design. Base is the lilac-gray the cones are mostly painted in. | high |
+| Tail stinger (the yellow point of the abdomen: last 6 rows front, last 4 back) | hard needle, yellow | Claw and tooth, own row "tail stinger" on the yellow ramp | Silver/SoulSilver: "The barb on its tail secretes the most powerful poison." FireRed/Y: "the toxic stinger on its rear." Art: a yellow-orange cone with a pale streak down it, set off from the abdomen by a line. The sprite draws no line there; the cone starts where the abdomen steps in. | medium |
+| Wings (white, lilac veins) | thin insect wing | Insect wing, finish 0.4, **body 0.3** (starting value 0.6) | No entry describes the wings. Art: flat white with a faint gray wash and thin veins, opaque (the arm's shadow falls on one); HOME: see-through gray. At 0.6 the wings sparkled with yellow specks and stayed salmon-bright in the cave, and their contour washed out against the field's sky. At 0.3 they are as bright next to the body in the cave as the art paints them (measured), keep their contour, and still light up pink with the sun behind. Finish cannot be read from the art (a highlight on white does not show): kept at the starting 0.4. | body: medium; finish: low |
+| Wing veins and inner fold lines | lines inside one flat sheet | Seams and wrinkles | They do not separate overlapping pieces, so the wing stays one smooth sheet; the lilac contour of each wing is the wing's own darkest shade. | medium |
+| Eyes (red, front view only) | eye | Eye (line art) | Art: red eyes with a white catchlight. The eyes-closed look is drawn the same as open in this sprite. | high |
+
+### Pidgey (#016)
+
+
+No entry in any game describes its plumage, beak or legs (Black 2/White 2: "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back."), so every surface is set from the art.
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Brown back, wings, crest, tail | body plumage | Feathers | Art: flat brown, soft shading, no light patch; HOME the same. | high |
+| Cream chest, belly, cheek, brow tufts, wing tips | plumage, paler | Feathers (own row) | Art: flat cream; the paler chest streaks are drawn feather texture. The sprite's light brown streaks in the cream are the cream's own shade. | high |
+| Mask through the eye | pigment in the plumage | Feathers (own row) | Art: black patch behind the eye. Sprite paints it dark brown in front, black behind; both in one row. | high |
+| Beak | horn | Beak (0.4 / 0.05) | Art: pink with a lighter top; the sprite paints a highlight. The line between its halves is line. | medium |
+| Legs and toes | bare, scaly bird skin | Dry hide | Art: flat pink, soft shading, no highlight; HOME flat. | medium |
+| Claws | keratin | Claw and tooth | Art: white with a gray shade. | medium |
+| Eye | eye | Eye (line art) | White and pupil in one row. | high |
+| Lines between wing and tail feathers | lines | Outline | Overlapping feather layers. | high |
+
+### Pidgeotto (#017)
+
+
+Entries speak only of claws and beak; nothing describes the plumage.
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Brown back, upper wings, head, wing leading edge | body plumage | Feathers | Art: flat brown, no highlights; HOME flat. | high |
+| Cream belly, cheek, thighs, underwings, flight feathers | plumage, paler | Feathers (own row) | Art: flat cream with drawn feather lines. Thin light brown strokes inside the cream are its shade. | high |
+| Red crest | head plumage | Feathers (own row) | Art: flat red-pink with drawn strands; no entry calls it glossy. | high |
+| Red tail feathers (the cream ones are the cream row) | plumage | Feathers (own row) | Art: flat red and yellow feathers. | high |
+| Black mask | pigment in the plumage | Feathers (own row) | Art: black marking around the eye. Second shade is the palette's darkest brown. | medium |
+| Beak | horn | Beak (0.4 / 0.05) | Red/Blue: "this POKéMON will fiercely peck at any intruder." Art: pink, lighter top. The open beak's black gap stays line. | medium |
+| Legs and toes | bare bird skin | Dry hide | Art: flat pink, scutes drawn as lines. | medium |
+| Talons | keratin | Claw and tooth | Black 2/White 2: "downing it with its highly developed claws." FireRed: "The claws on its feet are well developed." | high |
+| Eye | eye | Eye (line art) | White, gray, pupil and iris pixel in one row. | high |
+| Lines between feathers | lines | Outline | Overlapping feather layers. | high |
+
+### Pidgeot (#018)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Brown back and wings | glossy plumage | Glossy feathers | Ruby/Sapphire: "This POKéMON has a dazzling plumage of beautifully glossy feathers." Emerald: "This POKéMON has gorgeous, glossy feathers." Art paints no highlight; the entry is the source. | medium |
+| Cream chest, belly, cheek, flight feathers | glossy plumage, paler | Glossy feathers (own row) | Same entries ("plumage" is the whole coat). Art: flat cream. | medium-low |
+| Head feathers, yellow stripe | glossy plumage | Glossy feathers (own row) | Ruby/Sapphire: "Many TRAINERS are captivated by the striking beauty of the feathers on its head". | medium |
+| Head feathers, red stripe; tail | glossy plumage | Glossy feathers (one row: the same red) | Same entries. Art: smooth red streamers, flat red tail. | medium |
+| Black mask | pigment in the plumage | Glossy feathers (own row) | Art: black marking past the eye. Its lower edge is drawn in the darkest brown, the row's second shade. | medium |
+| Beak | horn | Beak (0.4 / 0.05) | Art: pink, lighter upper side. | medium |
+| Legs and toes | bare bird skin | Dry hide | Art: flat pink. | medium |
+| Talons | keratin | Claw and tooth | Yellow: "Its large talons are feared as wicked weapons." | high |
+| Eye | eye | Eye (line art) | White, gray, pupil in one row. | high |
+| Lines between coverts, flight and tail feathers | lines | Outline | Overlapping feather layers. | high |
+
+### Rattata (#019)
+
+
+Drawn surfaces: purple coat (head, back, legs, tail), cream muzzle, lower jaw, belly and paws, yellow ear insides, cream whiskers, two white incisors, red tongue in a black mouth, red eye, and (back view only) pink pads on the raised hind feet. The female look shortens the whiskers and changes the tail tip in the back view.
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Coat (purple): head, back, legs, tail | a rat's short, sleek coat | Short fur (-0.2 / 0.05) | No Pokédex entry describes the coat. Art: flat, soft shading over all the purple, no light patch or highlight, a smooth silhouette with no tufts. The tail is the same purple painted the same way, so it is coat, not bare skin. | medium |
+| Muzzle, lower jaw, belly, paws (cream) | the same coat, paler | Short fur, own row | Art: flat cream, no highlight. Neither the art nor the sprite draws separate claws. | medium |
+| Ear insides (yellow) | the thin fur inside the ear | Short fur, own row | Art paints them the same flat cream as the belly; the sprite gives them their own yellow. | medium-low |
+| Whiskers | one stiff hair each | Whiskers (0.1 / 0.05), new row | Art: flat cream strokes, no highlight. A single hair is smooth, so not fuzzy like a coat; matte because painted flat. | medium-low |
+| Incisors | enamel | Claw and tooth (0.7 / 0.05) | Black 2/White 2: "It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime." FireRed: "Its fangs are long and very sharp." Art: white with a pale gray shade. | high |
+| Tongue | wet tissue | Mouth (0.8 / 0) | Shared rule. The rest of the open mouth is drawn black, so it is line. | high |
+| Eye | eye | Eye (line art) | Red iris, white and gray in one row; the dark lid lines are the coat's own dark shade. | high |
+| Hind-foot pads (pink, back view, 5 pixels) | bare skin | Hide (0.25 / 0.08), own row | Not in the art or any entry. The back sprite draws pink on the two raised hind feet. | low |
+
+Other decisions:
+- The coat's base is the darker purple (color 6): the back view is painted almost wholly in it (399 pixels, against 204 of the lighter one in front).
+- The dark line of the tail's curl is a crease, since the tail lies over itself.
+- The teeth's dark gray edge is the tooth's darkest shade, not line.
+
+### Raticate (#020)
+
+
+Drawn surfaces: tawny coat (head, crest, back, arms, backs of the ears), cream muzzle, chin, chest ruff and belly, pale whiskers, bare tan tail, hands and feet, dark ear insides, large white incisors in a black mouth, white eye with a black pupil. The female look shortens the whiskers.
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Coat (tawny) | a rat's short coat, coarser, with tufts at the crest, cheeks and chest | Short fur (-0.2 / 0.05) | No Pokédex entry describes the coat. Art: flat, smooth shading with no highlight; the fur is ragged only along edges. Fur (-0.7) was tried: the whole body went grainy and got a bright rim in the cave, which the art does not show. | medium |
+| Muzzle, chin, chest ruff, belly (cream) | the same coat, paler | Short fur, own row | Art: flat cream. The chest ruff is a separate drawing hanging over the belly; the lines of its points are creases. | medium |
+| Tufts drawn on the back (back view) | clumps of the same coat | Short fur; their dark lines are creases | The back sprite draws zigzag tuft lines inside the coat. | medium |
+| Whiskers | one stiff hair each | Whiskers (0.1 / 0.05), new row | Red/Blue: "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off." Art: flat pale strokes, no highlight. | medium |
+| Tail, hands, feet (tan) | bare skin: a ringed rat tail, webbed hind feet | Hide (0.25 / 0.08) | Yellow: "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey." FireRed: "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers." Art: bare tan skin, ring lines on the tail, flat shading, no highlight. Claws are the color of the toes and not drawn apart in the sprite, so they stay skin. | medium |
+| Ear insides (dark brown) | bare skin, in shadow | Hide, own row | Art: dull brown skin inside the ear; HOME: the tail's skin color. The sprite paints them in one color, the skin's darkest. | medium |
+| Incisors | enamel | Claw and tooth (0.7 / 0.05) | Black 2/White 2: "With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease." Ruby: "RATICATE's sturdy fangs grow steadily." Art: white with soft gray shading. | high |
+| Mouth interior | (drawn black) | Outline | The art paints a pink mouth, but the sprite draws it solid black with no tongue. | high (for this sprite) |
+| Eye | eye | Eye (line art) | White (gray-shaded from behind) and the black pupil in one row. | high |
+
+Other decisions:
+- The coat's base is the darker tawny (color 11): the back view and the front's flank are painted in it.
+- The cream's base is its second-lightest (color 6); the face is painted one step lighter.
+
+### Spearow (#021)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Head, chest ruff, tail (brown) | plumage | Feathers | Bulbapedia: "It has rough, brown plumage on its head and three brown tail feathers." Art: flat brown, soft shading, no highlight. | high |
+| Back and back of the head (black, back view) | plumage | Feathers (own row: black plus the dark gray the sprite highlights it with) | Bulbapedia: "Black feathers cover its back." The sprite paints it flat black with five dark gray highlight pixels. One-pixel black strokes stay outline. | high (what it is), medium (shaded rather than line art) |
+| Wings (red) | plumage | Feathers | Black 2/White 2: "It flaps its small wings busily to fly." Bulbapedia: "The feathers covering its wings are pinkish-red with lighter tips". Art: a broad soft pale area, no hard highlight. | high |
+| Wing tips (pale pink) | pigment in the same feathers | Feathers (own row) | Bulbapedia: "with lighter tips". The red lines between the three big feathers are creases (outline). | high |
+| Belly, thighs (gray-tan) | plumage | Feathers (own row) | Bulbapedia: "a beige underside". Art: flat cream. | high |
+| Belly stripes | pigment | Feathers (own row) | Bulbapedia: "two thin, horizontal stripes". Painted in black and dark gray-brown. | high |
+| Beak (pink) | horn | Beak (0.4 / 0.05) | Gold: "It then plucks them with its stubby beak." Black 2/White 2: "Using its beak, it searches in grass for prey." Bulbapedia: "a short, hooked beak that is light pink". Art paints a pale highlight patch on top. | high |
+| Red inside the open beak | mouth | Mouth (0.8 / 0) | Art and HOME show the beak open with the tongue. On the sprite it is six red pixels behind the hook; it could be the lower beak in shade. | medium |
+| Feet (pink-red) | bare, scaly bird skin | Dry hide | Bulbapedia: "Its light pink feet have two toes in front and one in the back." Art: flat pink, no highlight. | medium |
+| Claws (white) | keratin | Claw and tooth | Art and HOME: white claws. The sprite shades them with the belly's gray-browns. | high |
+| Eyes | eye | Eye (line art) | Bulbapedia: "narrow, dark brown eyes with white pupils". Both eyes, and the lid line of the closed look. | high |
+
+### Fearow (#022)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Body, neck, head, tail, wings (brown) | plumage | Feathers | Black 2/White 2: "It has the stamina to fly all day on its broad wings." Red/Blue: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest." Bulbapedia: "a large, mostly brown avian Pokémon". Art: flat soft browns, no highlight on the wings. Lines between flight feathers are creases. | high |
+| Flight feather tips (cream) | pigment in the same feathers | Feathers (own row) | Bulbapedia: "These feathers are cream-colored, as are the tips of its flight feathers." The back view paints them a step darker, so which colors are tips is set per drawing. | high |
+| Ruff at the base of the neck (cream) | shaggy plumage | Feathers (own row) | Bulbapedia: "It has shaggy feathers at the base of its neck and covering the upper portion of its wings." Art: flat cream tufts. Lines between tufts are creases. | high |
+| Comb (red) | bare skin | Comb (new: 0.1 / 0.08) | Bulbapedia: "a decorative red coxcomb on top of its head". No Pokédex entry mentions it. Art: flat red spikes, no highlight. | low |
+| Beak (pink) | horn | Beak (0.4 / 0.05) | Black 2/White 2: "It fights by using its sharp beak." Silver: "It cleverly uses its thin, long beak to pluck and eat small insects that hide under the ground." Bulbapedia: "a long, pointed, pink beak". Art: pale pink, lighter along the top. | high |
+| Feet (pink) | bare, scaly bird skin | Dry hide | Bulbapedia: "Its sharp-clawed talons are pink". Art: flat pink. | medium |
+| Claws (white) | keratin | Claw and tooth | Bulbapedia: "sharp-clawed". White with a cream shade on the sprite. | high |
+| Eyes | eye | Eye (line art) | Bulbapedia: "Its narrow eyes have very small pupils and do not appear to have colored irises." Both views, and the closed look's lid line. | high |
+
+### Ekans (#023)
+
+
+Drawn surfaces: purple body, yellow neck band, yellow underside, rings drawn across the body, rattle, open mouth with tongue, yellow eyes with slit pupils.
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Body (purple) | smooth scaled snake skin | Snake scales (0.35 / 0.05) | No entry describes the skin. Black 2/White 2: "It sneaks through grass without making a sound and strikes unsuspecting prey from behind." Yellow: "At night, it wraps its long body around tree branches to rest." Painted art: pale streaks of light on the head, the neck, every coil and the tail, so a soft sheen. | medium |
+| Neck band and underside (yellow) | the same scales in another color | Snake scales, own row (0.35 / 0.05) | No entry mentions them. Painted art: the band carries the same pale streak as the purple above it, so it keeps the scales' sheen; the stripe under the coils is thin and in shade. One row for both: the band runs into the underside in the same yellow, and the underside painted darker then reads as facing down. | medium |
+| Rings across the body | lines drawn on one smooth tube | kept as the scales' darkest shade | Painted art: the light streaks run straight across the rings, so they are not creases between bulging segments. | medium |
+| Rattle | hard, dry beads | Rattle (0.2 / 0.05), a new surface | No entry mentions the rattle. Painted art: every bead is softly shaded with no highlight, so dull; hard, so almost solid (the trace of body claws have). | low for the dials |
+| Mouth and tongue | wet tissue | Mouth (0.8 / 0) | FireRed: "It flicks its tongue in and out to sense danger in its surroundings." Gold: "It can freely detach its jaw to swallow large prey whole." Painted art: pink mouth, a soft highlight on the tongue. | high |
+| Eyes | eye | Eye (line art) | Ruby/Sapphire: "a glare from its upraised head". Yellow with a black slit and a painted catchlight; no entry says they glow. | high |
+
+### Arbok (#024)
+
+
+Drawn surfaces: purple body and hood, the face pattern on the hood (black, red, yellow), lines across the belly and coils, open mouth with tongue, fangs, small white eyes. The back of the hood is plain purple.
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Body and hood (purple) | smooth scaled snake skin; the hood is its chest spread wide, not a thin membrane | Snake scales (0.35 / 0.05) | Crystal: "To intimidate foes, it spreads its chest wide and makes eerie sounds by expelling air from its mouth." Ruby/Sapphire: "This POKéMON is terrifically strong in order to constrict things with its body." Painted art: light patches on the head and the hood's rim, a sharp streak down the belly, so a soft sheen. | medium |
+| Hood pattern (black, red, yellow) | pigment in the same scales | Snake scales, three own rows (black, red, yellow), the scales' dials | Black 2/White 2: "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear." Yellow: "The frightening patterns on its belly have been studied. Six variations have been confirmed." Gold: "Transfixing prey with the face-like pattern on its belly". Painted art: flat color, no relief. The black is a row with no shades (tinted by light, never a crease), so the hood stays one smooth dome. | high |
+| Lines across the belly and coils | lines drawn on one smooth tube | kept as the scales' darkest shade | Painted art: the belly's light streak runs across the lines. | medium |
+| Mouth and tongue | wet tissue | Mouth (0.8 / 0) | Crystal: "expelling air from its mouth". Painted art: pink mouth, long forked tongue. | high |
+| Fangs | tooth | Claw and tooth (0.7 / 0.05) | Gold: "it binds and poisons the frightened victim." Painted art: white teeth. | medium |
+| Eyes | eye | Eye (line art) | White with a black pupil and brow, a few pixels. No entry says they glow. | high |
+
+### Pikachu (#025)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Yellow coat (head, body, arms, feet, ears, tail) | short, sleek fur | Short fur | No entry describes the coat. Art: flat yellow with broad soft light patches, no highlight; HOME: smooth. Brown contour colors are the row's darkest shades. Base is the mid yellow (656 visible pixels against 580, both views). | medium |
+| Ear tips (black) | the same fur, black | Short fur (row "short fur, ear tips") | Art: solid black, no highlight. | high |
+| Cheeks (red) | fur over the electric sacs | Short fur (row "short fur, cheeks") | FireRed/Y: "It has small electric sacs on both its cheeks." Sword: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy." Art: flat red discs. No glow at rest. | high |
+| Two back stripes, tail base (brown) | the same fur, brown | Short fur (row "short fur, stripes and tail base") | Art and HOME: brown stripes and a brown patch where the tail meets the body, flat. | high |
+| Mouth inside, tongue | wet tissue | Mouth (0.8 / 0) | Shared rule. The brown mouth line and the one-pixel nose are drawn line. | high |
+| Eyes | eye | Eye (line art) | Black, white catchlight, gray reflections and the closed lids, all in one row. | high |
+
+### Raichu (#026)
+
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Orange coat (head, body, arms, legs) | short, sleek fur | Short fur | No entry describes the coat. Art: soft flat orange, no highlight; HOME: smooth. Base is the darker orange (704 visible pixels against 423, both views). | medium |
+| Belly (cream), and its edge seen from behind | the same fur, pale | Short fur (row "short fur, belly") | Art and HOME: a white-cream patch, matte. | high |
+| Cheeks (yellow) | fur over the electric sacs | Short fur (row "short fur, cheeks") | Silver: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up." Art: flat yellow discs. No glow at rest. | high |
+| Lightning-bolt tail tip, ear insides (yellow) | the same fur, yellow | Short fur (row "short fur, tail and ear insides") | Black 2/White 2: "Its tail discharges electricity into the ground, protecting it from getting shocked." Art: flat yellow, no highlight. The bolt's olive and brown contours are its shades. | medium |
+| Ear backs and rims, paws, feet (brown) | the same fur, brown | Short fur (row "short fur, paws and ears") | Art and HOME: brown, matte. | high |
+| Two back stripes (brown) | pigment in the coat | Short fur (row "short fur, stripes") | Art: two brown stripes across the back; they run on over the left leg in the back view. | high |
+| Soles (tan, back view) | paw underside | Short fur (row "short fur, soles") | Art: pale tan, flat, no highlight; no text. Painted in one color, with the belly's cream as its lighter step. Lines between the toes are creases (outline). | low |
+| Orange spot on each sole | pigment | Short fur (row "short fur, sole spots") | Art and HOME: an orange oval on the sole. | medium |
+| Tail cord (thin, dark gray) | long thin tail | Short fur (row "short fur, tail cord") | Red/Blue: "Its long tail serves as a ground to protect itself from its own high voltage power." Art: an even dark gray line, no highlight; nothing says it is bare skin. | low |
+| Mouth inside | wet tissue | Mouth (0.8 / 0) | Shared rule. One red, with the dark line around it as its second shade. Mouth line and nose are drawn line. | high |
+| Eyes | eye | Eye (line art) | Black with a cream catchlight; one edge pixel beside the left eye is kept with it. | high |
+
+### Sandshrew (#027)
+
+
+Drawn surfaces: yellow brick-patterned hide, cream stomach and muzzle, pale ear insides (front view), white claws, dark blue eyes. No open mouth.
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Hide (yellow, with its brick lines and brown contour) | dry, tough, brick-like skin | Plated hide (0.2 / 0.03) | Sapphire: "SANDSHREW has a very dry hide that is extremely tough." Yellow: "Its body is dry. When it gets cold at night, its hide is said to become coated with a fine dew." Emerald: "Its hide has turned tough and solid as a result of living in the desert." Art: flat sandy yellow with soft shading and no highlight anywhere. The brick lines are drawn in the hide's darker yellow and stay its shades (grooves of one surface). | high |
+| Stomach and muzzle (cream) | the same dry skin, soft, not plated | `dry hide, belly` (0.05 / 0.08) | Ultra Sun: "When danger approaches, it curls up into a ball to protect its soft stomach." Yellow: "Its body is dry." Art: flat cream, soft shading, no highlight. Matte like the hide; a trace more light through because it is soft skin, not plate. Not the standard Belly (0.4 / 0.25): nothing shows a sheen, and the body is dry. | medium |
+| Ear insides (cream, front view) | skin | `dry hide, ear insides` (0.05 / 0.03) | Art and HOME: pale, flat. Own row: the left one is painted in shadow (tan), the right one lit (cream). | medium |
+| Claws (white; cream, tan and gray in shade) | keratin | Claw and tooth (0.7 / 0.05) | Shield: "If hard stones impede its tunneling, it uses its sharp claws to shatter them and then carries on digging." Art: white with a gray shadow side. | high |
+| Eyes (dark blue, white catchlight) | eye | `eye (line art)` | Art: black-blue with a white catchlight. Closed, the lid is hide with a darker line. | high |
+
+Nothing glows.
+
+### Sandslash (#028)
+
+
+Drawn surfaces: yellow hide, brown quills (back, head crest), cream stomach, muzzle and cheek, long white claws, eyes. No open mouth.
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Quills (brown) | hardened hide | Spines (0.4 / 0) | Black 2/White 2: "The spikes on its body are made up of its hardened hide. It rolls up and attacks foes with its spikes." Ruby: "SANDSLASH's body is covered by tough spikes, which are hardened sections of its hide." Sword: "The drier the area Sandslash lives in, the harder and smoother the Pokémon's spikes will feel when touched." Art: each quill has a lighter upper face and a darker underside, no white highlight: a soft sheen at most, which the starting value gives. The dark lines between quills are creases (outline). | medium |
+| Hide (yellow) | dry, tough skin | Plated hide (0.2 / 0.03) | No entry describes Sandslash's own skin; it is Sandshrew's hide (quotes above), and the spikes are "hardened sections of its hide" (Ruby). Art: flat yellow, soft shading, no highlight. The palette's lightest yellow is never drawn and is the ramp's top step. | medium |
+| Stomach, muzzle, cheek (cream; white along the jaw) | the same dry skin, soft | `dry hide, belly` (0.05 / 0.08) | Same reasoning as Sandshrew ("its soft stomach", Ultra Sun, is Sandshrew's entry). Art: flat cream, no highlight. | medium |
+| Claws (white; cream and gray in shade) | keratin | Claw and tooth (0.7 / 0.05) | Yellow: "It is skilled at slashing enemies with its claws. If broken, they start to grow back in a day." Ultra Moon: "Thanks to its thick claws, it's good at climbing trees." Art: white with gray-blue shading. | high |
+| Eyes | eye | `eye (line art)` | Art: black with a white catchlight. On the sprite the eye is black line with white, gray and one cream pixel. | high |
+
+Nothing glows.
+
+### Nidoran♀ (#029)
+
+
+Drawn surfaces: pale lilac body, dark spots, big ears (dark ring and teal center inside), forehead horn, barbs on the back, whiskers, two incisors, open mouth (first two head drawings), white claws, red eyes.
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Body, head, legs, ear backs and rims | bare skin, no coat | Hide (0.25 / 0.08) | No entry in any game mentions fur. The painted art shades the whole body with flat soft washes and no highlight anywhere; HOME is smooth and evenly soft. | medium |
+| Dark spots | pigment in the same skin | Hide, own row `hide, spots` | Art and HOME: darker blue-violet patches on the flank and back, flat. | high |
+| Ear inside, dark ring | pigment in the same skin | Hide, own row `hide, ear ring` | Art and HOME both paint two flat zones inside the ear: a dark violet ring and a teal center. No highlight. | medium |
+| Ear inside, teal center | pigment in the same skin | Hide, own row `hide, ear center` | Same. | medium |
+| Forehead horn | hardened spike that is part of the hide | Spines (0.4 / 0) | Yellow: "Beware, its small horns secrete venom." HeartGold: "The poison hidden in its small horn is extremely potent." Shield: "The tip of a female Nidoran’s horn is a bit more rounded than the tip of a male’s horn." The art paints it the body's own lilac, flat, so it is a hide-colored spike, not bare white horn. | medium |
+| Back barbs | hardened spikes that are part of the hide | Spines (0.4 / 0) | Black 2/White 2: "While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal." Red/Blue: "Although small, its venomous barbs render this POKéMON dangerous." Art: body-colored, flat. | medium |
+| Whiskers (the pale strands free of the head; all of the back view's whisker drawings) | stiff hair | Whiskers (0.1 / 0.05), a new row | Sword: "While foraging, they’ll use their whiskers to check wind direction and stay downwind of predators." Art: pale strands in the body's color, flat. | that they are whiskers: high; the dials: low |
+| Whiskers where they lie over the cheek | drawn strokes | Outline | The sprite draws them there as one-pixel black and dark strokes (in two head drawings they fade to lighter strokes while twitching). | high |
+| Incisors | enamel | Claw and tooth (0.7 / 0.05) | Shield: "It uses its hard incisor teeth to crush and eat berries." White in art and sprite. | high |
+| Claws | keratin | Claw and tooth (0.7 / 0.05) | White in art, HOME and sprite. No entry describes them. | medium |
+| Mouth inside | wet tissue | Mouth (0.8 / 0) | Shared rule. | high |
+| Eyes | eye | Eye (line art) | Red iris with white on both sides; the shut eye's line is outline. | high |
+
+Nothing glows. Base shade: counted on what shows in both views together the darker lilac wins (519 to 328 pixels), so that is the hide's base.
+
+### Nidorina (#030)
+
+
+Drawn surfaces: light blue body, pale belly (front view only), dark patches, big ears (dark blue ring and bright blue center inside), barbs on the back (two in the front view, a cluster of five from behind), tail, white claws, one fang, mouth, red eyes. No horn is drawn (Sword: "The horn on its head has atrophied.").
+
+| Surface | Made of | Material | Evidence | Confidence |
+|---|---|---|---|---|
+| Body, head, limbs, tail, ear backs and rims | bare skin, no coat | Hide (0.25 / 0.08) | No entry mentions fur or scales. Art: flat washes with soft lighter areas on thigh and arm, no hard highlight; HOME smooth and soft. | medium |
+| Belly (front view) | the same skin, paler | Hide, own row `hide, belly` | Art and HOME: a paler underside from chest to belly, flat. From behind, the sprite's pale strip along the chest is a rim of light like the one along the head, so it stays in the hide row. | medium |
+| Dark patches | pigment | Hide, own row `hide, spots` | Art and HOME: dark blue patches on flank and haunch, flat. | high |
+| Ear inside, dark ring | pigment in the same skin | Hide, own row `hide, ear ring` | HOME: two flat zones, dark blue around a lighter blue panel. Art: dark blue with lighter blue streaks. | medium |
+| Ear inside, bright center | pigment in the same skin | Hide, own row `hide, ear center` | Same. | medium |
+| Back barbs | hardened spikes that are part of the hide | Spines (0.4 / 0) | Black 2/White 2: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than Nidorino’s." Crystal: "If it is threatened with attack, it raises the barbs that are all over its body." Ruby/Sapphire: "they keep their barbs tucked away to prevent hurting each other." Art: body-colored, flat. | medium |
+| Lines between barbs, and where a barb meets the back | drawn lines between overlapping pieces | Outline | Creases, so each barb is rounded on its own. With the lines shaded as surface the cluster merged into one lump under a lamp. | medium |
+| Claws | keratin | Claw and tooth (0.7 / 0.05) | Red/Blue: "Prefers physical attacks such as clawing and biting." White in art and sprite. | high |
+| Fang | enamel | Claw and tooth | Same entry ("biting"); one white fang in art and sprite. | high |
+| Mouth inside | wet tissue | Mouth (0.8 / 0) | Shared rule. | high |
+| Eyes | eye | Eye (line art) | Drawn only in the eye drawings; the same red on the head drawings is the mouth. | high |
+
+Nothing glows. The palette's palest blue (color 10) is never drawn; it is the hide's own next lighter step and is added at the top of the hide's shades.
 
 ---
 
