@@ -3,166 +3,6 @@
  "version": 1,
  "sprites": [
   {
-   "id": "black2-white2/0011-metapod",
-   "name": "Metapod",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0011-metapod.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0011-metapod.png"
-  },
-  {
-   "id": "black2-white2/0012-butterfree",
-   "name": "Butterfree",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0012-butterfree.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0012-butterfree.png"
-  },
-  {
-   "id": "black2-white2/0014-kakuna",
-   "name": "Kakuna",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0014-kakuna.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0014-kakuna.png"
-  },
-  {
-   "id": "black2-white2/0015-beedrill",
-   "name": "Beedrill",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0015-beedrill.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0015-beedrill.png"
-  },
-  {
-   "id": "black2-white2/0017-pidgeotto",
-   "name": "Pidgeotto",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0017-pidgeotto.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0017-pidgeotto.png"
-  },
-  {
-   "id": "black2-white2/0018-pidgeot",
-   "name": "Pidgeot",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0018-pidgeot.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0018-pidgeot.png"
-  },
-  {
-   "id": "black2-white2/0019-rattata",
-   "name": "Rattata",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0019-rattata.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0019-rattata.png"
-  },
-  {
-   "id": "black2-white2/0020-raticate",
-   "name": "Raticate",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0020-raticate.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0020-raticate.png"
-  },
-  {
-   "id": "black2-white2/0021-spearow",
-   "name": "Spearow",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0021-spearow.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0021-spearow.png"
-  },
-  {
-   "id": "black2-white2/0023-ekans",
-   "name": "Ekans",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0023-ekans.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0023-ekans.png"
-  },
-  {
-   "id": "black2-white2/0024-arbok",
-   "name": "Arbok",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0024-arbok.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0024-arbok.png"
-  },
-  {
-   "id": "black2-white2/0025-pikachu",
-   "name": "Pikachu",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0025-pikachu.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0025-pikachu.png"
-  },
-  {
-   "id": "black2-white2/0026-raichu",
-   "name": "Raichu",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0026-raichu.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0026-raichu.png"
-  },
-  {
-   "id": "black2-white2/0027-sandshrew",
-   "name": "Sandshrew",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0027-sandshrew.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0027-sandshrew.png"
-  },
-  {
-   "id": "black2-white2/0028-sandslash",
-   "name": "Sandslash",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0028-sandslash.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0028-sandslash.png"
-  },
-  {
-   "id": "black2-white2/0030-nidorina",
-   "name": "Nidorina",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0030-nidorina.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0030-nidorina.png"
-  },
-  {
-   "id": "black2-white2/0013-weedle",
-   "name": "Weedle",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0013-weedle.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0013-weedle.png"
-  },
-  {
-   "id": "black2-white2/0016-pidgey",
-   "name": "Pidgey",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0016-pidgey.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0016-pidgey.png"
-  },
-  {
-   "id": "black2-white2/0022-fearow",
-   "name": "Fearow",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0022-fearow.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0022-fearow.png"
-  },
-  {
-   "id": "black2-white2/0029-nidoran",
-   "name": "Nidoran♀",
-   "game": "Pokémon Black 2 & White 2",
-   "batch": "gen1-001-030",
-   "file": "gen1-001-030/black2-white2/0029-nidoran.spu",
-   "thumb": "gen1-001-030/thumbs/black2-white2/0029-nidoran.png"
-  },
-  {
    "id": "black2-white2/0068-machamp",
    "name": "Machamp",
    "game": "Pokémon Black 2 & White 2",
@@ -225,6 +65,230 @@
    "batch": "random-sample",
    "file": "random-sample/black2-white2/0598-ferrothorn.spu",
    "thumb": "random-sample/thumbs/black2-white2/0598-ferrothorn.png"
+  },
+  {
+   "id": "black2-white2/0011-metapod",
+   "name": "Metapod",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0011-metapod.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0011-metapod.png"
+  },
+  {
+   "id": "black2-white2/0012-butterfree",
+   "name": "Butterfree",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0012-butterfree.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0012-butterfree.png"
+  },
+  {
+   "id": "black2-white2/0014-kakuna",
+   "name": "Kakuna",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0014-kakuna.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0014-kakuna.png"
+  },
+  {
+   "id": "black2-white2/0015-beedrill",
+   "name": "Beedrill",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0015-beedrill.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0015-beedrill.png"
+  },
+  {
+   "id": "black2-white2/0017-pidgeotto",
+   "name": "Pidgeotto",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0017-pidgeotto.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0017-pidgeotto.png"
+  },
+  {
+   "id": "black2-white2/0018-pidgeot",
+   "name": "Pidgeot",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0018-pidgeot.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0018-pidgeot.png"
+  },
+  {
+   "id": "black2-white2/0019-rattata",
+   "name": "Rattata",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0019-rattata.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0019-rattata.png"
+  },
+  {
+   "id": "black2-white2/0020-raticate",
+   "name": "Raticate",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0020-raticate.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0020-raticate.png"
+  },
+  {
+   "id": "black2-white2/0021-spearow",
+   "name": "Spearow",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0021-spearow.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0021-spearow.png"
+  },
+  {
+   "id": "black2-white2/0023-ekans",
+   "name": "Ekans",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0023-ekans.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0023-ekans.png"
+  },
+  {
+   "id": "black2-white2/0024-arbok",
+   "name": "Arbok",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0024-arbok.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0024-arbok.png"
+  },
+  {
+   "id": "black2-white2/0025-pikachu",
+   "name": "Pikachu",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0025-pikachu.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0025-pikachu.png"
+  },
+  {
+   "id": "black2-white2/0026-raichu",
+   "name": "Raichu",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0026-raichu.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0026-raichu.png"
+  },
+  {
+   "id": "black2-white2/0027-sandshrew",
+   "name": "Sandshrew",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0027-sandshrew.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0027-sandshrew.png"
+  },
+  {
+   "id": "black2-white2/0028-sandslash",
+   "name": "Sandslash",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0028-sandslash.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0028-sandslash.png"
+  },
+  {
+   "id": "black2-white2/0030-nidorina",
+   "name": "Nidorina",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0030-nidorina.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0030-nidorina.png"
+  },
+  {
+   "id": "black2-white2/0013-weedle",
+   "name": "Weedle",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0013-weedle.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0013-weedle.png"
+  },
+  {
+   "id": "black2-white2/0016-pidgey",
+   "name": "Pidgey",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0016-pidgey.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0016-pidgey.png"
+  },
+  {
+   "id": "black2-white2/0022-fearow",
+   "name": "Fearow",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0022-fearow.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0022-fearow.png"
+  },
+  {
+   "id": "black2-white2/0029-nidoran",
+   "name": "Nidoran♀",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0029-nidoran.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0029-nidoran.png"
+  },
+  {
+   "id": "black2-white2/0068-machamp",
+   "name": "Machamp",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0068-machamp.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0068-machamp.png"
+  },
+  {
+   "id": "black2-white2/0191-sunkern",
+   "name": "Sunkern",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0191-sunkern.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0191-sunkern.png"
+  },
+  {
+   "id": "black2-white2/0211-qwilfish",
+   "name": "Qwilfish",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0211-qwilfish.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0211-qwilfish.png"
+  },
+  {
+   "id": "black2-white2/0309-electrike",
+   "name": "Electrike",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0309-electrike.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0309-electrike.png"
+  },
+  {
+   "id": "black2-white2/0332-cacturne",
+   "name": "Cacturne",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0332-cacturne.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0332-cacturne.png"
+  },
+  {
+   "id": "black2-white2/0351-castform",
+   "name": "Castform",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0351-castform.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0351-castform.png"
+  },
+  {
+   "id": "black2-white2/0446-munchlax",
+   "name": "Munchlax",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0446-munchlax.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0446-munchlax.png"
+  },
+  {
+   "id": "black2-white2/0598-ferrothorn",
+   "name": "Ferrothorn",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "unreviewed",
+   "file": "unreviewed/black2-white2/0598-ferrothorn.spu",
+   "thumb": "unreviewed/thumbs/black2-white2/0598-ferrothorn.png"
   }
  ]
 }
