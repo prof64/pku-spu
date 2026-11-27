@@ -292,7 +292,9 @@ class Job:
             if m["line"] or len(sh) < 3 or m["finish"] >= 0.6 or m["name"] in keep or m["base"] >= len(sh) - 1: continue
             total = sum(count[(m["index"], c)] for c in sh)
             if total and count[(m["index"], sh[-1])] / total < share:
-                self.s.update_material(material=m["index"], shades=sh[:-1], intent=f"{m['name']}: its lightest color is a painted glint, not a shade")
+                # the base is given again: changing a row's shades alone makes Smeargle pick a new base
+                self.s.update_material(material=m["index"], shades=sh[:-1], base=m["base"],
+                                       intent=f"{m['name']}: its lightest color is a painted glint, not a shade")
 
     def run(self):
         self.strip(); self.materials(); self.paint(); self.unused(); self.glints(); self.glow()
