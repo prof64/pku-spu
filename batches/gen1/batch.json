@@ -1,0 +1,49 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "gen1",
+  "sprites": [
+    {
+      "id": "black2-white2/0115-kangaskhan",
+      "name": "Kangaskhan",
+      "file": "black2-white2/0115-kangaskhan.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0128-tauros",
+      "name": "Tauros",
+      "file": "black2-white2/0128-tauros.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0146-moltres",
+      "name": "Moltres",
+      "file": "black2-white2/0146-moltres.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0150-mewtwo",
+      "name": "Mewtwo",
+      "file": "black2-white2/0150-mewtwo.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0151-mew",
+      "name": "Mew",
+      "file": "black2-white2/0151-mew.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0131-lapras",
+      "name": "Lapras",
+      "file": "black2-white2/0131-lapras.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0143-snorlax",
+      "name": "Snorlax",
+      "file": "black2-white2/0143-snorlax.spu",
+      "note": "Gen 1, made the approved way."
+    }
+  ]
+}
