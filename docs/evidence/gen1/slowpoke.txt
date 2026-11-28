@@ -1,0 +1,35 @@
+SLOWPOKE LINE: evidence for the lighting (Black 2/White 2 sprites)
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the official painted artwork
+(refs/art-79.png, art-80.png); "HOME" is the Pokémon HOME render (shape and color only).
+
+#079 SLOWPOKE
+Surface | Made of | Material (finish/body) | Evidence | Confidence
+Body, legs, ears, tail (pink) | plain bare skin | Hide 0.25/0.08 | No entry names the skin. "It lazes vacantly near water." (Gold); "often spends entire days just loafing at water's edge" (Ruby): it sits beside water, not in it. Art: flat soft shading, one broad pale band along the back and tail (the shape catching light), no highlight anywhere. So matte bare skin, not the wetter turtle skin. | medium
+Muzzle and lower jaw (cream) | the same skin, paler | Hide, muzzle 0.25/0.08 | Art: flat cream with soft shading under the lip, no highlight. | medium
+Tail tip (white) | the same skin, white | Hide, tail tip 0.25/0.08 | "A sweet sap leaks from its tail's tip." (Silver): the sap is not drawn. Art: the tail fades to a pale tip, painted flat. | medium
+Claws (one white claw per foot) | keratin | Claws and teeth 0.7/0.05 | Art: plain white claws. Shared rule for claws. | high
+Teeth (two in the upper jaw; one seen from behind) | enamel | Claws and teeth 0.7/0.05 | Art: two small white teeth in the open mouth. | high
+Mouth inside, tongue | wet tissue | Mouth 0.8/0 | Art: open mouth, pink inside with a paler tongue. Its two colors keep their pink in the shiny palette. | high
+Eyes (white, gray edge, one-pixel pupil; two black pixels from behind) | eye | Eye (line art) | Art: round white eyes with a dot pupil. Closed eyes are black lines (outline). | high
+Glow | none | 0 | No entry says any part gives off light. | high
+
+#080 SLOWBRO
+Surface | Made of | Material (finish/body) | Evidence | Confidence
+Body, arms, legs, ears, tail (pink) | plain bare skin | Hide 0.25/0.08 | Same animal as Slowpoke ("If the SHELLDER on its tail comes off, it becomes a SLOWPOKE again.", Yellow). "Lives lazily by the sea." (Yellow). Art: flat soft shading, no highlight. | medium
+Muzzle (cream) | the same skin, paler | Hide, muzzle 0.25/0.08 | Art: flat cream. | medium
+Belly (cream, ribbed) | the same skin, paler, with grooves across it | Hide, belly 0.25/0.08 | Art: cream belly crossed by thin drawn lines, painted flat, no highlight. No entry calls it a plate or shell, so it is skin, not Belly plate. The ribs are drawn one step darker than the skin around them and stay the belly's own shades (grooves). | medium
+Shellder on the tail (gray spiral shell with spikes) | bivalve shell | Hard shell 0.2/0 | "The SHELLDER that is latched onto SLOWPOKE's tail" (Red/Blue); "Shellder ... has metamorphosed into a spiral-shaped shell." (Ultra Moon). Art: dull blue-gray, soft shading, no highlight. Same row name and dials as Cloyster's shell. Black lines between whorls stay outline (each whorl bulges on its own). | high
+Dark blotches on the shell | pigment in the shell | Hard shell, spots 0.2/0 | Art: darker gray-blue blotches scattered over the shell. In the sprite: compact patches of four pixels or more one step darker than the shell around them; shorter dark strokes are ribs and stay shell. | high
+Claws (hands and feet) | keratin | Claws and teeth 0.7/0.05 | Art: white pointed claws. The back view draws their contour in dark gray. | high
+Teeth (Slowbro's two; the Shellder's fangs) | enamel / shell points | Claws and teeth 0.7/0.05 | Art: small white teeth in Slowbro's mouth; white fangs on the Shellder where it bites ("SLOWBRO's tail has a SHELLDER firmly attached with a bite.", Ruby). | high (Slowbro's), medium (Shellder's)
+Slowbro's mouth inside and tongue | wet tissue | Mouth 0.8/0 | Art: open mouth, dark inside with a tongue. | high
+Inside of the Shellder's mouth around the tail | wet tissue in deep shadow, drawn in one dark color | Mouth, dark inside 0.8/0 (no shades: only tinted) | Art: dark purple-brown inside the Shellder's mouth where the tail goes in. Same row as Grimer's dark mouth. The thin dark strip lower along the tail is left as the tail's own contour. | medium
+Eyes: Slowbro's (white, gray edge, pupils) and the Shellder's (white, black pupil) | eye | Eye (line art) | Art: round white eyes with dot pupils; the Shellder's slanted eye under a black brow (the brow is outline). | high
+Glow | none | 0 | "it seems to become inspired if the Shellder on its tail bites down" (Black 2/White 2): nothing gives off light. | high
+
+CHOICES WORTH A SECOND LOOK
+- Skin is Hide (0.25/0.08), not Turtle skin (0.5/0.08), though both are Water types: the art paints no highlight on either.
+- KEEP_TOP on "hide" in both files: the palest pink is under 7% of the skin but is broad soft patches (forehead, back, knees); left out of the row it stayed as gray blots under the studio lamp and in the cave.
+- Muzzle base is the middle cream (one step under the front view's lit shade): with the lightest as base, the back view's muzzle went brown in the field and near black in the cave.
+- Mouth base is the dark inside (the color most of it is painted in), not the tongue.
+- White eyes turn gray under the studio lamp and in the cave: line art is only tinted by the place's light (the approved Gastly does the same).

@@ -1,0 +1,31 @@
+EXEGGCUTE LINE: evidence for the lighting (Black 2/White 2 sprites)
+Pokédex text from PokeAPI species data (game named with each quote). Painted art: refs/art-102.png, art-103.png;
+HOME renders: refs/home-102.png, home-103.png.
+
+== Exeggcute (#102) ==
+Drawn: six eggs (peach shell, dark red contour and cracks), yolk-like contents in the one cracked egg, white eyes
+with black pupils, one open mouth, face lines.
+
+Surface | Made of | Material | Evidence | Confidence
+Shell (all six eggs) | hard seed/egg shell | Hard shell 0.2 / 0 (row "shell") | Gold: "The shell is very durable. Even if it cracks, it can survive without spilling the contents." FireRed: "Even though it appears to be eggs of some sort, it was discovered to be a life-form more like plant seeds." Painted art: each egg shaded softly with one broad pale patch, no small hard highlight; HOME the same. Dull and solid. | high
+Shell's dark red contour | drawn contour | outline row | No palette step between the peach (#ef8463) and the contour (#943131): as the shell's darkest shade the whole back view went dark crimson in a field (brief, "What the first Gen 1 lines taught"). | medium
+Cracks, brows, mouth lines, closed eyes | lines drawn on the shell | seams and wrinkles | Ruby/Sapphire: "When cracks increasingly appear on the eggs, EXEGGCUTE is close to evolution." Art draws them as thin lines on one smooth egg, not as separate plates. | high
+Contents of the cracked egg (yellow) | yolk-like contents | new row "yolk" 0.2 / 0.1 | Gold: "...it can survive without spilling the contents." Art paints it flat yellow with an orange shade and no highlight; HOME shows a matte yellow dome. Not wet-looking in either, so nearly matte; no entry says it glows. | medium-low
+Open mouth (one egg) | wet tissue | Mouth 0.8 / 0 | Shared rule. Painted in the contour's dark red. | high
+Eyes | eye | eye (line art) | Shared rule. White, gray edge and black pupil. | high
+Glow | none | - | Telepathy and psychokinesis are named (Black 2/White 2: "Its six eggs converse using telepathy.") but nothing gives off light at rest. | high
+
+== Exeggutor (#103) ==
+Drawn: three heads (yellow, brown contour), fronds, ringed brown trunk with legs and feet, white claws, teeth,
+eyes, open mouths.
+
+Surface | Made of | Material | Evidence | Confidence
+Heads | nuts: the same shell as an Exeggcute egg | Hard shell 0.2 / 0 (row "shell", as Exeggcute) | FireRed: "It is called 'The Walking Tropical Rainforest.' Each of the nuts has a face and a will of its own." Black 2/White 2: "It is called 'The Walking Jungle.' If a head grows too big, it falls off and becomes an Exeggcute." Painted art: flat pale yellow with soft shading, no highlight. | high
+Face lines, eyelids, closed eyes | lines drawn on the head | seams and wrinkles | Drawn inside one smooth head in art and sprite. | high
+Fronds | palm leaves | Leaf 0.15 / 0.35 (row "leaves", as Venusaur) | "The Walking Jungle" (above). Ruby/Sapphire: "EXEGGUTOR originally came from the tropics." Art: flat greens with a lighter band, no gloss. Thin, so they light up with the sun behind. | high
+Trunk, legs, feet | palm trunk | Bark at finish -0.1 / 0.05 (row "trunk", as Venusaur) | Same entries; art paints a ringed gray-brown trunk, flat and soft; HOME matte brown. DEPARTURE: Bark's -0.45 went grainy under the studio lamp on this large area, so -0.1 (same reason as the brief's note on fur). | medium
+Claws (feet) | hard white claws | Claw and tooth 0.7 / 0.05 | Art paints white claws with a gray shade and a sharp light edge: the only hard highlights on it. | medium
+Teeth | enamel | Claw and tooth 0.7 / 0.05 | Shared rule; white fangs in the open mouths in art, HOME and sprite. | high
+Mouth interiors | wet tissue | Mouth 0.8 / 0 | Shared rule. The sprite paints them in the heads' browns (no pink in the palette); art shows pink. | high
+Eyes | eye | eye (line art) | Shared rule. | high
+Glow | none | - | Ultra Sun: "Each of its three heads fires off psychokinetic energy" is an attack, not a light at rest. | high

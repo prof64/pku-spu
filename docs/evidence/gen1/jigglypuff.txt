@@ -1,0 +1,42 @@
+Jigglypuff line: lighting evidence (Black 2/White 2 sprites)
+Pokédex text is game text from PokeAPI's species data. Art = the Sugimori-style official art (refs/art-39, art-40);
+HOME = the Pokémon HOME render (refs/home-39, home-40), which shades everything softly and proves no sheen.
+Nothing in this line glows: no entry says any part gives off light at rest. (Red/Blue "When its huge eyes light
+up" is the moment before it sings, not a resting state; the eyes are line art with glow 0.)
+
+== #039 Jigglypuff ==
+
+Surface | Made of | Material | Evidence | Confidence
+Pink coat: body, forehead curl, ears, arms, feet | a soft, very short coat over a balloon-like body | Short fur (-0.2 / 0.05), row "short fur" | No Jigglypuff entry describes its surface (all 22 distinct English entries are about its eyes, song and inflating: Black 2/White 2 "Looking into its cute, round eyes makes it start singing a song so pleasant listeners can't help but fall asleep."; HeartGold "If it inflates to sing a lullaby, it can perform longer and cause sure drowsiness in its audience."). The material comes from its evolution, whose entries name fur again and again (Black 2/White 2, Wigglytuff: "Its fine fur feels so pleasant, those who accidentally touch it cannot take their hands away."). The art paints the whole body in flat soft pink with one broad paler area and no highlight anywhere; the outline is smooth with no tufts, so a short coat, not long fur. HOME agrees: one smooth matte ball. | medium (fur is inferred from the evolution; matte is plain in the art)
+Ear insides (black, a gray patch of light) | the same coat, dark | Short fur, row "short fur, ear insides" | Art: flat black triangles with a soft dark-gray area, no highlight. HOME: flat dark slate. Same row name as Rattata's and Raichu's ear insides. | medium
+Eyes (white, blue iris, pupil, catchlights) | eye | Eye (line art) | Yellow: "Uses its alluring eyes to enrapture its foe." Art paints a white catchlight in each; the sprite already draws it. The dark pink ring around each eye is the coat's contour and stays in the coat's row. | high
+Open mouth (two reds) | wet tissue | Mouth (0.8 / 0) | Shared rule. The mouth line itself, shut or open, is drawn line (as on Pikachu). | high
+Lines: black outline; mouth line; shut eyes' lash line; the stroke where the curl wraps over itself; the dark line along the far ear seen from behind | drawn line | Outline | The curl's inner stroke is a crease between overlapping pieces (as Rattata's curled tail). | high
+
+Base: the coat's base is 14, the shade most of it is painted in at rest with both views together (819 pixels of 14, 426 of 13, 97 of 12; the back is nearly all 14).
+
+== #040 Wigglytuff ==
+
+Surface | Made of | Material | Evidence | Confidence
+Pink coat: body, forehead curl, ears' outsides, arms, feet | fine, dense, short fur | Short fur (-0.2 / 0.05), row "short fur" | Black 2/White 2: "Its fine fur feels so pleasant, those who accidentally touch it cannot take their hands away." FireRed: "Its fur is extremely fine, dense, and supple. The exquisitely pleasant fur conveys an image of luxury." Silver: "It has a very fine fur." Shield: "It's proud of its fur, which is fine and delicate. In particular, the curl on its forehead has a texture that's perfectly heavenly." Art: flat soft pink, a broad paler side, no highlight; smooth outline with no tufts. Crystal says "rich, fluffy fur", but the art draws no fluff or broken edge, so not Fur or Fluff. | high
+White belly | the same coat, white | Short fur, row "short fur, belly" | Art: flat white with a soft pale-gray shadow, no highlight. HOME: flat white. Same row name as Raichu's belly. Its shade is the palette's pale gray (2). | high
+White ear tips | the same coat, white | Short fur, row "short fur, ear tips" | Art: a white rim at the top of each ear, flat. HOME: white tips. Same row name as Pikachu's ear tips. The mid gray (3) drawn around them is their contour, so their darkest shade. | high
+Ear insides (black, brown patches of light) | the same coat, dark | Short fur, row "short fur, ear insides" | Art: flat black with a soft dark-gray band, no highlight. HOME: flat dark slate. | medium
+Eyes (white, teal iris, pupil, catchlights) | eye | Eye (line art) | Ruby: "WIGGLYTUFF has large, saucerlike eyes. The surfaces of its eyes are always covered with a thin layer of tears." The catchlight is already painted. The pink ring around each eye is the coat's contour and stays in the coat's row. | high
+Open mouth (red) | wet tissue | Mouth (0.8 / 0) | Shared rule. The red is one color; the brown line directly over it is its shade (as on Raichu). | high
+Lines: black outline; brown mouth line; shut eyes' lash line; the stroke where the curl wraps over itself | drawn line | Outline | The curl's inner stroke is a crease between overlapping pieces. | high
+
+Base: the coat's base is 12, the shade most of it is painted in at rest with both views together (1140 pixels of 12, 505 of 11; the back is nearly all 12). Belly: white (371 to 197 of gray).
+Not used: "The body is soft and rubbery" (Red/Blue) describes how the body gives, not a rubber surface; the art shows fur-matte, no sheen.
+
+== Departures from the starting table ==
+None. Every row uses a table name and its dials.
+
+== Open call (Jigglypuff) ==
+With the rules followed as written, Jigglypuff's front goes one shade darker and speckled in the field: its face is
+painted in 13, which sits in the middle of the coat's ramp (base 14 below it, the highlight 12 above it), and the
+short fur's roughness scatters the two shades. Tried and rejected: base 13 (clean front, but the back goes dark and
+muddy in the field); the highlight left out of the row (it turns gray under the studio lamp and stays pale in the cave).
+An alternative that looks clean in the field and under the lamp is in alt-highlight-row/: the highlight color in its
+own row "short fur, highlights" with the coat's dials. It is not the delivered file because no finished sprite splits
+a highlight into its own row, and under the rain lamp it washes out a little more around the eye.

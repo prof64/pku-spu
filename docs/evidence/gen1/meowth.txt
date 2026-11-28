@@ -1,0 +1,34 @@
+MEOWTH LINE: evidence for every surface
+Pokédex text is game text from PokeAPI (pokemon-species 52 and 53, English). Art = the Sugimori painting
+(refs/art-52.png, art-53.png); HOME = the Pokémon HOME render (shape and color only).
+
+#052 MEOWTH
+
+Surface | Made of | Material | Evidence | Confidence
+Cream coat (head, body, arms, legs, tail, the backs of the ears seen from behind) | short sleek cat fur | Short fur -0.2 / 0.05 | No entry describes the coat. Art: flat cream with soft pale shading, no highlight anywhere. HOME: smooth and soft. Same row and dials as Rattata and Pikachu. | high
+Brown hind feet and curled tail tip | the same coat, brown | Short fur -0.2 / 0.05, own row "short fur, feet and tail tip" | Art: flat brown, darker lines for toes and the curl, no highlight. A marking: its own row with the coat's dials. | high
+Ear insides (pink in the sprite) | the same coat | Short fur -0.2 / 0.05, row "short fur, ear insides" (Rattata's name) | Art paints them flat tan-brown; the sprite paints them pink. Flat either way. | high
+Black ear outsides | drawn in the outline's black | Outline | The sprite draws them in the line color with no shading; as with Blastoise's black ear insides they stay line. | medium
+Whiskers (two long ones on the head, four on the cheeks) | single stiff hairs | Whiskers 0.1 / 0.05 | Art: plain cream strokes, no highlight. Same row as Rattata. | high
+Coin on the forehead | a gold coin (koban) | "gold coin" 0.2 / 0, hard and dull; its white bars in "gold coin, ridges" with the same dials | Crystal and Violet: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines too." Shield: "It washes its face regularly to keep the coin on its forehead spotless." So it is named gold. But the art paints it flat pale tan with brown grooves and no highlight at all, and the text has it shine only when Meowth sees something shiny, not at rest. Followed the art, as Machamp's golden belt plate and Staryu's gold casing do (0.2 / 0). Tried as Metal 0.9 / -1: lime green over grass, near black in the cave, and with white in its row it turned silver. No glow: the entry is not about rest. | medium (owner's call: Metal is defensible from the text)
+Fangs (one at each corner of the mouth) | enamel | Claw and tooth 0.7 / 0.05 | Art: two small white fangs. Shared rule. Shade is the palette's gray (2). | high
+Mouth inside and tongue | wet tissue | Mouth 0.8 / 0 | Shared rule. Art: flat pink. | high
+Paw pads (only on the raised-foot drawings) | bare skin | Hide 0.25 / 0.08, row "hide, paw pads" (Rattata's) | Ruby/Sapphire: "MEOWTH withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps." The sprite draws pink pads under the lifted foot; no claws are drawn. | medium
+Eyes (white, gray, slit pupil, the brown line around them; closed: the lid line) | eye | Eye (line art) | Black 2/White 2: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly." FireRed: "At night, it patrols its territory with its eyes aglow." Both are conditional (a shiny thing, night patrol), so no glow at rest. | high
+
+Nothing on Meowth glows.
+
+#053 PERSIAN
+
+Surface | Made of | Material | Evidence | Confidence
+Coat (whole body, tail, the backs of the ears seen from behind) | short sleek cat fur | Short fur -0.2 / 0.05 | Red/Blue: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness." Fur is named; nothing says glossy. Art: flat tan with broad soft lighter areas on shoulder and haunch (shape, not sheen), no hard highlight. HOME: soft. | high
+Ear insides (olive in the sprite) | the same coat | Short fur -0.2 / 0.05, row "short fur, ear insides" | Art: flat tan inside a black rim. | high
+Black ear rims, nose | drawn in the outline's black | Outline | Drawn in the line color, unshaded. | medium
+Whiskers | stiff hairs | Whiskers 0.1 / 0.05 | Ruby/Sapphire: "PERSIAN has six bold whiskers that give it a look of toughness. The whiskers sense air movements..." Art: plain cream strokes. | high
+Jewel in the forehead | a red gemstone | Crystal, gem 1 / 0.6, row "gem, red" (Sableye's name and dials); glow 80 on its bright faces, 30 on its dark one (Sableye's eye values) | Black 2/White 2: "A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk." Yellow and Let's Go: "The gem in its forehead glows on its own!" Ultra Moon: "It's also targeted by hunters who are after the jewel in its forehead." Art: a red bead with a white highlight, the only highlight in the painting. Glow is at rest by the text ("on its own"). In the cave it shows red and tints the brow; it does not light the cave. | high for gem; medium for the glow level
+Fang (one white pixel at the mouth) | enamel | Claw and tooth 0.7 / 0.05 | Art: a small fang at the mouth corner. Shared rule. | high
+Eyes (white, gray, red slit, the brown lines around them; closed: the lid lines) | eye | Eye (line art) | Art: white eyes with red slits. No entry says they glow. | high
+
+Not drawn on this sprite: claws (Sun: "Its sharp claws inflict deep wounds"; the sprite's paws are plain), mouth inside.
+
+Departures from the starting tables: none in dials. One choice between two listed kinds: Meowth's coin is dull gold (art) rather than Metal (text).

@@ -1,0 +1,29 @@
+Horsea line: what each surface is, and why. Pokédex text from PokeAPI's species data; art = the Sugimori
+painting (refs/art-116.png, art-117.png); HOME = the 3D render (shape and color only).
+
+HORSEA (#116)
+
+Surface | Made of | Material | Evidence | Confidence
+Body, head, snout, tail, the three nubs on the head | smooth fish skin | fish skin 0.15 / 0.08 (as Qwilfish, Lanturn) | Art: flat blue, soft broad shading, no highlight anywhere. The nubs are rounded and soft in the art and HOME; no entry calls them spines. Sapphire: "This POKéMON swims by cleverly flapping the fins on its back." | medium (no entry names the skin; the art is plainly matte)
+Belly | the same skin, cream, in plates | fish skin, belly 0.15 / 0.08 | Art: flat cream with thin lines between plates, no highlight. | medium
+Fin on the back | thin skin with rays | fin 0.3 / 0.15 (as Lanturn's fins) | Gold: "it quickly swims to safety by adeptly controlling its dorsal fin." Silver: "Its big, developed fins move rapidly". Art: thin, pale, flat, rays drawn as lines. | high for what it is, medium for the dials
+Eyes | eye | eye (line art) | Art: red iris with a painted catchlight. No entry says they glow. | high
+Snout opening | the dark of the tube mouth, drawn black | outline | The sprite paints it black only. | high
+Glow | none | | No entry says any part gives off light. |
+
+SEADRA (#117)
+
+Surface | Made of | Material | Evidence | Confidence
+Body, head, snout, tail | smooth fish skin | fish skin 0.15 / 0.08 | Art: flat blue, soft shading, no highlight. | medium
+Crest points on the head, and the cluster of points behind it | the same skin drawn out to points | fish skin 0.15 / 0.08 | Black 2/White 2: "Its spines provide protection." FireRed: "Its body bristles with sharp spikes." Emerald: "The poisonous barbs all over its body". Art and sprite paint the points as one flat surface with the head (no line, no highlight sets them apart), so they are not a separate hard row. | low to medium (the call: hard Spines 0.4 / 0 was tried on the cluster behind the head; it went darker than the head beside it with the sun behind, and the head's own points cannot be cut from the head)
+Belly | the same skin, cream, overlapping plates | fish skin, belly 0.15 / 0.08; black lines between plates are outline (creases) | Art: flat tan, plates overlap like shingles, no highlight. | medium
+Pectoral fins, blue root | thin skin | fin 0.3 / 0.15 | Red/Blue: "rapidly flapping its wing-like pectoral fins". Art: flat, thin, no highlight. | high for what it is, medium for the dials
+Pectoral fins, cream points | the same fin, cream | fin, tips 0.3 / 0.15 | Silver: "Its fin-tips leak poison." Yellow: "Touching the back fin causes numbness." Art: flat cream points with brown rays. | high for what it is, medium for the dials
+Eyes | eye | eye (line art) | Art: white eye under a heavy lid. No entry says they glow. | high
+Snout opening | the dark of the tube mouth, drawn black | outline | The sprite paints it black only. | high
+Glow | none | | Poison is not light; no entry says any part glows. |
+
+Notes
+- Horsea: KEEP_TOP on fish skin. The pale blue on top of the head, left out of the row, stayed a pale patch on a
+  head gone dark with the sun behind and looked dull under the studio lamp; kept in, it shades with the head.
+- Fins take Lanturn's values (0.3 / 0.15), not Wing membrane: the art paints them opaque and flat.

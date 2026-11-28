@@ -1,0 +1,28 @@
+Electabuzz (#125) and Magmar (#126): unrelated Pokémon, each decided on its own.
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting (refs/art-125.png, art-126.png);
+"HOME" is the Pokémon HOME render, used for shape and color only.
+
+ELECTABUZZ (#125)
+
+Surface | Made of | Material | Evidence | Confidence
+Yellow coat (head, antennae, body, arms, legs, tail) | short, sleek fur | Short fur (-0.2 / 0.05), row "short fur" | No Pokédex entry describes the coat. Art: flat yellow with soft shading and no highlight anywhere; ragged tufts only at the elbows and shoulders; HOME smooth. Same coat and dials as Pikachu and Raichu. Brown contour is the row's darkest shade; base is the darker yellow (1354 pixels against 660, both views). The palest yellow is one broad painted patch on the forehead and fists, so it stays a shade (KEEP_TOP): left out, it stayed pale on a body gone dark in the cave. | medium
+Black stripes, the bolt on the chest, the V on the forehead | the same fur, black | Short fur, row "short fur, stripes" | Art: flat black with a dull blue-gray lit side, no highlight. The sprite paints them near-black in front (color 13) and in the line's own black from behind (broad black is stripe, one-pixel strokes stay line), blue-gray and gray where lit. | high
+Claws (two toes and a heel spur on each foot), the one fang | keratin, enamel | Claw and tooth (0.7 / 0.05) | Art and HOME: white claws with a gray shade; a white fang at the corner of the mouth. No entry describes them. | medium
+Mouth inside, tongue | wet tissue | Mouth (0.8 / 0) | Shared rule. Art: pink mouth and tongue. | high
+Eyes | eye | Eye (line art) | White, pupil and the dark ring and brow line in one row; the shut eyes' lid lines are outline. | high
+Glow | electricity on the coat | glow 4 on both fur rows (as Raichu) | Gold, HeartGold, X: "Electricity runs across the surface of its body. In darkness, its entire body glows a whitish-blue." SoulSilver: "Its body constantly discharges electricity." Faint (the guide's 3 to 6); it does not light the cave. The glow takes the coat's own yellow, not the whitish-blue the text names: glow has no color of its own. | text high; strength medium
+
+MAGMAR (#126)
+
+Surface | Made of | Material | Evidence | Confidence
+Red body, head, arms, feet, tail tip | bare hide | Hide (0.25 / 0.08), row "hide" | No entry says what the skin is like, only that it burns. Art: flat red with soft darker shading and no highlight anywhere; the forearms are drawn as ridged rings. HOME soft. Not Lizard skin (Charmander's 0.35): the art paints no sheen. Not Lava, magma (0.5 / 0.5), although the guide's general table names Magmar there: the art paints a solid animal, not a molten one, and body 0.5 on skin looks slick. | medium
+Yellow belly, thighs, shoulders, tail | the same hide, yellow | Hide, row "hide, yellow" | Art: flat yellow with one soft broad lighter area on each thigh (shape, not sheen). The red runs down into the yellow in flame-shaped tongues: pigment, both rows the same dials. | medium
+Spikes down the back | hardened, hide-colored spikes | Spines (0.4 / 0) | Not in any entry. Art: flat dark red points, no highlight; the standard row for hide-colored spikes (Nidoran line, Sandslash). | medium-low
+Tail flame | fire | Flame, row "tail flame", glow 245 / 215 / 180 (Charmander's values), flickers with its four drawings | Yellow: "Its body is always cloaked in flames, so it looks like a big ball of fire." Violet: "Wavering flames similar to those of the sun appear on the surface of this Pokémon's body." | high
+Two flames on the head lumps | fire | Flame, row "head flames", glow 245 / 215 / 180 | Same entries; Diamond/Pearl: "its body is covered by flames that shimmer like the sun." Art and HOME paint them exactly like the tail flame (yellow to orange, wavering edge). The sprite draws them still, with a brown contour, which is kept as line. | high that they are fire; medium for full strength
+Whole body glow | the burning body | glow 8 on hide, yellow hide and spines | Red/Blue: "Its body always burns with an orange glow that enables it to hide perfectly among flames." Silver: "The fiery surface of its body gives off a wavering, rippling glare that is similar to the sun." Ultra Sun: "Its entire body is burning." Kept faint so the fire stays the light: at 0 the feet went dark in the cave beside the flames, at 20 the hide lost its shading. | text high; strength medium
+Bill | horn-like bill | Beak (0.4 / 0.05) | Art: pale peach with a lighter top, soft shading. Its maroon contour is its darkest shade. | medium
+Mouth inside | wet tissue | Mouth (0.8 / 0) | Shared rule; six pixels in the front view. | high
+Claws (hands, feet) | keratin | Claw and tooth (0.7 / 0.05) | Art and HOME: white claws with gray shade. | medium
+Black bands at the neck and ankles | not stated anywhere | new row "neck and ankle bands" (0.2 / 0, no shades: light only tints it) | No entry mentions them. Art: black with one soft dull lighter band, no hard highlight. The sprite paints them black with a few gray pixels, kept as painted. Not made metal: nothing official says so. | low
+Eyes | eye | Eye (line art) | White, gray edge and pupil in one row, both views. | high

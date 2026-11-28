@@ -1,0 +1,41 @@
+Oddish line (#043 Oddish, #044 Gloom, #045 Vileplume): what each surface is and why
+Pokédex quotes are game text from PokeAPI's species data (the game is named). "Art" is the Sugimori painting
+(refs/art-43, -44, -45), "HOME" the Pokémon HOME render (shape and color only). Dials are finish / body.
+Nothing in the line glows: no entry says any part shines or gives off light.
+
+## Oddish (#043)
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Body and the two feet (blue) | a thick, solid root | plant body 0.1 / 0.1 | Black 2/White 2: "It often plants its root feet in the ground during the day and sows seeds as it walks about at night." Ruby: "ODDISH buries itself in soil to absorb nutrients from the ground using its entire body." Scarlet: "walking on its two roots". Art: flat blue, soft shading, one soft paler area on the brow, no highlight: matte. Light through is 0.1, not Cacturne's 0.15: at 0.15 the blue washed out to plain gray with the sun behind it. | material medium; dial medium
+Pale patch on the brow (front view, 26 pixels) | the same root, the art's soft lit area | plant body, highlight (same dials, own row) | Art paints a soft paler area there. Its color is rare, so the tool leaves it out of the body's row and it stayed pale on a body gone dark (sun behind); kept in that row (KEEP_TOP) the back view broke into a dark blotch in the cave. As its own row it darkens with the body in every place. | construction: medium
+Leaves (green) | leaves | glossy leaves 0.3 / 0.35 (the standard Leaf is 0.15 / 0.35) | Ruby and Omega Ruby: "The more fertile the soil, the glossier its leaves become." Art: every leaf carries a distinct pale patch. Yellow: "It may be mistaken for a clump of weeds." A soft sheen only (the value of Glossy feathers, set the same way from an entry); lit, 0.3 and 0.15 look nearly the same. | leaf high; sheen medium-low
+Midribs (dark green lines inside a leaf) | a line in one flat leaf | seams and wrinkles | Art and HOME: one thin line down each leaf. The same dark green along a leaf's edge is the leaf's darkest shade. | high
+Eyes (one red pixel each) | eye | eye (line art) | Art: small red eyes with a white catchlight. Shut, they are lines (outline). | high
+Mouth line; open mouth (red) | line; wet tissue | outline; mouth 0.8 / 0 | Art: a small open pink mouth. | high
+
+## Gloom (#044)
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Body, arms, feet (blue) | the same root body as Oddish | plant body 0.1 / 0.1 | No entry describes the body. Art: flat blue, soft shading, no highlight. | medium
+Lips (purple) | color in the same body | plant body, lips (same dials, own row) | Art: purple lips with a paler band along them, no hard highlight. | medium
+Bud (four brown lobes) | a closed, fleshy flower bud | bud 0.1 / 0.25 (Bud and bulb, as Ivysaur's bud) | Vileplume, Silver: "The bud bursts into bloom with a bang." Ruby: "GLOOM releases a foul fragrance from the pistil of its flower." Art: flat brown, soft shading; the only light marks are the pale spots. Lines between the lobes are creases (outline). | medium
+Bud spots (cream, yellow shade) | pigment on the bud | bud spots (bud dials, own row) | Art and HOME: small pale flecks painted on every lobe, the same marks as Vileplume's spots; bigger on the female sprite. Crystal mentions "the pollen on its petals". | high
+Pistil (orange, between the lobes) | floral organ | flower center 0.2 / 0.25 (Petal) | FireRed: "Its pistils exude an incredibly foul odor." Art: a small orange knob where the lobes meet. | medium
+Leaves (orange, drooping) | leaves | leaves 0.15 / 0.35 (Leaf) | No entry describes them. Art: flat orange with a broad paler streak along each, no highlight: matte. The sprite's yellow patches toward the tips are that broad light, kept as the row's top shade (left out, they turned khaki under a lamp). | medium
+Drool | sticky nectar: wet, opaque | nectar 0.7 / 0.2 (a new row; Sludge's dials) | Gold: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched." Black 2/White 2: "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away." Red/Blue: "It is a nectar that is used to attract prey." Art: drawn white with a pale blue shade, the one wet thing on the design. About 8 pixels. | wet: high; dials: medium
+Inside of the mouth (dark blue; the black is line) | a dark hollow | mouth, dark inside 0.8 / 0 | Shared rule for mouths; no pink is drawn. | high
+Eyes | shut: black lines | outline | Art: closed eyes drawn as lines. | high
+
+## Vileplume (#045)
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Body, arms, feet (dark blue) | the same root body | plant body 0.1 / 0.1 | No entry describes the body. Art: flat dark blue, soft shading, no highlight. Five single pale pixels on hands and feet are painted glints and stay as drawn. | medium
+Petals (red, pink where lit) | huge, thick, fleshy petals | petals 0.2 / 0.25 (Petal, as Venusaur) | Black 2/White 2: "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen." Red/Blue: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up." Yellow: "Flaps its broad flower petals to scatter its poisonous pollen." Art: flat red with soft pink areas, no highlight: matte. Lines between the petals are creases (outline). | medium
+Petal spots (pale pink) | pigment on the petals | petal spots (petal dials, own row) | Art and HOME: pale oval spots all over the petals; the female sprite draws fewer, bigger ones. | high
+Cup at the flower's center (orange, brown) | floral organ | flower center 0.2 / 0.25 (Petal) | Not described in any entry. Art: an orange-brown cup with a soft paler lip, no highlight. | low
+Hollow of the cup (dark blue) | a dark hole | outline | Art: dark inside the cup. Kept as drawn so no light lands in it. | high
+Eyes (a red pixel in a dark ring) | eye | eye (line art) | Art: small red eyes. Shut, they are lines (outline). | high
+Smile | drawn line | outline | Art: a thin curved line. | high

@@ -1,0 +1,29 @@
+Clefairy line: what each surface is made of
+Pokédex text from PokeAPI (pokemon-species 35 and 36, English). Painted art = refs/art-35.png, art-36.png;
+3D model = refs/home-35.png, home-36.png. No entry for either species names the body covering, so the
+coat is set from the painted art alone.
+
+CLEFAIRY (#035)
+
+Surface | Made of | Material | Evidence | Confidence
+Body, curl, tail, hands, feet (pink) | a short, smooth coat | Short fur -0.2 / 0.05 | No Pokédex entry names fur or skin. Painted art: flat soft pink with broad soft shadows, no highlight anywhere on the body; smooth-edged, no tufts. HOME model: the same, evenly soft. Matte, like Pikachu's coat. | medium
+Ear tips (brown) | the same coat, brown | Short fur, ear tips -0.2 / 0.05 | Painted art: flat brown, no highlight. The black back of the ear is drawn in the outline's black and stays line. | medium
+Blush marks under the eyes | pigment in the coat | Short fur, cheeks -0.2 / 0.05 | Painted art: flat darker pink ovals. Own row with the coat's dials, the coat's ramp one step down. | high
+Wings (small, on the back) | body-colored, same coat | Short fur -0.2 / 0.05 (in the coat's row) | Gold: "The moonlight that it stores in the wings on its back apparently gives it the ability to float in midair." Ultra Moon: "Bathed in moonlight, its wings glow faintly." Legends Arceus: "its tiny, faintly glowing wings". Both glow entries are about moonlit nights, not the wings at rest: no glow given. The sprite paints them in the body's pinks, flat. | medium (glow: an open call)
+Claws (hands and feet), the one tooth | keratin, enamel | Claw and tooth 0.7 / 0.05 | Painted art: white claws with a small gray shadow, the one place with a crisp light. Sprite: white with the palette's gray. | high
+Mouth inside | wet tissue | Mouth 0.8 / 0 | Shared rule. Painted art: open mouth, red-pink inside. | high
+Eyes | eyeball | Eye (line art) | Shared rule: pupil, catchlight and gray foot stay as drawn. The dark pink marks beside the eyes are the coat's own shade. | high
+
+CLEFABLE (#036)
+
+Surface | Made of | Material | Evidence | Confidence
+Body, curl, ears, arms, legs (pink) | a short, smooth coat | Short fur -0.2 / 0.05 | No Pokédex entry names fur or skin. Painted art: flat pale pink with soft broad shading, no highlight; smooth-edged. HOME model: evenly soft. Same as Clefairy. | medium
+Tail | the same coat | Short fur -0.2 / 0.05 | Painted like the body in both pictures. From the back the sprite paints it in the body's colors (the coat's row); from the front it is behind the body and painted wholly in one shadow pink no other part uses, so that view has its own row (same dials) so the color holds in a field. | medium
+Ear tips (dark brown) | the same coat, dark | Short fur, ear tips -0.2 / 0.05 | Black 2/White 2: "Their ears are sensitive enough to hear a pin drop from over a mile away" (nothing on the surface). Painted art: flat dark brown fading to black, no highlight. | medium
+Wings (three points each, darker pink) | soft, thick, body-like; not a thin skin | Short fur, wings -0.2 / 0.05 | Ruby/Sapphire: "CLEFABLE moves by skipping lightly as if it were flying using its wings." No entry says what they are made of or that they shine. Painted art: darker pink, shaded as flat and soft as the body, no highlight and no light showing through. Matte, solid. | low (what they are made of is not stated anywhere)
+Toes (white, two on each foot) | keratin | Claw and tooth 0.7 / 0.05 | Painted art: small white toes with a gray shadow. Sprite: white with the palette's gray. | medium
+Mouth inside | wet tissue | Mouth 0.8 / 0 | Shared rule. Painted art: open mouth, dark red-pink inside. | high
+Eyes | eyeball | Eye (line art) | Shared rule: pupil and catchlight stay as drawn. | high
+Dark purple line round the wings and tail | drawn line | Outline | It is the contour there, near black, and pure black in the shiny palette: never a shade. | high
+
+Nothing on either species glows at rest. No departure from the starting table.

@@ -1,0 +1,37 @@
+Omanyte line (#138, #139): what each surface is made of
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render
+(shape and color only). Dials are finish / body. Nothing in this line glows: no entry says any part gives off light.
+
+OMANYTE (#138)
+
+Surface | Made of | Material | Evidence | Confidence
+Shell (cream to brown, both views) | hard spiral mollusc shell | Hard shell 0.2 / 0 (Cloyster's and Shellder's row) | Ruby/Sapphire: "If attacked by an enemy, it withdraws itself inside its hard shell." Gold: "uses air stored in its shell to sink and rise in water." Art: flat cream, soft darker shading along the ribs, no highlight anywhere, so dull. HOME: smooth tan, no shine. | high
+Spiral and rib lines drawn in black inside the shell | grooves in one shell | Seams and wrinkles | Art and HOME: thin lines on one smooth dome, no shading per band. The brown rib shadows stay shades of the shell. | medium
+Body and tentacles (blue) | soft mollusc skin | Hide 0.25 / 0.08 (as Tentacool's feelers) | Yellow: "It swims by cleverly twisting its 10 tentacles about." No entry says what the skin is like. Art: flat blue with soft darker shading, no highlight. HOME: plain. So plain bare skin, matte; not wet. | medium
+Eyelids (tan ball when shut; tan rim over the open eye) | skin | Hide 0.25 / 0.08, own row "hide, eyelids" | Only in the sprite: the eyes-closed look covers each eye with a lid painted in the shell's tans. Not in the art. | low
+Eyes (white, gray shade, black pupil and black ring) | eye | Eye (line art) | Art: white balls with a black pupil inside a thick black ring. | high
+Dark hollow under the shell's lip | a hole | Outline | Art and HOME: black shadow under the shell behind the eyes. | high
+
+Bases: shell = tan (color 10), which most of both views is painted in. Skin = mid blue (color 4), which the tentacles
+are painted in where they show. Both rows keep their lightest shade (KEEP_TOP): the shell's cream is the lit band of
+every rib in front; the tentacles' palest blue is their lit tips and stayed pale with the sun behind when left out.
+
+OMASTAR (#139)
+
+Surface | Made of | Material | Evidence | Confidence
+Shell (cream to brown, both views) | heavy spiral shell | Hard shell 0.2 / 0 | Red/Blue: "its heavy shell made it impossible to catch prey." Black 2/White 2: "its spiral shell grew too large." Art: flat cream-gray, soft shading, no highlight. HOME: smooth tan. | high
+Spikes on the shell (4 in front, 6 behind) | outgrowths of the same shell | Hard shell 0.2 / 0, own row "hard shell, spikes" (as Cloyster) | No entry mentions the spikes. Art: gray-cream cones with a soft lighter side and a darker side, no hard highlight. HOME: same tan as the shell. | medium
+Spiral and rib lines drawn in black inside the shell | grooves in one shell | Seams and wrinkles | As Omanyte. The black around each spike stays outline (the spike overlaps the shell). | medium
+Body and tentacles (blue) | soft mollusc skin | Hide 0.25 / 0.08 | Ruby/Sapphire: "OMASTAR uses its tentacles to capture its prey." FireRed: "Its tentacles are highly developed as if they are hands and feet." Nothing on the skin itself. Art: blue with broad, soft lighter patches and no small highlight: the shape catching light, not a sheen. HOME: plain. | medium
+Beak (four cream plates around the black cross of the mouth) | horn-like beak | Beak 0.4 / 0.05 | Yellow: "Sharp beaks ring its mouth." Let's Go: "Its sharp beak rings its mouth." Gold: "it cracked SHELLDER's shell with its sharp fangs". Art: cream plates, soft shading, no highlight, so Beak and not the brighter Claw and tooth. | medium
+Mouth (black cross, wider in the second mouth drawing) | opening between the beak plates | Outline | Drawn black in the sprite; dark maroon lines in the art. A hole stays dark. | high
+Eyes (yellow ball, its tan shading, slit pupil, white catchlight, dark rim) | eye | Eye (line art) | Art: large pale yellow eyes with a black slit pupil. The back view shows one eye at the shell's edge; it is in the same row. | high
+Eyelids and the rim under each eye | skin | Hide 0.25 / 0.08, own row "hide, eyelids" | Only in the sprite: the eyes-closed look paints a lid over each eye (tan in front, yellow behind). | low
+Mounds the eyes sit in (tan, joined to the shell's front edge) | front edge of the shell | Hard shell | Art and HOME: the same cream as the shell, running into it without a change of color. No text. | low
+
+Bases: shell = tan (color 10). Skin = middle blue (color 3): the front view is painted in the two light blues and the
+back view in the dark one, so the middle keeps both views inside the shades. Beak = its cream (color 6).
+The shell keeps its lightest shade (KEEP_TOP): the cream is the lit front band of the shell.
+
+Nothing departs from the starting tables' dials. Calls the owner might overrule: tentacle skin as plain matte Hide
+(not wet); Omastar's beak as Beak 0.4 rather than Claw and tooth 0.7; the tan eye mounds counted as shell.

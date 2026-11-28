@@ -1,0 +1,39 @@
+FARFETCH'D (#083)
+
+No Pokédex entry in any game describes its plumage, bill or feet; every entry is about the stalk
+(Black 2/White 2: "It can't live without the stalk it holds. That's why it defends the stalk from
+attackers with its life."). So the bird is set from the painted art, the stalk from text and art.
+
+Surface | Made of | Material | Evidence | Confidence
+Brown head, crest, back, tail, outside of wings | body plumage | Feathers -0.2 / 0.05 | Art: flat gray-brown, soft shading, no light patch anywhere; HOME the same. Same row as Pidgey and Spearow. | high
+Cream belly, inside of the wings | plumage, paler | Feathers (own row "feathers, cream") | Art: flat cream, soft shading. The browns are its contour and its soft edge, as on Pidgey. | high
+Black V over the eyes | pigment in the plumage | Feathers (own row "feathers, brow mark", no shades: drawn black, light only tints it) | Art: a black V painted on the forehead. Not line art, so the forehead is not creased along it. | high
+Bill | horn | Beak 0.4 / 0.05 | Art: yellow with a darker underside, no hard highlight; standard Beak row as on Pidgey. The line between its halves is line. | medium
+Legs and webbed feet | bare bird skin | Dry hide 0.05 / 0.03 ("dry hide, legs", as Pidgey) | Art: flat yellow-orange, soft shading, no highlight; HOME flat. | medium
+Stalk, green blades | leaf of a green onion | Leaf 0.15 / 0.35 ("leaves") | "The sprig of green onions it holds is its weapon." (Red/Blue); "It always walks about with a plant stalk clamped in its beak." (FireRed). Art: flat green fading to pale, a soft lighter streak, no highlight. | medium
+Stalk, pale sheath and white end | the fleshy white of the onion | Bud and bulb 0.1 / 0.25 ("stalk", "stalk, white end") | "If it eats the plant stalk it carries as emergency rations..." (SoulSilver): soft plant flesh. Art: matte white, soft gray shading. | medium
+Stalk, tan root plate (4 pixels each view) | root end | Bud and bulb, own row "stalk, root" | Art: a darker tan end on the white. | medium
+Eyes | eye | Eye (line art) | White, gray and pupil in one row. | high
+Lines between wing feathers and the three crest feathers | lines | Outline | Overlapping feather layers. | high
+Glow | none | | No entry says any part gives off light. | high
+
+Notes: the palest brown (color 11) is on about ten pixels at the wings' edge and the neck; "feathers"
+is in KEEP_TOP so they darken with the plumage (left out, they stayed pale on a wing gone dark with
+the sun behind). The dark green drawn around the stalk's white end is in the "stalk" row as its
+contour shade (as line art it stayed bright green in the cave).
+
+MUK (#089)
+
+Surface | Made of | Material | Evidence | Confidence
+Whole body, arms, the strands across the mouth | wet, opaque goo | Sludge 0.7 / 0.2 (row "sludge", the same as Grimer's approved file) | "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison." (Red/Blue); "From MUK's body seeps a foul fluid that gives off a nose-bendingly horrible stench." (Ruby); "A toxic fluid seeps from its body." (Diamond/Pearl, Black/White). Art: pale wet patches painted on the head, the arm and every lobe. | high
+Darker wavy bands | folds of the same goo | Sludge (its own darker shades, as on Grimer) | Art paints dark bands; the HOME model has none, so they are shading of the sagging surface, not another material. | medium
+Tongue (gray) | wet tissue | Mouth 0.8 / 0 | Art: pale blue-gray tongue low in the mouth. | high
+Dark inside of the mouth | mouth | Mouth, no shades ("mouth, dark inside") | Drawn black; tinted only, not line art, so the lips are not creased around it. As on Grimer. | high
+Eyes | eye | Eye (line art) | White, shaded white and pupil in one row; the lid line stays line. | high
+Glow | none | | No entry says it gives off light. | high
+
+Notes: ramp is 11, 10, 12, 9, 8, 7 plus the palette's unused paler step 6 as the wet glint, as on
+Grimer; base is the mid purple (9). One addition to the method: the eye drawings laid over the head
+were rounded on their own and showed as a pale box around the eye under a lamp (wet rows are lit
+round). After facing is worked out, each of their sludge pixels painted the same color as the head
+pixel under it takes that pixel's facing (AFTER in 0089-muk.py). Check still gives 0 misses.

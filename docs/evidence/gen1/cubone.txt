@@ -1,0 +1,42 @@
+Cubone line (#104 Cubone, #105 Marowak): what each surface is and why
+Pokédex quotes are game text from PokeAPI species data. "Art" is the Sugimori painting (refs/art-*.png);
+"HOME" is the Pokémon HOME render, used for shape and color only.
+
+## Cubone (#104)
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Skull helmet (white, pale grays, olive contour) | old dry bone | Bone 0.2 / 0 | Black 2/White 2: "When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly." FireRed: "It wears the skull of its dead mother on its head." Ruby: "The stains on the skull the POKéMON wears are made by the tears it sheds." Art: flat pale gray with soft blue-gray shading and drawn cracks, no highlight anywhere: dull. | material high; dials medium
+Bone club | the same bone | Bone (same row) | Art: same flat gray as the skull, no highlight. No Cubone entry describes it (Marowak, Black 2/White 2: "From its birth, this savage Pokémon constantly holds bones."). | high
+Body, arms, legs, tail, the face inside the eye socket (brown) | plain bare skin | Hide 0.25 / 0.08 | No entry describes the body. Art: flat tan with soft shading, no highlight; HOME flat. Same row as the Nidoran line's bare skin. | medium
+Palest tan on the front thigh (8 pixels) | the same skin at its most lit | Hide, own row "hide, lit patches" | Painted only on the near thigh. In its own row so it darkens with the leg. | high
+Stomach (cream) | the same skin, paler | Hide, own row "hide, belly" | Art: flat cream oval, no highlight. | medium
+Toe claws, thumb claw (white) | keratin | Claw and tooth 0.7 / 0.05 | Art: small white claws on each foot and one on each hand. Shaded in the skull's pale grays, never its olive. | medium
+Eye (white, gray, black pupil; front only) | eye | Eye (line art) | Art: dark eye with a white catchlight inside the socket. Shut, the lid is skin and its line is outline. | high
+
+Nothing glows. Bone base is the mid gray (color 7): the whole back of the skull and most of the club are painted in
+it (338 pixels showing at rest, both views; white and near-white together 288).
+
+## Marowak (#105)
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Skull (fused to the head) | bone | Bone 0.2 / 0 | Shield: "When this Pokémon evolved, the skull of its mother fused to it." Art: flat pale gray, soft shading, no highlight. The sprite paints its shadow side in a broad olive gray (back view), so that color is a shade of the bone, as is the dark ridge line from eye to snout. | material high; dials medium
+Bone club | bone | Bone (same row) | Black 2/White 2: "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons." Yellow: "adept with its bone club". Art: flat lilac-gray, soft shading, no highlight. | high
+Body, arms, legs, tail (brown; lighter tail tip and limb fronts) | plain bare skin | Hide 0.25 / 0.08 | No entry describes the skin (Sword: "evolve a sturdy new body"). Art: flat tan, soft shading, no highlight. The dark brown fist around the club is the same skin in shadow. | medium
+Palest tan on the front thigh and forearm | the same skin at its most lit | Hide, own row "hide, lit patches" | 31 pixels, front view only. | high
+Stomach (cream, with grooves) | the same skin, paler, in bands | Hide, own row "hide, belly" | Art: cream belly crossed by thin curved lines, flat, no highlight. The grooves are painted in the belly's darkest orange and stay its darkest shade. | medium
+Claws (white, gray in shade) | keratin | Claw and tooth 0.7 / 0.05 | Art: one white claw on each hand and foot. Their dark gray-brown edge pixels are outline (as on Sandslash), so a white claw cannot go near-black in shade. | medium
+Eye (black pupil, red iris, white; front only) | eye | Eye (line art) | Art: small brown-red eye under the brow ridge. Shut, the lid is skin. | high
+
+Nothing glows. Bone base is the mid gray (color 3), the same as Cubone's.
+
+## Calls
+
+- Bone is a new row. docs/materials.md, Part 2 guide, lists "Bone 0.2 / 0.1" for Cubone's skull and Marowak. Finish
+  0.2 is kept; body is 0, not 0.1, by the rule that hard things are solid (a pale hard surface that lets light
+  through stays bright in the cave while the body goes dark).
+- The skull's olive contour stays in the bone row as its darkest shades (the palette has a step between the pale gray
+  and the dark olive, and Marowak's back view paints that olive broadly). So bone in shade turns olive-gray, most
+  visibly on the back view in the field.
+- The body is Hide, like the Nidoran line. Dry hide (0.05 / 0.03) would also fit the art, which shows no sheen.

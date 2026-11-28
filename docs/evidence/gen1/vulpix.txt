@@ -1,0 +1,28 @@
+Vulpix line: what each surface is, and why. Quotes are game Pokédex text (PokeAPI species data).
+"Art" is the Sugimori painting (refs/art-37.png, art-38.png); "HOME" is the Pokémon HOME render (shape and color only).
+
+VULPIX (#037)
+
+Surface | Made of | Material | Evidence | Confidence
+Head, ears, body, legs (peach-brown) | sleek short coat | Short fur -0.2 / 0.05 | Yellow: "Both its fur and its tails are beautiful." Gold: "It is quite warm and cuddly." Art: flat soft shading, no light patch anywhere on the body; HOME flat. | high
+Pale brow, muzzle top, ear fronts (front view, 39 pixels) | the same coat where the sprite lights it most | Short fur (own row, same dials) | Sprite only: its lightest coat color, used nowhere else. In the coat's row it made the body speckle in the field; left out it stayed pale on a dark head. | medium
+Top edge of each ear (red-brown line) | the coat's contour on its lit side | Short fur (own row, same dials) | Sprite draws it in the locks' red-brown; as line art it stayed bright red on a dark head. | medium
+Chest and belly (cream) | the same coat, paler | Short fur (own row) | Art: flat cream patch, no highlight. Its dark shade is the coat's dark red, which edges it in the back view. | high
+Feet (dark brown socks) | the same coat, darker | Short fur (own row) | Art: darker brown feet with a ragged upper edge, flat. | high
+Ear insides (dark brown) | the same coat, darker | Short fur (own row) | Art: flat dark brown. | high
+Six tails and the curled locks on the head (orange-red) | thick, lustrous fur | Glossy fur 0.3 / 0.05 (new kind; dials after Glossy feathers 0.3 / 0, with fur's trace of light through) | Black 2/White 2: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm." Crystal: "its six warm tails become more beautiful, with a more luxurious coat of fur." Ruby: "The six tails become magnificently curled." Art: a soft pale patch on every tail and every lock, none on the body. Tried as Fur (-0.7): the tails turned to speckled grain. | medium
+Lines between tails, between locks, leg over body | one piece over another | Outline (creases) | Art draws each tail and lock as its own rounded piece. Their outer dark red contour stays their darkest shade. | high
+Eye (black ring, brown iris, white catchlight) | eye | Eye (line art) | Art: brown eye with a white catchlight. | high
+Nose, mouth line, shut eye, dark brown line around the ears | drawn lines | Outline | Black or near-black strokes. | high
+
+Nothing glows. Emerald: "Just before evolution, its six tails grow hot as if on fire." (not at rest). Sapphire: "Inside VULPIX's body burns a flame that never goes out." (inside, not a surface the sprite draws).
+
+NINETALES (#038)
+
+Surface | Made of | Material | Evidence | Confidence
+Whole coat: head, crest, ruff, body, legs, nine tails (gold) | long gleaming fur | Glossy fur 0.3 / 0.05 | FireRed, X, Violet: "It has nine long tails and fur that gleams gold." Emerald: "A long-lived NINETALES will have fur that shines like gold." Legends Arceus: "The coat of gleaming golden fur is quite magnificent." Art: pale streaks along every tail, the crest, the chest and the haunch. Black 2/White 2 says nothing of the surface: "Each of its nine tails is imbued with supernatural power, and it can live for a thousand years." Tried as Fur (-0.7): the whole body turned to speckled grain. | medium
+Tail tips (orange) | the same fur | Glossy fur (own row, same dials) | Art: orange tips shaded like the rest of the tail. Their pale orange (24 pixels) is kept in the row so it goes dark with the tip. | high
+Brown lines inside the coat (tail over tail, leg over body, ear folds, mouth) | one piece over another, or a drawn line | Outline (creases) | Art draws each tail as its own rounded piece. The coat's outer brown contour stays its darkest shade. | high
+Eye (red iris, white catchlight, black and brown rim) | eye | Eye (line art) | Art: red eye. Ruby: "NINETALES casts a sinister light from its bright red eyes to gain total control over its foe's mind." That is something it does to a foe, not a light at rest: no glow. | high (no glow: medium)
+
+Nothing glows. The tails' "supernatural power" and "mystic power" are not described as light in any entry.

@@ -1,0 +1,26 @@
+Diglett line: #050 Diglett, #051 Dugtrio (Black 2/White 2 battle sprites)
+Pokédex text from PokeAPI species data (game text). Art = Sugimori art (refs/art-50.png, art-51.png);
+HOME = Pokémon HOME render (refs/home-50.png, home-51.png).
+
+#050 DIGLETT
+Surface | Made of | Material (finish / body) | Evidence | Confidence
+Head and body (brown) | bare skin | Hide 0.25 / 0.08, row "hide" | Gold/HeartGold: "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak." No entry names fur. Art: flat soft shading, one broad soft paler patch on the crown (the dome catching light, no hard highlight); HOME: smooth, evenly soft. Matte skin, same row and dials as Nidoran's hide. Body kept at 0.08 although the skin is "very thin": more light through makes skin look slick. | medium
+Column under the head (one shadow brown) | the same skin | Hide 0.25 / 0.08, row "hide, lower body" (base = the shadow brown) | The sprite paints it in a single brown and the idle animation squashes it to half height at rest and stretches it. In the head's row its edge pixels left their shade on the squashed part (7 misses); in its own row, laid flat after facing is worked out, it gives the art back at rest (0 misses) and keeps its shade at every stretch. | high (same surface), medium (the flat lay)
+Nose (pink in the art, red in the sprite) | soft bare nose | new row "nose" 0.45 / 0.08 | No entry describes the nose. Art: the nose, and nothing else on Diglett, has a crisp pale highlight patch; the sprite paints the same highlight (colors 3 and 2). Finish 0.45 follows Weedle's nose (larval skin, nose 0.45), body as the hide. Under the studio lamp 0.45 and 0.25 render the same; kept below 0.6 so it is lit flat. | medium
+Dug-up earth and stones | soil and stones | Rock 0 / 0, rows "rock" and "rock, lit faces" | FireRed/Shield: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot." Silver: "it leaves the soil perfectly tilled". Art: gray rubble, flat matte shading, no highlights. Same row name and dials as Onix's rock. The pale tops (color 6, 31 pixels) are the same stone at its most lit, in their own row (as Onix's snout light) so they darken with the rest. Black lines between stones are creases (outline). | high
+Eyes | eyeball | "eye (line art)" | Shared rule: black ovals with a white catchlight; shut, two short lines (outline). | high
+No glow | | | Entries say it avoids light ("it is repelled by bright sunlight", Black 2/White 2); nothing gives off light. | high
+
+#051 DUGTRIO
+Surface | Made of | Material (finish / body) | Evidence | Confidence
+Three heads and their columns (brown) | bare skin | Hide 0.25 / 0.08, row "hide" | Ultra Moon: "Dugtrio's heads are sleek and smooth and incredibly hard. It can dig through any soil with its headbutts." Black 2/White 2: "Its three heads move alternately, driving it through tough soil to depths of over 60 miles." Art: the same flat soft shading as Diglett, a broad soft paler crown on each head, no hard highlight anywhere on the brown; HOME: evenly soft. "Sleek and smooth" is met by Hide's faint sheen; not raised further because the art paints no highlight. Same row as Diglett. | medium
+Noses (three; a sliver of the tall head's nose shows from behind) | soft bare nose | row "nose" 0.45 / 0.08 | No entry. Art: each nose has its own crisp pale highlight; the sprite paints it too. Same row as Diglett. The six highlight pixels are kept in the row (KEEP_TOP) so they darken with the nose and both sprites behave alike. | medium
+Dug-up earth and stones | soil and stones | Rock 0 / 0, rows "rock" and "rock, lit faces" | Gold/HeartGold: "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow." Art: gray rubble, matte. Same rows as Diglett and Onix. | high
+Eyes and brows | eyeball; drawn brow lines | "eye (line art)"; brows and shut-eye lines in the outline row | Black ovals with a white catchlight under slanted brows drawn in the dark brown; lines, not surface. | high
+No glow | | | Nothing in any entry gives off light. | high
+
+Notes for both
+- Hide's base is the mid brown (13): the front heads are mostly it; the backs are painted a step darker (14), with the dark brown (15) still under it, so they do not go black.
+- Hide's palest brown (12) is the lit crown (a real shade, 17% of Dugtrio's hide), kept in the row in both sprites (KEEP_TOP) so it darkens in the cave.
+- Rock's base is the mid olive (8), as Onix's is its mid gray: the light olive (7) is slightly ahead in what shows, but with it as base the shaded faces fell to the darkest olive in the field and the cave and the stones went blotchy.
+- Animations, drawings, palettes and variants are unchanged from the sources.

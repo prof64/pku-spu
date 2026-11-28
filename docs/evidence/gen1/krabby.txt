@@ -1,0 +1,30 @@
+Krabby line (#098 Krabby, #099 Kingler): Black 2/White 2 battle sprites
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render
+(used for shape and color only). Nothing in either species glows: no entry says any part gives off light.
+No entry in any game describes how the shell looks (shiny, wet, dull); every finish is set from the art.
+
+#098 Krabby
+
+Surface | Made of | Material | Evidence | Confidence
+Orange carapace, horns and both pincers | crab shell | Hard shell 0.2 / 0 | Yellow: "Its pincers are superb weapons. They sometimes break off during battle, but they grow back fast." FireRed: "The large pincers grow back if they are torn out of their sockets." Art: flat orange with one soft broad lighter area on each pincer and no small hard highlight anywhere, so dull, not polished; HOME soft. | material high; finish medium
+Cream lower body with its two points | the same shell, pale underside | Hard shell, underside 0.2 / 0 | Art: flat off-white with soft gray shading, no highlight. Solid, so it darkens with the body. | medium
+Arms and legs (cream, jointed) | the same shell, thin tubes | Hard shell, legs 0.2 / 0 | Art: flat off-white segments with soft shading, no highlight. Their brown contours and joint lines are the row's dark shades. | medium
+Inside of each pincer (dark brown) | the hollow inner face of the claw | Hard shell, pincer inside 0.2 / 0 | Art: flat dark gray, no highlight. One color in the sprite, so light only dims it. | medium
+Eyes (white, gray, black pupil) | eye | Eye (line art) | Art: white eyes with a small black pupil. The eyes-closed look narrows the pupil to a slit; it is in the eye row. From behind one eye shows as five white and gray pixels. | high
+
+Other calls: base of the shell is the red-orange (color 13), which most of both views is painted in; the pale orange (11) is 12% of the shell and stays a shade. Three dark red pixels where a front leg meets the shell are outline.
+
+#099 Kingler
+
+Surface | Made of | Material | Evidence | Confidence
+Orange carapace with its crown of spikes, both pincers | crab shell, very hard | Hard shell 0.2 / 0 | Yellow: "One claw grew massively and as hard as steel. It has 10,000-HP strength. However, it is too heavy." FireRed/X: "Its large and hard pincer has 10,000-horsepower strength." "Hard as steel" is hardness, not a metal surface: the art paints the big pincer a flat orange with one soft broad lighter area on its upper left and no hard highlight, and no entry calls it metal or shiny. HOME soft. | material high; finish medium
+Cream jaw with its tusks (the back view's cream body) | the same shell, pale underside | Hard shell, underside 0.2 / 0 | Art: flat off-white, soft gray shading under the lip, no highlight. The darker cream lines on it are its own shades. | medium
+Arms and legs (cream) | the same shell, thin tubes | Hard shell, legs 0.2 / 0 | Art: flat off-white segments, no highlight; the far legs are painted in the darker creams. | medium
+Inside of the pincers (two dark browns) | the hollow inner face of the claw | Hard shell, pincer inside 0.2 / 0 | Art: dark gray with soft shading, no highlight. | medium
+Black line across the big pincer (front, 4 pixels) | a fold drawn on the one claw | Seams and wrinkles | It lies wholly inside the claw and separates nothing that overlaps; the art shows one lumpy claw there. | medium
+Black brow line across the face (front) | the ridge over the eyes | Outline (crease) | Art: an angular brow that overhangs each eye; the face below and the crown above are different planes. | medium
+Eyes (white, lilac gray, dark brown pupil) | eye | Eye (line art) | Art: white eyes with a small dark pupil under the brow. Eyes closed widens the pupil to two pixels; same row. No eye is drawn from behind. | high
+
+Other calls: the pale peach (color 1) is under 3% of the shell, so the tool would drop it from the row; left out it stayed pale on a pincer gone dark with the sun behind, so KEEP_TOP keeps it as the shell's lightest shade. Base of the shell is the dusky red (3), which most of both views is painted in. A few brown pixels on the carapace's edge and one dark red pixel on an arm soften the black line: outline.
+
+Departures from the starting tables: none in dials. Hard shell (0.2 / 0) is used for the whole crab, the cream underside included (the turtle "belly plate" row is 0.15 / 0); "insect shell" (0.45 / 0) was not used because the art paints no highlight.

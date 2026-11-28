@@ -1,0 +1,19 @@
+Mewtwo line (#150 Mewtwo, #151 Mew): Black 2/White 2 battle sprites
+Pokédex quotes are game text from PokeAPI species data. "Art" is the Sugimori art, "HOME" the Pokémon HOME render.
+Nothing on either glows: no entry says any part gives off light at rest (psychic power is not a glow).
+
+#150 Mewtwo
+Surface | Made of | Material | Evidence | Confidence
+Gray skin (head, neck tube, torso, arms, ball fingers, legs, feet) | plain bare skin | Hide 0.25 / 0.08 (as Machop, Drowzee) | No entry in any game describes its surface (Black 2/White 2: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon."; Yellow: "Its DNA is almost the same as MEW's. However, its size and disposition are vastly different."). Art: smooth, hairless, flat soft gray shading with no highlight anywhere; HOME the same. The dark contour and muscle lines (color 6) are the skin's darkest shade. | medium (kind of skin is inferred from the art; matte is clear)
+Purple belly and tail | the same skin, other pigment | Hide, own row "hide, belly and tail" | Art: flat purple with only a soft paler patch on the belly and thigh, no highlight. | medium
+Eye (white, purple iris; front: its dark upper lid line) | eye | Eye (line art) | Art: white eye, purple iris, heavy dark lid. The back view draws the eye on the head itself too. | high
+Shut eye | drawn line | Outline | The eyes-closed look draws it in color 6 and black. | high
+Base and glints: base is the mid gray (color 4): with color 5 the front went darker than the art in the field. The palest gray (46 pixels) and the belly's bright purple (10 pixels) are kept in their rows (KEEP_TOP): left out, the forehead and belly patch stayed pale with the sun behind and turned to a gray blotch under the studio lamp.
+
+#151 Mew
+Surface | Made of | Material | Evidence | Confidence
+Pink coat (head, ears, body, arms, legs, feet, whole tail) | very short, fine hair | Short fur -0.2 / 0.05 (as Pikachu, Clefairy) | Yellow and Let's Go: "When viewed through a microscope, this Pokémon's short, fine, delicate hair can be seen." Art: flat pink with soft blotchy shading, no highlight; HOME matte. The dark plum contour (color 6) is the coat's darkest shade. | high
+Pads under the hind feet (back view only, 8 pixels, one orange color) | bare skin | Hide, row "hide, paw pads" 0.25 / 0.08 (as Rattata's and Meowth's pads) | Not described in any entry and not visible in the Art or HOME pose; the sprite paints an oval pad under each raised foot. | low
+Eye (white, gray, three blues, dark rim at its inner edge) | eye | Eye (line art) | Art: large blue eyes with a white catchlight. | high
+Shut eye | drawn line | Outline | The eyes-closed look draws it in color 6. | high
+Base and glints: base is the mid pink (color 4), the shade most of both views together is painted in (the front alone is mostly the paler color 3, so the front reads a little deeper pink than the art under the studio lamp). The palest pink (44 pixels: forehead, tail tip) is kept in the row (KEEP_TOP): left out, it turned gray under the studio lamp and stayed pale with the sun behind.

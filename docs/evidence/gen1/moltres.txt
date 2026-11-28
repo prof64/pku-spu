@@ -1,0 +1,20 @@
+Moltres (#146), Black 2/White 2 sprite. Pokédex text from PokeAPI species data; "art" is the Sugimori art
+(refs/art-146.png), "HOME" the Pokémon HOME render (refs/home-146.png, shape and color only).
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Body, head, neck, wing arms (yellow) | plumage | Feathers -0.2 / 0.05 (row "feathers") | No entry says anything about a sheen ("One of the legendary bird Pokémon", Black 2/White 2). Art: flat yellow with one soft darker tone, ragged feather tips, no highlight anywhere: matte. HOME is soft all over. Not Pidgeot's glossy feathers: no text behind it. | high
+Crest, tail, the wings' flight feathers (red, orange, yellow) | fire | Flame 0 / 0, glow 180 (red tongues), 195, 220, 245 (yellow core): Ponyta's and Rapidash's values | Yellow / Let's Go: "As it flaps its flaming wings, even the night sky will turn red." FireRed: "Those seeing it are overwhelmed by its orange wings that seem to be on fire." Shield: "its radiant, flame-cloaked wings to light up paths for those lost in the mountains." Sword: "they glimmer with a dazzling red glow." Red/Blue: "Every flap of its wings creates a dazzling flash of flames." Art and HOME draw them as loose flames. Glow follows the drawn flicker (job.flicker, low 0.4 as on Ponyta). | high
+Brown strokes in the wings (between feather layers, and between the feathers and the fire) | edges of overlapping feathers | Outline (creases, thin_all) | Art: the wing arm is drawn as rows of ragged feather tips lying over the fire. Same treatment as Pidgeot's wing. The body's and head's brown contour stays the plumage's darkest shade. | medium
+Beak (pink-brown, long) | horn | Beak 0.4 / 0.05 | Art: plain pink-brown with a slightly lighter top face, no highlight. The line between its halves (black in front, dark brown from behind) is a line. | high
+Legs and feet (pink-brown, dark scutes) | bare bird skin | Dry hide 0.05 / 0.03 (row "dry hide, legs") | Art: flat gray-brown, no highlight. The sprite's alternating light and dark pixels are the scutes: shades of the one row. | high
+Claws (white, gray tips) | keratin | Claw and tooth 0.7 / 0.05 | Art: small pale talons. The palette has their own gray (15), so no borrowed shade. | medium
+Eye (white, gray, pupil, dark brow line) | eye | Eye (line art) | Art: white eye with a black pupil under a heavy black brow. The shut eye's lid line is outline. | high
+Head contour and brow drawn in near-black brown (color 12) | drawn line | Outline | It is the beak and legs' darkest color used as a soft black line round the head and along the back view's body; the plumage has its own contour brown (5). | medium
+
+Choices made on this sprite:
+- Feathers base is the ochre (4), not the yellow (3): front is painted about half and half, the back almost all in 4 (both views: 4 on about twice as many pixels). Under a front lamp the front view's head therefore reads a step more orange than the art. Base 3 was tried: barely different, so the counting rule was kept.
+- KEEP_TOP for feathers: the pale yellow (2) is under 7% of the plumage, so the tool dropped it; it then stayed as a pale oval on the body in the cave. It is the plumage's lit top (a broad patch on the body, a band along each wing), not a glint, so it is kept in the row.
+- Flame base is the red (6), which most of the fire is painted in (both views), where Ponyta's row takes its second shade. Fire then never goes darker than its red.
+- Nothing but the fire glows. The fire is most of the sprite, so it lights the cave strongly: the entries above say it does.
+- Animations untouched (Idle, front and back).

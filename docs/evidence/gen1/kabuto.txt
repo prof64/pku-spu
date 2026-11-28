@@ -1,0 +1,40 @@
+Kabuto line (#140 Kabuto, #141 Kabutops): Black 2/White 2 battle sprites
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render
+(used for shape and color only). "Bulbapedia" is the Biology section, read from an Internet Archive snapshot (2025).
+No entry in any game says how either shell looks (shiny, wet, dull); every finish is set from the art.
+
+#140 Kabuto
+
+Surface | Made of | Material | Evidence | Confidence
+Brown dome (all the brown, both views) | a stiff, hard shell | Hard shell 0.2 / 0 | Black 2/White 2: "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell." FireRed: "It protects itself with a hard shell." Sword: "Kabuto molt every three days, making their shells harder and harder." Art: flat brown with one soft, broad paler wash on top and no highlight, so dull; HOME soft. | material high; finish medium
+Ridge lines on the shell seen from behind (dark brown) | folds of the one shell | Hard shell (its darkest shade) | Art: the dome folds down into a side flange; no separate plates. | medium
+Black mass under the shell (front) | the soft body, hidden in shadow | Hide, black body 0.25 / 0.08, no shades (Shellder's row) | Bulbapedia: "Underneath the shell is a black space that hides the structure of its main body." Art: flat black, no highlight. Painted one black, so light only tints it. | medium
+Navy patch low on the black body | the same body, the art's wash of color | same row, stays as painted | Art: a soft dark blue area along the lower edge of the black. As a shade of the body it broke out in navy specks beside the eyes under a lamp. | medium
+Four legs (yellow) | jointed shell limbs ending in a point | Hard shell, legs 0.2 / 0 (Kingler's row) | Bulbapedia: "its four short, yellow legs". Art: flat pale yellow with soft shading and no highlight. Not Claw and tooth: nothing is painted with a sheen. | medium
+Two red eyes on the underside | luminous eyes | Eye (line art), glow 80 (hot middle) and 30 (paler ring) | Crystal: "Three hundred million years ago, it hid on the sea floor. It also has eyes on its back that glow." Bulbapedia: "a second pair of luminescent red eyes are visible on its underside." Art: soft-edged pink discs with a pale halo, the only soft-edged thing in the painting; the sprite paints the same paler ring. Sableye's glow values. Without glow they went dull maroon in the cave. | glow medium (see below); row high
+Two small eyes on top of the shell (black, white catchlight, dark brown edge; one shows from the front) | eyes | Eye (line art), no glow | Yellow: "It uses the eyes on its back while hiding on the sea floor." Bulbapedia: "two small, black eyes on top of its shell". Art: plain black dots. | high
+
+Open call: the Crystal entry names the eyes "on its back" (the black dots on the shell) as the ones that glow, but the art and
+the sprite draw those plain black and draw the red pair luminous. The glow is on the red pair. It lifts the cave backdrop a
+little (corner pixel 40,25,19 without, 53,31,29 with), as Sableye's eyes do.
+Other calls: base of the shell is the mid brown (color 4), which most of both views together is painted in; the palest brown
+(color 2, the lit top seen from behind, 4% of the shell) is kept as a shade (KEEP_TOP), as on Cloyster and Kingler.
+
+#141 Kabutops
+
+Surface | Made of | Material | Evidence | Confidence
+Head shield, thorax, arms, legs, back spines, tail (brown) | armor: a hard shell | Hard shell 0.2 / 0 | Gold/HeartGold/X: "In the water, it tucks in its limbs to become more compact, then it wiggles its shell to swim fast." Bulbapedia: "a skeletal, well-armored build". Art: flat brown with soft streaky paler washes on the head and thighs, no highlight anywhere; HOME soft. | material high; finish medium
+Chest and abdomen (light gray, white where lit) | the same armor, pale | Hard shell, underside 0.2 / 0 (Kingler's row) | Bulbapedia: "It is mostly brown, except for its light gray chest and abdomen." Art: flat pale gray plates with soft shading and no highlight. | medium
+Dark brown lines between the chest plates | where plates meet | Outline (creases) | Art: the chest and each abdominal segment are drawn as separate bulging plates parted by black lines. | medium
+Scythes and the gray forearms that carry them | hard, sharp blades | Claw and tooth 0.7 / 0.05, row "claws and teeth, scythes" (Scyther's row) | Yellow/Y: "It slices its prey with its sharp sickles and drinks the body fluids." Crystal: "compactly folding up its razor-sharp sickles." Ultra Moon: "slashing into them with its scythes". Art: pale gray blades with a broad white band along the edge, the brightest part of the design. | material high; finish medium
+Slate contour of the blades and claws on their lit side | drawn contour | Outline | The palette has no step between the pale gray and the slate. As the blades' darkest shade it turned a whole blade slate blue in the field; as line the blades keep the art's pale gray and a crisp edge. | medium
+Slate line along each blade | the edge between the flat and its bevel, drawn on one blade | Seams and wrinkles | Art: a thin line along each scythe; it parts nothing that overlaps. | medium
+Foot claws (white and pale gray, two per foot) | claws | Claw and tooth 0.7 / 0.05 | Bulbapedia: "small feet with two large gray claws." Silver: "With sharp claws, this ferocious, ancient POKéMON rips apart prey". Art: white with a gray shade. | high
+Eye (front only: white, slate pupil, pale lower edge) | eye | Eye (line art) | Art: a small white eye with a dark pupil under the brow. The eyes-closed look covers it with shell brown and a black line. | high
+
+Nothing on Kabutops glows: no entry says any part gives off light.
+Other calls: base of the shell is the mid brown (color 4): colors 3, 4 and 5 each cover about a quarter of what shows. The
+blades' base is the warm gray (9) most of each is painted in. The gray-brown pixels (color 11) soften the black line: outline.
+
+Departures from the starting tables: no dials changed. Kabuto's eyes glow (above). Kabutops's blades keep the standard Claw
+and tooth dials but their slate contour is line, not their darkest shade.

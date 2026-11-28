@@ -1,0 +1,47 @@
+Lapras and Snorlax: lighting evidence (Black 2/White 2 sprites). Pokédex text from PokeAPI species data.
+Painted art = refs/art-131.png, art-143.png (Sugimori); 3D = refs/home-131.png, home-143.png.
+The two are unrelated and were decided separately.
+
+LAPRAS (#131)
+
+Surface | Made of | Material | Evidence | Confidence
+Skin (blue): head, curled ears, neck, body, flippers | smooth skin of a sea animal | Turtle skin's dials 0.5 / 0.08, row named "aquatic skin" (as Golduck; not a turtle) | Shield: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch." Black 2/White 2: "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back." No entry names scales or fur. Painted art: smooth, with a broad soft paler area on the head, down the neck and on each flipper, the way Squirtle's skin is painted; no hard wet highlight. HOME smooth. | medium
+Palest blue patches (color 2, under 5%) | the same skin at its most lit | same dials, own row "aquatic skin, lit patches" | The sprite's pale patches on the head, ear curls and flippers. As a row of their own they go dark with the body (checked with the sun behind and in the cave). | high
+Dark spots on cheek, neck and flank | pigment in the skin | "aquatic skin, spots", the skin's dials, one color (only tinted) | Painted art and HOME: darker blue spots on the cheek, neck and flank, flat. The sprite paints them in the skin's contour color. | high
+Underside (cream): throat, chest, underside of every flipper | the same skin, paler | "aquatic skin, underside" 0.2 / 0.08 (finish lowered from the skin's 0.5) | No entry names it. Painted art: flat cream with one soft darker edge, no pale patch (the docs' finding for cream undersides). Its brown contour is its darkest shade. | medium
+Horn on the forehead | hard horn, the skin's own color | Spines 0.4 / 0 (row "spines, horn", as Seel and Dewgong) | No entry names it. Painted art: the skin's blue, soft shading, no highlight. The table's Spines row covers hide-colored horns. About 30 pixels. | medium-low
+Shell (gray, knobbed) | hard, dull, rough shell | Hard shell 0.2 / 0 | No entry mentions the shell (searched every game). Painted art: gray, mottled like stone, soft shading, no highlight; HOME: matte pale pink-gray. | medium
+White knob tips (about 19 pixels) | the same shell at its most lit | "hard shell, knob tips", same dials | Own row so the tips darken with the shell instead of staying white. | high
+Slate lines on the shell (rim, cracks, lit-side contour) | the shell | Hard shell (its darkest shade) | Drawn in the shell's own dark color. | medium
+Black lines around the knobs | where a knob stands out from the dome | Outline (creases) | Painted art and HOME: each knob is a raised cone, shaded on its own. | medium
+Gray-green pixels where blue meets cream (color 4) | a softened line between two surfaces | Outline | One pixel wide, only on that boundary; it is neither surface's shade. | medium
+Eyes | eye | Eye (line art) | White, brown iris, pupil, and the far eye's gray in the back view; closed look checked. | high
+Mouth | a black line | Outline | Closed in both views. | high
+Glow | none | 0 | No entry mentions light. | high
+
+Base shades: skin the mid blue (5), underside the darker cream (8), shell the mid gray (14); counted over both views.
+
+SNORLAX (#143)
+
+No Snorlax entry describes its coat (Platinum, Black/White, Black 2/White 2: "When its belly is full, it becomes too
+lethargic to even lift a finger, so it is safe to bounce on its belly."). The rows follow Munchlax's approved file;
+Munchlax's entries name the fur (HeartGold: "It conceals food under the long fur on its body." Black 2/White 2:
+"In its desperation to gulp down food, it forgets about the food it has hidden under its fur.").
+
+Surface | Made of | Material | Evidence | Confidence
+Body and arms (teal) | fur | Fur, at -0.1 / 0.05 (the large-area value; Munchlax's body row is "fur") | Munchlax's entries above. Painted art: flat teal, soft broad shading, no highlight, smooth edges (no tufts). HOME: matte. | medium
+Belly (cream) | the same coat, paler | "fur, belly" -0.1 / 0.05 (Munchlax: "fur, chest spot") | Painted art: flat cream, one soft shadow under its curve, no highlight. | medium
+Head and ears (teal) | short coat | "short fur, head" -0.2 / 0.05 (Munchlax's row) | Painted art: smooth-edged, flat. | medium
+Ten palest pixels on the forehead | the same coat at its most lit | "short fur, head, lit patches" | Own row so they darken with the head. | high
+Face (cream) | short coat | "short fur, face" -0.2 / 0.05 (Munchlax's row) | Painted art: flat cream. | medium
+Feet (cream) | short coat | "short fur, feet" -0.2 / 0.05 (Munchlax's row) | Painted art: flat cream, soft shading. | medium
+Pads on the soles (brown) | bare skin | "dry hide, paw pads" 0.05 / 0.03 (Munchlax's row) | Painted art: flat brown oval with a darker edge, no highlight. | medium
+Claws (hands and feet), two fangs | keratin, tooth | Claw and tooth 0.7 / 0.05 | Painted art: white with a gray side, a light streak on the foot claws. | high
+Inside of the yawning mouth (one brown, in the animation only) | mouth | Mouth 0.8 / 0 | Shared rule; one flat color, so only tinted. | high
+Eyes | closed slits drawn as black lines | Outline (with the gray pixel softening each end) | Art and sprite: two black lines; there is no eye surface to put in an eye row. The "eyes closed" look differs by a few pixels of line. | high
+Thin brown contour of the cream (colors 9, 13, 14; about 40 pixels) | line | Outline | Munchlax keeps its brown contour in the cream rows; here that left a muddy band, so it is line. | medium
+Glow | none | 0 | No entry mentions light. | high
+
+Base shades: fur and head the mid teal (4; the dark teal is contour and shadow). Belly: the darker cream (8), not
+the palest that most of it is painted in: with the palest as base the lower belly went olive in the field and black
+in the cave. Face the palest cream, feet the darker cream.

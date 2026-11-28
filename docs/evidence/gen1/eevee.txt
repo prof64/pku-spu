@@ -1,0 +1,48 @@
+Eevee line (#133 Eevee, #134 Vaporeon, #135 Jolteon, #136 Flareon): what each surface is and why
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render
+(shape and color only). Dials are finish / body. Nothing on any of the four glows.
+
+EEVEE (#133)
+No entry in any game describes a surface (all are about its genes, e.g. Black 2/White 2: "Thanks to its unstable genetic
+makeup, this special Pokémon conceals many different possible evolutions."), so every part is set from the art.
+Surface | Made of | Material | Evidence | Confidence
+Brown coat: head, ears' outsides, body, legs | sleek short coat | Short fur -0.2 / 0.05 | Art: flat brown, soft shading, smooth edges, no light patch anywhere. Same row and dials as Pikachu, Growlithe, Ponyta. | high
+Ear insides (front view): black with a dark brown patch | the same coat, dark | Short fur, own row "short fur, ear insides" | Art: dark brown inside, black toward the edge, flat. | high
+Cream ruff | long ragged fur | Fur -0.1 / 0.05 | Art: a big ragged collar with drawn strands, flat, no highlight. -0.1, not the table's -0.7: the brief's rule for anything bigger than a tuft (as Arcanine's mane). | high (kind), medium (dial)
+Tail: brown brush | long fur | Fur, own row "fur, tail", -0.1 / 0.05 | Art: a bushy brush, flat. | medium
+Tail tip (cream) | the same long fur | Fur (the ruff's row) | Art: cream, ragged edge where it meets the brown. | high
+Eyes: black pupil, brown iris, white catchlight | eye | Eye (line art) | Art: brown eyes with a painted highlight. Shut, they are drawn lines (outline). | high
+Nose, mouth line | drawn lines in the coat's dark browns | Outline | One nose pixel, four mouth pixels. | high
+
+VAPOREON (#134)
+Surface | Made of | Material | Evidence | Confidence
+Light blue body, legs, tail and tail fin | smooth aquatic skin | Fish skin 0.15 / 0.08 (Lanturn's row) | Ruby/Sapphire: "VAPOREON underwent a spontaneous mutation and grew fins and gills that allow it to live underwater." Diamond/Pearl: "It has evolved to be suitable for an aquatic life." Art: flat soft shading with a few broad pale patches (thigh, tail), no hard highlight, so a soft sheen at most, not wet. | medium
+(the same body) is it clear water? | no: opaque skin | not Jelly / clear body | Black 2/White 2: "Its cell composition is similar to water molecules. As a result, it can't be seen when it melts away into water." That is what it does in water; at rest the art, HOME and the sprite all paint an opaque body. | medium: the owner may want a trace of light through
+Dark blue ridge along back and tail, cap on the forehead, arms of the three head fins | pigment in the same skin | Fish skin, own row "fish skin, ridge and fin arms" | Red/Blue: "Its long tail is ridged with a fin which is often mistaken for a mermaid's." Art: flat dark blue. | high
+Cream webs of the ear fins and the crest | thin skin | Fin 0.3 / 0.15 (Lanturn's row) | Gold: "When VAPOREON's fins begin to vibrate, it is a sign that rain will come within a few hours." Art: flat cream with drawn rays, no highlight. Thin, so a little light through. | medium
+White frill round the neck | the same thin skin | Fin, own row "fin, frill" | Art: flat white with gray fold lines. No entry names it. Its gray fold lines stay its shades. | medium
+The frill seen from behind (the sprite paints it in the body's blue, with fold lines) | the same frill | Fin, own row "fin, frill from behind" | The back sprite has no white at all: the scalloped shape behind the head is drawn blue. Given the frill's dials so front and back agree. | medium-low: could be plain skin
+Far foreleg seen from behind (two darkest blues) | skin in shadow | Fish skin | Painted flat dark; not a line. | medium
+Mouth (two dark red, two pink pixels) | wet tissue | Mouth 0.8 / 0 | Art: open pink mouth. | high
+Eyes: black, purple iris, white catchlight | eye | Eye (line art) | Art: dark eyes with a white highlight. | high
+Dark blue lines where a leg lies over the body; the nose pixel | drawn lines | Outline | Wholly inside the skin. | high
+
+JOLTEON (#135)
+Surface | Made of | Material | Evidence | Confidence
+Yellow coat: head, ears' outsides, body, legs | sleek short coat | Short fur -0.2 / 0.05 (Pikachu's row) | Art: flat yellow, soft shading, smooth edges on head and legs, no highlight. | high
+Yellow spikes on the rump and back | the same fur, bristling | Fur -0.1 / 0.05 | Black 2/White 2: "By storing electricity in its body, it can shoot its bristlelike fur like a barrage of missiles." Ruby/Sapphire: "The bristling fur is made of electrically charged needles." Brilliant Diamond: "When the fur covering its body stands on end, the fur is hard and sharp, like needles." Hard only when charged; at rest the art paints the spikes flat like the coat. | medium: the owner may want the spikes harder (Spines 0.4 / 0)
+White ruff | long spiky fur | Fur, own row "fur, ruff", -0.1 / 0.05 | Art: white with flat gray shading, jagged points, no highlight. | high
+Far-side legs (painted flat brown) | the same coat in the body's shadow | Short fur, own row "short fur, far legs" (Ponyta's row) | Sprite only. | high
+Ear insides: black and dark purple | the same coat, dark | Short fur, own row | Art: dark purple-black inside, flat. | high
+Eyes: black, purple iris, white catchlight, brown rim | eye | Eye (line art) | Art: purple eyes with a highlight. | high
+Glow | none | glow 0 | Crystal: "The negatively charged ions generated in its fur create a constant sparking noise." A noise, not light: no entry says it shines at rest. | high
+
+FLAREON (#136)
+Surface | Made of | Material | Evidence | Confidence
+Orange-red coat: head, ears' outsides, body, legs | sleek short coat | Short fur -0.2 / 0.05 | Art: flat orange with soft darker shading, smooth edges, no highlight. | high
+Cream head tuft, ruff and tail | long fluffy fur | Fur -0.1 / 0.05 | Ruby/Sapphire: "FLAREON's fluffy fur has a functional purpose - it releases heat into the air so that its body does not get excessively hot." Silver: "It fluffs out its fur collar to cool down its body temperature, which can reach 1,650 degrees." Art: flat pale cream with tan shading and ragged ends. -0.1, not Fur's -0.7 or Fluff's -1: these are the biggest parts of the sprite and would go grainy. | high (kind), medium (dial)
+Far foreleg (painted flat dark red) | the same coat in shadow | Short fur, own row "short fur, far legs" | Sprite only. | high
+Ear inside (front view): black and navy | the same coat, dark | Short fur, own row | Art: dark navy-black inside, flat. | high
+Eyes: black, navy iris, white catchlight, dark red rim | eye | Eye (line art) | Art: dark eyes with a white highlight. | high
+Glow | none | glow 0 | Black 2/White 2: "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees F." Diamond/Pearl: "It has a flame sac in its body." The fire is inside; no entry says the body or fur gives off light, and the sprite draws no flame. | high
+Base of the cream fur | - | the tan (color 9), not the pale cream | Most of it, and nearly all of the back view, is painted tan. With the pale cream as base the back view went dark olive in the field and near black in the cave; with tan the front's cream reads a step darker under flat light. | medium

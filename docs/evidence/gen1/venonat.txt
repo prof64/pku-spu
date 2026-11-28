@@ -1,0 +1,37 @@
+Venonat line: #048 Venonat, #049 Venomoth (Black 2/White 2 sprites)
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME
+render (shape and color only). Nothing on either glows: no entry says a part gives off light at rest.
+
+== Venonat (#048) ==
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Body and the two head tufts (purple) | a coat of stiff hair | Fur -0.7 / 0.05 | Ruby/Sapphire: "VENONAT is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection." Emerald: "Its coat of thin, stiff hair that covers its entire body is said to have evolved for protection." Art: shaggy, spiked silhouette, soft streaked shading, no light patch anywhere. Silver: "Poison oozes from all over its body", but neither the art nor HOME paints anything wet, so no sheen. | high
+Lines where one tuft lies over another or over the body (9 pixels) | overlapping clumps of fur | Outline (creases) | Drawn in the fur's dark purples between the two front tufts, the back tufts and the body. The fur's navy contour everywhere else is its darkest shade. | medium
+Eyes (red, pink facets, dark red rim; the edge of one shows from behind) | compound eyes | Eye (line art) | Black 2/White 2: "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light." Yellow: "In a bright place, you can see that they are clusters of many tiny eyes." FireRed: "The eyes can also shoot powerful beams" is an attack, not light at rest: no glow. Art: flat pink with dots, no highlight. | high
+Mouth (pink, between the fangs) | soft mouth | Mouth 0.8 / 0 | No entry describes it. Art: a pink oval with a clear lighter patch on its upper side, the one place on Venonat painted with a sheen. 13 pixels. | medium
+Fangs | tooth | Claw and tooth 0.7 / 0.05 | Art: two white fangs with a pale gray shade. | high
+Antennae (white stalks with a club tip) | an insect's antennae | Insect body 0.2 / 0.05, own row "insect body, antennae" | No entry describes them. Art: flat white with a soft pale gray shade, no highlight; HOME: matte pale gray. A highlight would not show on white, so matte. The gray on their lit side is their darkest shade. | medium-low
+Hands and feet (tan) | bare insect limbs | Insect body 0.2 / 0.05, own row "insect body, hands and feet" | No entry describes them. Art: flat beige with soft darker shading and no light patch (Butterfree's hands and feet have one, so those are Insect shell; these are not). The line between two toes is a seam (tinted), not a crease. | medium
+
+Base of the fur is the darker purple (color 13): on screen 926 pixels of it against 517 and 282 of the two lighter
+ones, the back view almost wholly. With the next lighter one as base the back went flat navy in the field.
+
+== Venomoth (#049) ==
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Wings (pale lilac) | thin wings covered in powdery scales | Butterfly wing 0.05 / 0.3 (Butterfree's row) | Black 2/White 2: "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin." FireRed: "The wings are covered with dustlike scales." Yellow: "The powdery scales on its wings are hard to remove." Art: flat pale lavender, thin veins, no highlight: matte. In the cave they are as bright against the body as Butterfree's (rendered side by side). | finish high; light-through medium
+Wing veins (lavender-blue lines one pixel wide) | veins in one flat sheet | Seams and wrinkles | Art and HOME: thin lines on a flat wing, no shading per cell. The same color where it is broad (the near wings seen from behind, painted a shade darker) is the wing's own shadow and stays in the wing row. | medium
+Strip along the front edge of both upper wings, front view | the wing's thickened front edge, darker | Butterfly wing, own row "front edge" (wing dials, no shades) | Art: a narrow, slightly darker strip between the front edge and a line drawn parallel to it. The sprite paints it in one flat lavender-blue 2 to 4 pixels wide, so light only tints it and the wing is not bent along it. | medium
+Head, three horns, thorax (lilac) | an adult insect's body | Insect body 0.2 / 0.05 | No entry describes the body. Art: blue-lavender, soft shading, a broad soft lighter side on the middle horn and no highlight; HOME matte. The lines where one horn stands in front of another are creases. | medium
+Abdomen (brown, zigzag lines) and the small legs folded on it | the same soft body | Insect body 0.2 / 0.05, own row "abdomen and legs" | No entry describes it. Art: gray-lilac egg shape with soft shading, dark zigzag lines drawn on one smooth surface (no shading per segment), so the lines are seams (tinted). Legs and abdomen share one tan ramp in the sprite. | medium
+Fangs | tooth | Claw and tooth 0.7 / 0.05 | Art: two small white fangs under the head. White in front, pale blue-gray (shaded) from behind. | high
+Eyes (pale blue ring, black pupil, white catchlight) | eye | Eye (line art) | Art: large pale blue eyes with a black pupil and a white catchlight. The pupil of the eye facing the viewer is in the eye row. | high
+
+Bases: wing = the palest lilac (color 11; 907 pixels on screen, 859 of the mid one, which is the near wings from
+behind). Body = the mid lilac (color 13): on screen 150 pixels against 32 of the darker one, because the darker
+dome of the head and the thorax are almost wholly behind the wings in the back view. The body's palest lilac is
+kept in its row (KEEP_TOP): it is the lit side of the middle horn from behind, and left out it stayed pale on a
+body gone dark with the sun behind. The abdomen's 3 cream pixels are left out by the tool as a glint; kept in,
+they spread into a cream patch under the studio lamp.

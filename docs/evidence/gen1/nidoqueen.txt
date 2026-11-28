@@ -1,0 +1,25 @@
+NIDOQUEEN (#031)  -  0031-nidoqueen.py
+
+Surface | Made of | Material | Evidence | Confidence
+Blue body, head, limbs, tail, ears' outside | hard-scaled hide | hide 0.25 / 0.08 | "Its entire body is armored with hard scales." (Diamond/Pearl/Black 2); "Tough scales cover the sturdy body of this Pokemon." (Yellow). Painted art: flat blue with one soft shadow tone, no highlight anywhere. Same row and dials as Nidoran F and Nidorina. | medium (matte is certain from the art; "hide" rather than a scale row is a call)
+Cream lower jaw, chest pads, belly band | the same hide, pale | hide, belly 0.25 / 0.08 | Art: flat cream with a soft darker edge, no highlight. Same row as Nidorina's underside. | high
+Inside of the ears (brown) | bare ear skin | hide, ear center 0.25 / 0.08 | Art: flat gray-brown, matte. Row name from Nidoran/Nidorina. | high
+Forehead horn, four back spines, tail spine | hide-colored horn and barbs | spines 0.4 / 0 | "It pacifies offspring by placing them in the gaps between the spines on its back." (Shield); "stiff, needle-like scales" (FireRed). Art: same blue, pointed, no hard highlight. Standard Spines row of the Nidoran line. | high
+Claws on hands and feet | claw | claws and teeth 0.7 / 0.05 | Art: white claws with a clean bright face. | high
+Mouth inside and tongue (only in the open-mouth drawings) | wet mouth | mouth 0.8 / 0 | Art: open mouth, pink tongue. Standard. | high
+Eyes | eye | eye (line art) | Standard: white, gray and brown iris stay as drawn. | high
+Lightest blue kept in the hide and spines rows (KEEP_TOP) | - | - | It is a broad painted highlight (forehead, horn, thigh), not a glint: left out, it stayed pale on the thigh with the sun behind and went dull on the forehead under the lamp. | medium
+
+NIDOKING (#034)  -  0034-nidoking.py
+
+Surface | Made of | Material | Evidence | Confidence
+Purple body, head, limbs, tail, ears' outside | hard, thick hide | hide 0.25 / 0.08 | "It is recognized by its rock-hard hide and its extended horn." (FireRed/X); "Its steel-like hide adds to its powerful tackle." (Yellow). Painted art: soft broad shading in two purples, no hard highlight; "steel-like" is how hard it is, the art shows no metal. Same row as the rest of the line. | medium (matte from the art; a tougher row such as thick hide would be the alternative)
+Pale gray chest and belly | the same hide, pale, in bulging sections | hide, belly 0.25 / 0.08 | Art: pale gray, soft shading, section lines; no highlight. The black lines across it stay outline so each bulge is rounded by itself, as the sprite shades them. | high
+Inside of the ears (teal) | bare ear skin | hide, ear center 0.25 / 0.08 | Art: flat dark teal with a lighter band, matte. | high
+Forehead horn, spikes on top of the head, back spines | hide-colored horn and barbs | spines 0.4 / 0 | "Its horns are so hard, they can pierce a diamond." (Yellow); "Be careful with the horn, as it contains venom." (X). Art: horn and spines the same purple as the hide, soft shading only, so not polished. | high (which small head-top points are spikes and which are ear rim: medium)
+Claws on hands and feet, teeth | claw and tooth | claws and teeth 0.7 / 0.05 | Art: white claws and fangs with clean bright faces. | high
+Mouth inside | wet mouth | mouth 0.8 / 0 | Art: red open mouth. Standard. | high
+Eyes | eye | eye (line art) | Standard: the white and the gray under it stay as drawn. | high
+Lightest purple kept in the hide and spines rows (KEEP_TOP) | - | - | It is a broad painted highlight (shoulders, knees, tail top), just under the tool's 7% cut: left out, those patches came out gray and blotchy under the studio lamp. | high
+
+No glow on either: no entry says any part gives off light.

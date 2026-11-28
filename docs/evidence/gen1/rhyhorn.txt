@@ -1,0 +1,31 @@
+Rhyhorn line (#111 Rhyhorn, #112 Rhydon): what each surface is and why
+Pokédex quotes are game text from PokeAPI species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render (shape and color only).
+
+== Rhyhorn (#111) ==
+Surface | Made of | Material | Evidence | Confidence
+Body, frill, back ridge, legs (all the gray plates) | a thick hide grown into armor plates | Plated hide 0.2 / 0.03 (row "plated hide") | Diamond/Pearl: "Its body is clad in a thick hide, and its tackles topple buildings." Red/Blue: "Its massive bones are 1000 times harder than human bones." No entry calls the body rock or stone. Art: flat blue-gray plates with soft shading and no highlight anywhere; HOME the same. Dry plates with a soft pale face on each is what Sandshrew's plated hide is. | medium
+Near-white strokes along the lit edges of the frill and plates | the same hide at its most lit | Plated hide, own row "plated hide, edge light" | The sprite paints them on 3.5% of the hide. Left out of any row they stayed white on a body in shade (sun behind); in their own row they darken with the plate. Same device as Onix's "rock, snout light". | high
+Nose horn | hard, hide-colored horn | Spines 0.4 / 0 (row "spines, horn") | No entry mentions Rhyhorn's horn. Art and HOME: the body's own gray, flat, no highlight. The table gives hide-colored horns Spines (as Seel, Dewgong, the Nidoran line). The female's is shorter. | medium-low
+Lines between plates (black) | one plate lying over the next | Outline (creases) | Art draws every plate as a separate overlapping slab. The dark grays along plate edges are the hide's own shades. | high
+Black gaps under the plates and behind the legs | deep shadow | Outline | Drawn solid black. | high
+Claws, fang | keratin, enamel | Claw and tooth 0.7 / 0.05 | Art: white claws on every foot, one white fang. The far hind foot's are painted light gray. | high
+Eye (white, red iris, black pupil) | eye | Eye (line art) | Art: red iris on white. Closed, the lid is hide. | high
+Nothing glows.
+
+== Rhydon (#112) ==
+Surface | Made of | Material | Evidence | Confidence
+Body, head, crest, arms, legs, tail, back spikes (gray) | tough armor-like hide | Plated hide 0.2 / 0.03, the same row as Rhyhorn | Red/Blue: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees." Gold: "Its rugged hide protects it from even the heat of lava." Ruby: "This POKéMON's hide is extremely tough. Even direct cannon hits don't leave a scratch." Art: flat gray with soft lighter areas on thigh and shoulder, no highlight; HOME soft. Rugged, so matte. | high (what it is), medium (dials)
+Near-white patches on crest tips, a knee, a shoulder, the brow ridge | the same hide at its most lit | Plated hide, own row "plated hide, edge light" | 1.3% of the hide; they stayed white with the sun behind until given a row. | high
+Hollow of the far ear, seen from behind (one flat dark gray) | the same hide in shadow | Plated hide, own row "plated hide, ear inside" | Art paints the ear inside a darker gray. In the hide's row it went near black in the cave. | medium
+Belly (cream, ribbed), and its edge from behind | the same dry skin, pale | Dry hide, belly 0.05 / 0.08 (Sandshrew's row) | No entry describes it. Art: flat cream bands with brown lines between them, no highlight; HOME matte. The lines between ribs stay the belly's darkest shade (lines on one surface). | medium
+Drill horn (cream with brown spiral grooves) | bare horn | Claw and tooth 0.7 / 0.05 (row "claws and teeth, horn") | Scarlet: "These Pokémon polish their horns by bashing them together." Crystal: "By lightly spinning its drill-like horn, it can easily shatter even a diamond in the rough." Ruby: "RHYDON's horn can crush even uncut diamonds." Art: cream with a paler upper side on each turn, no hard white highlight, so the polish rests on the Scarlet entry. Grooves are the horn's darkest shade (real relief). | medium
+Tail rings, chest and limb fold lines (dark gray) | lines on one surface | kept as the hide's darkest shade | Art: thin lines across a smooth tail, no bulge per ring. | medium
+Claws, fang | keratin, enamel | Claw and tooth 0.7 / 0.05 | Art: white claws on hands and feet, a white fang. Their shade is the light grays. | high
+Mouth inside | wet tissue | Mouth 0.8 / 0 | Shared rule. Art: pink-purple open mouth. | high
+Eye (white, red iris, black rim) | eye | Eye (line art) | Art: red iris. From behind the white is shaded light gray. | high
+Nothing glows: the lava in the entries is where it lives, not its body.
+
+Calls the owner might overrule
+- Hide as Plated hide (0.2 / 0.03) rather than Rock (0 / 0): the entries say hide, never rock.
+- Rhydon's horn polished (0.7) on the Scarlet entry alone; the art would also allow Spines 0.4 / 0.
+- Rhyhorn's horn as Spines 0.4 / 0 rather than left in the hide.

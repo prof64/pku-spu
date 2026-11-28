@@ -1,0 +1,28 @@
+Paras line (#046 Paras, #047 Parasect): what each surface is and why
+Pokedex quotes are game text from PokeAPI species data. "Art" is the Sugimori painting, "HOME" the Pokemon HOME render
+(shape and color only). Nothing glows: no entry says any part gives off light.
+
+== Paras (#046) ==
+
+Surface | Made of | Material | Evidence | Confidence
+Head, body, pincers, legs (orange, brown contours) | a bug's hard shell | Insect shell 0.45 / 0 (same row as Kakuna, Beedrill) | Every entry calls it a bug: Red/Blue "The mushrooms on its back grow by drawing nutrients from the bug host." No entry describes the shell's surface. Art: a soft paler patch along each pincer and a small light spot on the nose, no white highlights, like Metapod and Kakuna: satin, not polished. HOME: smooth. | medium
+Pale orange on the head and pincers (front view only) | the shell's lit side | kept as the shell's top shade (KEEP_TOP) | It is under 7% of the shell with both views together, so the tool would leave it out; left out it stayed pale on a body gone dark (sun behind, cave). | high
+Dark lines inside the shell (body segments, head over thorax, a pincer's two jaws, a shut eye's slit) | where pieces overlap | Outline (creases) | Art and HOME: the abdomen is separate bands, the head sits over the thorax, the pincer tip is a separate jaw. The same browns along the outside stay the shell's darkest shades. | medium
+Five dots on the forehead (one step darker than the shell around them) | pigment or pits in the same shell | Insect shell, own row "spots" | Art: five small circles on the forehead. The sprite draws five single pixels. | medium
+Mushroom caps (red, pink, dark red rim) | mushroom flesh | Mushroom cap 0.1 / 0.1 (new kind) | Black 2/White 2: "Mushrooms named tochukaso grow on its back. They grow along with the host Paras." Moon: "They can be dried and powdered to make a medicine." Art: soft shading, lighter toward the top, no highlight: matte. A trace of light through, as for skin; a cap is thick. | finish high; light-through medium
+Yellow spots on the caps (and their brown edge at the rim) | pigment in the cap | Mushroom cap, own row "spots" (cap dials) | Art: flat yellow patches, no highlight. | high
+Yellow stub under each cap, outside the cap's black line | the mushroom's stem | Mushroom stem 0.1 / 0.1 (new kind, cap dials) | Drawn by the sprite in both views between cap and body; the art and HOME hide it. | medium
+Mandibles (white, gray, dark gray) | hard mouthparts | Claw and tooth 0.7 / 0.05 | Art: white fang-like mandibles with gray shading. Yellow: "to gnaw on tree roots." | high
+Eyes (white, gray ring, black pupil, lilac) | eye | Eye (line art) | Art: white eyes with a dark ring and a painted catchlight. The eyes-closed lids are shell. | high
+
+== Parasect (#047) ==
+
+Surface | Made of | Material | Evidence | Confidence
+Mushroom cap (reds) | mushroom flesh | Mushroom cap 0.1 / 0.1 (same row as Paras) | Black 2/White 2: "A mushroom grown larger than the host's body controls Parasect. It scatters poisonous spores." FireRed: "It scatters toxic spores from the mushroom cap." Gold: "It stays mostly in dark, damp places" (says where it lives, not that the cap is wet). Art: flat, soft shading, a little lighter at the top left, no highlight: matte. | finish high; light-through medium
+Light pink at the top of the cap | the cap's lit top | kept as the cap's top shade (KEEP_TOP) | About 5% of the cap, one broad patch in each view, not a glint. | medium
+Yellow spots | pigment in the cap | Mushroom cap, own row "spots" (cap dials; yellow and dark yellow only) | Art: flat yellow ovals. | high
+Orange pixels around the spots | the sprite's soft blend between spot and cap | Mushroom cap, own row "spot edges", no shades (only tinted) | As shades of the spots they turned whole spots orange in the field's back view while the cap around them did not change. | medium
+Body, pincers, legs (orange-red; dark brown under the cap) | a bug's hard shell | Insect shell 0.45 / 0 | Ultra Sun: "The bug is mostly dead, with the mushroom on its back having become the main body." Art: a soft lighter band along each pincer, no white highlight. The body under the cap is painted in the shell's darkest shade (the cap's shadow). | medium
+Lines inside the pincers (between the two jaws) | where pieces overlap | Outline (creases) | Art: the small jaw is drawn as a separate piece. | medium
+Eyes (white, pale gray, lilac; no pupil) and their ring | eye | Eye (line art); the dark ring is outline | Art: blank white round eyes with lilac shading. | high
+Two stray pixels (one dark red on a front leg, one red-brown at the cap's lower edge in the back view) | drawing leftovers | Outline (stay as drawn) | They are no surface's shade. | high

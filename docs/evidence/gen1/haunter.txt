@@ -1,0 +1,25 @@
+Haunter line: #093 Haunter, #094 Gengar (Black 2/White 2 sprites)
+Pokedex text is game text from PokeAPI species data. "Art" is the Sugimori painting, "HOME" the Pokemon HOME render.
+Related finished file matched: 0092-gastly.py (its "dark core" row, -0.5 / 0, for the opaque ball).
+
+== Haunter (#093) ==
+
+Surface | Made of | Material | Evidence | Confidence
+Head, trailing body, loose hands, jagged teeth (lilac to mauve, slate contour) | gas, drawn as an opaque body | "ghost body": Gastly's dark core dials, finish -0.5, body 0 | Black 2/White 2: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering." Silver: "Its tongue is made of gas." Diamond: "It can slip through any obstacle." Art: broad soft cloudy streaks on the head and hands, no highlight; HOME: soft everywhere. The sprite draws a hard contour that hides what is behind, like Gastly's ball, so it is solid, not the see-through Gas row (0.75). The teeth are the body's own edge in art, HOME and sprite (no white). | material medium; solid body medium
+Mouth interior (reds) | wet tissue (the tongue itself is "made of gas" and is not drawn apart) | Mouth, finish 0.5 (standard 0.8), body 0 | Art: flat pink, no highlight. At 0.8 the wide mouth caught the cave's lamp as an orange spot on a body gone dark. | medium
+Red line around the hands (blue on the shiny) | drawn outline | Outline | Sprite only: art and HOME outline the hands like the body. Nothing says it gives off light. As a lit row it stayed bright red in the cave. | medium
+Eyes (white, gray shade, two-pixel pupils) | eye | Eye (line art) | Art: white eyes with small pupils. No entry says they glow. | high
+Shut-eye strokes | lines on the head | Seams and wrinkles | Eyes closed look. | high
+Glow | none | | No entry says any part shines or glows (Moon: "It fears the light and revels in the dark."). | high
+
+== Gengar (#094) ==
+
+Surface | Made of | Material | Evidence | Confidence
+Whole body, ears, arms, legs, back spikes (violet, plum contour) | shadowy ghost body, never named | "ghost body": the line's dials, finish -0.5, body 0 | No entry names a material: Black 2/White 2: "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people." Diamond: "It hides in shadows." Silver: "it slips into the prey's shadow". Art: soft cloudy lighter patches on forehead, belly and knee, no highlight; HOME: smooth and soft. Matched to Gastly and Haunter. Plain matte (0 / 0) is the other reading: cleaner, but it bands the back under a lamp. | dials low-medium; matte high
+Grin (white teeth, gray at the corners) | teeth | Claw and tooth 0.7 / 0.05 | Art: white teeth, pale flat shading, drawn lines between them. | high
+Lines between the teeth (gray) | drawn lines in one row of teeth | Seams and wrinkles | Art draws them as thin lines. | high
+Eyes (red, pink light, black slit pupils) | eye | Eye (line art), no glow | Art: red eyes. "The leer that floats in darkness" (Platinum, Black 2/White 2) does not say the eyes give off light; as line art they already stay red when the body goes dark. | high (no glow: medium)
+Shut-eye strokes | lines on the face | Seams and wrinkles | Eyes closed look. | high
+Glow | none | | No entry says any part shines or glows. | medium
+
+Both: the body's palest lilac is kept in its row (KEEP_TOP), as in Gastly's file: left out, the pale patches stayed pale on a body gone dark with the sun behind. Base is the shade both views together are mostly painted in (Haunter mauve 4, Gengar dark violet 13). Animations untouched (Haunter idle 76 ticks, Gengar idle 276 ticks).

@@ -1,0 +1,29 @@
+Magikarp line: evidence for every surface
+Sources: Pokédex text from PokeAPI species data (quoted with its game); "art" is the Sugimori painting
+(refs/art-129.png, art-130.png); "HOME" is the Pokémon HOME render, used for shape and color only.
+No entry for either species describes skin, scales, fins or barbels, so every surface is set from the art.
+
+MAGIKARP (#129)
+Surface | Made of | Material | Evidence | Confidence
+Body, tail stalk, the red rays carrying the white fins (red-orange; scale lines in its own dark reds) | scaled carp skin | Fish skin 0.15 / 0.08 (Qwilfish's and Lanturn's row) | No entry describes it (Black 2/White 2: "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though."; Sapphire: "it is actually a very hardy POKéMON that can survive in any body of water no matter how polluted it is."). Art: flat red-orange with soft broad shading and drawn scale lines; one small soft lighter patch on the forehead, no hard highlight. HOME: soft. | medium
+Lips (peach, pale on top) | fleshy lips, the same skin | Fish skin, lips 0.25 / 0.08 (Qwilfish's row) | Art: pink lips, flat, a slightly paler upper edge. | medium
+Mouth floor (red) and its black inside | wet tissue | Mouth 0.8 / 0; the black is "mouth, dark inside" (only tinted) | Shared rule. Art: dark red open mouth. | high
+Barbels (yellow; white on the female) | fleshy feelers, the same skin | Fish skin, barbels 0.15 / 0.08 (own rows: male yellow, female white) | Art: flat tan-yellow strands, no highlight. Not hairs, so not Whiskers. The female look redraws them white. | medium
+Tail and pectoral fins (white, gray shading and rays) | thin fin webbing | Fin 0.3 / 0.15 (Lanturn's row) | Art: flat white with soft gray rays, opaque. Body 0.15 lets a little light through with the sun behind without staying white in the cave. | medium
+Crown fin on the back and fin under the belly (yellow, tan) | stiff fin | Fin, yellow 0.3 / 0.15 | Art: flat yellow-orange, soft darker base, no highlight. Its pale yellow (the lit side of the tall spike) is kept as a shade. | medium
+Eye (white, gray edge, black pupil) | eye | Eye (line art) | Art: round white eye, small pupil. Eyes-closed is drawn the same as open in this sprite. | high
+Black notches where scale lines cross, inside the body | drawn lines | Seams and wrinkles | Lines on the one body, not creases. | high
+Nothing glows.
+
+GYARADOS (#130)
+Surface | Made of | Material | Evidence | Confidence
+Body, head, three-pronged crest, fin ribs (blue; navy contour and deep shade) | scaled skin of a sea serpent | Fish skin 0.15 / 0.08, the same row as Magikarp | No entry describes the skin (Black 2/White 2: "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm."; Legends: Arceus: "the true identity of a dragon written of in ancient texts"). Art: flat blue with soft mottled shading and broad soft lighter areas on top of the coils, no hard highlight anywhere; HOME soft. A soft broad streak is shape, not sheen (the Arbok lesson), so matte. The crest is skin-colored in the sprite, so it is skin. | medium
+Belly segments (cream) | the same skin, paler, in overlapping segments | Fish skin, belly 0.15 / 0.08 | Art: flat cream bands, each bulging on its own, no highlight. The brown edge and the lines between segments are outline (creases; the palette has no step between cream and that brown). | medium
+Flank ovals (pale cream, cream in shade) | pigment in the blue skin | Fish skin, flank spots 0.15 / 0.08 (own row) | Art and HOME: yellow ovals along the sides. | high
+Jaw rim (cream, shaded in brown) | the same skin | Fish skin, jaw 0.15 / 0.08 | Art: cream lips, flat. | medium
+Barbels (blue; white on the female) | fleshy feelers | Fish skin, barbels 0.15 / 0.08 (own rows) | Art: thin blue strands, flat. The female look redraws them white. | medium
+Back, face and tail fins (white, lavender shade) | thin fin webbing | Fin 0.3 / 0.15 | Art: flat white-gray fins with soft shading, opaque. Their gray edge is outline (no step between white and that gray); gray rays inside a fin are seams. | medium
+Fangs | tooth | Claw and tooth 0.7 / 0.05 | Art: four white fangs. | high
+Mouth (maroon, tongue) and black throat | wet tissue | Mouth 0.8 / 0; "mouth, dark inside" | Shared rule. No glow: FireRed "The HYPER BEAM it shoots from its mouth totally incinerates all targets" is an attack, not the mouth at rest. | high
+Eyes (white, red iris, pupil) | eye | Eye (line art) | Art: small red eyes. Closed lids are seams. | high
+Nothing glows.

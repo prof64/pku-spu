@@ -1,0 +1,49 @@
+Nidoran♂ (#032) and Nidorino (#033): what each surface is made of
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render
+(shape and color only). Row names and dials follow Nidoran♀ (#029) and Nidorina (#030).
+
+NIDORAN♂ (#032)
+Drawn surfaces: lilac body, dark spots, two big ears (teal inside), forehead horn, a crest of barbs on the back, white
+claws, one incisor, red eye. No whiskers and no open mouth are drawn.
+
+Surface | Made of | Material | Evidence | Confidence
+Body, head, legs, ear backs and rims | bare skin, no coat | Hide 0.25 / 0.08 | No entry in any game mentions fur or scales. Art: flat soft washes, no highlight anywhere; HOME smooth and evenly soft. | medium
+Dark spots (haunch ring from the front; flank, back and shoulder spots from behind) | pigment in the same skin | Hide, own row "hide, spots" | Art and HOME: darker violet patches on haunch and flank, flat; the haunch one is a ring with a paler middle, as the sprite paints it. | high
+Far eye from the front (4 pixels of mid purple under a brow line) | the far eye seen edge on, drawn as a dark lid | Hide, in "hide, spots" | Art draws the far eye as a flat dark violet patch with no iris. It does not change in the eyes-closed look. As line art it stayed bright purple on a head gone dark, so it is shaded as a marking. | medium
+Ear inside | pigment in the same skin | Hide, own row "hide, ear center" | Art and HOME: one flat teal, darker toward the upper edge, no highlight. Unlike the female there is no separate dark ring: the dark teal is the teal's own shade, so it is one row. | medium
+Forehead horn | hardened spike that is part of the hide | Spines 0.4 / 0, own row "spines, horn" | Black 2/White 2: "Its toxic horn is for protection." Gold: "It is small, but its horn is filled with poison. It charges then stabs with the horn to inject poison." Red/Blue: "The larger its horns, the more powerful its secreted venom." Art and HOME: the body's own lilac, flat, no highlight: a hide-colored spike, not bare white horn. The sprite paints it in the palest lilac, so it has its own row (in the barbs' row that color would be a stray glint). | medium
+Back barbs (two tall ones and a small one from the front; the whole crest from behind) | hardened spikes that are part of the hide | Spines 0.4 / 0 | FireRed: "It extends toxic barbs when angered." Yellow: "If it senses danger, it will attack with a poisonous sting." Art and HOME: body-colored, flat, drawn as broad jagged plates. Same call as the female's barbs. | medium (that they are barbs: high; the dials: low, the art paints them exactly like the ear backs)
+Black lines between the barbs of the crest | lines between overlapping pieces | Outline | Drawn in black in the sprite. | high
+Incisor | enamel | Claw and tooth 0.7 / 0.05 | White in art and sprite. No entry for the male describes it (the female's Shield entry: "hard incisor teeth"). | medium
+Claws | keratin | Claw and tooth 0.7 / 0.05 | White with a gray shade in art, HOME and sprite. No entry describes them. | medium
+Eye | eye | Eye (line art) | Red iris, white and gray; drawn on the head and in the eye drawings. | high
+
+Nothing glows. Base shades: hide is the mid lilac (color 12), which most of both views is painted in. The palest lilac
+(25 pixels on forehead and ear rim) is kept in the hide row (KEEP_TOP): left out, it stayed pale on a head gone dark.
+
+NIDORINO (#033)
+Drawn surfaces: purple body, dark patches, two big ears (teal inside), long forehead horn, barbs along the back, short
+tail, white claws, one fang, open mouth with tongue (front view), eye.
+
+Surface | Made of | Material | Evidence | Confidence
+Body, head, limbs, tail, ear backs and rims | bare skin, no coat | Hide 0.25 / 0.08 | No entry mentions fur or scales. Art: flat washes with soft lighter areas on brow, shoulder and foreleg, no hard highlight; HOME smooth and soft. | medium
+Dark patches (flank, legs) | pigment in the same skin | Hide, own row "hide, spots" | Art and HOME: dark violet patches on flank and every leg, flat. The sprite paints them in one flat color, so the row has that one shade. | high
+Ear inside | pigment in the same skin | Hide, own row "hide, ear center" | Art and HOME: one flat teal panel, no highlight. | medium
+Forehead horn | hardened spike that is part of the hide | Spines 0.4 / 0, own row "spines, horn" | Ruby/Sapphire: "NIDORINO has a horn that is harder than a diamond." Black 2/White 2: "stabs foes with its horn, which oozes poison upon impact." FireRed: "By swinging its well-developed horn wildly, it can even punch through diamond." Hard, so solid; but the art and HOME paint it the body's own lilac with a flat lighter top face and no highlight, so it is not polished. | medium
+Back barbs (front: three behind the ear and one on the rump, down to the dark line they stand on; back: one cluster along the spine and one low on the rump) | hardened spikes that are part of the hide | Spines 0.4 / 0 | Ruby/Sapphire: "If it senses a hostile presence, all the barbs on its back bristle up at once". Nidorina, Black 2/White 2: "These barbs grow slower than Nidorino's." Art: body-colored, flat. | medium
+Lines where a barb stands on the back or lies over the next | lines between overlapping pieces | Outline | Drawn in the dark purple as one-pixel strokes; as surface they would merge the barbs into the back. | medium
+Claws | keratin | Claw and tooth 0.7 / 0.05 | White in art, HOME and sprite. No entry describes them. | medium
+Fang | enamel | Claw and tooth 0.7 / 0.05 | Art and sprite: one white fang at the corner of the mouth. | high
+Mouth inside, tongue | wet tissue | Mouth 0.8 / 0 | Shared rule. | high
+Eye | eye | Eye (line art) | Drawn only in the eye drawings: white, gray and one brown pixel. | high
+
+Nothing glows (Shield: "The potency of its poison increases along with the level of adrenaline" is no light). Base
+shades: hide is the darker purple (color 12; 1240 of the pixels that show against 546 of the lighter one, both views).
+The palest lilac (brow, snout, foreleg) is kept in the hide row (KEEP_TOP) for the same reason as on Nidoran.
+
+Calls the owner might overrule
+- The male Nidoran's big back crest is Spines (0.4 / 0) like the female's barbs. Being solid, it is lit a step darker
+  than the body under a low sun (field, back view). The art paints it like the ears, so Hide would also be defensible.
+- Both horns stay Spines (0.4 / 0) although Nidorino's is "harder than a diamond": the art paints no highlight on it.
+- Horn base is the hide's base color (Nidoran) or one step above it (Nidorino), not the palest lilac the front view
+  paints it in: the art paints the horn body-colored, and with the palest shade as base it stood out pale under a lamp.

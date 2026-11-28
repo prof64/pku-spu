@@ -1,0 +1,38 @@
+Drowzee line (#096 Drowzee, #097 Hypno): lighting evidence
+Quotes are game Pokédex text from PokeAPI species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render
+(shape and color only). No entry for either species describes its skin, so skin is set from the art.
+
+## Drowzee (#096)
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Upper body, head, trunk, arms, toes (yellow) | plain bare skin | Hide 0.25 / 0.08 | No entry describes the skin (Black 2/White 2: "It can tell what people are dreaming by sniffing with its big nose. It loves fun dreams."; FireRed: "A descendent of the legendary animal baku, which is said to eat dreams."). Art: flat yellow with soft, broad paler blotches and drawn wrinkle lines on the trunk; no small hard highlight anywhere. HOME: smooth and soft. So matte bare skin, like the Nidoran line's Hide. The dark brown and olive contour is the row's darkest shades. | medium
+Lower body, legs, feet (brown) | the same skin, darker pigment | Hide, own row "hide, lower body" | Art: flat dark gray-brown with the same soft shading and no highlight; the wavy edge is a color boundary on one body, not clothing. HOME: flat brown. | medium
+Ear insides (brown) | skin | Hide, own row "hide, ear insides" | Art: flat gray-brown inside the ear. | high
+Mouth, tongue | wet tissue | Mouth 0.8 / 0 | Shared rule. Art: pink tongue in an open mouth. | high
+Eye (white, black pupil) | eye | Eye (line art) | Art: white eye with a small pupil under a heavy lid. The lid and bag lines are skin shades; the shut eye's black line is line. | high
+Lines between the toes (brown, 4 pixels) | lines | Outline | Separate toes drawn side by side. | high
+
+Nothing glows: no entry says any part gives off light (psychic power is not light at rest).
+Base of the yellow is the duller yellow (color 9): 1788 pixels against 938 of the bright one, both views together.
+KEEP_TOP on both hide rows: the palest yellow (forehead) and palest brown (knees) are broad soft patches of shading,
+not glints. Left out of the row they stayed pale with the sun behind and showed as gray blotches under the studio lamp.
+
+## Hypno (#097)
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Body, head, nose, limbs (yellow) | plain bare skin | Hide 0.25 / 0.08 | No entry describes the skin. Art: flat yellow with soft, broad paler patches on forehead, nose, fist and knees, no small hard highlight; HOME: smooth and soft. Same skin as Drowzee. Its brown and olive contour colors are the row's darkest shades. | medium
+Ear inside (brown, front view, right ear) | skin | Hide, own row "hide, ear insides" | Art and HOME: brown inside the ear that faces the viewer. | high
+Neck ruff (white; longer on the female) | fur | Fur -0.7 / 0.05 | No entry mentions it. Art: a collar of separate pointed white tufts with gray shading; HOME: white, tufted. The sprite's Female look draws it longer. Thick fur, so no light through. Lines between tufts are creases (outline). | medium
+Pendulum ring | polished metal | Metal 0.9 / -1 (Magnemite's "metal" row) | Ruby/Sapphire: "HYPNO holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this POKéMON searches for prey, it polishes the pendulum." FireRed: "It carries a pendulum-like device." Art: a silver-gray ring with a hole, pale reflections on it. | high
+Pendulum thread | string | String 0.1 / 0.05 (new kind: the Whiskers dials, a single matte strand) | Yellow: "It will try to put you to sleep by using its pendulum." Art: a thin gray line from the fist to the ring. One pixel wide. | medium-low
+Thread tied across the ring (black, 4 to 5 pixels) | a line lying on the ring | Seams and wrinkles | Art: the thread loops through the hole. Not a crease, so the ring stays one piece. | medium
+Eyes (white, pale blue shade, black pupil) | eye | Eye (line art) | Red/Blue: "When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION." Art: narrow white eyes, small pupils. No glow. | high
+Brown strokes along the top of the ruff (front) | lines | Outline | Where the head and shoulder lie over the ruff. | high
+
+Nothing glows: "glitter of the pendulum" is reflected light, which metal gives; no entry says any part gives off light.
+Base of the yellow is its darkest yellow (color 3): 1426 pixels against 922 and 791, because the back view is painted
+almost wholly in it. A lighter base made the back darker in the field.
+KEEP_TOP on the hide row: the palest yellow on forehead and nose is a broad patch of shading, not a glint. Left out of
+the row it showed as gray-olive blotches under the studio lamp and in the cave.

@@ -1,0 +1,36 @@
+POLIWAG LINE (#060 Poliwag, #061 Poliwhirl, #062 Poliwrath): lighting evidence
+Pokédex text from PokeAPI species data (game in brackets). "Art" = Sugimori art (refs/art-60..62.png); HOME = refs/home-60..62.png.
+
+#060 POLIWAG
+Surface | Made of | Material | Evidence | Confidence
+Skin (blue) | thin, damp tadpole skin | Frog skin 0.3 / 0.1 | "Its slick black skin is thin and damp." (FireRed, X); "POLIWAG has a very thin skin... the skin is also very flexible." (Ruby). Art: soft broad shading, one soft pale patch on the head and a small soft one on each foot, no hard highlight; HOME matte. Damp in the text, matte in the art: the amphibian row's faint sheen, not a wet one. | medium
+Belly (white) | the same skin, so thin the insides show | Frog skin (row "frog skin, belly") | "Its skin is so thin, its internal organs are visible." (Black 2/White 2); "The swirl on its belly is its insides showing through the skin." (Crystal). Art: flat white with soft gray shading, no highlight. Tried as Belly 0.4 / 0.25: it stayed pale pink with the sun behind, so it is plain skin. | medium
+Swirl (black, gray soft edge) | the coiled insides seen through the belly | Frog skin, own row with no shades ("frog skin, belly swirl") | "It is possible to see the POKéMON's spiral innards right through the skin." (Ruby). A marking: stays black, never a crease. | high
+Lips (pink) | thick lips | Frog skin (row "frog skin, lips") | "it will cling to a rock by using its thick lips, which act like a suction cup." (Shield). Art: flat pink, soft shading. | medium
+Tail (dark blue, inside the fin) | the same skin | Frog skin (row "frog skin, tail") | Art and HOME: the body's blue running down the middle of the fin. | high
+Tail fin (white/gray in the sprite) | thin skin | Fin 0.3 / 0.15 (as Lanturn's fins) | No Pokédex text on the tail. Art paints it pale and see-through (the ground color shows in it); HOME paints it near white. Thin, so a little light through; lights up with the sun behind. | medium
+Eyes | eye | eye (line art) | Art: white with a large black pupil and a white catchlight. | high
+Nothing glows.
+
+#061 POLIWHIRL
+Surface | Made of | Material | Evidence | Confidence
+Skin (blue) | moist frog skin | Frog skin 0.3 / 0.1 | "The skin on most of its body is moist." (Silver); "The surface of POLIWHIRL's body is always wet and slick with an oily fluid." (Ruby); "When out of water, it sweats to keep its body slimy." (Red/Blue). Art: soft shading only, one small soft patch on each foot, no hard highlight; HOME matte. The text would allow a wetter sheen (Turtle skin 0.5); the art does not paint one, so it is the amphibian row. | medium
+Belly (white) | smooth skin | Frog skin (row "frog skin, belly") | "However, the skin on its belly spiral feels smooth." (Silver). Art: flat white, gray shading on one side, no highlight. | medium
+Swirl (black, dark gray where the sprite lightens it) | pattern in the belly skin | Frog skin, own row with no shades | "The spiral pattern on its belly subtly undulates." (Black 2/White 2). Marking. | high
+Hands (white, like gloves) | its own skin | Frog skin (row "frog skin, hands") | No text. Art and HOME: white, soft gray shading, matte, same surface as the body. | medium
+Eyes | eye | eye (line art) | Art: white, black pupil, white catchlight. | high
+Nothing glows.
+
+#062 POLIWRATH
+Surface | Made of | Material | Evidence | Confidence
+Skin (blue) | frog skin over muscle | Frog skin 0.3 / 0.1 | No entry describes its skin: "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting." (Black 2/White 2); "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land." (Silver). Art: the same soft shading as Poliwhirl, small soft patches on the feet. Kept as the line's skin. | medium
+Belly (white) | the same skin | Frog skin (row "frog skin, belly") | Art: flat white, pale gray shading. | medium
+Swirl | pattern in the belly skin | Frog skin, own row with no shades | Art: solid black spiral. Marking. | high
+Hands (white, like gloves) | its own skin | Frog skin (row "frog skin, hands") | "it uses its well-trained arms to dish out powerful punches" (Shield) names no covering. Art: white fists, soft gray shading, matte. | medium
+Eyes | eye | eye (line art) | Art: white with small black pupils under a black brow line. | high
+Nothing glows.
+
+CHOICES TO KNOW ABOUT
+- Base shade. Poliwhirl and Poliwrath paint the front in the light blue and the back almost wholly in the dark blue. The base is the blue between them (the shade Poliwag's count gives), not the most-used dark blue: with the dark blue the face came out a step dark under the studio lamp and in the field. Same reasoning for the white hands (white in front, gray from behind: base the pale gray between) and Poliwhirl's belly (white base turned its lower half dark olive in the field).
+- The pale blue highlight color (head top, feet) is rare, so the tool leaves it as painted glints; keeping it in the row (KEEP_TOP) spread hard pale patches over the backs.
+- The backs are painted in one flat blue, so a lamp or the cave puts a few soft-edged steps across them (the same as on Machamp's back).
