@@ -1,0 +1,73 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "gen1",
+  "sprites": [
+    {
+      "id": "black2-white2/0084-doduo",
+      "name": "Doduo",
+      "file": "black2-white2/0084-doduo.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0085-dodrio",
+      "name": "Dodrio",
+      "file": "black2-white2/0085-dodrio.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0106-hitmonlee",
+      "name": "Hitmonlee",
+      "file": "black2-white2/0106-hitmonlee.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0107-hitmonchan",
+      "name": "Hitmonchan",
+      "file": "black2-white2/0107-hitmonchan.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0063-abra",
+      "name": "Abra",
+      "file": "black2-white2/0063-abra.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0064-kadabra",
+      "name": "Kadabra",
+      "file": "black2-white2/0064-kadabra.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0065-alakazam",
+      "name": "Alakazam",
+      "file": "black2-white2/0065-alakazam.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0114-tangela",
+      "name": "Tangela",
+      "file": "black2-white2/0114-tangela.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0132-ditto",
+      "name": "Ditto",
+      "file": "black2-white2/0132-ditto.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0102-exeggcute",
+      "name": "Exeggcute",
+      "file": "black2-white2/0102-exeggcute.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0103-exeggutor",
+      "name": "Exeggutor",
+      "file": "black2-white2/0103-exeggutor.spu",
+      "note": "Gen 1, made the approved way."
+    }
+  ]
+}
