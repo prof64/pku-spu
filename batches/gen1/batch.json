@@ -1,0 +1,67 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "gen1",
+  "sprites": [
+    {
+      "id": "black2-white2/0109-koffing",
+      "name": "Koffing",
+      "file": "black2-white2/0109-koffing.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0110-weezing",
+      "name": "Weezing",
+      "file": "black2-white2/0110-weezing.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0108-lickitung",
+      "name": "Lickitung",
+      "file": "black2-white2/0108-lickitung.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0113-chansey",
+      "name": "Chansey",
+      "file": "black2-white2/0113-chansey.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0122-mr-mime",
+      "name": "Mr. Mime",
+      "file": "black2-white2/0122-mr-mime.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0124-jynx",
+      "name": "Jynx",
+      "file": "black2-white2/0124-jynx.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0116-horsea",
+      "name": "Horsea",
+      "file": "black2-white2/0116-horsea.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0117-seadra",
+      "name": "Seadra",
+      "file": "black2-white2/0117-seadra.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0104-cubone",
+      "name": "Cubone",
+      "file": "black2-white2/0104-cubone.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0105-marowak",
+      "name": "Marowak",
+      "file": "black2-white2/0105-marowak.spu",
+      "note": "Gen 1, made the approved way."
+    }
+  ]
+}

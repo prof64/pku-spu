@@ -1,5 +1,86 @@
 {
  "format": "spu-waiting",
  "version": 1,
- "sprites": []
+ "sprites": [
+  {
+   "id": "black2-white2/0109-koffing",
+   "name": "Koffing",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0109-koffing.spu",
+   "thumb": "gen1/thumbs/black2-white2/0109-koffing.png"
+  },
+  {
+   "id": "black2-white2/0110-weezing",
+   "name": "Weezing",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0110-weezing.spu",
+   "thumb": "gen1/thumbs/black2-white2/0110-weezing.png"
+  },
+  {
+   "id": "black2-white2/0108-lickitung",
+   "name": "Lickitung",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0108-lickitung.spu",
+   "thumb": "gen1/thumbs/black2-white2/0108-lickitung.png"
+  },
+  {
+   "id": "black2-white2/0113-chansey",
+   "name": "Chansey",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0113-chansey.spu",
+   "thumb": "gen1/thumbs/black2-white2/0113-chansey.png"
+  },
+  {
+   "id": "black2-white2/0122-mr-mime",
+   "name": "Mr. Mime",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0122-mr-mime.spu",
+   "thumb": "gen1/thumbs/black2-white2/0122-mr-mime.png"
+  },
+  {
+   "id": "black2-white2/0124-jynx",
+   "name": "Jynx",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0124-jynx.spu",
+   "thumb": "gen1/thumbs/black2-white2/0124-jynx.png"
+  },
+  {
+   "id": "black2-white2/0116-horsea",
+   "name": "Horsea",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0116-horsea.spu",
+   "thumb": "gen1/thumbs/black2-white2/0116-horsea.png"
+  },
+  {
+   "id": "black2-white2/0117-seadra",
+   "name": "Seadra",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0117-seadra.spu",
+   "thumb": "gen1/thumbs/black2-white2/0117-seadra.png"
+  },
+  {
+   "id": "black2-white2/0104-cubone",
+   "name": "Cubone",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0104-cubone.spu",
+   "thumb": "gen1/thumbs/black2-white2/0104-cubone.png"
+  },
+  {
+   "id": "black2-white2/0105-marowak",
+   "name": "Marowak",
+   "game": "Pokémon Black 2 & White 2",
+   "batch": "gen1",
+   "file": "gen1/black2-white2/0105-marowak.spu",
+   "thumb": "gen1/thumbs/black2-white2/0105-marowak.png"
+  }
+ ]
 }
