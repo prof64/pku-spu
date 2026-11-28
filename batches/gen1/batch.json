@@ -1,0 +1,139 @@
+{
+  "format": "spu-batch",
+  "version": 1,
+  "name": "gen1",
+  "sprites": [
+    {
+      "id": "black2-white2/0086-seel",
+      "name": "Seel",
+      "file": "black2-white2/0086-seel.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0087-dewgong",
+      "name": "Dewgong",
+      "file": "black2-white2/0087-dewgong.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0100-voltorb",
+      "name": "Voltorb",
+      "file": "black2-white2/0100-voltorb.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0101-electrode",
+      "name": "Electrode",
+      "file": "black2-white2/0101-electrode.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0098-krabby",
+      "name": "Krabby",
+      "file": "black2-white2/0098-krabby.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0099-kingler",
+      "name": "Kingler",
+      "file": "black2-white2/0099-kingler.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0078-rapidash",
+      "name": "Rapidash",
+      "file": "black2-white2/0078-rapidash.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0082-magneton",
+      "name": "Magneton",
+      "file": "black2-white2/0082-magneton.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0093-haunter",
+      "name": "Haunter",
+      "file": "black2-white2/0093-haunter.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0094-gengar",
+      "name": "Gengar",
+      "file": "black2-white2/0094-gengar.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0083-farfetch-d",
+      "name": "Farfetch'd",
+      "file": "black2-white2/0083-farfetch-d.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0089-muk",
+      "name": "Muk",
+      "file": "black2-white2/0089-muk.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0069-bellsprout",
+      "name": "Bellsprout",
+      "file": "black2-white2/0069-bellsprout.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0070-weepinbell",
+      "name": "Weepinbell",
+      "file": "black2-white2/0070-weepinbell.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0071-victreebel",
+      "name": "Victreebel",
+      "file": "black2-white2/0071-victreebel.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0096-drowzee",
+      "name": "Drowzee",
+      "file": "black2-white2/0096-drowzee.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0097-hypno",
+      "name": "Hypno",
+      "file": "black2-white2/0097-hypno.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0079-slowpoke",
+      "name": "Slowpoke",
+      "file": "black2-white2/0079-slowpoke.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0080-slowbro",
+      "name": "Slowbro",
+      "file": "black2-white2/0080-slowbro.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0060-poliwag",
+      "name": "Poliwag",
+      "file": "black2-white2/0060-poliwag.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0061-poliwhirl",
+      "name": "Poliwhirl",
+      "file": "black2-white2/0061-poliwhirl.spu",
+      "note": "Gen 1, made the approved way."
+    },
+    {
+      "id": "black2-white2/0062-poliwrath",
+      "name": "Poliwrath",
+      "file": "black2-white2/0062-poliwrath.spu",
+      "note": "Gen 1, made the approved way."
+    }
+  ]
+}
