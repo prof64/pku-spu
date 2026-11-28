@@ -772,6 +772,20 @@
    "thumb": "thumbs/black2-white2/0110-weezing.png"
   },
   {
+   "id": "black2-white2/0111-rhyhorn",
+   "name": "Rhyhorn",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0111-rhyhorn.spu",
+   "thumb": "thumbs/black2-white2/0111-rhyhorn.png"
+  },
+  {
+   "id": "black2-white2/0112-rhydon",
+   "name": "Rhydon",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0112-rhydon.spu",
+   "thumb": "thumbs/black2-white2/0112-rhydon.png"
+  },
+  {
    "id": "black2-white2/0113-chansey",
    "name": "Chansey",
    "game": "Pokémon Black 2 & White 2",
@@ -800,11 +814,32 @@
    "thumb": "thumbs/black2-white2/0117-seadra.png"
   },
   {
+   "id": "black2-white2/0118-goldeen",
+   "name": "Goldeen",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0118-goldeen.spu",
+   "thumb": "thumbs/black2-white2/0118-goldeen.png"
+  },
+  {
+   "id": "black2-white2/0119-seaking",
+   "name": "Seaking",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0119-seaking.spu",
+   "thumb": "thumbs/black2-white2/0119-seaking.png"
+  },
+  {
    "id": "black2-white2/0120-staryu",
    "name": "Staryu",
    "game": "Pokémon Black 2 & White 2",
    "file": "black2-white2/0120-staryu.spu",
    "thumb": "thumbs/black2-white2/0120-staryu.png"
+  },
+  {
+   "id": "black2-white2/0121-starmie",
+   "name": "Starmie",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0121-starmie.spu",
+   "thumb": "thumbs/black2-white2/0121-starmie.png"
   },
   {
    "id": "black2-white2/0122-mr-mime",
@@ -814,6 +849,13 @@
    "thumb": "thumbs/black2-white2/0122-mr-mime.png"
   },
   {
+   "id": "black2-white2/0123-scyther",
+   "name": "Scyther",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0123-scyther.spu",
+   "thumb": "thumbs/black2-white2/0123-scyther.png"
+  },
+  {
    "id": "black2-white2/0124-jynx",
    "name": "Jynx",
    "game": "Pokémon Black 2 & White 2",
@@ -821,11 +863,32 @@
    "thumb": "thumbs/black2-white2/0124-jynx.png"
   },
   {
+   "id": "black2-white2/0127-pinsir",
+   "name": "Pinsir",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0127-pinsir.spu",
+   "thumb": "thumbs/black2-white2/0127-pinsir.png"
+  },
+  {
    "id": "black2-white2/0132-ditto",
    "name": "Ditto",
    "game": "Pokémon Black 2 & White 2",
    "file": "black2-white2/0132-ditto.spu",
    "thumb": "thumbs/black2-white2/0132-ditto.png"
+  },
+  {
+   "id": "black2-white2/0137-porygon",
+   "name": "Porygon",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0137-porygon.spu",
+   "thumb": "thumbs/black2-white2/0137-porygon.png"
+  },
+  {
+   "id": "black2-white2/0142-aerodactyl",
+   "name": "Aerodactyl",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0142-aerodactyl.spu",
+   "thumb": "thumbs/black2-white2/0142-aerodactyl.png"
   },
   {
    "id": "black2-white2/0171-lanturn",
