@@ -1,0 +1,28 @@
+Rapidash (#078) and Magneton (#082), Black 2/White 2 sprites. Pokédex text from PokeAPI (game named with each quote).
+Painted art: refs/art-78.png, art-82.png (Sugimori); 3D: refs/home-78.png, home-82.png.
+
+RAPIDASH (#078)  - rows and dials follow 0077-ponyta.py (owner-approved)
+
+Surface | Made of | Material (finish / body / glow) | Evidence | Confidence
+Coat (head, neck, body, near legs) | short sleek horse coat | short fur -0.2 / 0.05 | No entry names the coat. Art: flat cream with soft gray-violet shading, no highlight anywhere, so matte. Same row as Ponyta. | high
+Far-side legs (front: raised foreleg, far hind leg; back: far hind leg, far foreleg) | the same coat in the body's shadow | short fur, far legs -0.2 / 0.05 | Sprite paints them a step darker all over (tan 5, shin 4). Art shades the far legs the same way. Ponyta's row. | high
+Ear insides | skin with short hair | short fur, ear inside -0.2 / 0.05 | Sprite: red (8), orange at the base (9). Art and HOME: pink inside the ear, flat. Ponyta's row. | high
+Horn | horn the color of the coat | spines, horn 0.4 / 0 | No entry mentions the horn. Art: cream like the coat, flat, no highlight. Standard "Spines" (hide-colored horns), solid. | medium
+Mane, tail, back and fetlock fire | fire | flame 0 / 0, glow 245 / 220 / 195 / 180 (yellow core to red tongues), flicker tied to the drawn flicker | Black 2/White 2 (also Platinum, Black, White): "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance." Crystal: "The faster it goes, the longer the swaying flames of its mane will become." Legends Arceus: "Fiery mane aglow, Rapidash darts like an arrow across the land." Ponyta's values. | high
+Hooves | hard horn | hooves 0.7 / 0.05 | Gold/HeartGold: "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast." (names them, not their surface). Art: blue-gray hoof with a lighter patch on each. Sprite: gray with one pale glint pixel. Ponyta's row. | medium
+Eye (lid, red iris, white, pupil) | eye | eye (line art) | Art: small red eye. Whole eye in one line-art row. | high
+Two red contour pixels on the head top and ear tip (front) | line art tinted by the mane behind | outline | Sprite only: single red pixels in the black/brown contour where the mane burns behind it. | medium
+
+MAGNETON (#082)  - rows and dials follow 0081-magnemite.py (owner-approved)
+
+Surface | Made of | Material (finish / body / glow) | Evidence | Confidence
+Three spheres | polished steel | metal 0.9 / -1 | Emerald: "It is actually three MAGNEMITE linked by magnetism." Black 2/White 2: "The stronger electromagnetic waves from the three linked Magnemite are enough to dry out surrounding moisture." So Magnemite's body (its file: "a single eye embedded in an iron sphere"). Art: pale steel balls with white highlight streaks and a darker rim: polished. | high
+White four-point sparkle on two spheres (front) | the same steel, its painted highlight | metal, sparkle 0.9 / -1 | Sprite only: 13 white pixels on each of two spheres. Own row (pale green up to white) so it dims with the sphere; as the spheres' top shade it turned them white all over in the studio. | medium
+Top screws, cross-head screws | bare steel | metal, screws 0.9 / -1 | Art: gray screws with white highlights. Magnemite's row; here their dark contour (6) is in the row too. | high
+Screw slots and thread (black inside a screw) | cuts in one flat head | seams and wrinkles | Art draws the cross slot as a dark cut. As on Magnemite. | high
+Horseshoe magnets | dark, duller metal | metal, magnets 0.6 / -1 | Gold/HeartGold: "Three MAGNEMITE are linked by a strong magnetic force." Art: flat mid-gray bars, a lighter top face, no sharp highlight. Magnemite's dials; base is the dark gray this sprite paints them in. | high
+Red and blue poles | paint on the same bars | metal, red pole / metal, blue pole 0.6 / -1 | Art: each pole a lighter face and a darker side. Sprite: two shades each (7/8, 9/10); the lit face is the base (Magnemite has one shade each). | medium
+Eyes (white, gray corners, pupil) | eye | eye (line art) | Art: white disc, black dot. As on Magnemite. | high
+Gray line around the spheres (back view) | softened outline | outline | Sprite only, as on Magnemite. | high
+
+Nothing on Magneton glows: no entry says it gives off light at rest (radio waves, magnetism and heat only).

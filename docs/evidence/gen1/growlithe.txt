@@ -1,0 +1,41 @@
+Growlithe line (#058, #059): Black 2/White 2 battle sprites. Pokédex quotes are game text from PokeAPI's
+species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render (shape and color only).
+Nothing on either glows.
+
+GROWLITHE (#058)
+
+Surface | Made of | Material | Evidence | Confidence
+Orange coat (head, body, legs) | a dog's sleek coat | Short fur -0.2 / 0.05 | No entry describes the coat (the entries are about loyalty, barking and smell: Black 2/White 2 "Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town."). Art: smooth clean edges, flat soft shading, no highlight. HOME: smooth and matte. Same call as Munchlax's head and Electrike's coat. | medium
+Black stripes | pigment in the same coat | Short fur (own row: black, gray where the art lights it) | Art: flat dark gray-black bands, no highlight. The sprite paints the stripes on the lit top of the back in gray and the rest black, so the two are one ramp. | high
+Cream muzzle and jaw | the same short coat, paler | Short fur (own row) | Art: smooth-edged like the orange, flat shading. | medium
+Ear inside (tan) | the same coat inside the ear | Short fur (own row) | Art: flat brown-tan, no highlight. | medium
+Crest, chest ruff, tail (cream) | long shaggy fur | Fur -0.7 / 0.05 | Art and HOME: ragged, spiky tufts with broken edges, flat soft shading. The only entry that names fur is Legends: Arceus (written for the Hisuian form): "I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat." Same call as Munchlax's body. | medium
+Lines between clumps of the long fur, mouth line | one clump or lip over the next | Outline (creases) | Drawn as one-pixel dark-cream strokes wholly inside the cream. | high
+Nose | bare black nose with one painted glint | Nose 0.25 / 0.08, no shades (new row: light only tints it) | Art: black with a small pale highlight, which the sprite already paints as one white pixel. Given shades, light would move the black toward that white. | medium
+Claws (white, gray shade) | keratin | Claw and tooth 0.7 / 0.05 | Art: three white claws on each foot with a little gray shading. | high
+Fangs (open-mouth drawing) | enamel | Claw and tooth | Red/Blue: "It will bark and bite to repel intruders from its space." Two white pixels in the sprite's open mouth. | high
+Mouth interior, tongue | wet tissue | Mouth 0.8 / 0 | Shown only in the sprite's bark drawing. | high
+Eye | eye | Eye (line art) | Art: black pupil, gray-blue iris, white. No entry or art shows glowing eyes. | high
+
+ARCANINE (#059)
+
+Surface | Made of | Material | Evidence | Confidence
+Orange coat (body, legs, ears, eye mask) | a dog's sleek coat | Short fur -0.2 / 0.05 | Art: smooth clean edges on the legs and flanks, flat soft shading, no highlight. HOME: matte. No entry describes it (Black 2/White 2: "The sight of it running over 6,200 miles in a single day and night has captivated many people."). | medium
+Black stripes | pigment in the same coat | Short fur (own row: black, gray-brown where the art lights it) | Art: flat blue-gray bands, no highlight. The sprite paints a stripe gray-brown where it crosses the lit thigh and paw. | high
+Mane (head, chest), tail, tufts behind the legs (cream) | long shaggy fur | Fur -0.7 / 0.05 | Gold/HeartGold: "Many people are enchanted by its grand mane." Art and HOME: ragged, spiky fur with broken edges, flat soft shading. The whole head is in this row: the sprite does not draw the short-furred snout apart from the mane. | high
+Lines between clumps of the long fur, mouth line | one clump or lip over the next | Outline (creases) | One-pixel strokes of the two dark browns wholly inside the cream. | high
+Ear inside (tan and cream, front view) | the same coat inside the ear | Short fur (own row) | Art: flat tan inside an orange rim. | medium
+Nose | bare nose | Nose 0.25 / 0.08, no shades (same new row as Growlithe) | Art: black with a small pale highlight. The sprite draws it in the stripes' gray-brown with one pale pixel inside a black edge. | medium
+Paw pads (red, under the hind feet, back view) | bare skin | Dry hide 0.05 / 0.03 (as Munchlax's pads) | Not in the art (the soles do not show). The sprite paints them in one flat red. | low
+Fang (one white pixel) | enamel | Claw and tooth 0.7 / 0.05 | Art: one fang shows at the mouth corner. Legends: Arceus: "Snaps at its foes with fangs cloaked in blazing flame." | high
+Eye | eye | Eye (line art) | Art: black with a white corner. | high
+Glow | none | 0 | Ruby/Sapphire: "The fire that blazes wildly within this POKéMON's body is its source of power." Moon: "The fire burning inside its body serves as the energy to fuel it as it runs great distances." The fire is inside the body; no entry says any part shines or burns at rest, and the art paints none. | high
+
+Notes on the rows
+- Short fur keeps its lightest orange (KEEP_TOP) on both: it is under 7% of the coat but a broad painted
+  band (Growlithe's face; Arcanine's thigh, paws and ears). Left out, it stayed bright orange on a face
+  gone dark with the sun behind.
+- Fur's base: Growlithe the middle cream (front painted a step lighter, back a step darker); Arcanine the
+  darker cream, which most of both views is painted in. Under the studio lamp Arcanine's mane therefore
+  shows that darker cream, not the art's paler highlights.
+- Black wider than one pixel on body and legs is stripe; one-pixel black strokes there stay the drawn line.

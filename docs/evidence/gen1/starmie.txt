@@ -1,0 +1,27 @@
+STARMIE (#121)   lighting file 0121-starmie.py   (Staryu's file is the owner-approved pattern; same rows, same dials)
+
+Surface | Made of | Material | Evidence | Confidence
+Both stars (front star and the one behind it; all the violet) | a starfish's skin | starfish skin 0.1 / 0.05 (Staryu's row) | No entry describes the skin; they speak of its shape (Silver: "Regardless of the environment it lives in, its body grows to form a symmetrical geometric shape."; FireRed: "This POKéMON has a geometric body."). Painted art: every arm is two flat brush-washed planes meeting at a ridge, no highlight anywhere. HOME: soft, even. So matte. The navy contour and the ridge down each arm are the skin's darkest shade, as on Staryu. | medium
+Casing round the core and its eight prongs (gold color) | a hard fitting; never named in any entry | gold casing 0.2 / 0 (Staryu's row) | No entry mentions it. Painted art: flat yellow with an olive shadow side on each prong, no reflection, no highlight: dull and hard, not metal. HOME: plain yellow. | medium (what it is: low)
+Core (red, cut in faces) | a gem that gives off light | core gem 1 / 0.6 (Staryu's row; the gem table's body is 0.6), glow 150 on its bright faces, 40 on its darker faces | Red/Blue: "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem." Black 2/White 2: "Its core shines in many colors and sends radio signals into space to communicate with something." Ruby: "STARMIE's center section - the core - glows brightly in seven colors. Because of its luminous nature, this POKéMON has been given the nickname "the gem of the sea."" Ultra Sun: "Its sparkling core is called "the gem of the sea."" Painted art: an eight-sided cut stone with separate faces and a white streaked catchlight: polished. | high
+
+Notes
+- Base of the skin is the blue-violet (color 5), one step darker than Staryu's choice of its own ramp: 5 is what most of both views is painted in (3508 pixels against 2551 of the next).
+- Glow is Staryu's two strengths (150 and 40), given the same way: 150 on the bright faces (50 pixels), 40 on the darker ones (73 pixels).
+- With any glow of 30 or more the lit core turns an even bright pink-red (the palette's own lit red, #f75273) and its separate faces no longer show; without glow it stays crimson with its faces. Staryu's approved core behaves the same way.
+- Nothing else glows. The single navy pixel on a prong tip is line.
+
+PORYGON (#137)   lighting file 0137-porygon.py
+
+Surface | Made of | Material | Evidence | Confidence
+Head, back, chest (pink) | a man-made body of flat faces; no entry names a substance | solid body, pink 0.1 / 0.05 (a new kind: "solid body") | Black 2/White 2: "A man-made Pokémon created using advanced scientific means. It can move freely in cyberspace." Red/Blue: "A POKéMON that consists entirely of programming code." Sword: "It was the first artificial Pokémon to be created via computer programming." Painted art: each face is one flat watercolor wash, a little uneven, with no highlight and no reflection on any face. HOME: flat-shaded faces. So matte and solid, not plastic gloss and not metal. | medium (matte: medium-high; the dials: medium)
+Beak, belly, feet, tail (blue) | the same body in its other color | solid body, blue 0.1 / 0.05 | Same sources. Painted art: flat blue washes with soft paler areas, no highlight. | medium
+Maroon and dark teal lines | the contour and the edges where two faces meet | outline | In the sprite these two colors are never the fill of a face, only one-pixel lines round and between faces; the painted art draws those edges as lines. As lines each face is lit on its own. (Sableye's facet edges are done the same way.) | medium
+White edge down the front of the head (4 pixels, front view) | the lit edge of the pink surface | solid body, pink (kept as the row's top shade) | The sprite paints it; the art has a pale front edge on the head. Kept in the row so it darkens with the head. | medium
+Eye (white hexagon, gray lower edge, black pupil; the closed look's line) | eye | eye (line art) | Painted art: a flat white six-sided eye with a black dot. | high
+
+Notes
+- New kind of surface: "solid body", finish 0.1, body 0.05. Reasoning: the art is flat and matte, and the text gives no substance (it is program code made solid), so the plainest matte solid. Body 0.05 rather than 0: at 0 the whole figure went a step dull in a field.
+- Pink base is color 4, the shade between the front (painted mostly in 3 and 2) and the back (mostly 5). By count alone 5 wins (about 440 pixels against 185), but with 5 the front's head went one flat dark pink in a field; with 4 both views keep their faces, and the back cannot fall below its painted 5 because the maroon is line, not a shade.
+- No glow: no entry says any part gives off light.
+- Under the studio lamp the eye's white is tinted gray, as line art is on every sprite (Voltorb's does the same).

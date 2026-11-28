@@ -1,0 +1,25 @@
+Hitmonlee (#106) and Hitmonchan (#107): what each surface is made of
+Pokédex text from PokeAPI (pokemon-species 106 and 107); painted art = refs/art-106.png, art-107.png; 3D = home-106.png, home-107.png.
+
+HITMONLEE (#106)
+
+Surface | Made of | Material | Evidence | Confidence
+Body, arms, hands, feet (brown) | bare skin over muscle | Hide 0.25 / 0.08 (as Machamp) | Ruby/Sapphire: "After battle, it rubs down its legs and loosens the muscles to overcome fatigue." Scarlet: "Hitmonlee hardens the muscles on the sole of its foot". Painted art: flat soft brown shading, no highlight anywhere. | medium
+Palest patches on the head top, fist and back-view toes | the same skin at its most lit | Hide, own row "hide, lit patches" (as Machamp) | Sprite: color 1 is under 7% of the skin; in its own row it goes dark with the body. | high
+Cream ringed stretches of the wrists and legs | the same skin, ring over ring, in a paler color | Hide 0.25 / 0.08, row "hide, limb bands"; the lines between rings are creases | Black 2/White 2: "Its legs can stretch double." Ruby/Sapphire: "HITMONLEE's legs freely contract and stretch. Using these springlike legs, it bowls over foes". Crystal: "its elastic legs". Violet: "complete control over the ligaments in its legs". Painted art: flat cream rings, soft shading, no highlight. Nothing says they are a wrap or a different material. | medium
+Yellow pad on each heel | a pad of the same skin | Hide 0.25 / 0.08, row "hide, heel pads" | Yellow: "the sole of its foot turns as hard as a diamond on impact" (hard only on impact). Painted art: a flat yellow disc, no highlight. | low
+Toe claws (white) | keratin | Claw and tooth 0.7 / 0.05 | Painted art: white claws with a gray shaded side. | medium
+Eyes | eyeball | eye (line art) | All eye pixels (white, grays) in one row; the black is the outline. | high
+(No mouth is drawn; no glow: no entry says any part gives off light.)
+
+HITMONCHAN (#107)
+
+Surface | Made of | Material | Evidence | Confidence
+Head and crest, shoulder guards, arms, legs (tan) | bare skin over muscle | Hide 0.25 / 0.08 (as Machamp) | Violet: "Its fists are masses of muscle." Painted art: flat tan, soft shading, no highlight. The shoulder guards and head crest are painted in the same skin color with the same shading. | medium
+Tunic and pleated kilt (lilac) | woven cloth | Cloth -0.2 / 0 (new row; not in the standard table) | No entry names it. Ruby: "possess the spirit of a boxer" (a boxer's outfit). Painted art: flat lilac with soft folds, no highlight. The pleats overlap, so the lines between them are creases. Its dark purple contour is outline: the palette has no step between it and the lilac. | medium
+Belt (black) | cloth band | Cloth dials, row "cloth, belt", one flat black | Painted art: a black band at the waist. Sprite draws it in solid black. | medium
+Shoes (lilac) | soft boxing shoes | "shoes" 0.1 / 0 (new row) | Painted art: flat lilac, a soft lighter top, no highlight. Palest toe-cap pixels in their own row. | medium
+Gloves (red) | padded boxing gloves | "boxing gloves" 0.2 / 0 (new row) | Yellow: "Punches in corkscrew fashion." FireRed: "The spirit of a pro boxer has infused this POKéMON." Painted art: a broad soft lighter patch on each glove, no small hard highlight, so no sheen. The orange top pixels are in their own row ("boxing gloves, lit patches"). | medium
+Dark underside of the raised shoulder guard | shadow drawn in black | outline | Sprite draws it in flat black. | high
+Eyes | eyeball | eye (line art) | White, its gray and the dark iris in one row. | high
+(No mouth interior or teeth are drawn; no glow: Silver's "even a slight graze could cause a burn" is about the speed of a punch, not light at rest.)

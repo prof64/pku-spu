@@ -1,0 +1,35 @@
+Goldeen line (#118 Goldeen, #119 Seaking): lighting evidence
+Pokédex text from PokeAPI species data (game in brackets). Art = the Sugimori painting (refs/art-118.png, art-119.png);
+HOME = the 3D render, used for shape and color only. Dials are finish / body. No glow anywhere: no entry says any part
+gives off light.
+
+#118 GOLDEEN
+Surface | Made of | Material (finish / body) | Evidence | Confidence
+White body | fish skin | fish skin 0.15 / 0.08 (as Qwilfish, Lanturn) | Art: flat white with soft lilac-gray shading, no highlight anywhere. "GOLDEEN is a very beautiful POKéMON with fins that billow elegantly in water." [Ruby] says nothing of a sheen | high
+Orange-red patches, eyelid | pigment in the same skin | fish skin, patches 0.15 / 0.08 | Art: flat orange patches with soft edges, no highlight | high
+Lips | soft skin | fish skin, lips 0.25 / 0.08 (Qwilfish's row) | Art: flat pink, a slightly paler upper lip, no hard highlight | medium
+Dorsal, pectoral and tail fins | thin fin skin | fin 0.3 / 0.15 (Lanturn's row) | "Its tail fin billows like an elegant ballroom dress" [Red/Blue]; "Its dorsal, pectoral and tail fins wave elegantly in water." [HeartGold]. Art: thin, flat, softly shaded sheets, no highlight. A little light through because they are thin; 0.15, not more (Lanturn's fins washed out at 0.3) | medium
+Orange patches on the fins (tan where they fade into white) | pigment in the fin | fin, patches 0.3 / 0.15 | Art: the same orange running along the fins, fading out softly | high
+Dark red rays inside the fin patches | drawn lines on one sheet | seams and wrinkles | Sprite: one-pixel dark red strokes wholly inside a patch | high
+Horn | hard horn, tan with a pale tip | spines, horn 0.4 / 0 (Dewgong's row) | "it can jab powerfully with its horn" [Black 2/White 2]; "it will strike back with its sharp horn" [Pearl]. Art: flat cream-tan, soft shading, no highlight, so not the polished Claw and tooth. Its dark gray edge is outline: the palette has no step between that gray and the tan | medium
+Eye (white, teal iris, pupil, gray rim) | eye | eye (line art) | Rule: every pixel of an eye is one line-art row | high
+Closed eye's black line | line on the lid | seams and wrinkles | The lid is the orange patch; the line must not crease it | high
+
+#119 SEAKING
+Surface | Made of | Material (finish / body) | Evidence | Confidence
+Orange-red body | fish skin | fish skin 0.15 / 0.08 | Art: flat orange-red, one broad soft paler area on the forehead and no hard highlight (a broad soft patch is shape, not sheen). "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors." [Black 2/White 2] | high
+White belly | the same skin, unpigmented | fish skin, belly 0.15 / 0.08 | Art: flat white with soft gray shading. Its gray edge (back view) is outline: the sprite paints no step between it and the white | high
+Black over head and back, side stripes and spots | pigment in the same skin | fish skin, black markings 0.15 / 0.08 | Art: flat black, no highlight. Sprite paints them black with a dark gray lit side, so the row has both; black along the silhouette stays outline | high
+Lips | soft skin | fish skin, lips 0.25 / 0.08 | Art: flat pink, a slightly paler upper lip | medium
+Fangs | tooth | claws and teeth 0.7 / 0.05 | Art and sprite: two small white fangs under the upper lip. Standard row; two pixels | high
+Open mouth (second mouth drawing) | drawn black | outline | Sprite paints it flat black | medium
+Fins (dorsal, pectoral, tail) | thin fin skin | fin 0.3 / 0.15 | "Trainers who are crazy for Seaking are divided into horn enthusiasts and fin enthusiasts." [Moon]. Art: thin white sheets, flat soft shading, no highlight | medium
+Fin rays | drawn lines on one sheet | seams and wrinkles | Art and HOME: thin gray lines along each fin. As lines on the sheet they do not crease it | medium
+Black flecks on the fins | pigment in the fin | fin, spots 0.3 / 0.15, no shades | Art: flat black flecks. Sprite paints them in one flat dark gray, so light only tints them | high
+Horn | hard horn, cream with a white tip | spines, horn 0.4 / 0 | "The horn on its head is sharp like a drill. It bores a hole in a boulder to make its nest." [FireRed]; "Its horn spins like a drill to steadily hollow out rocks" [Ultra Sun]. Art: flat cream with soft shading, no highlight, so not the polished Claw and tooth. Its gray edge is outline | medium
+Eye (white ring, black pupil, gray catchlights) | eye | eye (line art) | Rule. Art paints one white catchlight, already in the sprite | high
+
+Notes
+- Nothing departs from the standard dials. Rows taken from finished relatives: fish skin and lips from Qwilfish, fin from Lanturn, spines, horn from Dewgong.
+- Goldeen's soft gray fold lines inside its white fins stay shades of the fin (painted as shading); Seaking's fin rays are drawn lines, so they are in seams and wrinkles.
+- Eye whites turn gray-blue under the studio lamp on both; the same happens on other finished sprites (Poliwag), it is how line art is lit there.

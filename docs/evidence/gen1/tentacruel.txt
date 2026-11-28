@@ -1,0 +1,24 @@
+Tentacruel (#073) and Shellder (#090): what each surface is made of
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render.
+
+TENTACRUEL (#073)   related, owner-approved: 0072-tentacool.py (same row names and dials)
+
+Surface | Made of | Material | Evidence | Confidence
+Bell, skirt, the two beak-like arms (blue) | a jellyfish body, mostly water | Jelly, clear body 0.6 / 0.45 | No Tentacruel entry describes the body. Its own line: Tentacool, Black 2/White 2: "Because its body is almost entirely composed of water, it shrivels up if it is washed ashore." Art: opaque blue, flat soft shading with pale streaks, no highlight. Same row as Tentacool. | medium
+Two big red orbs and the small one between them | glassy orbs | Crystal, gem 1.0 / 0.95 (Tentacool's row) | Ruby: "TENTACRUEL has large red orbs on its head." Tentacool, FireRed: "Its eyes are as transparent as crystals."; Legends Arceus: "the glassy, magenta orbs". Art: smooth red glass domes with crisp white highlights and broad pale reflections inside. The sprite's pink and white on the orbs are painted highlights, kept as painted. | high
+Orbs, glow | none at rest | glow 0 | Emerald: "Its red orbs glow when it grows excited or agitated." Ruby: "The orbs glow before lashing the vicinity with a harsh ultrasonic blast." Only when excited, so nothing at rest. | high
+Tentacles (gray) | soft stretchy tentacles | Hide 0.25 / 0.08 (Tentacool's row) | Yellow: "Its 80 tentacles can stretch and contract freely." Gold: "Its 80 tentacles absorb water and stretch almost endlessly". Art: flat gray-brown, soft shading, no highlight; HOME matte. Their palest gray (soft light on the swollen tips, 6% of them) is kept in the row (KEEP_TOP): left out, it stayed pale on tentacles gone dark with the sun behind. | medium
+Dark hollow under the bell (black) | a shadowed hollow | Outline | Art: near-black under the bell, eyes set in it. Drawn flat black in the sprite, as on Tentacool. | high
+Eyes (white, gray shade; black pupil) | eye | Eye (line art) | Art: white eyes with slit pupils. Closed lids are drawn in the body's blues: jelly. | high
+
+SHELLDER (#090)   related, owner-approved: 0091-cloyster.py (same shell row and dials)
+
+Surface | Made of | Material | Evidence | Confidence
+Both valves, spikes, hinge (purple) | bivalve shell | Hard shell 0.2 / 0 (Cloyster's row) | Black 2/White 2: "It swims backward by opening and closing its two shells." FireRed: "It is encased in a shell that is harder than diamond." Art: soft broad lighter bands along the ribs, no highlight: dull. The dark rib lines stay the shell's darkest shade (as on Cloyster). The palest lilac (spike tips) is kept in the row (KEEP_TOP, as on Cloyster): left out, the tips stayed bright on a backlit shell. | high
+Body inside (flat black) | soft mollusc body | Hide 0.25 / 0.08, row "hide, black body", no shades | Yellow: "when it is open, the tender body is exposed." FireRed: "Inside, however, it is surprisingly tender." Art: a black ball with one faint soft gray wash, no highlight. The sprite paints it one flat black, so light only tints it; one-pixel black strokes stay the outline. | medium (material), low (dials: nothing shows on flat black)
+Tongue (orange-red) | bare fleshy tongue | Hide 0.25 / 0.08, row "hide, tongue" (NOT the standard Mouth 0.8 / 0) | Black 2/White 2: "Its large tongue is always kept hanging out." Ruby: "uses its broad tongue to burrow a hole in the seafloor sand". Art: flat pink with one soft pale wash and a center line, no highlight; HOME matte. At Mouth 0.8 the tongue went dark and blotchy under the studio lamp. | medium
+Eyes (white, pale lilac and gray edge, black pupil) | eye | Eye (line art) | Art: big white eyes with dot pupils. | high
+Shut-eye lines (gray, dark purple) | lines on the body | Seams and wrinkles | Drawn on the black body in the eyes-closed look: tinted, not creases. | high
+Pearl | not drawn | none | Silver: "Grains of sand trapped in its shells mix with its body fluids to form beautiful pearls." The sprite shows no pearl. | high
+
+Nothing on either sprite glows.

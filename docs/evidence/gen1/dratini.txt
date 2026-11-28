@@ -1,0 +1,37 @@
+Dratini line: lighting evidence (Black 2/White 2 sprites). Pokédex text from PokeAPI species data.
+Painted art = refs/art-147.png, art-148.png, art-149.png (Sugimori); 3D = refs/home-147.png, home-148.png, home-149.png.
+
+DRATINI (#147)
+
+Surface | Made of | Material | Evidence | Confidence
+Body (blue: head, back, tail) | smooth serpent skin that is shed like a snake's | Snake scales 0.15 / 0.05 | Gold: "It repeatedly sheds its skin as it steadily grows longer." Ruby/Sapphire: "DRATINI continually molts and sloughs off its old skin." Ultra Moon: "Its skin is soft just after it's been shed." Sun: "Boots made from the tanned cast-off skin are a super luxury item." No entry says scales, wet or glossy. Painted art: flat blue, one broad soft paler band along the back and a soft pale area on the forehead, no hard highlight (a broad soft band is shape, not sheen: the Arbok lesson). HOME: soft. | medium
+Pale patch on the forehead (the lightest blue, 31 pixels) | the same skin, lit | Snake scales, kept as the row's top shade (KEEP_TOP) | The sprite paints it as a broad patch. Left out of the row it stayed pale on a head gone dark with the sun behind. | medium
+Belly, snout (white) | the same skin, white | Snake scales, belly and snout 0.15 / 0.05 (own row, the body's dials) | No entry names it. Painted art: flat white with soft gray shading, no highlight. | medium
+Lump on the forehead (4 white pixels) | a horn bud under the skin | same row as belly and snout | Shield: "The small lump on a Dratini's forehead is actually a horn that's still coming in." Painted art: a flat white spot, no highlight. | medium
+Head fins (white) | thin skin on ribs | Fin 0.3 / 0.15 (as Lanturn's fins) | No entry names them. Painted art: flat white, soft gray shading, rib lines, no highlight. The ribs are lines inside one sheet, so they stay the fin's shades. | medium
+Eye | eye | Eye (line art) | Black with a white catchlight and one gray pixel; front view only; closed look checked. | high
+Glow | none | 0 | "full of life energy" (Silver) is not light. | high
+
+DRAGONAIR (#148)
+
+Surface | Made of | Material | Evidence | Confidence
+Body (blue) | the same serpent skin as Dratini | Snake scales 0.15 / 0.05 | No entry describes the skin. Painted art: flat blue with one soft paler band along the top of the coil, no hard highlight; the orbs beside it do get one, so the art itself separates glossy from not. HOME: soft. The general guide's table lists Dragonair under Scales 0.5; the art shows no sheen, so the matte snake row is used. | medium
+Belly (white) | the same skin, white | Snake scales, belly 0.15 / 0.05 | Painted art: flat white, soft gray shading. | medium
+Orbs (one under the chin, two on the tail) | crystal | Crystal, gem 1 / 0.6 | Silver, SoulSilver, X: "Its crystalline orbs appear to give this Pokémon the power to freely control the weather." Ruby/Sapphire: "discharging energy from the crystals on its neck and tail." Painted art: deep blue spheres, each with a small hard white highlight. The white highlight pixel is the row's top shade. Gold in the shiny palette. | high
+Orbs, glow | none | 0 | Crystal: "When its entire body brightens slightly, the weather changes." Diamond/Pearl, Black 2/White 2: "If its body takes on an aura, the weather changes instantly." Both are events, not its look at rest; Red/Blue's "exudes a gentle aura" does not say light. | medium
+Horn (white) | horn | Claw and tooth 0.7 / 0.05 (row "claws and teeth, horn") | No entry names it. Painted art: white with a gray underside. The table puts white horns under Claw and tooth. From behind it shows past the right side of the head. | medium
+Head wings (white) | Dratini's fins grown into wing shapes | Fin 0.3 / 0.15 | FireRed: "Even though it has no wings, it has been seen flying occasionally." Painted art: flat white feather-like lobes, soft gray shading, no highlight. The dark gray lines between the lobes are overlapping pieces: creases (outline). | low (fin or feathers; both matte)
+Eye | eye | Eye (line art) | Black, white catchlight, red iris; only on the front eyes drawing; closed look checked. | high
+
+DRAGONITE (#149)
+
+Surface | Made of | Material | Evidence | Confidence
+Hide (orange: head, horn on the head, body, limbs, tail, wing arms) | a dragon's smooth skin | Dragon hide 0.5 / 0.05 (Charizard's row) | No entry in any game describes its surface (Black 2/White 2: "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore."). Painted art: broad soft pale patches on the forehead, arm and thigh, no hard highlight, the same way it paints Charizard. HOME: soft. | medium
+Pale patches (forehead, snout, flank, thigh: the lightest orange) | the same hide, lit | Dragon hide, kept as the row's top shade (KEEP_TOP) | Left out of the row they turned olive under the studio lamp and stayed pale on a body gone dark. | high
+Underside (cream: throat, belly, underside of the tail) | the same skin, pale and ridged | Underbelly 0.4 / 0.15 (Charizard's row is 0.4 / 0.25) | Painted art: flat cream with thin ridge lines, no highlight. At 0.25 the belly stayed pale with the sun behind while the body went dark. The ridge lines are the belly's own dark shades (grooves on one surface). | medium
+Antennae (cream, one pixel wide) | thin feelers of the same skin | Dragon hide, antennae 0.5 / 0.05 | Painted art: flat cream. Their brown edge is outline: as a shade the thin cream line would turn brown. | medium
+Wing membrane, inner side (teal) | thin skin between the wing's fingers | Wing membrane 0.3 / 0.3 | FireRed: "It can fly in spite of its big and bulky physique." Painted art: flat teal, darker toward the body, no highlight. The dark teal finger lines are outline (panels between fingers). | medium
+Wings from behind (orange) | the same thin skin, its orange side | Wing membrane, outer side 0.3 / 0.3 | Painted art and HOME: orange outside. Lights up orange with the sun behind, like Charizard's. | low
+Claws (white) | keratin | Claw and tooth 0.7 / 0.05 | Painted art: white with a gray side and a light tip. | medium
+Eyes | eye | Eye (line art) | Black, brown iris, white and gray; both views; closed looks checked. | high
+Glow | none | 0 | No entry mentions light. | high

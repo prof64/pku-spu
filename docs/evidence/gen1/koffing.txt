@@ -1,0 +1,29 @@
+KOFFING (#109)
+
+Surface | Made of | Material (finish / body) | Evidence | Confidence
+Body (the ball, its craters and nubs) | a thin skin blown up with gas, opaque | balloon skin 0.15 / 0.15 (new kind) | "Toxic gas is held within its thin, balloon-shaped body, so it can cause massive explosions." (Black 2/White 2); "Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes." (Gold); "Getting up close to a KOFFING will give you a chance to observe, through its thin skin, the toxic gases swirling inside." (Emerald); "Its thin, balloon-like body is inflated by horribly toxic gases." (FireRed). Painted art: soft flat shading, a broad paler area on top, no highlight anywhere, drawn opaque. HOME render: opaque, soft. So matte; thin, so the most light through that skin may have (0.15), not more. | medium (material high, dial values inferred)
+Skull and crossbones | pigment in the same skin | balloon skin, skull mark 0.15 / 0.15 | Painted art: a flat cream mark that follows the body's shading, no relief. | high
+Puffs around it | toxic gas | gas -0.5 / 0.75 (standard row, as Gastly's cloud), one row per yellow | "it raises the toxicity of its internal gases and jets them out from all over its body" (Ruby); "Lighter-than-air gases in its body keep it aloft." (Black/White). Painted art: soft cloudy puffs, no edge light. | high
+Fangs | tooth | claws and teeth 0.7 / 0.05 | Painted art: two small white fangs. | high
+Mouth inside | wet tissue | mouth 0.8 / 0 | Painted art: pink open mouth. | high
+Eyes (white, gray shade, pupil) | eye | eye (line art) | Standard. No entry says they glow. | high
+Shut-eye lines | lines on the skin | seams and wrinkles (tinted only) | Eyes-closed look: black strokes wholly on the ball. | high
+Glow | none | 0 | No entry says any part gives off light. | high
+
+WEEZING (#110)
+
+Surface | Made of | Material (finish / body) | Evidence | Confidence
+Both heads and the small third lump | the same thin skin, blown up with gas | balloon skin 0.15 / 0.15 (as Koffing) | "WEEZING alternately shrinks and inflates its twin bodies to mix together toxic gases inside." (Sapphire); "If one of the twin KOFFING inflates, the other one deflates." (Gold); "When it inhales poisonous gases from garbage, its body expands" (Crystal). Nothing describes the skin beyond Koffing's entries. Painted art: soft flat shading, paler crowns, no highlight; opaque. | medium
+Cream rings low on both heads | pigment in the same skin (the skull mark) | balloon skin, skull mark 0.15 / 0.15 | Painted art: flat gray-cream skull mark on the big head, a ring on the small one. | high
+Puffs around it | toxic gas | gas -0.5 / 0.75, one row per yellow | "Inhaling toxic fumes from trash and mixing them inside its body lets it spread an even fouler stench." (Black 2/White 2); "It constantly mixes its poisonous gases." (Gold). Painted art: soft cloudy puffs. | high
+Teeth and fangs | tooth | claws and teeth 0.7 / 0.05 | Painted art: white fangs on both heads, a row of flat teeth in the big mouth. | high
+Mouth inside | wet tissue | mouth 0.8 / 0 | Painted art: dark red inside the big mouth. | high
+Eyes | eye | eye (line art) | Standard. No entry says they glow. | high
+Shut-eye lines | lines on the skin | seams and wrinkles (tinted only) | Eyes-closed look: black lid strokes on both heads. | high
+Glow | none | 0 | No entry says any part gives off light. | high
+
+Notes
+- "Balloon skin" is not in the standard table. Plain Hide (0.25 / 0.08) was tried on Koffing and looks nearly the same; the difference is a slightly brighter body with the sun behind it.
+- A puff's three yellows are three rows (gas, gas pale middle, gas dark rim) with the same dials, because a row named gas gets no shape; this follows Gastly's cloud.
+- Koffing's back is painted almost in one shade. Under a lamp from the side or in the cave, light splits it into two flat tones along a diagonal. Weezing's back, painted with more shades, does not.
+- At rest (tick 0) Koffing's puffs are drawn tiny, so its sheet shows almost no gas; they were checked at tick 30.

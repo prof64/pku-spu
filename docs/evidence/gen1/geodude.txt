@@ -1,0 +1,32 @@
+Geodude line (#074 Geodude, #075 Graveler, #076 Golem): what each surface is made of
+Pokédex text is game text from PokeAPI species data. Art = Sugimori art (refs/art-N.png); HOME = refs/home-N.png.
+
+GEODUDE (#074)
+Surface | Made of | Material | Evidence | Confidence
+Head and both arms (all of the body) | stone | Rock 0 / 0 (row "rock", as Onix) | Black 2/White 2: "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily." Pearl: "It is impossible to distinguish from rocks." Ruby: "its edges are chipped and worn away ... hard, craggy, and rough". Art: flat gray with soft shading, no highlight anywhere. HOME: soft, matte. | high
+Pale top edges (color 6) | the same stone at its most lit | Rock, kept in the row (KEEP_TOP) | Few pixels on the top of the head and fists; left out of the row they stayed pale on a body gone dark with the sun behind. | high
+Cracks, brow and muscle lines in dark brown | the stone's darkest shade | Rock | Drawn in the stone's own contour color; black lines stay outline. | high
+Open mouth and tongue (reds; only when the mouth opens) | wet tissue | Mouth 0.8 / 0 | Shared rule. The art's mouth is closed; the sprite opens it in its idle. | medium
+Eyes | eye | Eye (line art) | White, pale and gray of the eye plus the black pupils. No entry says they glow. | high
+Glow | none | | No entry says any part gives off light. |
+
+GRAVELER (#075)
+Surface | Made of | Material | Evidence | Confidence
+Body, four arms, feet | stone | Rock 0 / 0 (row "rock") | Gold: "it doesn't mind if pieces break off while it rolls down mountains." Pearl: "heedless of any body parts chipping off. It eats a ton of rocks daily." Legends Arceus: "rolling down slopes as though it were a boulder during a rockfall". Art: craggy gray, soft flat shading, no highlight. HOME: matte. | high
+Pale crag tops (color 6) | the same stone at its most lit | Rock, kept in the row (KEEP_TOP) | About 2% of the stone's pixels; kept so they darken with it. | high
+Black lines between crags | lines between lumps that overlap | Outline | Each crag is a raised lump with its own light edge. | medium
+Teeth (white, pale, gray; the sprite's clenched grin) | tooth | Claw and tooth 0.7 / 0.05 | Sun: "It can devour a ton a day while crunching loudly." The art and HOME show an open pink mouth with no teeth; the sprite draws bared teeth instead, about 25 pixels. No source for what they are made of. | medium
+Eyes | eye | Eye (line art) | White and pale of the eye plus the black pupils. | high
+Glow | none | | No entry says any part gives off light. |
+
+GOLEM (#076)
+Surface | Made of | Material | Evidence | Confidence
+Shell of slabs (greens in the sprite) | rock slabs | Rock 0 / 0 (row "rock") | FireRed: "It is enclosed in a hard shell that is as rugged as slabs of rock." Black 2/White 2: "Even dynamite can't harm its hard, boulder-like body. It sheds its hide just once a year." Legends Arceus: "The rocklike shell is shed each year." Art: gray-green slabs, soft shading, no highlight. HOME: matte. | high
+Black gaps between slabs | gaps between separate pieces | Outline | Each slab is its own piece, so the gaps crease the shape. | high
+Head, arms, legs (tans) | thick, rugged hide | Thick hide 0.4 / 0.06 (Blastoise's row) | Crystal: "even high-powered dynamite blasts fail to scratch its rugged hide." Yellow: "Once it sheds its skin, its body turns tender and whitish. Its hide hardens when it's exposed to air." Art: smooth, soft broad light patches on the snout and knee, no small hard highlight. Sun: "it hates rain and humidity" (a dry animal). The row was named in the task; the art would also allow a dead matte hide (Dry hide 0.05 / 0.03). Tried both: the sheets look the same in every place. | medium
+Pale patch on top of the head (color 10) | the same hide at its most lit | Thick hide, kept in the row (KEEP_TOP) | 3% of the hide's pixels, all on the head; kept so it darkens with the head. | high
+Claws (white, grays) | claw | Claw and tooth 0.7 / 0.05 | Art: white claws with a gray shadow side and a clean edge. No Pokédex entry mentions them. | medium
+Teeth (in the open mouth) | tooth | Claw and tooth 0.7 / 0.05 | Art: two white fangs in the lower jaw. | medium
+Mouth interior (dark red) | wet tissue | Mouth 0.8 / 0 | Shared rule. Art: pink open mouth. One red in the sprite; black is its shade so it darkens (see the file). | medium
+Eyes (white, red iris, gray) | eye | Eye (line art) | Art: red iris, white of the eye. No entry says they glow. | high
+Glow | none | | Silver: "It is capable of blowing itself up" is an attack, not a light at rest. |

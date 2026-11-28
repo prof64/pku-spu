@@ -1,0 +1,36 @@
+Bellsprout line (#069-#071), Black 2/White 2 sprites. Pokédex text from PokeAPI species data.
+"Art" is the Sugimori painting (refs/art-N.png); "HOME" the Pokémon HOME render, used for shape and color only.
+All three are painted flat and soft in the art: no part has a highlight except the eyes' catchlights. Nothing glows.
+
+== Bellsprout (#069) ==
+Surface | Made of | Material | Evidence | Confidence
+Head (yellow) | a flower bud | Bud and bulb 0.1 / 0.25, row "bud" | FireRed, Y: "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant." Art: flat yellow, soft shading, no highlight. The sprite paints a white patch on top; it is the row's lightest shade (left out of the row it became a gray disc under the lamp). | high (material), medium (light through: it goes orange with the sun behind)
+Head's tan contour | drawn line | Outline | The browns are the stem's colors; as the yellow's darkest shades they turned the whole head tan in a field (same finding as Sunkern's crown). | high
+Lips (pink ring) | the bud's fleshy rim | Bud and bulb dials, own row "bud, lips" | Ruby/Sapphire: "From its mouth, this POKéMON spits a corrosive fluid that melts even iron." Art: flat pink, soft shading. | medium
+Inside the mouth (5 dark red pixels; the hole is black) | wet interior | Mouth 0.8 / 0 | Emerald: "From its mouth, it leaks a fluid that melts even iron." | medium
+Leaves | thin leaves | Leaf 0.15 / 0.35 | Art and HOME: flat, matte, pale green. Midribs are lines inside one leaf (seams and wrinkles). | high
+Stem and root feet (brown) | a thin stalk and roots | Bark -0.45 / 0.05, row "stem and roots" | Red/Blue: "It uses its root feet to soak up needed moisture." Ruby/Sapphire: "BELLSPROUT's thin and flexible body lets it bend and sway". Black 2/White 2: "It is quick at capturing prey with its vines." Art: gray-brown, flat, no highlight. The table gives Bark for "trunks, stems". | medium (it is flexible, so not literally bark; matte either way)
+Eyes (black bead, white catchlight) | eye | Eye (line art) | Art: black dots with a white catchlight. Shut, they are short brown lines on the bud (seams and wrinkles). | high
+
+== Weepinbell (#070) ==
+Surface | Made of | Material | Evidence | Confidence
+Body (yellow bell) | thick plant flesh, hollow, full of acid | Plant body 0.1 / 0.15 (Sunkern's seed, Cacturne's trunk) | Black 2/White 2: "A Pokémon that appears to be a plant." Gold: "Even though it is filled with ACID, it does not melt because it also oozes a neutralizing fluid." Art and HOME: flat yellow, soft shading, no highlight. At the bud's 0.25 the yellow went orange with the sun behind and stayed bright in the cave. | medium
+Body's brown contour, the ring under the hook | drawn line | Outline | As for Bellsprout. | high
+Spots on the forehead (green in the sprite, olive in the art) | pigment | Plant body dials, own row "plant body, spots" | Art: three flat olive dots. | high
+Lips (pink) | the bell's fleshy rim | Plant body dials, own row "plant body, lips" | Art: flat pink with soft shading, no highlight. Seen from behind as a pink edge under the body. | medium
+Inside the mouth (red wall; the hole is black) | wet interior | Mouth 0.8 / 0 | Yellow: "Its hapless prey is melted inside by strong acids." FireRed: "It spits a fluid that dissolves everything." | medium
+Leaves | leaves | Leaf 0.15 / 0.35 | Silver: "it slices up the victim with sharp leaves". Crystal: "razor-sharp leaves". FireRed: "The leafy parts act as cutters". Sharp, but the art paints them flat and matte like any leaf: no sheen given. | high
+Hook (brown) | a woody stem end | Bark -0.45 / 0.05, row "hook" | Ruby/Sapphire: "WEEPINBELL has a large hook on its rear end. At night, the POKéMON hooks on to a tree branch and goes to sleep." Art: brown, flat, darker underside. | medium
+Eyes (white, black pupil, brown ring) | eye | Eye (line art) | Art: round white eyes with black pupils. Shut, they are lines on the body (seams and wrinkles). | high
+
+== Victreebel (#071) ==
+Surface | Made of | Material | Evidence | Confidence
+Body (yellow bell), yellow tip of the vine | thick plant flesh | Plant body 0.1 / 0.15 | Silver: "This horrifying plant POKéMON attracts prey with aromatic honey, then melts them in its mouth." Art and HOME: flat yellow with a soft paler belly, no highlight. The pale belly is a broad painted shade and is in the row. | medium
+Body's brown contour, the vine tip's contour | drawn line | Outline | As for Bellsprout. | high
+Spots (green in the sprite, olive in the art) | pigment | Plant body dials, own row "plant body, spots" | Art: flat olive patches. The sprite paints them in the lighter green where the body is lit. | high
+Lips (red-orange in the sprite, pink in the art), and their outer side from behind | the bell's fleshy rim | Plant body dials, own row "plant body, lips" | Art: flat pink ring, soft shading, no highlight. | medium
+Inside the mouth (the brown shape in the black) | wet interior where the fluid pools | Mouth 0.8 / 0 | Black 2/White 2: "It pools in its mouth a fluid with a honey-like scent, which is really an acid that dissolves anything." | high
+Fangs (white, gray) | tooth-like spikes | Claw and tooth 0.7 / 0.05 | Art: two small white fangs at the corners of the mouth, gray shade. Not mentioned in any entry. | medium
+Leaves (one over the mouth, one each side) | leaves | Leaf 0.15 / 0.35 | Art and HOME: flat, matte green with a darker underside. Midribs are lines inside one leaf; the line of the right leaf's curled edge (back view) is a crease. | high
+Vine (brown) | a long woody vine | Bark -0.45 / 0.05, row "vine" | Ruby/Sapphire: "VICTREEBEL has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey." Art: thin, brown, flat. | medium (it is flexible; matte either way)
+Eyes (white and its gray, black pupil, brown lids) | eye | Eye (line art) | Art: white eyes just under the lip, half covered. The brown shadow line under the lip between them and the shut eyes' lines are seams and wrinkles. | high

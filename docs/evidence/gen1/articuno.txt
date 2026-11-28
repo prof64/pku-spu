@@ -1,0 +1,18 @@
+Articuno (#144) — Black 2/White 2 sprite. Pokédex text from PokeAPI species data.
+Black 2/White 2 says nothing about material: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air."
+
+Surface | Made of | Material | Evidence | Confidence
+Head, body, belly, thighs (blue) | body plumage | Feathers -0.2 / 0.05 | No entry describes the body plumage. Painted art: flat watercolor blue, soft shading, no light patch; HOME the same. | high
+Wings (blue, paler tips) | plumage that light seems to pass through | Feathers, wings -0.2 / 0.3 (departure: body 0.3, standard Feathers is 0.05) | Gold, HeartGold: "The magnificent, seemingly translucent wings of this legendary bird Pokémon are said to be made of ice." Sword: "It's said that this Pokémon's beautiful blue wings are made of ice." Painted art: opaque soft blue plumage with drawn feather lines and no highlight, so the finish stays matte and it is not the glassy Ice row (0.8 / 0.8); "seemingly translucent" is given as light through at the value thin wings have elsewhere (0.3). Tried: 0.05 (wings go as dark as the body with the sun behind), 0.3 (pale lavender with the sun behind, no brighter than the body in the cave), Snow/frost -0.5 / 0.5 (washed out to white with the sun behind). | finish high; light-through medium-low
+Chest tuft (pale blue) | plumage, paler | Feathers (own row) -0.2 / 0.05 | Art: flat pale blue-white tuft with a ragged lower edge, no highlight; HOME matte. It darkens with the body in the cave (tan under the cave's warm lamp). | high
+Crest (dark blue) | head plumage | Feathers, crest and tail -0.2 / 0.05 | Art: flat darker blue spikes, no highlight. Four pale pixels on the front crest are painted glints, left as painted. | high
+Tail streamers (dark blue) | long tail feathers | Feathers, crest and tail (same row: the same blue) | FireRed: "With its long tail trailing behind, its flying form is magnificent." Sword: "its long tail fluttering along behind it." Art: flat blue ribbon with soft streaks and thin lines along it, no highlight. Navy lines between streamers are creases; the dark teal is their shadow side and streaks (a shade). Base is the dark teal: most of the tail, both views together. | high
+Beak (brown) | horn | Beak 0.4 / 0.05 | Art: gray-brown, a slightly lighter upper side. | medium
+Legs and toes (brown) | bare bird skin | Dry hide 0.05 / 0.03 | Art: flat gray-brown, soft shading, no highlight; HOME flat. | medium
+Claws (white, gray) | keratin | Claw and tooth 0.7 / 0.05 | Art: pale claws lighter than the toes. No entry mentions them. | medium
+Mouth (red, front view) | wet tissue | Mouth 0.8 / 0 | Open beak in the sprite and in HOME. | high
+Eye (black rim, white, gray, red iris) | eye | Eye (line art) | Art: red-brown eye. | high
+Dark contours of body, wings and chest (navy 7, dark teal 6, blue 5 around the tuft) | lines; lines between overlapping feathers | Outline | The palette has no step between the plumage blues and these contours: as the plumage's darkest shades the body and wings speckled dark teal in the field and the cave (tried first). | medium
+
+Glow: none. No entry says any part gives off light. Ice (0.8 / 0.8) not used anywhere: nothing in the art is drawn as clear ice.
+Checks: normal, shiny, eyes closed: 0 misses, no unused row.

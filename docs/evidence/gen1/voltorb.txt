@@ -1,0 +1,23 @@
+Voltorb line (#100, #101): Black 2/White 2 battle sprites. Pokédex text from PokeAPI species data.
+
+VOLTORB (#100)
+Surface | Made of | Material | Evidence | Confidence
+Red half | the casing of a Poké Ball look-alike, not a natural tissue | Ball shell, red 0.6 / 0 | "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on contact." (Black 2/White 2); "During the study of this POKéMON, it was discovered that its components are not found in nature." (Crystal). Painted art: a small hard white highlight inside a broad pale patch on the red, so polished. No entry says metal. | medium (material named only as "like a Poké Ball"; the dial is from the art's highlight)
+Pale half | the same casing | Ball shell, white 0.6 / 0 | same entries; the art paints a soft pale band along its lit rim, the sprite a white rim | medium
+Eyes | eye | eye (line art) | white, gray corner, pupil and the closed-eye line, as drawn | high
+Glow | none | - | no entry says it gives off light at rest ("may electrocute ... on contact" is not light) | high
+
+ELECTRODE (#101)
+Surface | Made of | Material | Evidence | Confidence
+White half | the same ball casing as Voltorb | Ball shell, white 0.6 / 0 | evolves from Voltorb; "It is feared, with the nickname of 'The Bomb Ball.'" (FireRed, X). Painted art: a hard white oval highlight on the white half. No entry names a material ("stores electric energy under very high pressure", Red/Blue, is about what is inside). | medium
+Red half | the same casing | Ball shell, red 0.6 / 0 | the art paints a paler band along the top of the red; the sprite a broad orange band | medium
+Join of the halves | the same casing (blended pink pixels) | Ball shell, join 0.6 / 0 | sprite only: 34 anti-aliasing pixels where white meets red | high
+Teeth | teeth | Claws and teeth 0.7 / 0.05 | the art and the HOME model show a grin of white teeth with lines between them | high
+Brows | lines drawn on the casing | seams and wrinkles (tinted, no crease) | thin strokes in the art; one smooth ball under them | high
+Eyes | eye | eye (line art) | two short black strokes | high
+Glow | none | - | "It is known to drift on winds if it is bloated to bursting with stored electricity." (Black 2/White 2): stored, not shining | high
+
+Notes
+- New kind of surface: "Ball shell" (finish 0.6, body 0). Not Metal: no entry says metal, and at 0.7 to 0.8 the white half mirrored the place in dark wedges like chrome. 0.6 is the lowest value still lit as a round ball with a highlight that moves.
+- Base shades: Voltorb's red uses the shade between its front (11) and back (13) colors; Electrode's white uses its darker shade (3), the one its back is painted in.
+- The Legends: Arceus entries in the data ("curiously similar in composition to an Apricorn") describe the Hisuian forms and were not used.

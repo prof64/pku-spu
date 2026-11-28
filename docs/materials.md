@@ -51,6 +51,19 @@ Every surface uses one of these. Skin is not one material: each Pokémon gets th
 | Bud and bulb | 0.1 | 0.25 | 0 | Matte, like a soft leaf; a little light through | A closed bud, a seed bulb |
 | Bark | -0.45 | 0.05 | 0 | Dry and rough | Trunks, stems |
 | Wing membrane | 0.45 | 0.5 | 0 | Bright, and lights up from behind | Thin skin between wing bones (its outer, skin-colored side: body 0.3) |
+| Fur, large areas | -0.1 | 0.05 | 0 | Soft, without grain | A mane, a big tail, a whole long coat (Arcanine, Eevee's ruff, Snorlax). At -0.7 anything bigger than a tuft turned grainy and muddy |
+| Glossy fur | 0.3 | 0.05 | 0 | A soft sheen | Only where an entry says so (Vulpix's tails, Ninetales: "fur that gleams gold") |
+| Bat wing | 0.3 | 0.3 | 0 | Lights up a little from behind | Zubat, Golbat, Dragonite. At 0.45 / 0.5 the wings went hot pink in daylight and stayed bright in the cave |
+| Aquatic skin | 0.5 | 0.08 | 0 | Smooth, a wetter sheen | Golduck, Lapras ("smooth skin") |
+| Fish skin | 0.15 | 0.08 | 0 | Matte | Fish and sea horses (Goldeen, Magikarp, Gyarados, Horsea, Vaporeon); fins are Fin 0.3 / 0.15 |
+| Ghost body | -0.1 | 0 | 0 | Soft and dark | Haunter, Gengar. At -0.5 a big body went grainy |
+| Balloon skin | 0.15 | 0.15 | 0 | Matte, a little light through | Koffing, Weezing ("thin, balloon-shaped body") |
+| Bone | 0.2 | 0 | 0 | Dull white | Cubone's and Marowak's skull and club |
+| Ball shell | 0.6 | 0 | 0 | A hard highlight | Voltorb, Electrode. Higher looked like chrome |
+| Mushroom | 0.1 | 0.1 | 0 | Matte | Paras, Parasect |
+| Cloth | -0.2 | 0 | 0 | Matte, soft | Hitmonchan's tunic, Jynx's gown; boxing gloves 0.2 / 0 |
+| Plant body | 0.1 | 0.15 | 0 | Matte | Bellsprout's line, Oddish's line (0.1 through); Tangela's vines are -0.1 / 0.1 ("fine hair") |
+| Soft body | 0.3 | 0.1 | 0 | Smooth, not wet | Ditto. Porygon is a matte solid, 0.1 / 0.05 |
 | Metal | 0.7 | -1 | 0 | Mirrors the room, tinted | Real metal (gold 0.8) |
 | Flame | 0 | 0 | 180 to 255 | Glows, lights what is around it, flickers | Fire: brightest at the core |
 | Outline | 0.1 | 0 | 0 | Stays as drawn | The black line, and lines between overlapping pieces |
@@ -593,6 +606,18 @@ Drawn surfaces: light blue body, pale belly (front view only), dark patches, big
 Nothing glows. The palette's palest blue (color 10) is never drawn; it is the hide's own next lighter step and is added at the top of the hide's shades.
 
 ---
+
+## Part 1, continued: #031 to #151
+
+The rest of Gen 1 was made the same way on 2026-11-27 and 28, one evolution line at a time, after the owner approved the approach on two sets picked for their materials. Each line's table (surface, what it is made of, material, the Pokédex text and what the painted art shows, confidence) is kept as written in `docs/evidence/gen1/`, one file per line. Every sprite passed `tools/light.py check` and was looked at lit, front and back, in the field, under a lamp and in the cave before it was filed.
+
+What that pass taught:
+
+- **Fur at -0.7 is for tufts.** On a mane or a whole coat it turns grainy and muddy; -0.1 keeps it soft. Gengar's body had the same fault at -0.5.
+- **A pale surface whose only darker colors are its contour.** White bone, a cream coat or a white fin with an olive or brown contour and no step between: with the contour as its darkest shade the whole surface went olive or speckled dark in daylight (Cubone's skull, Mankey, Chansey, Gyarados's belly). There the contour goes in the outline row.
+- **Base is not always the most-used shade.** When the front is painted light and the back dark (Electabuzz, Jigglypuff, Dewgong, Voltorb), the most-used shade as base made the front dull or olive; the shade between the two views is right.
+- **Glow only where an entry says so at rest:** Persian's jewel, Kabuto's eyes, Starmie's core, Electabuzz and Magmar faintly, and fire. Clefairy's moonlit wings, Golduck's gem and Dragonair's orbs do not glow at rest.
+- **Metal only where a source says metal:** Kadabra's and Alakazam's spoons, Hypno's ring, Primeape's shackles (from the art). Meowth's coin, Machoke's belt and Kingler's "hard as steel" claw are painted flat and stay dull.
 
 ## Part 2: a general guide
 

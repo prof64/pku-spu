@@ -1,0 +1,30 @@
+LICKITUNG AND CHANSEY: evidence for the lighting (Black 2/White 2 sprites)
+Unrelated Pokémon, decided each on its own. Pokédex text from PokeAPI (English); painted art and HOME render viewed.
+
+== Lickitung (#108) ==
+Drawn: pink skin (head, body, arms, legs, tail), cream belly bands and a ring on each knee, the long tongue,
+a white nail on each hand and white toes, the dark inside of the open mouth, small black eyes.
+
+Surface | Made of | Material | Evidence | Confidence
+Skin (pink) | plain bare skin | Hide 0.25 / 0.08 (row "hide", as Nidoran and Slowpoke) | No entry describes the skin. Painted art: flat pink with soft broad shading and a soft pale wash on head, arms and tail; no small hard highlight anywhere. HOME: smooth and soft. Matte bare skin. The pale patch color is kept in the row (KEEP_TOP): left out, it went gray under the lamp. | medium
+Belly bands and knee rings (cream) | pigment in the same skin | Hide, own row "hide, belly bands and knee rings" | Art: flat cream, no highlight. Markings take the dials of what they sit on. | high
+Tongue | wet muscle, covered in saliva | new row "tongue" 0.5 / 0 (Mouth is 0.8 / 0) | Black 2/White 2: "Being licked by its long, saliva-covered tongue leaves a tingling sensation." Silver: "Its long tongue, slathered with a gooey saliva, sticks to anything". Diamond: "Its sticky saliva grips anything." Painted art: one broad soft paler strip down the tongue, no hard highlight. Wet, but at the mouth's 0.8 a surface this large is lit as polished and round: it broke into bright specks under the lamp and went half dark in the field. 0.5 keeps a wet sheen and the painted look. | medium
+Mouth interior | wet tissue | Mouth 0.8 / 0 | Shared rule. Drawn in one flat dark maroon. | high
+Nails and toes (white) | keratin | Claw and tooth 0.7 / 0.05 | Art: white nails with a gray shade. | high
+Eyes | eye | Eye (line art) | Black dot with a white catchlight and a maroon ring. The shut eyes' line is drawn line. | high
+Glow | none | - | "leaves a tingling sensation", "can cause paralysis": nothing gives off light. | high
+
+== Chansey (#113) ==
+Drawn: pale pink body, head, arms and tail, six hair-like growths at the sides of the head with darker tips,
+the darker pouch, the white egg, dark feet, small eyes, a small open mouth (front view).
+
+Surface | Made of | Material | Evidence | Confidence
+Body, arms, tail, growths (pale pink) | a short soft coat | Short fur -0.2 / 0.05 (as Clefairy, Jigglypuff) | No Chansey entry names its covering. Its evolution Blissey, Ruby: "BLISSEY senses sadness with its fluffy coat of fur." Painted art: flat pale pink, soft broad shading, no highlight, smooth-edged with no tufts. Matte either way; the other reading is bare skin (Hide 0.25 / 0.08). | medium-low
+Coat contour (dark pink, maroon) | drawn line | Outline | Departure from "the contour is the coat's darkest shade", as the brief allows for a pale coat: the palette jumps from the pale pinks straight to a dark pink, and with that in the coat's row the whole body speckled dark in the field and the cave. Cost: with the sun behind, the thin pink contour stays a little brighter than the darkened body. | medium
+Tips of the growths (red-orange) | the same coat, darker | Short fur, own row "short fur, ear tips" | Art: darker pink tips, flat. | high
+Pouch | the same coat, darker | Short fur, own row "short fur, pouch" | Ultra Moon: "the eggs on their bellies". Art: a darker pink pouch, flat, no highlight. | medium
+Feet | the same coat | Short fur, own row "short fur, feet" | Art: darker pink feet, flat. The sprite paints them in shadow maroon. | medium
+Egg | eggshell | Hard shell 0.2 / 0 (row "hard shell, egg") | Gold: "It walks carefully to prevent its egg from breaking." Platinum to Black 2/White 2: "A kindly Pokémon that lays highly nutritious eggs". Painted art: white with a soft gray-cream shade, no highlight: dull and solid. Its olive contour is drawn line (same reason as the coat's). | high
+Mouth interior | wet tissue | Mouth 0.8 / 0 | Shared rule: two red pixels. The smile line is drawn line. | high
+Eyes | eye | Eye (line art) | Black with a white catchlight. | high
+Glow | none | - | "said to bring happiness": nothing gives off light. | high

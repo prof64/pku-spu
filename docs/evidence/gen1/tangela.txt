@@ -1,0 +1,33 @@
+Tangela (#114) and Ditto (#132): what each surface is and why
+Pokédex quotes are game text from PokeAPI's species data (the game is named). "Art" is the Sugimori painting
+(refs/art-114, art-132), "HOME" the Pokémon HOME render (shape and color only). Dials are finish / body.
+Nothing on either glows: no entry says any part shines or gives off light.
+
+## Tangela (#114)
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Vines (blue, all of the ball) | thick plant vines with a fine fuzz of hair | hairy vines -0.1 / 0.1 (a new row: a plant body's light-through, as Oddish's root 0.1; fuzz at the value fur takes on a large area) | Platinum, Black, White: "The blue vines shrouding its body are covered in a growth of fine hair." Red/Blue: "The whole body is swathed with wide vines that are similar to seaweed." Yellow: "Its identity is obscured by masses of thick, blue vines." Black 2/White 2: "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long." Art: every vine flat blue with one soft paler streak along it, no highlight: matte. "Similar to seaweed" is about shape; nothing calls them wet or slimy, and the art paints no sheen. Thick, so only a trace of light through (not a leaf's 0.35). | plant, matte: high; the fuzz dial: medium
+Lines between vines (one-pixel strokes of the darkest blue) | where one vine lies over another | outline (creases) | Art and HOME: separate round tubes crossing over each other. With those strokes kept as the vines' shade, a lamp in front washed them out and the tangle read as one flat mass. Where the darkest blue is painted broad it is a vine deep in shadow and stays the row's darkest shade. | medium
+Hidden body (the black hole in the tangle, front view) | unknown; drawn flat black | body in the dark 0 / 0, no shades (tinted by light, never a crease) | Diamond/Pearl: "No one has seen the face hidden behind this growth of vines." Sword: "this Pokémon's true appearance remains a mystery." Art and HOME: solid black with no shading. | high
+Eyes (white, gray edge, black pupil; shut: gray lid lines) | eye | eye (line art) | Art: round white eyes with a small black pupil, in the dark. All of each eye in the one row, both the open and the shut drawing. | high
+Feet (red) | bare skin | hide, feet 0.25 / 0.08 (Hide) | No entry mentions the feet. Art: flat red-pink with a soft paler area and a darker rim, no highlight; HOME matte. The sprite's four palest pixels on one foot are a painted glint and stay as drawn. | medium-low (never described)
+
+Base shades: the vines' base is the mid blue (color 3: 1301 pixels, against 540 of the lighter one, both views).
+The palest blue (the streak) is kept as the row's top shade: it is 163 pixels, not a rare glint.
+
+## Ditto (#132)
+
+Surface | Made of | Material | Evidence | Confidence
+---|---|---|---|---
+Body (lilac, everything) | one soft mass of cells; never described further | soft body 0.3 / 0.1 (a new row name with Frog skin's dials: "smooth, a faint sheen, not wet") | Black 2/White 2: "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes." Ruby/Sapphire: "DITTO rearranges its cell structure to transform itself into other shapes." No entry in any game calls it slime, jelly, goo, wet or see-through (all English entries read). Art: flat lilac, soft shading, opaque, with one small pale dot of light on top of each bump: a faint sheen at most. HOME: smooth, soft, opaque. So not Sludge (0.7 / 0.2) and not Jelly (0.6 / 0.45): both need a source that says wet or clear, and there is none. | opaque and not wet: high; the sheen dial: medium
+Pale patch on top of each bump (front and back) | the same body, the art's dots of light | soft body, highlight (same dials, own row, one step up the body's colors) | Art paints those dots. Their two colors are rare (a few dozen pixels); left as painted they stayed pale on a body gone dark (sun behind, cave). As their own row they darken with the body. | construction: medium
+Dark purple line on the lit side | drawn line | outline | The palette has no step between that purple and the body's shadow color; as the body's darkest shade it put a dark blotch across the back in a cave (the brief's pale-coat rule). | medium
+Mouth | a drawn line | outline | Art: a pink smile line, shut; HOME paints a pink open mouth. The sprite draws only a black line with soft ends, no pink. | high (for this sprite)
+Eyes (one black pixel each; shut, a short line) | eye | eye (line art); shut: outline | Art: two black dots. | high
+
+Base shade: the body's base is its shadow color (color 6): the back view is painted almost wholly in it.
+
+## Calls the owner might overrule
+- Tangela's vines are "hairy vines" (-0.1 / 0.1) from the Platinum/Black/White entry; the art alone would give a plain matte plant body (0.1 / 0.1). Lit, the two look nearly the same.
+- Ditto is opaque soft skin (0.3 / 0.1), not sludge or jelly like Grimer. In the rain column (a lamp close by) it still shows one broad highlight on the front, as other 0.3 skins do (Poliwag).

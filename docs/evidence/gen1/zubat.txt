@@ -1,0 +1,31 @@
+Zubat line: what each surface is made of, and why
+Sources: Pokédex text from PokeAPI species data (every game, English); the Sugimori art (refs/art-41, art-42);
+the Pokémon HOME renders (refs/home-41, home-42); the Black 2/White 2 sprites read pixel by pixel.
+Nothing in either species gives off light: no glow anywhere.
+
+ZUBAT (#041)
+
+Surface | Made of | Material (finish / body) | Evidence | Confidence
+Body, ears from outside, the two tails, wing arm and fingers (blue) | thin bare skin | Hide (0.25 / 0.08) | Ultra Moon: "Their skin is so thin that they’ll be burned if sunlight hits them." Ruby: "prolonged exposure to the sun causes its body to become slightly burned." Painted art: smooth blue, one broad soft lighter area low on the body, no highlight anywhere, so plain matte skin. Same row and dials as Nidoran's hide. | high
+Ear insides (purple, front view) | the same skin, pigmented | Hide, as "hide, ear insides" (0.25 / 0.08) | Art and HOME render: purple inside the ear with a darker hollow, flat. A marking's own row with the skin's dials. | high
+Wing membrane, inner side (purple) | thin skin stretched between the fingers | Wing membrane (0.45 / 0.5), Charizard's row | Ultra Moon (above) names the skin as thin enough to burn in sunlight. Art: purple with pale washed patches and no hard highlight. Lights up with the sun behind. Its darkest purple, where it is a line one pixel wide along the fingers, is drawn line. | medium (thin: high; the dial is the table's)
+Wing seen from its outer side (all blue: one wing in each wing position, both views) | the same membrane, skin-colored side; arm and fingers not drawn apart from it | Wing membrane, outer side (0.45 / 0.3), Charizard's row | The sprite paints that side as one blue sheet with paler finger ridges. Same reasoning as Charizard's wing seen from behind. | low (the art never shows this side)
+Fangs (white, light gray, dark gray edge) | tooth | Claw and tooth (0.7 / 0.05) | Art and HOME render: four white fangs. The dark gray beside each fang is its own shaded edge, kept as its darkest shade. | high
+Throat (gray patch in the black mouth, front view) | wet tissue | Mouth (0.8 / 0) | Platinum, Black, White: "It checks its surroundings and location using reflections of the ultrasonic waves from its mouth." Art: a gray round throat in a black mouth. | medium
+Dark of the open mouth (black fill) | the mouth's unlit inside | "mouth, dark inside" (0.8 / 0, no shades: only tinted), Grimer's row | Art: flat black. Not line art, so the jaw is not creased around it. | high
+Eyes | none | none | FireRed: "It has no eyes." Black 2/White 2: "It does not need eyes, because it emits ultrasonic waves to check its surroundings while it flies." The sprite draws none. | high
+
+GOLBAT (#042)
+
+Surface | Made of | Material (finish / body) | Evidence | Confidence
+Body, ears, feet, wing arms (blue) | bare skin | Hide (0.25 / 0.08) | Same animal as Zubat (its skin: Ultra Moon, above). Golbat's own entries only speak of other creatures' hides. Art: flat blue with soft darker shading at the sides, no highlight. | medium
+Ear insides (dark purple with one lighter pixel, front view) | the same skin, pigmented | Hide, as "hide, ear insides" (0.25 / 0.08) | Art: small dark ear hollows. Six pixels. | medium
+Wing membrane (purple, both views) | thin skin stretched between the fingers | Wing membrane (0.45 / 0.5), Charizard's row | Art: broad purple panels with pale washed streaks, no hard highlight; thin dark lines where the fingers run. Lights up with the sun behind. | medium
+Lines in the wing (darkest purple, one pixel wide: the fingers under the membrane and its drawn edge) | drawn line | Outline row | The wings use that color for nothing else. Lines between a wing's panels are creases. Left in the membrane row they lit up brighter than the membrane in the cave. | high
+Four fangs (white, light gray, dark gray edge) | tooth | Claw and tooth (0.7 / 0.05) | Sapphire: "GOLBAT bites down on prey with its four fangs". Platinum, Black, White: "Its sharp fangs puncture the toughest of hides and have small holes for greedily sucking blood." Sun: "Its thick fangs are hollow like straws, making them unexpectedly fragile." Art: plain white fangs. | high
+Tongue (gray patch in the black mouth, front view) | wet tissue | Mouth (0.8 / 0) | Art: a large soft dark gray shape inside the black mouth. | medium
+Dark of the open mouth (black fill) | the mouth's unlit inside | "mouth, dark inside" (0.8 / 0, no shades: only tinted), Grimer's row | Art: flat black, the largest shape on the body. | high
+Eyes (white, grays, black slit pupil; front view) | eye | Eye (line art) | Art and HOME render: small slanted white eyes with slit pupils. Every eye pixel is in the one row, also the gray corner pixel that stays when the eye is shut. | high
+
+Looks checked: Zubat normal, shiny, female (both views, wings up and down); Golbat normal, shiny, female, eyes closed
+(both views, all wing drawings). 0 misses in every look.

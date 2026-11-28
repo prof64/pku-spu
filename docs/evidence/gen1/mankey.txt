@@ -1,0 +1,37 @@
+Mankey line: lighting evidence
+Pokédex text is game text from PokeAPI's species data. "Art" is the Sugimori painting (refs/art-56, art-57);
+"HOME" is the Pokémon HOME render, used for shape and color only. No Pokédex entry of either species names what
+any surface is made of, so every material is read from the painted art; nothing glows (no entry says so).
+
+#056 Mankey
+Surface | Made of | Material | Evidence | Confidence
+Head-and-body ball (cream) | long shaggy fur | Fur -0.7 / 0.05 | Art: the whole ball is drawn with a spiky, tufted edge and soft flat shading, no highlight. HOME: the same tufted ball. Yellow: "An agile POKéMON that lives in trees." (a monkey; nothing on its coat) | high
+Arms, thighs, shins, tail shaft (cream) | short coat | Short fur -0.2 / 0.05 | Art: the same cream but smooth-edged, no tufts, soft shading, no highlight (as Munchlax's head against its body) | medium
+Ears, outside and rim (cream) | short coat | Short fur -0.2 / 0.05 | Art: smooth triangles, flat | medium
+Ear insides (brown) | short coat or skin, in shadow | Short fur -0.2 / 0.05 (row "short fur, ear insides", as Rattata) | Art: flat brown, no highlight | medium
+Hands, two-toed feet, tail tip (brown) | bare skin | Hide 0.25 / 0.08 | Art: the cream coat ends in a jagged cuff at wrist, ankle and tail tip and the brown below it is smooth, with soft broad shading and no highlight: bare skin showing past the fur, as a monkey's hands and feet. Not stated in any entry | medium-low (could be brown short fur)
+Snout (pink) | bare skin | Hide 0.25 / 0.08 | Art: a pig's snout, pink with one soft broad lighter area on top, no hard highlight. Ruby: "When MANKEY starts shaking and its nasal breathing turns rough, it's a sure sign that it is becoming angry." | medium
+Nostrils | holes | Seams and wrinkles (tinted) | Art: two dark dots | high
+Furrows between the eyes | lines in the fur | Fur (own marking row) | Art and HOME: two short lines between the brows | high
+Eyes (white, red iris, black pupil) | eye | Eye (line art) | Art: white with red iris | high
+
+#057 Primeape
+Surface | Made of | Material | Evidence | Confidence
+Head-and-body ball (cream) | long shaggy fur | Fur -0.7 / 0.05 | Art: a larger, spikier ball than Mankey's, soft flat shading, no highlight. HOME: the same | high
+Ears, outside and rim (cream) | short coat | Short fur -0.2 / 0.05 | Art: smooth triangles | medium
+Ear insides (orange-pink) | short coat or skin | Short fur -0.2 / 0.05 | Art: flat pink, no highlight | medium
+Arms, fists, legs, feet (brown) | bare skin over muscle | Hide 0.25 / 0.08 (as Machamp's skin and Mankey's hands) | Art: smooth brown limbs coming out from under the fur, soft broad shading, no highlight. Ruby: "When PRIMEAPE becomes furious, its blood circulation is boosted. In turn, its muscles are made even stronger." | medium-low (could be brown short fur)
+Palest patches on the fists | the same skin, most lit | Hide (own row, so they go dark with the limb) | Sprite: 26 pixels of the palest tan on top of the fists | high
+Snout (pink-orange) | bare skin | Hide 0.25 / 0.08 | Art: pig's snout, soft lighter top, no hard highlight | medium
+Shackles on wrists and ankles (dark gray) | metal bands | Metal, dull: 0.6 / -1 | Art: black bands, each with a pale gray streak of reflected light: the only painted highlight on the body. No Pokédex entry mentions them; "metal" is from how they are painted and what a shackle is | medium-low
+Vein on the brow, furrows, lower eyelids (tan and mauve lines on the fur) | lines in the fur | Fur (own marking row) | Art and HOME: the cross-shaped anger vein and brow lines. Ultra Moon: "The blood vessels in its brain are sturdier than those of other Pokémon, so it can stay healthy despite its constant raging." | high
+Nostrils | holes | Seams and wrinkles (tinted) | Art: two dark slots | high
+Eyes | eye | Eye (line art) | Art: white with a small black pupil | high
+
+Departures and calls
+- Both: the fur's dark brown contour colors stay in the fur rows but are not among their shades (so light only tints
+  them). The palettes have no step between the cream and that brown; with the brown as the darkest shade, every fur
+  pixel one step off the light fell to dark brown and the whole ball went dark and speckled in daylight.
+- Primeape: shackles are Metal (dull, 0.6 / -1) on the painted highlight alone; no Pokédex text.
+- Brown hands/feet/tail tip (Mankey) and brown limbs (Primeape) are Hide (bare skin), not brown short fur.
+- A row whose name contains "line" is taken for line art by Smeargle, so the face-line row is named "fur, face marks".

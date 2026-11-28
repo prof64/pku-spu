@@ -1,0 +1,44 @@
+ABRA LINE (#063 Abra, #064 Kadabra, #065 Alakazam): what each surface is, and why
+
+Sources: Pokédex text from PokeAPI species data (game named with each quote); the Sugimori art and
+HOME renders in ../refs; Bulbapedia Biology for Kadabra and Alakazam (Internet Archive copies; the
+Abra page could not be read, the archive refused the request, so nothing is quoted from it).
+No Pokédex entry of any game describes the body covering of any of the three. Nothing glows:
+no entry says a part shines or gives off light at rest (psychic powers and "alpha waves" are not light).
+
+#063 ABRA
+Surface | Made of | Material | Evidence | Confidence
+Yellow coat (head, body, limbs, tail) | short sleek coat | Short fur -0.2 / 0.05 | No entry describes it. Art: flat yellow, broad soft shading, one soft pale patch on the forehead and belly, no hard highlight. HOME: smooth. Fox-like mammal; Bulbapedia calls Kadabra's body "mammalian" with "tufts of fur". Base is the mid yellow (1227 pixels against 496, both views). | medium
+Pale forehead and belly patch | the same coat, painted lighter | in the Short fur row (KEEP_TOP) | Art: a soft pale patch, not a glint. Left out of the row it stayed pale in the cave. | medium
+Muzzle, ear insides (pale) | the same coat, pale | Short fur, row "short fur, muzzle and ear insides" | Art and HOME: cream muzzle and ear insides, flat. | high
+Tail band (brown) | pigment in the coat | Short fur, row "short fur, tail band" | Art and HOME: a flat brown ring flush with the tail. | high
+Shoulder and chest pieces (brown) | armor-like plates | Plated hide 0.2 / 0.03 | Art: gray-brown pieces standing off the body with soft shading, no highlight. Bulbapedia (Alakazam): "brown armor-like sections". No text names what they are made of. | low
+Black at the neck and between joints | drawn black | outline | Art: solid black, no shading. | high
+Eyes (shut) | drawn lines | outline | Art and sprite: closed, two dark strokes; no eyes-open look exists. "Sleeps 18 hours a day." (Yellow) | high
+
+#064 KADABRA
+Surface | Made of | Material | Evidence | Confidence
+Yellow coat | short sleek coat | Short fur -0.2 / 0.05 | As Abra. Bulbapedia: "a primarily yellow, slightly humanoid Pokémon with mammalian features." Art: flat yellow, soft shading, no highlight. Pale brow patch kept in the row (KEEP_TOP). | medium
+Red star, three red belly waves | pigment in the coat | Short fur, row "short fur, star and belly marks" | Bulbapedia: "a red star on its forehead", "a small abdomen marked by three red, wavy lines". Art: flat red. No glow: Shield says it "stores up psychic energy in the star", not that the star shines. | high
+Tail band (brown) | pigment in the coat | Short fur, row "short fur, tail band" | Bulbapedia: "a large, thick tail encircled with a brown band near its base." Art: flat. | high
+Chest and shoulders (brown) | armor-like plates | Plated hide 0.2 / 0.03 | Bulbapedia: "bulky shoulders, a thick, brown chest". Art: gray-brown, soft shading, no highlight. | low
+Mustache | two tufts of long hair | Whiskers 0.1 / 0.05 | Bulbapedia: "two mustache-like tufts of fur; a male will have a longer mustache than a female." Art: smooth pale-tipped strands, no sheen. Female look has the shorter drawings. | medium
+Spoon | silver | Metal 0.9 / -1 | Sapphire: "KADABRA holds a silver spoon in its hand." Black 2/White 2: "It stares at its silver spoon to focus its mind." Ultra Sun: "Apparently, gold spoons are no good." Art: pale gray with a white highlight on the bowl. | high
+Claws (hands and feet) | keratin | Claw and tooth 0.7 / 0.05 | Bulbapedia: "three-fingered hands with white claws", feet "also ending in white claws". Art: white, gray shadow side. | high
+Eyes | eye | eye (line art) | White with black pupils; shut, the lids are coat. | high
+
+#065 ALAKAZAM
+Surface | Made of | Material | Evidence | Confidence
+Yellow coat | short sleek coat | Short fur -0.2 / 0.05 | As Kadabra. Bulbapedia: "yellow, skeletal body". Art: flat yellow, soft shading, no highlight. | medium
+Pale brow patch | the same coat, painted lighter | Short fur, row "short fur, brow" | Art: one soft pale patch on the forehead. As the coat's top shade it broke into pale scribbles over the face in daylight; out of every row it stayed pale in the cave; so it has its own row. | medium
+Chest, shoulders, forearms, knees (brown) | armor-like plates | Plated hide 0.2 / 0.03 | Bulbapedia: "Covering its yellow, skeletal body are brown armor-like sections over its chest, shoulders, forearms, and knees." Art: gray-brown, soft shading, no highlight. Pale patch on shoulder and knee kept in the row (KEEP_TOP). | medium
+Mustache | long hair, pale tufted ends | Whiskers 0.1 / 0.05 | Bulbapedia: "a large mustache. A female Alakazam has a significantly shorter mustache than a male." Art: yellow strands ending in pale ragged tufts, no sheen. | medium
+Two spoons | silver | Metal 0.9 / -1 | Black 2/White 2: "The spoons clutched in its hands are said to have been created by its psychic powers." Bulbapedia: "It wields a silver spoon in each hand". Art: pale gray with white highlights on the bowls. | high
+Claws (feet) | keratin | Claw and tooth 0.7 / 0.05 | Bulbapedia: "three toes on each foot, each of which has a white claw." Art: white. | high
+Eyes | eye | eye (line art) | White with small black pupils; shut, the lids are coat. | high
+
+Calls the owner might overrule
+- The coat is Short fur for all three because nothing says fur or skin; matte either way.
+- The brown pieces are Plated hide (Sandshrew's dials): no text says what they are; matte, dry, solid.
+- The mustache is Whiskers (Nidoran's dials) although Bulbapedia calls Kadabra's "tufts of fur"; Fur at -0.1 is the alternative.
+- Abra and Kadabra keep the brow patch as the coat's top shade; Alakazam's needed its own row.

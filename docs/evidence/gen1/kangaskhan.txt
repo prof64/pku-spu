@@ -1,0 +1,27 @@
+Kangaskhan (#115) and Tauros (#128): unrelated Pokémon, each decided on its own.
+Pokédex text from PokeAPI species data; art = Sugimori art (refs/art-*.png); HOME = Pokémon HOME render.
+
+== Kangaskhan (#115) ==
+Surface | Made of | Material | Evidence | Confidence
+Body, head, arms, legs, tail, raised pads, bumps on back and tail (brown) | bare thick skin, no coat | Hide 0.25 / 0.08 | No entry in any game names fur, scales or armor (all entries are about the pouch and the young, e.g. Black 2/White 2: "It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe."). Art: flat soft brown washes, no highlight anywhere; pads drawn with a line, same brown. HOME: smooth, evenly soft. Same row and dials as the Nidoran line. | medium
+Belly and pouch (cream) | the same hide, pale | Hide (row "hide, belly") | Yellow: "Raises its young in its belly pouch." Art: flat pale yellow, no highlight. Its brown edge lines and the pouch's lip are line art (the palette has no step between cream and that brown). | medium
+Ear insides (cream), mother and baby | the same hide, pale | Hide (row "hide, ears") | Art: flat cream, no highlight. The brown rim is the hide. | medium
+Head patch (olive gray), mother and baby | pigment in the hide | Hide (row "hide, head patch") | Art: a flat dark gray cap, no highlight; HOME: flat dark gray. No text. | medium
+Baby (lilac body, hands) | the same hide, a young one's color | Hide (row "hide, baby") | Red/Blue: "The infant rarely ventures out of its mother's protective pouch until it is 3 years old." Art: flat lilac, no highlight. | medium
+Claws (hands, feet, baby's hands), fang | keratin, enamel | Claw and tooth 0.7 / 0.05 | Art: white claws and fangs with a gray shade. No text on claws (Sword: "It intimidates its opponents with quick jabs."). Their olive edge color is line art: in the shiny palette it is green. | medium
+Open mouth (red) | wet tissue | Mouth 0.8 / 0 | Art: open mouth, pink tongue, dark inside; the sprite paints it one red. | high
+Eyes (white, red iris, pupil; baby's black eye with catchlight) | eye | Eye (line art) | Art: white with a red iris; baby's eye a black dot. No entry or art shows a glow. | high
+Nothing glows.
+
+== Tauros (#128) ==
+Surface | Made of | Material | Evidence | Confidence
+Body, head, legs (tan) | a bull's short coat | Short fur -0.2 / 0.05 | No entry describes the coat. Art: flat tan with soft broad shading, no highlight, smooth silhouette. HOME: smooth. Palest tan kept in the row: it is the whole lit side of the face. | medium
+Far-side legs (flat dark brown) | the same coat in the body's shadow | Short fur (row "short fur, far legs") | Art paints the far legs a flat dark maroon-brown, no highlight. Same treatment as Rapidash. | medium
+Mane around the neck (brown) | long shaggy fur | Fur at -0.1 / 0.05 | Art: a ragged-edged mane with jagged lighter streaks, flat, no highlight; HOME: matte dark brown. No entry names it. -0.1, not the table's -0.7, because it is a broad area (the brief's rule for manes). | medium
+Three tails (thin dark cords) | thin haired tails | Short fur (row "short fur, tails") | FireRed: "it whips its body repeatedly with its three long tails." Art: even dark lines, no highlight. | medium
+Tail tufts (gray) | brushes of long fur | Fur at -0.1 / 0.05 (row "fur, tail tufts") | Art: ragged gray-blue brushes, flat, no highlight. Tried at the table's -0.7: they speckled pale under the studio lamp, so -0.1 like the mane. | medium
+Muzzle (dark brown) | bare nose skin | Hide 0.25 / 0.08 (row "hide, muzzle") | Art: flat gray-brown, a faint soft lighter top, no wet highlight; HOME: matte brown. No text. | medium
+Horns, base rings, three forehead studs (gray) | horn | Claw and tooth 0.7 / 0.05 (row "claw and tooth, horns") | Gold: "They fight each other by locking horns. The herd's protector takes pride in its battle-scarred horns." Ultra Sun: "the longest, thickest, and most-scarred horns". Art: the only parts painted with pale highlight streaks (each horn, each stud). White left out of the row (one painted glint pixel stays): with it a lit horn went pure white, which the art does not paint. | high (material), medium (dial)
+Hooves (dark gray) | hard horn | row "hooves" at 0.4 / 0 | Art: two flat gray-blue planes per hoof, no highlight. Ponyta's approved hooves are 0.7 / 0.05 for a painted pale glint; Tauros's art has none, so Beak's smooth-horn finish, solid. | medium
+Eye (white, gray shade, pupil) | eye | Eye (line art) | Art: a white angry eye, small black pupil. Brow and lid lines are line art. | high
+Nothing glows.

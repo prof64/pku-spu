@@ -1,0 +1,15 @@
+Zapdos (#145), Black 2/White 2 sprite. Lighting file: 0145-zapdos.py
+
+Surface | Made of | Material | Evidence | Confidence
+Yellow plumage (head spikes, body, wings, tail) | feathers | Feathers -0.2 / 0.05 (row "feathers") | Shield: "It's said that when Zapdos rubs its feathers together, lightning will fall immediately after." Painted art: flat yellow with soft broad shading, no highlight anywhere; HOME render the same. Gold/HeartGold say "flapping its glittering wings", the only text that could mean a sheen; the art paints none, so it stays matte. | high (matte: medium, see the Gold entry)
+Black feathers behind the wings and tail | feathers | Feathers -0.2 / 0.05 (row "feathers, black", no shades: painted flat black, light only tints it, like Spearow's black back) | No entry names them. Painted art: black with blue patches (how the painter shows form on black); the sprite paints them one flat black. | medium
+Thigh tufts (olive brown) | feathers | Feathers -0.2 / 0.05 (row "feathers, thighs") | No entry. Painted art and HOME: shaggy gray-brown tufts with a ragged edge, flat shading. | medium
+Beak (long, orange) | horn | Beak 0.4 / 0.05 | No entry. Painted art: tan-orange with a soft lighter top, no hard highlight. Same row as Pidgeot and Spearow. | medium
+Legs and feet (orange) | bare bird skin | Dry hide 0.05 / 0.03 (row "dry hide, legs") | No entry. Painted art: flat tan-orange, matte. Same row as Pidgeot and Spearow. | medium
+Talons (white) | keratin | Claw and tooth 0.7 / 0.05 | Painted art and HOME: white pointed talons. Their shade is the palette's pale gray (14), their dark gray contour is line. | medium
+Eye | eye | eye (line art) | Black wedge with a white glint; closed look is a black lid. | high
+Glow | none | no glow | Every entry is about weather it causes or where it lives (Black 2/White 2: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts."; FireRed: "While it is flying, it makes crackling and snapping sounds."). None says the body shines or glows at rest. | high
+
+Departures and judgment calls
+- The brown line (colors 6 and 5) around the yellow, the beak, the legs and the tufts is in the outline row, not each surface's darkest shade. The palette has no real step between yellow/orange and that brown (5 is only ever a softened line). Tried as shades first: olive blotches spread over the wings under the studio lamp and the legs and beak went dark brown in the field. As outline the lit sprite keeps the art's flat yellow; with the sun behind the line stays darker than the plumage (no bright rim).
+- Wings left matte although Gold says "glittering wings" (Pidgeot got Glossy feathers 0.3 / 0 from "glossy feathers"). The painted art shows no sheen; glitter reads as sparks, not plumage. If overruled: set row "feathers" to finish 0.3, body 0.

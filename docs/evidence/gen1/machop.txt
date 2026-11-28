@@ -1,0 +1,30 @@
+Machop line (#066 Machop, #067 Machoke): lighting evidence
+Sources: Pokédex text from PokeAPI species data (English entries, game named); the Sugimori art and the
+Pokémon HOME render in ../refs; the filed lighting of Machamp (#068), whose row names and dials are reused.
+No Pokédex entry of either species says anything shines, glows or is wet, so nothing glows and all skin is matte.
+
+MACHOP (#066)
+Surface | Made of | Material | Evidence | Confidence
+Skin (gray-blue; body, limbs, tail) | bare skin over muscle | Hide 0.25 / 0.08 (row "hide") | FireRed: "Its whole body is composed of muscles." Ruby: "MACHOP's muscles are special - they never get sore no matter how much they are used in exercise." Nothing names the skin; the painted art shades it flat and soft with no highlight anywhere, the HOME render is smooth and soft. Plain bare skin, the same row as Machamp. The dark teal contour and muscle lines are the row's darkest shade. | medium
+Head ridges (three, yellow-brown) | the same skin in another color | Hide 0.25 / 0.08 (row "hide, head ridges") | Not described in any Pokédex entry. The art paints them flat tan-gray with soft shading and no highlight; the HOME render shows them matte gray. Same row as Machamp's ridges. Black lines between them stay outline. | medium
+Mouth interior and tongue | wet tissue | Mouth 0.8 / 0 | Shared rule. Art: pink tongue in an open mouth. | high
+Eyes (red iris, white, light red catchlight) | eyeball | eye (line art) | Shared rule. Art: red eyes. The black pupil is outline; the dark teal rim around the eye is the skin's contour. | high
+Not drawn on this sprite: nothing else (no belt, no claws, no teeth).
+
+MACHOKE (#067)
+Surface | Made of | Material | Evidence | Confidence
+Skin (gray-purple) | bare skin over muscle | Hide 0.25 / 0.08 (row "hide") | Silver: "The muscles covering its body teem with power." Ruby: "MACHOKE's thoroughly toned muscles possess the hardness of steel." (how hard the muscle is, not how the skin looks). The art shades the skin flat and soft, no highlight; HOME is soft. Same row as Machamp. | medium
+Palest skin pixels (snout, shoulders, knee, knuckles, toes; 48 pixels) | the same skin, most lit | Hide (row "hide, lit patches") | Machamp's file: left as painted glints they stay pale on a body in shade and read as shine. In their own row they darken with the body (checked in the cave column). | medium
+Head crest (yellow-brown) | the same skin in another color | Hide (row "hide, head ridges") | Not in any entry. Art: flat tan-gray, no highlight. Same row as Machamp. | medium
+Red arm stripes | pigment in the skin | Hide (row "hide, arm stripes") | Not in any entry. Art and HOME: flat red stripes on the forearms, following the skin. Marking rule: own row, the skin's dials. | medium
+Dark "briefs" | pigment in the skin | Hide (row "hide, briefs marking") | Not in any entry. Art: flat dark gray-purple, no cloth folds, no sheen. Same row as Machamp. Black wholly inside it is its shadow shade; its edge stays outline. | medium
+Belt strap (dark) | dull leather | belt strap 0.1 / 0 | Red/Blue: "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions." Yellow: "The belt around its waist holds back its energy." Art: flat dark strap. Same row as Machamp. | medium
+Belt plate and studs (gold) | hard, dull plate | belt plate 0.2 / 0 | Same entries. The art paints the plate flat pale yellow with drawn rings and no highlight, so it is not given Metal (Machamp's file: as metal it mirrored the grass and went green). The studs seen from behind are the same row. | medium
+Red letter on the plate (2 pixels) | color on the plate | belt plate, emblem 0.2 / 0 | Art: a red "P" on the plate. | high
+Eyes (red iris, white, sliver of the far eye) | eyeball | eye (line art) | Shared rule. | high
+Not drawn on this sprite: mouth interior and teeth (the mouth is a closed black line).
+
+Calls the owner might overrule
+- Belt plate is dull hard plate (0.2 / 0), not Metal: follows Machamp and the art's flat paint.
+- Machoke's briefs are treated as a skin marking (as on Machamp), not cloth.
+- Machop's palest skin shade (11% of its skin) stays in the skin row; Machoke's (1%) is the separate "lit patches" row.

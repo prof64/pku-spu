@@ -1,0 +1,33 @@
+Psyduck line (#054 Psyduck, #055 Golduck): lighting evidence
+Pokédex quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting (refs/art-54.png,
+art-55.png); "HOME" is the Pokémon HOME render, used for shape and color only.
+
+== Psyduck (#054) ==
+No entry in any game describes its body, bill, feet or hairs (they are all about headaches and powers, e.g.
+Black 2/White 2: "When headaches stimulate its brain cells, which are usually inactive, it can use a mysterious
+power."), so every surface is set from the art.
+
+Surface | Made of | Material | Evidence | Confidence
+Body, head, arms, tail (yellow) | a duck's down | Feathers -0.2 / 0.05 | Art: flat yellow, soft shading, one broad soft paler area on the forehead, no highlight; arms end in feather-like points and the tail is a feather tuft. HOME flat. No entry names the covering. | medium (matte: high; down rather than bare skin: medium-low)
+Pale patch on the forehead (color 11, 2% of the yellow) | the same down at its most lit | Feathers, own row "feathers, lit patches" | Art: the broad soft pale area on top of the head. As a painted glint it stayed pale on a dark head (cave, sun behind); kept in the main row it speckled the belly in a field. | high
+Bill (cream) | horn | Beak 0.4 / 0.05 | Art: flat cream with a soft gray shade underneath and a lighter top, no hard highlight. Its brown contour (4) is its darkest shade. | medium
+Webbed feet (cream) | bare bird skin | Dry hide 0.05 / 0.03, row "dry hide, feet" | Art: flat cream with a soft gray shade, no highlight. HOME flat. From behind part of their contour is drawn in the body's brown (14): in the row. | medium
+Three head hairs (black, gray lit side) | single stiff hairs | Whiskers 0.1 / 0.05, row "whiskers, head hairs" | Art: flat charcoal strands, no highlight. A surface, not line: the gray (7) is their lit side and goes dark in a cave. | medium
+Eyes (white, pupil, the tan ring round each, the brown ends of the closed lids) | eye | Eye (line art) | Art: white eyes with a dot pupil. The ring is drawn in the bill's tan (3); the closed lids are black lines (outline). | high
+Three brown pixels on a back-view arm's edge | line | Outline | Stray contour pixels in the bill's brown. | high
+
+Nothing glows: the powers are not at rest and no entry says any part shines.
+
+== Golduck (#055) ==
+Surface | Made of | Material | Evidence | Confidence
+Skin (blue): body, head and crest, limbs, tail | smooth skin of a swimmer | Turtle skin's dials 0.5 / 0.08, row named "aquatic skin" (not a turtle) | Ruby: "The webbed flippers on its forelegs and hind legs and the streamlined body of GOLDUCK give it frightening speed." Legends: Arceus: "Its body is strong, and it has webbing on its hands and feet." No entry names scales, fur or feathers. Art: smooth, with clear soft pale patches on the forehead, shoulder, forearm and thigh, the way Squirtle's skin is painted; no hard wet highlight. HOME smooth. | medium
+Palest blue patches (color 11, 6%) | the same skin at its most lit | same dials, own row "aquatic skin, lit patches" | The sprite's lit patches on forehead, shoulder, knees, crest. As painted glints they stayed pale on a dark body with the sun behind. | high
+Webbing between fingers and toes (cream) | the same skin, stretched thin | "aquatic skin, webbing" 0.2 / 0.08 (finish lowered from the skin's 0.5) | Yellow: "Its slim and long limbs end in broad flippers." Gold: "its long, webbed limbs". Art: flat cream with a soft darker edge, no pale patch. Kept solid like the skin (no entry or art shows light through it). | medium-low
+Bill (cream-yellow) | horn | Beak 0.4 / 0.05 | Art: pale yellow, soft shading, a small paler area at the tip. Its olive contour (9) is its darkest shade. The sprite's bill is closed: no mouth row. | medium
+Claws (white, gray) | keratin | Claw and tooth 0.7 / 0.05 | Legends: Arceus: "clawing its way through the high waves." Art: white claws with a gray shade on every finger and toe. | high
+Forehead gem (red, 7 pixels, front only) | a polished red gem | Crystal, gem 1 / 0.6, row "gem, red", glow 0 | Sun: "It is said that the red part of its forehead grants supernatural powers to those who possess one". Art: a round red orb with a hard white highlight and a dark rim: polished. No entry uses the word gem. NO GLOW at rest: every entry ties the light to using power or swimming (Black 2/White 2: "When its forehead shines mysteriously, Golduck can use the full extent of its power."; Gold: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow."; Emerald: "It uses psychic powers when its forehead shimmers with light."). | material medium; no glow medium
+Eyes (white, gray, red iris, dark red) | eye | Eye (line art) | Art: white eyes with red irises. Closed eyes are drawn in the skin's own shades. | high
+
+Checks: both apply "ok" (0 misses in normal, shiny, eyes closed; no unused rows). Bases: Psyduck feathers 13 and
+Golduck skin 13 (each back view is painted wholly in it); Psyduck bill 1, feet 3; Golduck bill 7, webbing 7, claws 1.
+Left as is: the matte down mottles a little on Psyduck's flat back in the cave and under a lamp (the Feathers dial).

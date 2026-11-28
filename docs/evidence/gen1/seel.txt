@@ -1,0 +1,28 @@
+Seel line: lighting evidence (Black 2/White 2 sprites). Pokédex text from PokeAPI species data.
+Painted art = refs/art-86.png, art-87.png (Sugimori); 3D = refs/home-86.png, home-87.png.
+
+SEEL (#086)
+
+Surface | Made of | Material | Evidence | Confidence
+Coat (head, body, flippers, tail) | short sleek fur over thick hide | Short fur -0.2 / 0.05 | Crystal: "The light blue fur that covers it keeps it protected against the cold." FireRed / Y: "Covered with light blue fur, its hide is thick and tough." Painted art: flat pale blue-white with soft broad shading, no highlight anywhere. HOME: soft, no shine. | high
+Muzzle and lower jaw (cream) | the same coat, another color | Short fur, muzzle -0.2 / 0.05 (own row, the coat's dials) | No entry names it. Painted art: flat cream, soft shading, no highlight. | medium
+Horn | hard horn, the coat's own color | Spines 0.4 / 0 (row "spines, horn") | Red/Blue: "The protruding horn on its head is very hard. It is used for bashing through thick ice." Scarlet: "The protrusion on its head is very hard." Painted art: the coat's color, soft shading, no highlight. The table's Spines row covers hide-colored horns. | medium
+Tusks | tooth | Claw and tooth 0.7 / 0.05 | No entry names them. Painted art: white with a pale gray side. Shared rule for teeth. | medium
+Tongue (hangs out, broad) | tongue | "hide, tongue" 0.25 / 0.08, NOT the standard Mouth 0.8 / 0 | Painted art: flat pink, one soft darker edge, no highlight. At 0.8 the tongue went dark maroon under the studio lamp and the lamp from the right. | medium
+Dark inside of the mouth (4 pixels) | mouth | Mouth 0.8 / 0 | Shared rule. | high
+Eyes | eye | Eye (line art) | Black with a white catchlight and a slate rim; closed look checked. | high
+Nose, closed eyelids | drawn black | Outline | Black in the sprite. | high
+Glow | none | 0 | No entry mentions light. | high
+
+DEWGONG (#087)
+
+Surface | Made of | Material | Evidence | Confidence
+Coat (head, body, flippers, tail fins) | pure white fur | Short fur -0.2 / 0.05 | FireRed / X: "Its body is covered with a pure white fur." Diamond/Pearl/Platinum, Black/White: "In snow, the pure white coat covering its body obscures it from predators." Yellow: "Its entire body is a snowy-white." Black 2/White 2: "Its streamlined body has low resistance, and it swims around cold oceans at a speed of eight knots." Painted art: white with soft lilac shading, no highlight. HOME: soft. | high
+White patch on the forehead (10 pixels, front view) | the coat, a painted highlight | Short fur, kept in the row as its top shade (KEEP_TOP) | Only the sprite paints it; the painted art has none. Left out of the row it stayed white on a head gone gray with the sun behind. | medium
+Fin rays (dark lines on flippers and tail) | folds of the same coat | Short fur (its dark shades) | Painted art draws them as thin lines on one surface. | medium
+Horn | hard horn, the coat's own color | Spines 0.4 / 0 (row "spines, horn") | No Dewgong entry names it; Seel's does (Red/Blue: "The protruding horn on its head is very hard."). Painted art: white like the coat, no highlight. | medium
+Fangs | tooth | Claw and tooth 0.7 / 0.05 | Painted art: two small white fangs. Shared rule. | medium
+Open mouth and tongue (front view) | mouth | Mouth 0.8 / 0 | Shared rule; small and mostly dark red. | high
+Eyes | eye | Eye (line art) | Black with a white catchlight and a gray edge; closed look checked. | high
+Nose, closed eyelids | drawn black | Outline | Black in the sprite. | high
+Glow | none | 0 | Red/Blue "Stores thermal energy in its body" is heat, not light. | high

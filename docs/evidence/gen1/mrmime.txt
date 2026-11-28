@@ -1,0 +1,29 @@
+Mr. Mime (#122) and Jynx (#124): unrelated Pokémon, each decided on its own. Pokédex quotes are game text from PokeAPI.
+No entry of either species names what any surface is made of, so every surface is set from the painted art.
+
+MR. MIME (#122)
+Surface | Made of | Material | Evidence | Confidence
+Pink head, arms, shins | bare skin | Hide 0.25 / 0.08 (row "hide"; forehead's palest pixels in "hide, lit patches") | Art: flat pink, soft shading, no highlight; HOME matte. No entry describes the skin. Same row and dials as Machamp. | medium
+Red cheeks | pigment in the skin | Hide ("hide, cheeks") | Art: flat red circles on the face. | high
+White torso, hands, knee caps | the same bare skin, white (the art draws no glove edge, seam or cuff) | Hide ("hide, white") | Sword: "many scientists believe its palms became enlarged specifically for pantomiming" (hands are its own body). Art: flat white, pale gray shading, no highlight. | medium
+Red belly spot | pigment | Hide ("hide, belly spot") | Art: flat red disk on the torso. The sprite paints 4 paler pixels on it; kept in the row. | high
+Red balls at shoulders and hips | the body's own round joints | Hide ("hide, joints") | Art: flat red-pink with soft shading, no highlight; HOME matte. | medium
+Red fingertip pads | skin | Hide ("hide, finger pads") | Black 2/White 2: "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air." Silver: "Its fingertips emit a peculiar force field". A force, not light: no glow. | high (no glow), medium (dials)
+Blue curled feet | part of the body (curled toes, no sole or seam drawn) | Hide ("hide, feet") | Art: flat dark blue, soft shading, no highlight. | medium
+Blue tufts on the head | hair, smooth-edged | Short fur -0.2 / 0.05 ("short fur, hair") | Art: flat dark blue with a jagged lower edge, no strands, no highlight. Same dials as Munchlax's smooth-edged head. | medium
+Mouth interior | wet tissue | Mouth 0.8 / 0 | Drawn only on the open-mouth picture. | high
+Eyes | eye | Eye (line art) | White, pupil, brown rim. | high
+Brown contour of the pink skin, blue contour of the white, navy finger and knee lines | lines | Outline | The palette has no step between these pale surfaces and their contour colors; kept as their darkest shades they spread over the back of the head (brown) and the torso (blue) in hard wedges. | medium
+
+JYNX (#124)
+Surface | Made of | Material | Evidence | Confidence
+Purple face and hands | bare skin | Hide 0.25 / 0.08 | Art: flat purple, soft shading, no highlight; HOME matte. | medium
+Lips | skin | Hide ("hide, lips"; the one white pixel in "hide, lips, lit patch") | Art: flat pink, a soft lighter upper lip, no wet highlight. | medium
+Mouth opening | wet tissue | Mouth 0.8 / 0 | 4 pixels. | high
+Long blonde hair | hair, one big mass | Fur at the big-coat value -0.1 / 0.05 ("fur, hair") | Art: flat pale blonde with drawn strand lines, no sheen streaks; HOME matte. No entry mentions the hair. | medium
+Brown lines in and around the hair | strands lying over one another, contour | Outline | No palette step between the gold and the brown: as the hair's darkest shade it turned all the hair muddy tan in a field. | medium
+Red gown and bust | cloth (the sprite's drawings are named "nuno", cloth, and "bura") | Cloth -0.2 / 0 (not in the tables; same dials as the Hitmonchan tunic made in this run) | Art: flat red with soft folds, no highlight. Sword: "Jynx was once feared and worshiped as the Queen of Ice" says nothing of its surface. | medium-low
+Yellow band round the bust | cloth trim | Cloth ("cloth, trim") | Art: flat pale yellow, no highlight, so not metal. | medium
+White sleeves | cloth | Cloth ("cloth, sleeves") | Art: white with fold lines at the elbow, gray shading. | medium
+Eyes | eye | Eye (line art) | White, gray rim, pupil. | high
+Nothing glows on either.

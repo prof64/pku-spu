@@ -1,0 +1,29 @@
+Scyther (#123) and Pinsir (#127): unrelated Pokémon, each decided on its own.
+Quotes are game text from PokeAPI's species data. "Art" is the Sugimori painting, "HOME" the Pokémon HOME render
+(shape and color only).
+
+SCYTHER (#123)
+
+Surface | Made of | Material | Evidence | Confidence
+Head, thorax, abdomen, limbs, the green back of each scythe, the green leading edge of each wing | hard mantis shell | Insect shell 0.45 / 0 | No entry names the body's surface (Silver: "If it hides in grass, its protective colors make it invisible."). Art: a clear pale highlight on the shoulder ball, on each abdomen segment, on the thigh and on the forearm; HOME smooth. Same row as Kakuna and Beedrill. Base is the mid green (color 13) most of both views is painted in; the pale green is the broad lit side (about 6% of the shell), kept in the row (KEEP_TOP) because left out it stayed pale on a body gone dark with the sun behind. | medium
+Lines between the abdomen's segments, the head's crests and jaw, the thigh's spur | where plates overlap | Outline (creases) | Art and HOME draw the abdomen as separate bulging segments. The same dark green along the outside stays the shell's darkest shade. | medium
+Neck, hip and knee joints (cream) | soft skin between the plates | Insect body 0.2 / 0.05, own row "joints" | Not described in any entry. Art: flat cream, no highlight; HOME the same. Dials of Butterfree's soft body. | medium-low
+Scythe blades (white, gray streaks) | hard, sharp blade grown from the forearm | Claw and tooth 0.7 / 0.05, own row "scythes" | Black 2/White 2: "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects." FireRed/X: "wickedly sharp scythes". Ruby/Sapphire: "they can slice through thick logs in one wicked stroke." Art: white with pale blue-gray bands and streaks, the brightest part of the design, as Beedrill's stingers. No entry or art makes them metal (that is Scizor). The dark gray along the cutting edge is the blade's darkest shade; the far blade's dark green cutting edge (front view) is a line. | high
+Toe claws | keratin | Claw and tooth | Art: three white claws on each foot. Also one pale pixel at the corner of the jaw in the back view. | high
+Wings (cream) | thin insect wing | Insect wing 0.4 / 0.3 | FireRed/X: "It very rarely spreads its wings to fly." Art: pale cream, flat, the far wing showing through the near one where they overlap; HOME: see-through yellow. Same dials as Beedrill. In the cave they stay somewhat brighter than the body (wing to shell 1.8 to 1 against 1.3 to 1 in the art); lowering light-through to 0.1 changed that by a tenth only, so the standard value was kept. | body medium; finish low
+Wing veins (olive lines inside the cream) | lines inside one flat sheet | Seams and wrinkles | The olive line between the green edge and the cream sheet is the wing's own darkest shade; the black lines part one wing from the next (creases). | medium
+Eyes (front: white with a black pupil; back: a pale sliver) | eye | Eye (line art) | Art: white eye, black pupil, a heavy dark brow. The brow and the closed-eye line are outline. | high
+
+Nothing glows. Female look (a larger abdomen) uses the same rows.
+
+PINSIR (#127)
+
+Surface | Made of | Material | Evidence | Confidence
+Head-and-body, arms, legs (brown) | hard beetle shell | Insect shell 0.45 / 0 | No entry names the body's surface (HeartGold: "In the morning, damp soil clings to its body."; Ultra Moon: "Although it's tough, it can't handle cold well."). Art: a soft pale patch on the top of the head and on each ball of the limbs, no white highlight; HOME matte. Same row as Kakuna, Beedrill and Paras. Base is the mid-dark brown (color 5) most of both views is painted in; the palest brown is the broad lit top of the head and limbs (about 4% of the shell), kept in the row (KEEP_TOP). | medium
+Lines between the body's segments and at the limb joints | where segments overlap | Outline (creases) | Art draws the lower body as separate rings; the back view is built from five overlapping segment pictures. The same dark brown along the outside stays the shell's darkest shade. | medium
+Pincer horns and their thorns (pale gray-cream) | hard horn | Spines 0.4 / 0, row "spines, horn" | Sapphire: "PINSIR has a pair of massive horns. Protruding from the surface of these horns are thorns." Black 2/White 2: "It grips prey with its powerful pincers and will not let go until the prey is torn in half." Art: paler than the body, with one broad soft light band along each horn and no small hard highlight; HOME matte gray. The table lists white horns under Claw and tooth (0.7); a broad soft band is shape catching light, not polish, so the horn row other Gen 1 lines use (0.4) was taken. | material high; finish medium
+Claws of the hands and feet (white, gray shade) | keratin | Claw and tooth 0.7 / 0.05 | Art: white claws with a gray shade, two per hand and three per foot. Not described in any entry. | medium
+Teeth (the white bars across the mouth) | tooth | Claw and tooth, own row "mouth" | Art: long flat white teeth across a black vertical mouth. The black between them is drawn in the outline's black and stays outline. | high
+Eyes (white, black pupil, black brow) | eye | Eye (line art) | Art: white triangular eyes with black pupils. Closed eyes are drawn as dark brown lines (outline where they lie inside the shell). | high
+
+Nothing glows.

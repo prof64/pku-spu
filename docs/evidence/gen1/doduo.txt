@@ -1,0 +1,40 @@
+Doduo line: evidence for every surface
+======================================
+Pokedex text is game text from PokeAPI (pokemon-species 84 and 85). "Bulbapedia" is the Biology section of each
+page, read from Internet Archive snapshots of 2025-12-31 (Doduo) and 2026-01-03 (Dodrio). "Art" is the Sugimori
+artwork (refs/art-84.png, art-85.png); "HOME" the Pokemon HOME render (shape and color only).
+No Pokedex entry of either species names a material or says that any part shines or glows, so nothing glows and
+every dial is the standard table's value for what the part is. Related finished files followed: 0021-spearow,
+0022-fearow, 0016-pidgey (row names "feathers", "feathers, <part>", "beak", "dry hide, legs", "claws and teeth",
+"eye (line art)", "mouth", and their dials).
+
+#084 Doduo
+Surface | Made of | Material | Evidence | Confidence
+Both heads and the body (brown) | bristly down | Feathers -0.2 / 0.05 | Bulbapedia: "It has a bristly, down-like covering of brown feathers on its body and both heads." Yellow: "Its short wings make flying difficult." Art: flat brown with soft shading and a ragged edge, no highlight anywhere. | high (feathers), medium (Feathers rather than Fluff: it is called feathers, bristly, and the line's relatives use Feathers)
+Beaks (cream) | horn | Beak 0.4 / 0.05 | Bulbapedia: "Each head has a long sharp beak". Art: pale peach, a lighter band along the top, darker underside; no hard highlight. | high
+Necks, male (black) | bare skin | Dry hide 0.05 / 0.03 (own row: black, with the gray streak the sprite paints along the top) | Bulbapedia: "A male has black flexible necks, whereas a female has brown necks; both genders have brown legs." Art and HOME: thin, smooth, no feather edge, flat black. No text says what covers them. | medium (bare), low (dial)
+Necks, female (cream) | bare skin | Dry hide 0.05 / 0.03 (own row) | Same sentence; the sprite paints them in the legs' own creams, with the head's dark brown where they pass into its shadow. | medium
+Legs and feet (cream) | bare, scaly bird skin | Dry hide 0.05 / 0.03 | Red/Blue: "A bird that makes up for its poor flying with its fast foot speed." Yellow: "this POKeMON runs at high speed on developed legs." Art: flat peach, soft shading, no highlight. | medium
+Claws (white) | keratin | Claw and tooth 0.7 / 0.05 | Bulbapedia: "Each foot has four digits ending in a sharp claw." Art: white claws with a blue-gray shade. Sprite: white with the palette's gray as shade. | high
+Eyes | eye | Eye (line art) | Bulbapedia: "two beady black eyes". Both views; the lid lines of the closed look are in the same row. | high
+
+#085 Dodrio
+Surface | Made of | Material | Evidence | Confidence
+Three heads and the upper body (brown) | bristly feathers | Feathers -0.2 / 0.05 | Bulbapedia: "It has bristly brown feathers covering its head and upper body". Art: flat brown, ragged tufted edge, soft shading, no highlight. | high
+Crests, lower body, thighs (black) | feathers | Feathers -0.2 / 0.05 (own row: dark gray, a lighter gray where light catches) | Bulbapedia: "Each head has a long, sharp beak and a black V-shaped, feather crest." and "its lower half has a smooth layer of black feathers." Art: flat black, one soft gray streak along each crest feather (the shape catching light, already in the sprite's shades), no hard highlight. | high (feathers), medium ("smooth" was not read as glossy: the art paints no highlight)
+Tail (pink) | three feathers | Feathers -0.2 / 0.05; lines between the feathers are creases | Bulbapedia: "Its tail consists of three pale red feathers with lighter tips." Art: flat pink, soft gradient, no highlight. | high
+Tail tips (pale pink) | pigment in the same feathers | Feathers (own row) | Same sentence ("with lighter tips"). The sprite paints the outer end of each feather in the palest pink, in both views. | high
+Beaks (cream) | horn | Beak 0.4 / 0.05 | Crystal: "An enemy that takes its eyes off any of the three heads--even for a second--will get pecked severely." Bulbapedia: "a long, sharp beak". Art: pale peach, lighter along the top. | high
+Inside of the two open beaks (red) | mouth | Mouth 0.8 / 0 | Art and HOME show two heads with open beaks and a red-purple inside. On the sprite it shows only in the open-beak frames of the idle. | high
+Necks, male (black) | bare skin | Dry hide 0.05 / 0.03 (own row, as Doduo) | Bulbapedia: "A male has black necks, whereas a female has brown necks; both genders have brown legs." Art: thin, smooth, flat black. | medium (bare), low (dial)
+Necks, female (cream) | bare skin | Dry hide 0.05 / 0.03 (own row) | Same sentence; painted in the legs' creams. From behind the head drawings carry the top of each neck. | medium
+Legs and feet (cream) | bare, scaly bird skin | Dry hide 0.05 / 0.03 | Bulbapedia: "two long and slender, but powerful legs with feet that have three clawed toes in front and one in back". Black 2/White 2: "It runs at nearly 40 mph." Art: flat peach. | medium
+Claws (white) | keratin | Claw and tooth 0.7 / 0.05 | Same sentence ("clawed toes"). Art: white with gray shade. Sprite: white, pale gray, gray. | high
+Eyes and brows | eye | Eye (line art) | Art: narrow white eyes under a hard dark brow line. The brow and lid lines (dark brown and black) are in the eye's row so they stay as drawn. | high
+
+Departures from the starting table: none. New row names, standard dials: "dry hide, black necks", "dry hide, necks",
+"feathers, black", "feathers, tail", "feathers, tail tips".
+Calls the owner might overrule:
+- the down as Feathers (matte) rather than Fluff (-1 / 0.2);
+- the necks as bare Dry hide rather than feathers (nothing official says which; the dials differ only slightly);
+- Dodrio's "smooth layer of black feathers" kept matte, not Glossy feathers.

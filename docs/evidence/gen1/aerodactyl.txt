@@ -1,0 +1,17 @@
+#142 Aerodactyl (Black 2/White 2 sprite) - lighting evidence
+
+Surface | Made of | Material (finish / body) | Evidence | Confidence
+--- | --- | --- | --- | ---
+Body, head, tail, legs, wing arms and fingers | Bare gray skin of a prehistoric flying reptile | Hide (0.25 / 0.08) | No Pokédex entry describes the skin ("A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades." - Black 2/White 2; "It was regenerated from a dinosaur's genetic matter that was found in amber." - FireRed). The painted art shades the gray with broad soft pale washes on chest, tail and wing arms and no small hard highlight, so it is matte. Not Charizard's Dragon hide (0.5): the art gives no sheen. Not Rock: it is a Rock type but nothing says its body is stone. | medium
+Wing membrane, purple inner side | Thin skin stretched from the arm | Wing membrane (0.3 / 0.3) | "it appears to have flown by spreading its wings and gliding" (Gold). Art: flat lilac, slightly darker toward the arm, no highlight. Same dials as Zubat and Golbat. | high
+Wing seen from its gray outer side (near wing in the back view; down-stroke pictures in both views) | The same sheet, pigmented side; arm and membrane drawn as one gray sheet | Wing membrane, outer side (0.3 / 0.2) | Not visible in the painted art; the HOME model shows the wing's back the body's gray. Charizard and Zubat use 0.45 / 0.3 for this row; here 0.3 for finish (no sheen in any source) and 0.2 for body (at 0.3 the gray sheet turned pink in plain daylight and stayed brighter than the body in the cave). | medium
+Teeth | Tooth | Claws and teeth (0.7 / 0.05) | "goes for the enemy's throat with its serrated saw-like fangs" (Red/Blue); "Its teeth are like saw blades." (Black 2/White 2). Art: clean white teeth. | high
+Mouth interior and tongue | Wet flesh | Mouth (0.8 / 0) | Art: open mouth, dark red inside, pink tongue. Standard mouth row; base is the dark red most of it is painted in. | high
+Eyes | Eye | Eye (line art) | Green iris, white, gray and the dark pupil pixel, in the head and blink pictures of both views. | high
+Black line | Outline | Outline (0.1 / 0) | - | high
+
+Notes
+- Toes and wing fingers are drawn in the hide's grays (no white claws in the sprite or the art), so they are hide.
+- The palest gray stays in the hide row (KEEP_TOP): it is the lit top of snout, chest and tail; left out it stayed pale on a body gone dark with the sun behind.
+- No glow: no entry says any part gives off light.
+- Animations untouched. Checked: normal, shiny, eyes closed - 0 misses, no unused rows.
