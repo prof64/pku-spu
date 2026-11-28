@@ -723,6 +723,20 @@
    "thumb": "thumbs/black2-white2/0103-exeggutor.png"
   },
   {
+   "id": "black2-white2/0104-cubone",
+   "name": "Cubone",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0104-cubone.spu",
+   "thumb": "thumbs/black2-white2/0104-cubone.png"
+  },
+  {
+   "id": "black2-white2/0105-marowak",
+   "name": "Marowak",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0105-marowak.spu",
+   "thumb": "thumbs/black2-white2/0105-marowak.png"
+  },
+  {
    "id": "black2-white2/0106-hitmonlee",
    "name": "Hitmonlee",
    "game": "Pokémon Black 2 & White 2",
@@ -737,6 +751,34 @@
    "thumb": "thumbs/black2-white2/0107-hitmonchan.png"
   },
   {
+   "id": "black2-white2/0108-lickitung",
+   "name": "Lickitung",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0108-lickitung.spu",
+   "thumb": "thumbs/black2-white2/0108-lickitung.png"
+  },
+  {
+   "id": "black2-white2/0109-koffing",
+   "name": "Koffing",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0109-koffing.spu",
+   "thumb": "thumbs/black2-white2/0109-koffing.png"
+  },
+  {
+   "id": "black2-white2/0110-weezing",
+   "name": "Weezing",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0110-weezing.spu",
+   "thumb": "thumbs/black2-white2/0110-weezing.png"
+  },
+  {
+   "id": "black2-white2/0113-chansey",
+   "name": "Chansey",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0113-chansey.spu",
+   "thumb": "thumbs/black2-white2/0113-chansey.png"
+  },
+  {
    "id": "black2-white2/0114-tangela",
    "name": "Tangela",
    "game": "Pokémon Black 2 & White 2",
@@ -744,11 +786,39 @@
    "thumb": "thumbs/black2-white2/0114-tangela.png"
   },
   {
+   "id": "black2-white2/0116-horsea",
+   "name": "Horsea",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0116-horsea.spu",
+   "thumb": "thumbs/black2-white2/0116-horsea.png"
+  },
+  {
+   "id": "black2-white2/0117-seadra",
+   "name": "Seadra",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0117-seadra.spu",
+   "thumb": "thumbs/black2-white2/0117-seadra.png"
+  },
+  {
    "id": "black2-white2/0120-staryu",
    "name": "Staryu",
    "game": "Pokémon Black 2 & White 2",
    "file": "black2-white2/0120-staryu.spu",
    "thumb": "thumbs/black2-white2/0120-staryu.png"
+  },
+  {
+   "id": "black2-white2/0122-mr-mime",
+   "name": "Mr. Mime",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0122-mr-mime.spu",
+   "thumb": "thumbs/black2-white2/0122-mr-mime.png"
+  },
+  {
+   "id": "black2-white2/0124-jynx",
+   "name": "Jynx",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0124-jynx.spu",
+   "thumb": "thumbs/black2-white2/0124-jynx.png"
   },
   {
    "id": "black2-white2/0132-ditto",
