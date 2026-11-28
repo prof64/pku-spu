@@ -870,6 +870,20 @@
    "thumb": "thumbs/black2-white2/0124-jynx.png"
   },
   {
+   "id": "black2-white2/0125-electabuzz",
+   "name": "Electabuzz",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0125-electabuzz.spu",
+   "thumb": "thumbs/black2-white2/0125-electabuzz.png"
+  },
+  {
+   "id": "black2-white2/0126-magmar",
+   "name": "Magmar",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0126-magmar.spu",
+   "thumb": "thumbs/black2-white2/0126-magmar.png"
+  },
+  {
    "id": "black2-white2/0127-pinsir",
    "name": "Pinsir",
    "game": "Pokémon Black 2 & White 2",
@@ -882,6 +896,20 @@
    "game": "Pokémon Black 2 & White 2",
    "file": "black2-white2/0128-tauros.spu",
    "thumb": "thumbs/black2-white2/0128-tauros.png"
+  },
+  {
+   "id": "black2-white2/0129-magikarp",
+   "name": "Magikarp",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0129-magikarp.spu",
+   "thumb": "thumbs/black2-white2/0129-magikarp.png"
+  },
+  {
+   "id": "black2-white2/0130-gyarados",
+   "name": "Gyarados",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0130-gyarados.spu",
+   "thumb": "thumbs/black2-white2/0130-gyarados.png"
   },
   {
    "id": "black2-white2/0131-lapras",
@@ -905,6 +933,20 @@
    "thumb": "thumbs/black2-white2/0137-porygon.png"
   },
   {
+   "id": "black2-white2/0138-omanyte",
+   "name": "Omanyte",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0138-omanyte.spu",
+   "thumb": "thumbs/black2-white2/0138-omanyte.png"
+  },
+  {
+   "id": "black2-white2/0139-omastar",
+   "name": "Omastar",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0139-omastar.spu",
+   "thumb": "thumbs/black2-white2/0139-omastar.png"
+  },
+  {
    "id": "black2-white2/0142-aerodactyl",
    "name": "Aerodactyl",
    "game": "Pokémon Black 2 & White 2",
@@ -917,6 +959,20 @@
    "game": "Pokémon Black 2 & White 2",
    "file": "black2-white2/0143-snorlax.spu",
    "thumb": "thumbs/black2-white2/0143-snorlax.png"
+  },
+  {
+   "id": "black2-white2/0144-articuno",
+   "name": "Articuno",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0144-articuno.spu",
+   "thumb": "thumbs/black2-white2/0144-articuno.png"
+  },
+  {
+   "id": "black2-white2/0145-zapdos",
+   "name": "Zapdos",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0145-zapdos.spu",
+   "thumb": "thumbs/black2-white2/0145-zapdos.png"
   },
   {
    "id": "black2-white2/0146-moltres",
