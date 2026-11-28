@@ -800,6 +800,13 @@
    "thumb": "thumbs/black2-white2/0114-tangela.png"
   },
   {
+   "id": "black2-white2/0115-kangaskhan",
+   "name": "Kangaskhan",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0115-kangaskhan.spu",
+   "thumb": "thumbs/black2-white2/0115-kangaskhan.png"
+  },
+  {
    "id": "black2-white2/0116-horsea",
    "name": "Horsea",
    "game": "Pokémon Black 2 & White 2",
@@ -870,6 +877,20 @@
    "thumb": "thumbs/black2-white2/0127-pinsir.png"
   },
   {
+   "id": "black2-white2/0128-tauros",
+   "name": "Tauros",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0128-tauros.spu",
+   "thumb": "thumbs/black2-white2/0128-tauros.png"
+  },
+  {
+   "id": "black2-white2/0131-lapras",
+   "name": "Lapras",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0131-lapras.spu",
+   "thumb": "thumbs/black2-white2/0131-lapras.png"
+  },
+  {
    "id": "black2-white2/0132-ditto",
    "name": "Ditto",
    "game": "Pokémon Black 2 & White 2",
@@ -889,6 +910,34 @@
    "game": "Pokémon Black 2 & White 2",
    "file": "black2-white2/0142-aerodactyl.spu",
    "thumb": "thumbs/black2-white2/0142-aerodactyl.png"
+  },
+  {
+   "id": "black2-white2/0143-snorlax",
+   "name": "Snorlax",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0143-snorlax.spu",
+   "thumb": "thumbs/black2-white2/0143-snorlax.png"
+  },
+  {
+   "id": "black2-white2/0146-moltres",
+   "name": "Moltres",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0146-moltres.spu",
+   "thumb": "thumbs/black2-white2/0146-moltres.png"
+  },
+  {
+   "id": "black2-white2/0150-mewtwo",
+   "name": "Mewtwo",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0150-mewtwo.spu",
+   "thumb": "thumbs/black2-white2/0150-mewtwo.png"
+  },
+  {
+   "id": "black2-white2/0151-mew",
+   "name": "Mew",
+   "game": "Pokémon Black 2 & White 2",
+   "file": "black2-white2/0151-mew.spu",
+   "thumb": "thumbs/black2-white2/0151-mew.png"
   },
   {
    "id": "black2-white2/0171-lanturn",
